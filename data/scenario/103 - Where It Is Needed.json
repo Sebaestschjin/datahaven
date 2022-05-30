@@ -1,0 +1,614 @@
+{
+  "name": "Where It Is Needed",
+  "scenarioPages": [
+    {
+      "image": "http://cloud-3.steamusercontent.com/ugc/1011564062832220764/CE0887239E1FC1FE841CCC8DA7A41C007EFE33AB/"
+    }
+  ],
+  "scenarioConclusions": [
+    {
+      "image": "http://cloud-3.steamusercontent.com/ugc/1752439086837883992/E822D719C45E10F398D553AB443C2FAAE09F2ABF/",
+      "scale": [
+        2,
+        1,
+        2
+      ]
+    }
+  ],
+  "gridType": 1,
+  "doorTiles": [
+    {
+      "name": "Light Fog",
+      "tiles": [
+        {
+          "rooms": [
+            1,
+            2
+          ],
+          "position": [
+            -2.62,
+            1.88,
+            12.11
+          ],
+          "rotation": [
+            0.02,
+            0.23,
+            0
+          ]
+        },
+        {
+          "rooms": [
+            1,
+            2
+          ],
+          "position": [
+            -2.62,
+            1.94,
+            10.6
+          ],
+          "rotation": [
+            4.47,
+            0.23,
+            0
+          ]
+        },
+        {
+          "rooms": [
+            2,
+            3
+          ],
+          "position": [
+            1.31,
+            1.88,
+            2.28
+          ],
+          "rotation": [
+            0,
+            0.23,
+            0
+          ]
+        },
+        {
+          "rooms": [
+            2,
+            3
+          ],
+          "position": [
+            2.63,
+            1.88,
+            1.52
+          ],
+          "rotation": [
+            0,
+            0,
+            0.01
+          ]
+        }
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "mapTiles": [
+        {
+          "tile": "L1",
+          "position": [
+            -7.88,
+            7.24,
+            10.61
+          ],
+          "rotation": [
+            0,
+            180,
+            180
+          ]
+        }
+      ],
+      "startTiles": {
+        "name": "Stone Corridor 1",
+        "tiles": [
+          {
+            "position": [
+              -11.81,
+              1.88,
+              12.88
+            ],
+            "rotation": [
+              0,
+              0.02,
+              0
+            ]
+          },
+          {
+            "position": [
+              -11.81,
+              1.88,
+              11.36
+            ],
+            "rotation": [
+              0,
+              0.02,
+              0
+            ]
+          },
+          {
+            "position": [
+              -11.81,
+              1.88,
+              8.34
+            ],
+            "rotation": [
+              0,
+              0.02,
+              0
+            ]
+          },
+          {
+            "position": [
+              -11.81,
+              1.88,
+              6.81
+            ],
+            "rotation": [
+              0,
+              0.02,
+              0
+            ]
+          }
+        ]
+      },
+      "overlayTiles": [
+        {
+          "bag": 2,
+          "type": [
+            {
+              "name": "Log",
+              "tiles": [
+                {
+                  "position": [
+                    -9.19,
+                    1.88,
+                    9.85
+                  ],
+                  "rotation": [
+                    0,
+                    180.01,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -3.94,
+                    1.88,
+                    11.37
+                  ],
+                  "rotation": [
+                    0,
+                    240.02,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Bush",
+              "tiles": [
+                {
+                  "position": [
+                    -7.87,
+                    1.88,
+                    12.12
+                  ],
+                  "rotation": [
+                    0,
+                    0,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": [
+            {
+              "name": "Scenario Aid Token",
+              "tiles": [
+                {
+                  "name": "a",
+                  "position": [
+                    -11.81,
+                    1.76,
+                    9.85
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ],
+                  "hp": [
+                    "+",
+                    [
+                      "*",
+                      2,
+                      [
+                        "+",
+                        "C",
+                        "L"
+                      ]
+                    ],
+                    3
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "C2",
+          "position": [
+            1.31,
+            1.65,
+            11.37
+          ],
+          "rotation": [
+            0,
+            0.08,
+            180
+          ]
+        },
+        {
+          "tile": "D1",
+          "position": [
+            3.94,
+            1.65,
+            5.3
+          ],
+          "rotation": [
+            0,
+            89.96,
+            180
+          ]
+        }
+      ],
+      "scenarioSections": [
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086836489437/A90827E7EC08F77EA4D271331816AD8E7AE436EF/",
+          "position": [
+            14,
+            1.75,
+            9.09
+          ],
+          "scale": [
+            1.65,
+            1,
+            1.65
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 8,
+          "type": [
+            {
+              "name": "Treasure Chest Vertical",
+              "tiles": [
+                {
+                  "position": [
+                    6.56,
+                    1.88,
+                    3.79
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ],
+                  "action": {
+                    "treasure": 81
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 2,
+          "type": [
+            {
+              "name": "Water 1",
+              "tiles": [
+                {
+                  "position": [
+                    6.56,
+                    1.88,
+                    6.82
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Water 2",
+              "tiles": [
+                {
+                  "position": [
+                    1.31,
+                    1.88,
+                    5.31
+                  ],
+                  "rotation": [
+                    0,
+                    60.08,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    3.94,
+                    1.88,
+                    5.3
+                  ],
+                  "rotation": [
+                    0,
+                    59.86,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Bush",
+              "tiles": [
+                {
+                  "position": [
+                    1.31,
+                    1.88,
+                    3.79
+                  ],
+                  "rotation": [
+                    0,
+                    60,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Stump",
+              "tiles": [
+                {
+                  "position": [
+                    -1.26,
+                    1.88,
+                    9.84
+                  ],
+                  "rotation": [
+                    0,
+                    60,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 1,
+          "type": [
+            {
+              "name": "Earth Corridor 2",
+              "tiles": [
+                {
+                  "position": [
+                    1.31,
+                    1.88,
+                    8.34
+                  ],
+                  "rotation": [
+                    0,
+                    60.01,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "M1",
+          "position": [
+            0,
+            1.65,
+            -3.03
+          ],
+          "rotation": [
+            0,
+            299.96,
+            180
+          ]
+        }
+      ],
+      "scenarioSections": [
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086837785658/01E4CE659EF5A8F5A8AA126756968F4D47C8C714/",
+          "position": [
+            11.81,
+            1.75,
+            -3.79
+          ],
+          "scale": [
+            1.94,
+            1,
+            1.94
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Boulder",
+              "tiles": [
+                {
+                  "position": [
+                    1.31,
+                    1.88,
+                    -0.76
+                  ],
+                  "rotation": [
+                    0,
+                    0.03,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -2.63,
+                    1.88,
+                    -4.53
+                  ],
+                  "rotation": [
+                    0,
+                    0.03,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Boulder 2",
+              "tiles": [
+                {
+                  "position": [
+                    2.63,
+                    1.88,
+                    -1.51
+                  ],
+                  "rotation": [
+                    0,
+                    180.52,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -2.63,
+                    1.88,
+                    -1.52
+                  ],
+                  "rotation": [
+                    0,
+                    59.97,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Boulder 3",
+              "tiles": [
+                {
+                  "position": [
+                    2.65,
+                    1.88,
+                    -6.08
+                  ],
+                  "rotation": [
+                    0,
+                    240.43,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": [
+            {
+              "name": "Scenario Aid Token",
+              "tiles": [
+                {
+                  "name": "d",
+                  "position": [
+                    -3.94,
+                    1.77,
+                    -5.3
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ]
+                },
+                {
+                  "name": "d",
+                  "position": [
+                    -2.62,
+                    1.77,
+                    -6.06
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ]
+                },
+                {
+                  "name": "d",
+                  "position": [
+                    -1.31,
+                    1.77,
+                    -6.82
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ]
+                },
+                {
+                  "name": "d",
+                  "position": [
+                    0,
+                    1.77,
+                    -7.58
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

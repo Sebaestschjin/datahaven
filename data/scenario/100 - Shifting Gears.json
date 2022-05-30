@@ -1,0 +1,1676 @@
+{
+  "name": "Shifting Gears",
+  "scenarioPages": [
+    {
+      "image": "http://cloud-3.steamusercontent.com/ugc/1011563939088490652/07B4F492B0C5CDCB41F119FED86F00AC33ECE7D7/"
+    }
+  ],
+  "scenarioConclusions": [
+    {
+      "image": "http://cloud-3.steamusercontent.com/ugc/1752439086837779719/8C6A36C4FDB88BCB7B012F7121A2DB8E1876D0B3/",
+      "scale": [
+        1.5,
+        1,
+        1.5
+      ],
+      "buttonLabel": "Reveal Conclusion (36)"
+    },
+    {
+      "image": "http://cloud-3.steamusercontent.com/ugc/1752439086837882175/E9AEE1A688EFEAE8585AE5216810186BE46CE90A/",
+      "scale": [
+        1.5,
+        1,
+        1.5
+      ],
+      "buttonLabel": "Reveal Conclusion (80)"
+    }
+  ],
+  "gridType": 2,
+  "doorTiles": [
+    {
+      "name": "Stone Door Horizontal",
+      "tiles": [
+        {
+          "rooms": [
+            1,
+            5
+          ],
+          "position": [
+            -9.19,
+            1.77,
+            3.78
+          ],
+          "rotation": [
+            0.01,
+            0.06,
+            0
+          ]
+        },
+        {
+          "rooms": [
+            1,
+            5
+          ],
+          "position": [
+            -9.19,
+            1.77,
+            5.3
+          ],
+          "rotation": [
+            0,
+            0.06,
+            0
+          ]
+        },
+        {
+          "rooms": [
+            1,
+            2
+          ],
+          "position": [
+            -0.77,
+            1.77,
+            14.44
+          ],
+          "rotation": [
+            0,
+            270,
+            0
+          ]
+        },
+        {
+          "rooms": [
+            1,
+            2
+          ],
+          "position": [
+            0.76,
+            1.77,
+            14.44
+          ],
+          "rotation": [
+            0,
+            270,
+            0
+          ]
+        },
+        {
+          "rooms": [
+            1,
+            3
+          ],
+          "position": [
+            9.19,
+            1.77,
+            3.79
+          ],
+          "rotation": [
+            0,
+            0.02,
+            0
+          ]
+        },
+        {
+          "rooms": [
+            1,
+            3
+          ],
+          "position": [
+            9.19,
+            1.77,
+            5.3
+          ],
+          "rotation": [
+            0.01,
+            0.02,
+            0
+          ]
+        },
+        {
+          "rooms": [
+            1,
+            4
+          ],
+          "position": [
+            -0.75,
+            1.78,
+            -3.94
+          ],
+          "rotation": [
+            0,
+            270,
+            0
+          ]
+        },
+        {
+          "rooms": [
+            1,
+            4
+          ],
+          "position": [
+            0.76,
+            1.78,
+            -3.94
+          ],
+          "rotation": [
+            0,
+            270,
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "mapTiles": [
+        {
+          "tile": "F1",
+          "position": [
+            -2.27,
+            1.71,
+            6.56
+          ],
+          "rotation": [
+            0,
+            299.98,
+            180
+          ]
+        }
+      ],
+      "scenarioSections": [
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086836487818/4256434230672E8FBFFA1CBE7C1A93984DF2EA95/",
+          "position": [
+            -28.44,
+            1.75,
+            21.98
+          ],
+          "scale": [
+            0.69,
+            1,
+            0.69
+          ],
+          "hidden": true,
+          "buttonLabel": "Section 02"
+        },
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086837785909/7CDB0E121C9EDE556DC3A9F5D6685BCFE375D268/",
+          "position": [
+            -28.44,
+            1.75,
+            18.94
+          ],
+          "scale": [
+            0.69,
+            1,
+            0.69
+          ],
+          "hidden": true,
+          "buttonLabel": "Section 54"
+        },
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086837786232/BE92657EF5C551A137A03B185292541F5E3863CF/",
+          "position": [
+            -28.44,
+            1.75,
+            15.91
+          ],
+          "scale": [
+            0.69,
+            1,
+            0.69
+          ],
+          "hidden": true,
+          "buttonLabel": "Section 57"
+        },
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086837788844/650C0C4D721C7C7E204A388D758A99E31E7A593C/",
+          "position": [
+            -28.44,
+            1.75,
+            12.88
+          ],
+          "scale": [
+            0.69,
+            1,
+            0.69
+          ],
+          "hidden": true,
+          "buttonLabel": "Section 70"
+        },
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086837880795/5CBE4D545ECC56F6BB6AC887B15AE8B369D99640/",
+          "position": [
+            -23.19,
+            1.75,
+            21.98
+          ],
+          "scale": [
+            0.69,
+            1,
+            0.69
+          ],
+          "hidden": true,
+          "buttonLabel": "Section 74"
+        },
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086837881283/71737FCB4B64915D169E2710B737D80B63C79A34/",
+          "position": [
+            -23.19,
+            1.75,
+            18.94
+          ],
+          "scale": [
+            0.69,
+            1,
+            0.69
+          ],
+          "hidden": true,
+          "buttonLabel": "Section 77"
+        },
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086838271093/DAFF8B4F2F2378F1A3D08EEE48FE530FE103190C/",
+          "position": [
+            -23.19,
+            1.75,
+            15.91
+          ],
+          "scale": [
+            0.69,
+            1,
+            0.69
+          ],
+          "hidden": true,
+          "buttonLabel": "Section 109"
+        },
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086838271940/014EA47BC90C41C132AC718543A59BDA09C0EC9A/",
+          "position": [
+            -23.19,
+            1.75,
+            12.88
+          ],
+          "scale": [
+            0.69,
+            1,
+            0.69
+          ],
+          "hidden": true,
+          "buttonLabel": "Section 113"
+        },
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086836492776/942A460980325B408A11C78B3D5BFD15F19CFFCD/",
+          "position": [
+            -18.94,
+            1.75,
+            -8.82
+          ],
+          "scale": [
+            2,
+            1,
+            2
+          ],
+          "hidden": true,
+          "buttonLabel": "Section 22"
+        },
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086837783634/C227230A0AA4B260467B8D2BCEB30ACB2DF7FAA5/",
+          "position": [
+            -19.02,
+            1.75,
+            -2.27
+          ],
+          "scale": [
+            2,
+            1,
+            2
+          ],
+          "hidden": true,
+          "buttonLabel": "Section 46"
+        },
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086836490405/EF599B9FAE47703F2443CDD985962F2F6C4897C8/",
+          "position": [
+            9.85,
+            1.75,
+            19.69
+          ],
+          "scale": [
+            2.25,
+            1,
+            2.25
+          ],
+          "hidden": true,
+          "buttonLabel": "Section 14"
+        },
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086837879994/49F59B30428479621AC4F07FEE0D7A490ACE1C09/",
+          "position": [
+            19.7,
+            1.75,
+            19.25
+          ],
+          "scale": [
+            2.5,
+            1,
+            2.5
+          ],
+          "hidden": true,
+          "buttonLabel": "Section 71"
+        },
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086837784922/2B85DF2D1CC67A6C2FE803E9655A964EA8448F6F/",
+          "position": [
+            21,
+            1.75,
+            9.09
+          ],
+          "scale": [
+            2,
+            1,
+            2
+          ],
+          "hidden": true,
+          "buttonLabel": "Section 50"
+        },
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086837780810/5A016D4CBA943B26035DEBD8711CC0D219213C30/",
+          "position": [
+            -9.98,
+            1.75,
+            -8.31
+          ],
+          "scale": [
+            2.2,
+            1,
+            2.2
+          ],
+          "hidden": true,
+          "buttonLabel": "Section 39"
+        },
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086838271238/50EB63B764B8928DC34A91DBB6FC5F20864FE6E1/",
+          "position": [
+            -15.16,
+            1.75,
+            14.88
+          ],
+          "scale": [
+            1.8,
+            1,
+            1.8
+          ],
+          "hidden": true,
+          "action": {
+            "compound": [
+              {
+                "section": 110
+              },
+              {
+                "remove": {
+                  "tag": "Extra"
+                }
+              },
+              {
+                "spawn": {
+                  "element": {
+                    "type": 10,
+                    "name": "Stone Door Horizontal"
+                  },
+                  "placement": {
+                    "position": [
+                      -3.03,
+                      1.77,
+                      21
+                    ],
+                    "rotation": [
+                      0,
+                      210,
+                      0
+                    ]
+                  },
+                  "action": {
+                    "rooms": [
+                      6,
+                      2
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "startTiles": {
+        "name": "Stone Corridor 1",
+        "tiles": [
+          {
+            "position": [
+              -0.76,
+              1.88,
+              3.94
+            ],
+            "rotation": [
+              0,
+              330,
+              0
+            ]
+          },
+          {
+            "position": [
+              0.76,
+              1.88,
+              3.94
+            ],
+            "rotation": [
+              0,
+              330.02,
+              0
+            ]
+          },
+          {
+            "position": [
+              1.52,
+              1.88,
+              5.25
+            ],
+            "rotation": [
+              0,
+              330.17,
+              0
+            ]
+          },
+          {
+            "position": [
+              0.75,
+              1.88,
+              6.56
+            ],
+            "rotation": [
+              0,
+              330,
+              0
+            ]
+          }
+        ]
+      },
+      "overlayTiles": [
+        {
+          "bag": 1,
+          "type": [
+            {
+              "name": "Pressure Plate",
+              "tiles": [
+                {
+                  "position": [
+                    -1.53,
+                    1.88,
+                    7.85
+                  ],
+                  "rotation": [
+                    0,
+                    30,
+                    0
+                  ],
+                  "tokens": [
+                    "b"
+                  ],
+                  "action": {
+                    "name": "Clockwise",
+                    "call": {
+                      "functionName": "rotate100",
+                      "parameters": [
+                        1
+                      ]
+                    }
+                  }
+                },
+                {
+                  "position": [
+                    -3.03,
+                    1.88,
+                    5.25
+                  ],
+                  "rotation": [
+                    0,
+                    30,
+                    0
+                  ],
+                  "tokens": [
+                    "c"
+                  ],
+                  "action": {
+                    "name": "Anticlockwise",
+                    "call": {
+                      "functionName": "rotate100",
+                      "parameters": [
+                        -1
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Stone Pillar",
+              "tiles": [
+                {
+                  "position": [
+                    0,
+                    1.88,
+                    5.25
+                  ],
+                  "rotation": [
+                    0,
+                    30.01,
+                    0
+                  ],
+                  "tokens": [
+                    "a"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Stone Golem",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": [
+                -6.82,
+                1.77,
+                9.19
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                2.27,
+                1.77,
+                3.94
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "D1",
+          "position": [
+            0,
+            1.77,
+            18.38
+          ],
+          "rotation": [
+            0,
+            359.99,
+            0
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 8,
+          "type": [
+            {
+              "name": "Treasure Chest Horizontal",
+              "tiles": [
+                {
+                  "position": [
+                    3.03,
+                    1.88,
+                    18.38
+                  ],
+                  "rotation": [
+                    0,
+                    90,
+                    0
+                  ],
+                  "action": {
+                    "treasure": 85
+                  }
+                },
+                {
+                  "position": [
+                    -3.03,
+                    1.88,
+                    18.37
+                  ],
+                  "rotation": [
+                    0,
+                    90,
+                    0
+                  ],
+                  "action": {
+                    "treasure": 76
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 1,
+          "type": [
+            {
+              "name": "Pressure Plate",
+              "tiles": [
+                {
+                  "position": [
+                    0,
+                    1.89,
+                    21
+                  ],
+                  "rotation": [
+                    0,
+                    270,
+                    0
+                  ],
+                  "tokens": [
+                    "e"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 7,
+          "type": [
+            {
+              "name": "Spike Trap",
+              "statuses": [
+                "Damage"
+              ],
+              "tiles": [
+                {
+                  "position": [
+                    -0.76,
+                    1.88,
+                    17.06
+                  ],
+                  "rotation": [
+                    0,
+                    210,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    0,
+                    1.88,
+                    18.37
+                  ],
+                  "rotation": [
+                    0,
+                    209.57,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 2,
+          "type": [
+            {
+              "name": "Water 1",
+              "tiles": [
+                {
+                  "position": [
+                    2.27,
+                    1.88,
+                    17.06
+                  ],
+                  "rotation": [
+                    0,
+                    210,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Water 2",
+              "tiles": [
+                {
+                  "position": [
+                    -2.27,
+                    1.89,
+                    17.06
+                  ],
+                  "rotation": [
+                    0,
+                    30.56,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Boulder",
+              "tiles": [
+                {
+                  "position": [
+                    -1.52,
+                    1.88,
+                    15.75
+                  ],
+                  "rotation": [
+                    0,
+                    88.96,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Sarcophagus A",
+              "tiles": [
+                {
+                  "position": [
+                    1.52,
+                    1.89,
+                    18.38
+                  ],
+                  "rotation": [
+                    0,
+                    29.61,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -2.27,
+                    1.89,
+                    19.69
+                  ],
+                  "rotation": [
+                    0,
+                    30,
+                    0
+                  ],
+                  "tags": [
+                    "Extra"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Living Spirit",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": [
+                1.52,
+                1.77,
+                21
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                -0.76,
+                1.77,
+                19.69
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Stone Golem",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": [
+                1.52,
+                1.77,
+                15.75
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "B2",
+          "position": [
+            13.13,
+            1.71,
+            4.55
+          ],
+          "rotation": [
+            0,
+            359.97,
+            180
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 1,
+          "type": [
+            {
+              "name": "Pressure Plate",
+              "tiles": [
+                {
+                  "position": [
+                    13.13,
+                    1.88,
+                    4.55
+                  ],
+                  "rotation": [
+                    0,
+                    359.65,
+                    0
+                  ],
+                  "tokens": [
+                    "f"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 7,
+          "type": [
+            {
+              "name": "Bear Trap",
+              "statuses": [
+                "Immobilize"
+              ],
+              "tiles": [
+                {
+                  "position": [
+                    11.81,
+                    1.88,
+                    3.79
+                  ],
+                  "rotation": [
+                    0,
+                    359.79,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Spike Trap",
+              "statuses": [
+                "Damage"
+              ],
+              "tiles": [
+                {
+                  "position": [
+                    10.5,
+                    1.88,
+                    4.55
+                  ],
+                  "rotation": [
+                    0,
+                    240,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    10.5,
+                    1.88,
+                    3.03
+                  ],
+                  "rotation": [
+                    0,
+                    240,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Boulder",
+              "tiles": [
+                {
+                  "position": [
+                    11.81,
+                    1.88,
+                    2.27
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Boulder 2",
+              "tiles": [
+                {
+                  "position": [
+                    10.5,
+                    1.88,
+                    6.06
+                  ],
+                  "rotation": [
+                    0,
+                    120.3,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": [
+            {
+              "name": "Coin 1",
+              "tiles": [
+                {
+                  "position": [
+                    14.43,
+                    1.83,
+                    3.79
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    14.44,
+                    1.83,
+                    2.27
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Living Spirit",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": [
+                11.81,
+                1.77,
+                6.82
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                13.13,
+                1.77,
+                3.03
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                14.44,
+                1.77,
+                6.82
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "I1",
+          "position": [
+            -1.51,
+            1.6,
+            -7.87
+          ],
+          "rotation": [
+            0,
+            270,
+            180.85
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 1,
+          "type": [
+            {
+              "name": "Pressure Plate",
+              "tiles": [
+                {
+                  "position": [
+                    -0.76,
+                    1.81,
+                    -9.19
+                  ],
+                  "rotation": [
+                    0,
+                    89.98,
+                    359.15
+                  ],
+                  "tokens": [
+                    "g"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 2,
+          "type": [
+            {
+              "name": "Rubble",
+              "tiles": [
+                {
+                  "position": [
+                    -3.03,
+                    1.83,
+                    -7.87
+                  ],
+                  "rotation": [
+                    0,
+                    89.98,
+                    359.15
+                  ]
+                },
+                {
+                  "position": [
+                    -1.52,
+                    1.83,
+                    -7.87
+                  ],
+                  "rotation": [
+                    0,
+                    89.98,
+                    359.15
+                  ]
+                },
+                {
+                  "position": [
+                    -0.76,
+                    1.85,
+                    -6.56
+                  ],
+                  "rotation": [
+                    0,
+                    89.98,
+                    359.15
+                  ]
+                },
+                {
+                  "position": [
+                    0.76,
+                    1.85,
+                    -6.56
+                  ],
+                  "rotation": [
+                    0,
+                    89.98,
+                    359.15
+                  ]
+                },
+                {
+                  "position": [
+                    1.52,
+                    1.87,
+                    -5.26
+                  ],
+                  "rotation": [
+                    0,
+                    89.98,
+                    359.15
+                  ]
+                },
+                {
+                  "position": [
+                    1.52,
+                    1.83,
+                    -7.88
+                  ],
+                  "rotation": [
+                    0,
+                    89.98,
+                    359.15
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Boulder",
+              "tiles": [
+                {
+                  "position": [
+                    -4.55,
+                    1.83,
+                    -7.87
+                  ],
+                  "rotation": [
+                    0.74,
+                    210,
+                    0.43
+                  ]
+                },
+                {
+                  "position": [
+                    2.29,
+                    1.85,
+                    -6.53
+                  ],
+                  "rotation": [
+                    0.74,
+                    210,
+                    0.43
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Boulder 2",
+              "tiles": [
+                {
+                  "position": [
+                    -1.52,
+                    1.87,
+                    -5.25
+                  ],
+                  "rotation": [
+                    0.74,
+                    210.01,
+                    0.43
+                  ]
+                },
+                {
+                  "position": [
+                    0,
+                    1.83,
+                    -7.88
+                  ],
+                  "rotation": [
+                    0.74,
+                    149.99,
+                    359.57
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": [
+            {
+              "name": "Coin 1",
+              "tiles": [
+                {
+                  "position": [
+                    -4.55,
+                    1.74,
+                    -10.5
+                  ],
+                  "rotation": [
+                    0.85,
+                    180,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -3.79,
+                    1.76,
+                    -9.19
+                  ],
+                  "rotation": [
+                    0.85,
+                    180,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    3.03,
+                    1.81,
+                    -5.26
+                  ],
+                  "rotation": [
+                    0.85,
+                    179.99,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Ancient Artillery",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": [
+                3.03,
+                1.72,
+                -7.87
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                0,
+                1.68,
+                -10.49
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                -3.79,
+                1.74,
+                -6.56
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "B3",
+          "position": [
+            -13.13,
+            1.71,
+            4.55
+          ],
+          "rotation": [
+            0,
+            180.03,
+            180
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 1,
+          "type": [
+            {
+              "name": "Pressure Plate",
+              "tiles": [
+                {
+                  "position": [
+                    -13.13,
+                    1.88,
+                    4.55
+                  ],
+                  "rotation": [
+                    0,
+                    0.12,
+                    0
+                  ],
+                  "tokens": [
+                    "d"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 7,
+          "type": [
+            {
+              "name": "Bear Trap",
+              "statuses": [
+                "Immobilize"
+              ],
+              "tiles": [
+                {
+                  "position": [
+                    -10.5,
+                    1.88,
+                    4.55
+                  ],
+                  "rotation": [
+                    0,
+                    0.48,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -10.5,
+                    1.88,
+                    3.03
+                  ],
+                  "rotation": [
+                    0,
+                    0.48,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Spike Trap",
+              "statuses": [
+                "Damage"
+              ],
+              "tiles": [
+                {
+                  "position": [
+                    -11.81,
+                    1.88,
+                    3.79
+                  ],
+                  "rotation": [
+                    0,
+                    180.23,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Boulder",
+              "tiles": [
+                {
+                  "position": [
+                    -11.84,
+                    1.88,
+                    2.26
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Boulder 2",
+              "tiles": [
+                {
+                  "position": [
+                    -13.13,
+                    1.88,
+                    6.05
+                  ],
+                  "rotation": [
+                    0,
+                    119.98,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": [
+            {
+              "name": "Coin 1",
+              "tiles": [
+                {
+                  "position": [
+                    -14.44,
+                    1.83,
+                    3.79
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -14.44,
+                    1.83,
+                    2.27
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Living Spirit",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": [
+                -14.44,
+                1.77,
+                5.3
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                -13.13,
+                1.77,
+                3.03
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                -11.81,
+                1.77,
+                6.82
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "C2",
+          "position": [
+            -6.06,
+            1.77,
+            21
+          ],
+          "rotation": [
+            0,
+            270.03,
+            0
+          ]
+        }
+      ],
+      "scenarioSections": [
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086836493984/E6DFDB533067CADFCDD1708DF823D5E8D717F2E5/",
+          "position": [
+            -15.16,
+            1.75,
+            21
+          ],
+          "scale": [
+            1.25,
+            1,
+            1.25
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 8,
+          "type": [
+            {
+              "name": "Treasure Chest Horizontal",
+              "tiles": [
+                {
+                  "position": [
+                    -6.82,
+                    1.88,
+                    22.31
+                  ],
+                  "rotation": [
+                    0,
+                    90,
+                    0
+                  ],
+                  "action": {
+                    "treasure": "G"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Bookcase",
+              "tiles": [
+                {
+                  "position": [
+                    -7.59,
+                    1.89,
+                    23.62
+                  ],
+                  "rotation": [
+                    0,
+                    210.26,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -6.06,
+                    1.89,
+                    21
+                  ],
+                  "rotation": [
+                    0,
+                    30.07,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Ancient Artillery",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": [
+                -7.58,
+                1.77,
+                21
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                -6.82,
+                1.77,
+                19.69
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                -6.06,
+                1.77,
+                23.63
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                -4.55,
+                1.77,
+                23.63
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                -4.55,
+                1.77,
+                21
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "monsterList": [
+    "Stone Golem",
+    "Living Spirit",
+    "Ancient Artillery"
+  ]
+}

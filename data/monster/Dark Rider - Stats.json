@@ -1,0 +1,205 @@
+[
+  {
+    "orientation": [
+      0,
+      90,
+      0
+    ],
+    "boss": {
+      "health": "10xC",
+      "move": 3,
+      "attack": "3+X",
+      "range": 0,
+      "special1": [
+        "%move% +2",
+        "%attack% +0"
+      ],
+      "special2": [
+        "%move% +0",
+        "Summon Imp",
+        "%attack% -1"
+      ],
+      "immunities": [
+        "%immobilize%",
+        "%poison%",
+        "%stun%",
+        "%disarm%"
+      ],
+      "notes": "X = Hexes moved"
+    }
+  },
+  {
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "boss": {
+      "health": "12xC",
+      "move": 3,
+      "attack": "3+X",
+      "range": 0,
+      "special1": [
+        "%move% +2",
+        "%attack% +0"
+      ],
+      "special2": [
+        "%move% +0",
+        "Summon Imp",
+        "%attack% -1"
+      ],
+      "immunities": [
+        "%immobilize%",
+        "%poison%",
+        "%stun%",
+        "%disarm%"
+      ],
+      "notes": "X = Hexes moved"
+    }
+  },
+  {
+    "orientation": [
+      0,
+      270,
+      0
+    ],
+    "boss": {
+      "health": "13xC",
+      "move": 3,
+      "attack": "4+X",
+      "range": 0,
+      "special1": [
+        "%move% +2",
+        "%attack% +0"
+      ],
+      "special2": [
+        "%move% +0",
+        "Summon Imp",
+        "%attack% -1"
+      ],
+      "immunities": [
+        "%immobilize%",
+        "%poison%",
+        "%stun%",
+        "%disarm%"
+      ],
+      "notes": "X = Hexes moved"
+    }
+  },
+  {
+    "orientation": [
+      0,
+      180,
+      180
+    ],
+    "boss": {
+      "health": "15xC",
+      "move": 3,
+      "attack": "4+X",
+      "range": 0,
+      "special1": [
+        "%move% +2",
+        "%attack% +0"
+      ],
+      "special2": [
+        "%move% +0",
+        "Summon Imp",
+        "%attack% -1"
+      ],
+      "immunities": [
+        "%immobilize%",
+        "%poison%",
+        "%stun%",
+        "%disarm%"
+      ],
+      "notes": "X = Hexes moved"
+    }
+  },
+  {
+    "orientation": [
+      0,
+      90,
+      180
+    ],
+    "boss": {
+      "health": "16xC",
+      "move": 3,
+      "attack": "5+X",
+      "range": 0,
+      "special1": [
+        "%move% +2",
+        "%attack% +0"
+      ],
+      "special2": [
+        "%move% +0",
+        "Summon Imp",
+        "%attack% -1"
+      ],
+      "immunities": [
+        "%immobilize%",
+        "%poison%",
+        "%stun%",
+        "%disarm%"
+      ],
+      "notes": "X = Hexes moved"
+    }
+  },
+  {
+    "orientation": [
+      0,
+      0,
+      180
+    ],
+    "boss": {
+      "health": "16xC",
+      "move": 4,
+      "attack": "5+X",
+      "range": 0,
+      "special1": [
+        "%move% +2",
+        "%attack% +0"
+      ],
+      "special2": [
+        "%move% +0",
+        "Summon Imp",
+        "%attack% -1"
+      ],
+      "immunities": [
+        "%immobilize%",
+        "%poison%",
+        "%stun%",
+        "%disarm%"
+      ],
+      "notes": "X = Hexes moved"
+    }
+  },
+  {
+    "orientation": [
+      0,
+      270,
+      180
+    ],
+    "boss": {
+      "health": "18xC",
+      "move": 4,
+      "attack": "6+X",
+      "range": 0,
+      "special1": [
+        "%move% +2",
+        "%attack% +0"
+      ],
+      "special2": [
+        "%move% +0",
+        "Summon Imp",
+        "%attack% -1"
+      ],
+      "immunities": [
+        "%immobilize%",
+        "%poison%",
+        "%stun%",
+        "%disarm%"
+      ],
+      "notes": "X = Hexes moved"
+    }
+  }
+]

@@ -1,0 +1,1054 @@
+{
+  "name": "Aftershocks",
+  "scenarioPages": [
+    {
+      "image": "http://cloud-3.steamusercontent.com/ugc/1011563720484487590/693A75A3F686FB44BB485D7B01832169F3BB9AB1/"
+    }
+  ],
+  "scenarioConclusions": [
+    {
+      "image": "http://cloud-3.steamusercontent.com/ugc/1752439086836493797/ED54B2EE2EDE54E8535BF83469F8EFE75851FE8F/",
+      "scale": [
+        1.4,
+        1,
+        1.4
+      ],
+      "buttonLabel": "Reveal Conclusion (25)"
+    },
+    {
+      "image": "http://cloud-3.steamusercontent.com/ugc/1752439086836490932/104D1056E28A4CB1495C79B7C210E7423E6AB787/",
+      "scale": [
+        1.5,
+        1,
+        1.5
+      ],
+      "buttonLabel": "Reveal Conclusion (16)"
+    }
+  ],
+  "gridType": 2,
+  "doorTiles": [
+    {
+      "name": "Stone Door Vertical",
+      "tiles": [
+        {
+          "rooms": [
+            1,
+            2
+          ],
+          "position": [
+            -1.52,
+            1.77,
+            5.25
+          ],
+          "rotation": [
+            0,
+            270.01,
+            0
+          ],
+          "tokens": [
+            "1"
+          ]
+        }
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "mapTiles": [
+        {
+          "tile": "N1",
+          "position": [
+            -7.58,
+            1.71,
+            5.25
+          ],
+          "rotation": [
+            0,
+            90,
+            180
+          ]
+        }
+      ],
+      "scenarioSections": [
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086836489298/1A913817881AFD5B48D0D44964018225E9173DD7/",
+          "position": [
+            -7.58,
+            1.75,
+            -2.63
+          ],
+          "scale": [
+            1.4,
+            1,
+            1.4
+          ],
+          "hidden": true,
+          "buttonLabel": "Section 08"
+        }
+      ],
+      "startTiles": {
+        "name": "Stone Corridor 1",
+        "tiles": [
+          {
+            "position": [
+              -12.88,
+              1.88,
+              9.19
+            ],
+            "rotation": [
+              0,
+              89.96,
+              0
+            ]
+          },
+          {
+            "position": [
+              -11.36,
+              1.88,
+              9.19
+            ],
+            "rotation": [
+              0,
+              89.96,
+              0
+            ]
+          },
+          {
+            "position": [
+              -10.61,
+              1.88,
+              7.87
+            ],
+            "rotation": [
+              0,
+              89.96,
+              0
+            ]
+          },
+          {
+            "position": [
+              -11.37,
+              1.88,
+              6.56
+            ],
+            "rotation": [
+              0,
+              89.96,
+              0
+            ]
+          },
+          {
+            "position": [
+              -12.13,
+              1.88,
+              5.25
+            ],
+            "rotation": [
+              0,
+              89.97,
+              0
+            ]
+          }
+        ]
+      },
+      "overlayTiles": [
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Table",
+              "tiles": [
+                {
+                  "position": [
+                    -12.88,
+                    1.88,
+                    6.56
+                  ],
+                  "rotation": [
+                    0,
+                    29.97,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Stump",
+              "tiles": [
+                {
+                  "position": [
+                    -9.87,
+                    1.88,
+                    9.19
+                  ],
+                  "rotation": [
+                    359.98,
+                    89.68,
+                    0.01
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Bush",
+              "tiles": [
+                {
+                  "position": [
+                    -12.88,
+                    1.88,
+                    3.94
+                  ],
+                  "rotation": [
+                    0,
+                    89.97,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Tree",
+              "tiles": [
+                {
+                  "position": [
+                    -5.3,
+                    1.88,
+                    6.56
+                  ],
+                  "rotation": [
+                    0,
+                    270,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -8.35,
+                    1.88,
+                    3.92
+                  ],
+                  "rotation": [
+                    0,
+                    209.82,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 1,
+          "type": [
+            {
+              "name": "Earth Corridor 2",
+              "tiles": [
+                {
+                  "position": [
+                    -8.34,
+                    1.88,
+                    9.19
+                  ],
+                  "rotation": [
+                    0,
+                    90.12,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -8.33,
+                    1.88,
+                    6.56
+                  ],
+                  "rotation": [
+                    0,
+                    149.88,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -10.61,
+                    1.88,
+                    5.25
+                  ],
+                  "rotation": [
+                    0,
+                    90.13,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -7.58,
+                    1.88,
+                    2.62
+                  ],
+                  "rotation": [
+                    0,
+                    210,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Earth Corridor 1",
+              "tiles": [
+                {
+                  "position": [
+                    -9.1,
+                    1.77,
+                    7.88
+                  ],
+                  "rotation": [
+                    0,
+                    30.07,
+                    180
+                  ]
+                },
+                {
+                  "position": [
+                    -6.06,
+                    1.77,
+                    5.25
+                  ],
+                  "rotation": [
+                    0,
+                    29.94,
+                    180
+                  ]
+                },
+                {
+                  "position": [
+                    -11.38,
+                    1.77,
+                    3.93
+                  ],
+                  "rotation": [
+                    0,
+                    29.93,
+                    180
+                  ]
+                },
+                {
+                  "position": [
+                    -9.85,
+                    1.77,
+                    1.31
+                  ],
+                  "rotation": [
+                    0,
+                    29.99,
+                    180
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 3,
+          "type": [
+            {
+              "name": "Thorns",
+              "tiles": [
+                {
+                  "position": [
+                    -7.57,
+                    1.88,
+                    7.87
+                  ],
+                  "rotation": [
+                    0,
+                    90.29,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -6.82,
+                    1.88,
+                    3.94
+                  ],
+                  "rotation": [
+                    0,
+                    89.96,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -10.61,
+                    1.88,
+                    2.63
+                  ],
+                  "rotation": [
+                    0,
+                    90.05,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": [
+            {
+              "name": "Scenario Aid Token",
+              "tiles": [
+                {
+                  "name": "a",
+                  "position": [
+                    -9.09,
+                    1.88,
+                    5.25
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ],
+                  "hp": [
+                    "*",
+                    2,
+                    [
+                      "+",
+                      "L",
+                      "C"
+                    ]
+                  ]
+                },
+                {
+                  "name": "a",
+                  "position": [
+                    -6.82,
+                    1.77,
+                    1.31
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ],
+                  "hp": [
+                    "*",
+                    2,
+                    [
+                      "+",
+                      "L",
+                      "C"
+                    ]
+                  ]
+                },
+                {
+                  "name": "a",
+                  "position": [
+                    -5.26,
+                    1.77,
+                    9.2
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ],
+                  "hp": [
+                    "*",
+                    2,
+                    [
+                      "+",
+                      "L",
+                      "C"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Black Imp",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": [
+                -3.03,
+                1.77,
+                7.88
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                -2.27,
+                1.77,
+                6.56
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                -2.27,
+                1.77,
+                3.94
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                -3.03,
+                1.77,
+                2.63
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cultist",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": [
+                -3.79,
+                1.77,
+                9.19
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                -3.79,
+                1.77,
+                6.56
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                -3.03,
+                1.77,
+                5.25
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                -3.79,
+                1.77,
+                3.94
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                -3.79,
+                1.77,
+                1.31
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Deep Terror",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": [
+                -2.27,
+                1.77,
+                9.19
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                -2.27,
+                1.77,
+                1.31
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "L1",
+          "position": [
+            9.09,
+            -3.83,
+            5.25
+          ],
+          "rotation": [
+            0,
+            90.03,
+            0
+          ]
+        },
+        {
+          "tile": "L2",
+          "position": [
+            3.03,
+            7.24,
+            5.25
+          ],
+          "rotation": [
+            0,
+            270.01,
+            180
+          ]
+        }
+      ],
+      "scenarioSections": [
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086837886572/EA8615B93324D590F84534B45D5063831DA8B6A0/",
+          "position": [
+            6.82,
+            1.75,
+            14.44
+          ],
+          "scale": [
+            1.7,
+            1,
+            1.7
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Wall Section",
+              "tiles": [
+                {
+                  "position": [
+                    6.06,
+                    1.88,
+                    7.88
+                  ],
+                  "rotation": [
+                    0.02,
+                    90.01,
+                    359.99
+                  ]
+                },
+                {
+                  "position": [
+                    8.34,
+                    1.88,
+                    6.56
+                  ],
+                  "rotation": [
+                    0,
+                    150,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    8.33,
+                    1.88,
+                    3.93
+                  ],
+                  "rotation": [
+                    0,
+                    209.9,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    6.06,
+                    1.88,
+                    2.63
+                  ],
+                  "rotation": [
+                    0,
+                    269.98,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    3.79,
+                    1.88,
+                    3.94
+                  ],
+                  "rotation": [
+                    0,
+                    330,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    3.79,
+                    1.88,
+                    6.56
+                  ],
+                  "rotation": [
+                    0,
+                    30,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Fountain",
+              "tiles": [
+                {
+                  "position": [
+                    6.06,
+                    1.88,
+                    5.25
+                  ],
+                  "rotation": [
+                    0.04,
+                    90,
+                    0.01
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 1,
+          "type": [
+            {
+              "name": "Man Stone Corridor 2",
+              "tiles": [
+                {
+                  "position": [
+                    6.82,
+                    1.88,
+                    9.19
+                  ],
+                  "rotation": [
+                    359.97,
+                    269.99,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    6.81,
+                    1.88,
+                    6.56
+                  ],
+                  "rotation": [
+                    359.97,
+                    270.11,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    6.82,
+                    1.88,
+                    3.94
+                  ],
+                  "rotation": [
+                    359.97,
+                    269.77,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    6.82,
+                    1.88,
+                    1.31
+                  ],
+                  "rotation": [
+                    359.97,
+                    269.85,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 8,
+          "type": [
+            {
+              "name": "Treasure Chest Horizontal",
+              "tiles": [
+                {
+                  "position": [
+                    4.55,
+                    1.88,
+                    5.25
+                  ],
+                  "rotation": [
+                    0,
+                    90,
+                    0
+                  ],
+                  "action": {
+                    "treasure": 95
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": [
+            {
+              "name": "Scenario Aid Token",
+              "tiles": [
+                {
+                  "name": "a",
+                  "position": [
+                    2.27,
+                    1.76,
+                    9.19
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ],
+                  "hp": [
+                    "*",
+                    2,
+                    [
+                      "+",
+                      "L",
+                      "C"
+                    ]
+                  ]
+                },
+                {
+                  "name": "a",
+                  "position": [
+                    0,
+                    1.76,
+                    2.63
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ],
+                  "hp": [
+                    "*",
+                    2,
+                    [
+                      "+",
+                      "L",
+                      "C"
+                    ]
+                  ]
+                },
+                {
+                  "name": "a",
+                  "position": [
+                    3.79,
+                    1.76,
+                    1.31
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ],
+                  "hp": [
+                    "*",
+                    2,
+                    [
+                      "+",
+                      "L",
+                      "C"
+                    ]
+                  ]
+                },
+                {
+                  "name": "a",
+                  "position": [
+                    9.85,
+                    1.76,
+                    1.31
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ],
+                  "hp": [
+                    "*",
+                    2,
+                    [
+                      "+",
+                      "L",
+                      "C"
+                    ]
+                  ]
+                },
+                {
+                  "name": "a",
+                  "position": [
+                    9.85,
+                    1.76,
+                    9.19
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ],
+                  "hp": [
+                    "*",
+                    2,
+                    [
+                      "+",
+                      "L",
+                      "C"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Black Imp",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": [
+                2.27,
+                1.77,
+                6.56
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                2.27,
+                1.77,
+                3.94
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                10.61,
+                1.76,
+                5.25
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                12.88,
+                1.76,
+                6.56
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                12.88,
+                1.76,
+                3.94
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cultist",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": [
+                1.52,
+                1.77,
+                5.25
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                9.85,
+                1.76,
+                6.56
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                9.85,
+                1.76,
+                3.94
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                12.12,
+                1.76,
+                7.88
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                12.12,
+                1.76,
+                2.63
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Deep Terror",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": [
+                0,
+                1.77,
+                5.25
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                7.58,
+                1.76,
+                5.25
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                12.12,
+                1.76,
+                5.25
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "monsterList": [
+    "Black Imp",
+    "Cultist",
+    "Deep Terror"
+  ]
+}

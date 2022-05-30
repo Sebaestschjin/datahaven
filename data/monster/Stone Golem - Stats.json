@@ -1,0 +1,177 @@
+[
+  {
+    "orientation": [
+      0,
+      90,
+      0
+    ],
+    "normal": {
+      "health": 10,
+      "move": 1,
+      "attack": 3,
+      "range": 0,
+      "attributes": [
+        "%shield% 1"
+      ]
+    },
+    "elite": {
+      "health": 11,
+      "move": 2,
+      "attack": 4,
+      "range": 0,
+      "attributes": [
+        "%shield% 2"
+      ]
+    }
+  },
+  {
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "normal": {
+      "health": 11,
+      "move": 1,
+      "attack": 4,
+      "range": 0,
+      "attributes": [
+        "%shield% 1"
+      ]
+    },
+    "elite": {
+      "health": 14,
+      "move": 2,
+      "attack": 5,
+      "range": 0,
+      "attributes": [
+        "%shield% 2"
+      ]
+    }
+  },
+  {
+    "orientation": [
+      0,
+      270,
+      0
+    ],
+    "normal": {
+      "health": 11,
+      "move": 1,
+      "attack": 4,
+      "range": 0,
+      "attributes": [
+        "%shield% 2"
+      ]
+    },
+    "elite": {
+      "health": 15,
+      "move": 2,
+      "attack": 5,
+      "range": 0,
+      "attributes": [
+        "%shield% 3"
+      ]
+    }
+  },
+  {
+    "orientation": [
+      0,
+      180,
+      180
+    ],
+    "normal": {
+      "health": 12,
+      "move": 2,
+      "attack": 4,
+      "range": 0,
+      "attributes": [
+        "%shield% 2"
+      ]
+    },
+    "elite": {
+      "health": 17,
+      "move": 2,
+      "attack": 6,
+      "range": 0,
+      "attributes": [
+        "%shield% 3"
+      ]
+    }
+  },
+  {
+    "orientation": [
+      0,
+      90,
+      180
+    ],
+    "normal": {
+      "health": 13,
+      "move": 2,
+      "attack": 5,
+      "range": 0,
+      "attributes": [
+        "%shield% 2"
+      ]
+    },
+    "elite": {
+      "health": 19,
+      "move": 3,
+      "attack": 6,
+      "range": 0,
+      "attributes": [
+        "%shield% 3"
+      ]
+    }
+  },
+  {
+    "orientation": [
+      0,
+      0,
+      180
+    ],
+    "normal": {
+      "health": 16,
+      "move": 2,
+      "attack": 5,
+      "range": 0,
+      "attributes": [
+        "%shield% 2"
+      ]
+    },
+    "elite": {
+      "health": 20,
+      "move": 3,
+      "attack": 7,
+      "range": 0,
+      "attributes": [
+        "%shield% 3"
+      ]
+    }
+  },
+  {
+    "orientation": [
+      0,
+      270,
+      180
+    ],
+    "normal": {
+      "health": 16,
+      "move": 2,
+      "attack": 5,
+      "range": 0,
+      "attributes": [
+        "%shield% 3"
+      ]
+    },
+    "elite": {
+      "health": 21,
+      "move": 3,
+      "attack": 7,
+      "range": 0,
+      "attributes": [
+        "%shield% 4"
+      ]
+    }
+  }
+]

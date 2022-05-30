@@ -1,0 +1,212 @@
+[
+  {
+    "orientation": [
+      0,
+      90,
+      0
+    ],
+    "boss": {
+      "health": "10xC",
+      "move": 3,
+      "attack": 3,
+      "range": 0,
+      "special1": [
+        "%dark%%use_element%: Summon Night Demon",
+        "%invisible%, Self"
+      ],
+      "special2": [
+        "%light%%use_element%: Summon Sun Demon",
+        "%heal% 4, Self",
+        "%shield% 1"
+      ],
+      "immunities": [
+        "%wound%",
+        "%poison%",
+        "%muddle%",
+        "%stun%",
+        "%disarm%"
+      ],
+      "notes": ""
+    }
+  },
+  {
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "boss": {
+      "health": "11xC",
+      "move": 4,
+      "attack": 3,
+      "range": 0,
+      "special1": [
+        "%dark%%use_element%: Summon Night Demon",
+        "%invisible%, Self"
+      ],
+      "special2": [
+        "%light%%use_element%: Summon Sun Demon",
+        "%heal% 5, Self",
+        "%shield% 1"
+      ],
+      "immunities": [
+        "%wound%",
+        "%poison%",
+        "%muddle%",
+        "%stun%",
+        "%disarm%"
+      ],
+      "notes": ""
+    }
+  },
+  {
+    "orientation": [
+      0,
+      270,
+      0
+    ],
+    "boss": {
+      "health": "12xC",
+      "move": 4,
+      "attack": 4,
+      "range": 0,
+      "special1": [
+        "%dark%%use_element%: Summon Night Demon",
+        "%invisible%, Self"
+      ],
+      "special2": [
+        "%light%%use_element%: Summon Sun Demon",
+        "%heal% 5, Self",
+        "%shield% 1"
+      ],
+      "immunities": [
+        "%wound%",
+        "%poison%",
+        "%muddle%",
+        "%stun%",
+        "%disarm%"
+      ],
+      "notes": ""
+    }
+  },
+  {
+    "orientation": [
+      0,
+      180,
+      180
+    ],
+    "boss": {
+      "health": "14xC",
+      "move": 4,
+      "attack": 4,
+      "range": 0,
+      "special1": [
+        "%dark%%use_element%: Summon Night Demon",
+        "%invisible%, Self"
+      ],
+      "special2": [
+        "%light%%use_element%: Summon Sun Demon",
+        "%heal% 6, Self",
+        "%shield% 1"
+      ],
+      "immunities": [
+        "%wound%",
+        "%poison%",
+        "%muddle%",
+        "%stun%",
+        "%disarm%"
+      ],
+      "notes": ""
+    }
+  },
+  {
+    "orientation": [
+      0,
+      90,
+      180
+    ],
+    "boss": {
+      "health": "15xC",
+      "move": 4,
+      "attack": 5,
+      "range": 0,
+      "special1": [
+        "%dark%%use_element%: Summon Night Demon",
+        "%invisible%, Self"
+      ],
+      "special2": [
+        "%light%%use_element%: Summon Sun Demon",
+        "%heal% 6, Self",
+        "%shield% 1"
+      ],
+      "immunities": [
+        "%wound%",
+        "%poison%",
+        "%muddle%",
+        "%stun%",
+        "%disarm%"
+      ],
+      "notes": ""
+    }
+  },
+  {
+    "orientation": [
+      0,
+      0,
+      180
+    ],
+    "boss": {
+      "health": "17xC",
+      "move": 4,
+      "attack": 6,
+      "range": 0,
+      "special1": [
+        "%dark%%use_element%: Summon Night Demon",
+        "%invisible%, Self"
+      ],
+      "special2": [
+        "%light%%use_element%: Summon Sun Demon",
+        "%heal% 7, Self",
+        "%shield% 1"
+      ],
+      "immunities": [
+        "%wound%",
+        "%poison%",
+        "%muddle%",
+        "%stun%",
+        "%disarm%"
+      ],
+      "notes": ""
+    }
+  },
+  {
+    "orientation": [
+      0,
+      270,
+      180
+    ],
+    "boss": {
+      "health": "19xC",
+      "move": 5,
+      "attack": 7,
+      "range": 0,
+      "special1": [
+        "%dark%%use_element%: Summon Night Demon",
+        "%invisible%, Self"
+      ],
+      "special2": [
+        "%light%%use_element%: Summon Sun Demon",
+        "%heal% 7, Self",
+        "%shield% 1"
+      ],
+      "immunities": [
+        "%wound%",
+        "%poison%",
+        "%muddle%",
+        "%stun%",
+        "%disarm%"
+      ],
+      "notes": ""
+    }
+  }
+]

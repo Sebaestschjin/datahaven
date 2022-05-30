@@ -1,0 +1,452 @@
+{
+  "name": "Back Alley Brawl",
+  "scenarioPages": [
+    {
+      "image": "http://cloud-3.steamusercontent.com/ugc/931553965084829851/ABA213366423617A7D330CD25E40FB29BFFED026/"
+    }
+  ],
+  "gridType": 2,
+  "doorTiles": [
+    {
+      "name": "Stone Door Vertical",
+      "tiles": [
+        {
+          "rooms": [
+            1,
+            2
+          ],
+          "position": {
+            "x": 1.515536,
+            "y": 1.817721,
+            "z": 0.874999
+          },
+          "rotation": {
+            "x": 0.015512,
+            "y": 89.994621,
+            "z": 0
+          },
+          "tokens": [
+            "1"
+          ]
+        }
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "mapTiles": [
+        {
+          "tile": "H3",
+          "position": {
+            "x": -4.546118,
+            "y": 1.700348,
+            "z": -1.749809
+          },
+          "rotation": {
+            "x": -0.000767,
+            "y": 89.987854,
+            "z": 0.000249
+          }
+        }
+      ],
+      "startTiles": {
+        "name": "Stone Corridor 1",
+        "tiles": [
+          {
+            "position": {
+              "x": -5.304405,
+              "y": 1.934555,
+              "z": -5.6875
+            },
+            "rotation": {
+              "x": 0.000598,
+              "y": 329.999512,
+              "z": 0.00054
+            }
+          },
+          {
+            "position": {
+              "x": -4.546632,
+              "y": 1.934571,
+              "z": -7
+            },
+            "rotation": {
+              "x": 0.000599,
+              "y": 329.999512,
+              "z": 0.000541
+            }
+          },
+          {
+            "position": {
+              "x": -3.788861,
+              "y": 1.934575,
+              "z": -5.6875
+            },
+            "rotation": {
+              "x": 0.000598,
+              "y": 329.999481,
+              "z": 0.00054
+            }
+          },
+          {
+            "position": {
+              "x": -3.031089,
+              "y": 1.934591,
+              "z": -7
+            },
+            "rotation": {
+              "x": 0.000601,
+              "y": 329.999481,
+              "z": 0.00054
+            }
+          },
+          {
+            "position": {
+              "x": -2.273316,
+              "y": 1.934596,
+              "z": -5.6875
+            },
+            "rotation": {
+              "x": 0.000599,
+              "y": 329.999481,
+              "z": 0.00054
+            }
+          }
+        ]
+      },
+      "overlayTiles": [
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Barrel",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -6.06218,
+                    "y": 1.933916,
+                    "z": 0.874998
+                  },
+                  "rotation": {
+                    "x": -0.000769,
+                    "y": 90.011818,
+                    "z": 0.000249
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 7,
+          "type": [
+            {
+              "name": "Bear Trap",
+              "statuses": [
+                "Damage"
+              ],
+              "tiles": [
+                {
+                  "position": {
+                    "x": -2e-06,
+                    "y": 1.933998,
+                    "z": 0.874998
+                  },
+                  "rotation": {
+                    "x": -0.000767,
+                    "y": 90.005463,
+                    "z": 0.000249
+                  }
+                },
+                {
+                  "position": {
+                    "x": 0.757772,
+                    "y": 1.934013,
+                    "z": -0.437501
+                  },
+                  "rotation": {
+                    "x": -0.000766,
+                    "y": 90.00547,
+                    "z": 0.000251
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Bandit Archer",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -3.031094,
+                "y": 2.067757,
+                "z": 0.875056
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -1.515545,
+                "y": 2.067777,
+                "z": 0.875
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -0.757773,
+                "y": 2.067793,
+                "z": -0.4375
+              }
+            }
+          ]
+        },
+        {
+          "name": "Bandit Guard",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -3.788861,
+                "y": 2.068364,
+                "z": -3.0625
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -4.546638,
+                "y": 2.068311,
+                "z": -1.74987
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -5.304397,
+                "y": 2.067733,
+                "z": -0.437643
+              }
+            }
+          ]
+        },
+        {
+          "name": "Inox Guard",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -3.031086,
+                "y": 2.068344,
+                "z": -1.749999
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -4.546633,
+                "y": 2.067737,
+                "z": 0.874816
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "F1",
+          "position": {
+            "x": 3.788848,
+            "y": 1.758932,
+            "z": 4.8125
+          },
+          "rotation": {
+            "x": 0.00025,
+            "y": 1e-06,
+            "z": 180.000763
+          }
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Crate B",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 2.273317,
+                    "y": 1.930696,
+                    "z": 7.4375
+                  },
+                  "rotation": {
+                    "x": 0.000754,
+                    "y": 269.994537,
+                    "z": -0.000252
+                  }
+                },
+                {
+                  "position": {
+                    "x": 5.304404,
+                    "y": 1.930771,
+                    "z": -0.437498
+                  },
+                  "rotation": {
+                    "x": 0.000754,
+                    "y": 269.994537,
+                    "z": -0.000249
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Bandit Archer",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": {
+                "x": 2.273317,
+                "y": 2.067413,
+                "z": 4.8125
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": 5.304405,
+                "y": 2.067453,
+                "z": 4.8125
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": 3.031089,
+                "y": 2.067406,
+                "z": 8.75
+              }
+            }
+          ]
+        },
+        {
+          "name": "Bandit Guard",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": {
+                "x": 3.788861,
+                "y": 2.067456,
+                "z": -0.4375
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": 4.546634,
+                "y": 2.06746,
+                "z": 0.875
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": 5.304405,
+                "y": 2.067465,
+                "z": 2.1875
+              }
+            }
+          ]
+        },
+        {
+          "name": "Inox Guard",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": {
+                "x": 3.031089,
+                "y": 2.067429,
+                "z": 3.5
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": 5.304405,
+                "y": 2.067442,
+                "z": 7.4375
+              }
+            }
+          ]
+        },
+        {
+          "name": "Savvas Lavaflow",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": {
+                "x": 4.546633,
+                "y": 2.067426,
+                "z": 8.75
+              }
+            }
+          ]
+        },
+        {
+          "name": "City Guard",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -7.58,
+                "y": 1.65,
+                "z": 2.63
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -6.82,
+                "y": 1.65,
+                "z": -2.19
+              }
+            }
+          ]
+        },
+        {
+          "name": "City Archer",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -9.85,
+                "y": 1.65,
+                "z": -0.44
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "monsterList": [
+    "Bandit Archer",
+    "Bandit Guard",
+    "City Archer",
+    "City Guard",
+    "Earth Demon",
+    "Flame Demon",
+    "Inox Guard",
+    "Savvas Lavaflow"
+  ]
+}

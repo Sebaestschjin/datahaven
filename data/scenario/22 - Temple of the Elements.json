@@ -1,0 +1,638 @@
+{
+  "name": "Temple of the Elements",
+  "scenarioPages": [
+    {
+      "image": "http://cloud-3.steamusercontent.com/ugc/931553965084836608/1BC47CDA74ED21620D0C3DC7AFBF327C3BEB6A89/"
+    },
+    {
+      "image": "http://cloud-3.steamusercontent.com/ugc/931553965084822670/C842FA48BAB0630BFF4A3AF2FC72391EA321EA3F/"
+    }
+  ],
+  "gridType": 2,
+  "doorTiles": [
+    {
+      "name": "Stone Door Horizontal",
+      "tiles": [
+        {
+          "rooms": [
+            1,
+            2
+          ],
+          "position": {
+            "x": 0.000469,
+            "y": 1.818158,
+            "z": 5.249546
+          },
+          "rotation": {
+            "x": -0.002244,
+            "y": 270.014687,
+            "z": 0
+          },
+          "tokens": [
+            "1"
+          ]
+        },
+        {
+          "rooms": [
+            5,
+            2
+          ],
+          "position": {
+            "x": -3.788461,
+            "y": 1.818041,
+            "z": -3.937709
+          },
+          "rotation": {
+            "x": 359.991547,
+            "y": 330,
+            "z": 0
+          }
+        },
+        {
+          "rooms": [
+            4,
+            2
+          ],
+          "position": {
+            "x": 3.787182,
+            "y": 1.818169,
+            "z": -3.943447
+          },
+          "rotation": {
+            "x": -0.002078,
+            "y": 210,
+            "z": 0
+          }
+        },
+        {
+          "rooms": [
+            3,
+            2
+          ],
+          "position": {
+            "x": 3.788861,
+            "y": 1.818422,
+            "z": 3.9375
+          },
+          "rotation": {
+            "x": 0.001744,
+            "y": 329.994873,
+            "z": 0
+          }
+        },
+        {
+          "rooms": [
+            6,
+            2
+          ],
+          "position": {
+            "x": -3.795188,
+            "y": 1.818425,
+            "z": 3.93137
+          },
+          "rotation": {
+            "x": 0.00343,
+            "y": 210.113342,
+            "z": 0
+          }
+        }
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "mapTiles": [
+        {
+          "tile": "B2",
+          "position": {
+            "x": -0.008025,
+            "y": 1.759082,
+            "z": 7.891703
+          },
+          "rotation": {
+            "x": -0.00034,
+            "y": 89.911041,
+            "z": 180.000122
+          }
+        }
+      ],
+      "startTiles": {
+        "name": "Stone Corridor 1",
+        "tiles": [
+          {
+            "position": {
+              "x": -1.515545,
+              "y": 1.933968,
+              "z": 10.5
+            },
+            "rotation": {
+              "x": 0.000272,
+              "y": 329.98819,
+              "z": 0.00024
+            }
+          },
+          {
+            "position": {
+              "x": -0.757772,
+              "y": 1.933975,
+              "z": 9.1875
+            },
+            "rotation": {
+              "x": 0.00027,
+              "y": 329.98822,
+              "z": 0.000236
+            }
+          },
+          {
+            "position": {
+              "x": 0,
+              "y": 1.933977,
+              "z": 10.5
+            },
+            "rotation": {
+              "x": 0.000273,
+              "y": 329.98822,
+              "z": 0.000236
+            }
+          },
+          {
+            "position": {
+              "x": 0.757772,
+              "y": 1.933984,
+              "z": 9.1875
+            },
+            "rotation": {
+              "x": 0.000271,
+              "y": 329.988251,
+              "z": 0.000235
+            }
+          },
+          {
+            "position": {
+              "x": 1.515545,
+              "y": 1.933986,
+              "z": 10.500001
+            },
+            "rotation": {
+              "x": 0.000273,
+              "y": 329.988251,
+              "z": 0.000238
+            }
+          }
+        ]
+      },
+      "monsters": [
+        {
+          "name": "Cultist",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -0.75777,
+                "y": 2.067781,
+                "z": 6.5625
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": 0.757772,
+                "y": 2.06779,
+                "z": 6.5625
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "M1",
+          "position": {
+            "x": 0.000265,
+            "y": 1.818406,
+            "z": -0.006245
+          },
+          "rotation": {
+            "x": 0.000977,
+            "y": 269.996216,
+            "z": -0.000541
+          }
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 8,
+          "type": [
+            {
+              "name": "Treasure Chest Horizontal",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 0.757229,
+                    "y": 1.931751,
+                    "z": -3.941145
+                  },
+                  "rotation": {
+                    "x": -0.000977,
+                    "y": 90.033905,
+                    "z": 0.000541
+                  },
+                  "params": {
+                    "buttonTheme": "Treasure",
+                    "buttonLabel": "21"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": [
+            {
+              "name": "Coin 1",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -0.757879,
+                    "y": 1.875905,
+                    "z": -1.311982
+                  },
+                  "rotation": {
+                    "x": -0.00052,
+                    "y": 181.622162,
+                    "z": -0.000997
+                  }
+                },
+                {
+                  "position": {
+                    "x": 0.757773,
+                    "y": 1.875931,
+                    "z": -1.3125
+                  },
+                  "rotation": {
+                    "x": -0.000543,
+                    "y": 179.974976,
+                    "z": -0.000976
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Cultist",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -1e-06,
+                "y": 2.068406,
+                "z": 1e-06
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -1.515544,
+                "y": 2.068381,
+                "z": 0
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": 1.515545,
+                "y": 2.068432,
+                "z": 0
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": 0,
+                "y": 2.068431,
+                "z": -2.625
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "D1",
+          "position": {
+            "x": 7.591015,
+            "y": 1.818462,
+            "z": 5.248498
+          },
+          "rotation": {
+            "x": -0.000228,
+            "y": 179.9319,
+            "z": -0.001096
+          }
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Altar Vertical",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 9.851039,
+                    "y": 1.931795,
+                    "z": 6.562503
+                  },
+                  "rotation": {
+                    "x": -0.001095,
+                    "y": 89.974365,
+                    "z": 0.000226
+                  },
+                  "tokens": [
+                    "a"
+                  ],
+                  "hp": [
+                    "+",
+                    4,
+                    [
+                      "*",
+                      "C",
+                      "L"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Flame Demon",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": {
+                "x": 8.335493,
+                "y": 2.068471,
+                "z": 6.5625
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": 9.093266,
+                "y": 2.068491,
+                "z": 5.25
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "C2",
+          "position": {
+            "x": 6.819966,
+            "y": 1.818226,
+            "z": -3.937519
+          },
+          "rotation": {
+            "x": -0.000393,
+            "y": 89.99382,
+            "z": 0.000786
+          }
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Altar Vertical",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 8.335495,
+                    "y": 1.931267,
+                    "z": -6.5625
+                  },
+                  "rotation": {
+                    "x": -0.000393,
+                    "y": 89.974342,
+                    "z": 0.000784
+                  },
+                  "tokens": [
+                    "a"
+                  ],
+                  "hp": [
+                    "+",
+                    4,
+                    [
+                      "*",
+                      "C",
+                      "L"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Wind Demon",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": {
+                "x": 7.577724,
+                "y": 2.067949,
+                "z": -5.249998
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": 6.81995,
+                "y": 2.067962,
+                "z": -6.5625
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "C1",
+          "position": {
+            "x": -6.819945,
+            "y": 1.818028,
+            "z": -3.937505
+          },
+          "rotation": {
+            "x": -0.00055,
+            "y": 90.033165,
+            "z": 0.000383
+          }
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Altar Vertical",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -8.335495,
+                    "y": 1.931026,
+                    "z": -6.562501
+                  },
+                  "rotation": {
+                    "x": -0.00055,
+                    "y": 89.97435,
+                    "z": 0.000382
+                  },
+                  "tokens": [
+                    "a"
+                  ],
+                  "hp": [
+                    "+",
+                    4,
+                    [
+                      "*",
+                      "C",
+                      "L"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Frost Demon",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -7.577724,
+                "y": 2.06773,
+                "z": -5.250007
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -6.819949,
+                "y": 2.067746,
+                "z": -6.562502
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "D2",
+          "position": {
+            "x": -7.573458,
+            "y": 1.818425,
+            "z": 5.254282
+          },
+          "rotation": {
+            "x": 0.00121,
+            "y": 239.908249,
+            "z": 0.000738
+          }
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Altar Vertical",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -9.850068,
+                    "y": 1.931721,
+                    "z": 6.560813
+                  },
+                  "rotation": {
+                    "x": -0.000679,
+                    "y": 89.959846,
+                    "z": -0.001248
+                  },
+                  "tokens": [
+                    "a"
+                  ],
+                  "hp": [
+                    "+",
+                    4,
+                    [
+                      "*",
+                      "C",
+                      "L"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Earth Demon",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -9.093266,
+                "y": 2.068407,
+                "z": 5.249993
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -8.335494,
+                "y": 2.068444,
+                "z": 6.5625
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "monsterList": [
+    "Cultist",
+    "Earth Demon",
+    "Flame Demon",
+    "Frost Demon",
+    "Living Bones",
+    "Wind Demon"
+  ]
+}

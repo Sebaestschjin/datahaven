@@ -1,0 +1,480 @@
+{
+  "name": "Outer Ritual Chamber",
+  "scenarioPages": [
+    {
+      "image": "http://cloud-3.steamusercontent.com/ugc/931553965084833346/C9F4D0A5A196489FB1C043A1A54F79E07B7FAE70/"
+    }
+  ],
+  "gridType": 1,
+  "doorTiles": [
+    {
+      "name": "Stone Door Horizontal",
+      "tiles": [
+        {
+          "rooms": [
+            3,
+            1
+          ],
+          "position": {
+            "x": 5.249463,
+            "y": 1.818405,
+            "z": 0.000288
+          },
+          "rotation": {
+            "x": 359.989136,
+            "y": 0.010173,
+            "z": 0
+          }
+        },
+        {
+          "rooms": [
+            2,
+            1
+          ],
+          "position": {
+            "x": -5.250173,
+            "y": 1.818145,
+            "z": -0.000185
+          },
+          "rotation": {
+            "x": -0.002644,
+            "y": 180.003403,
+            "z": 0
+          }
+        }
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "mapTiles": [
+        {
+          "tile": "M1",
+          "position": {
+            "x": -0.009304,
+            "y": 1.818402,
+            "z": -0.000612
+          },
+          "rotation": {
+            "x": 0.00019,
+            "y": 359.939789,
+            "z": 0.000713
+          }
+        }
+      ],
+      "startTiles": {
+        "name": "Stone Corridor 1",
+        "tiles": [
+          {
+            "position": {
+              "x": -1.312538,
+              "y": 1.934593,
+              "z": -2.273316
+            },
+            "rotation": {
+              "x": 0.000185,
+              "y": -1e-05,
+              "z": 0.000712
+            }
+          },
+          {
+            "position": {
+              "x": -1.3125,
+              "y": 1.934598,
+              "z": -3.788861
+            },
+            "rotation": {
+              "x": 0.000192,
+              "y": -1.6e-05,
+              "z": 0.000712
+            }
+          },
+          {
+            "position": {
+              "x": 0,
+              "y": 1.934612,
+              "z": -3.031089
+            },
+            "rotation": {
+              "x": 0.000186,
+              "y": -1.7e-05,
+              "z": 0.000713
+            }
+          },
+          {
+            "position": {
+              "x": 1.3125,
+              "y": 1.934626,
+              "z": -2.273317
+            },
+            "rotation": {
+              "x": 0.000195,
+              "y": -2.3e-05,
+              "z": 0.000717
+            }
+          },
+          {
+            "position": {
+              "x": 1.3125,
+              "y": 1.934631,
+              "z": -3.788861
+            },
+            "rotation": {
+              "x": 0.000188,
+              "y": -2.9e-05,
+              "z": 0.000713
+            }
+          }
+        ]
+      },
+      "overlayTiles": [
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Altar Horizontal",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 0,
+                    "y": 1.931692,
+                    "z": 1.515545
+                  },
+                  "rotation": {
+                    "x": 0.000191,
+                    "y": 359.960022,
+                    "z": 0.000712
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Cultist",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -3.937501,
+                "y": 2.077304,
+                "z": -0.757773
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": 3.937502,
+                "y": 2.077402,
+                "z": -0.757773
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -3.937501,
+                "y": 2.077294,
+                "z": 2.273318
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": 3.937508,
+                "y": 2.077392,
+                "z": 2.273319
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -1.3125,
+                "y": 2.077322,
+                "z": 3.788863
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": 1.312503,
+                "y": 2.077354,
+                "z": 3.788877
+              }
+            }
+          ]
+        },
+        {
+          "name": "Living Corpse",
+          "levelModifier": 2,
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": {
+                "x": 0,
+                "y": 2.068402,
+                "z": 0
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -1.3125,
+                "y": 2.068383,
+                "z": 0.757773
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": 1.3125,
+                "y": 2.068416,
+                "z": 0.757772
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "C2",
+          "position": {
+            "x": -9.187496,
+            "y": 1.817993,
+            "z": 0.757771
+          },
+          "rotation": {
+            "x": -0.00014,
+            "y": 0.019392,
+            "z": 0.000744
+          }
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 8,
+          "type": [
+            {
+              "name": "Treasure Chest Vertical",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -10.504593,
+                    "y": 1.930973,
+                    "z": 1.533067
+                  },
+                  "rotation": {
+                    "x": 0.000142,
+                    "y": 180.02951,
+                    "z": -0.000745
+                  },
+                  "params": {
+                    "buttonTheme": "Treasure",
+                    "buttonLabel": "32"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": [
+            {
+              "name": "Coin 1",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -9.18749,
+                    "y": 1.875193,
+                    "z": 0.757728
+                  },
+                  "rotation": {
+                    "x": 0.000139,
+                    "y": 179.955414,
+                    "z": -0.000744
+                  }
+                },
+                {
+                  "position": {
+                    "x": -7.875,
+                    "y": 1.875212,
+                    "z": 1.515545
+                  },
+                  "rotation": {
+                    "x": 0.000133,
+                    "y": 179.959641,
+                    "z": -0.000748
+                  }
+                },
+                {
+                  "position": {
+                    "x": -7.874999,
+                    "y": 1.875208,
+                    "z": 0
+                  },
+                  "rotation": {
+                    "x": 0.000141,
+                    "y": 179.959702,
+                    "z": -0.000741
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Night Demon",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -6.562499,
+                "y": 2.067732,
+                "z": 2.273315
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -7.875,
+                "y": 2.067704,
+                "z": -1.515545
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -9.1875,
+                "y": 2.067697,
+                "z": 2.273317
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -10.5,
+                "y": 2.067674,
+                "z": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "C1",
+          "position": {
+            "x": 9.197446,
+            "y": 1.818217,
+            "z": 0.758054
+          },
+          "rotation": {
+            "x": -0.000192,
+            "y": 179.980179,
+            "z": -0.000817
+          }
+        }
+      ],
+      "overlayTiles": [
+        {
+          "type": [
+            {
+              "name": "Coin 1",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 7.874959,
+                    "y": 1.869097,
+                    "z": 1.515602
+                  },
+                  "rotation": {
+                    "x": 359.918304,
+                    "y": 179.959778,
+                    "z": 359.940521
+                  }
+                },
+                {
+                  "position": {
+                    "x": 7.875018,
+                    "y": 1.871256,
+                    "z": -2.5e-05
+                  },
+                  "rotation": {
+                    "x": 359.918304,
+                    "y": 179.959763,
+                    "z": 359.940521
+                  }
+                },
+                {
+                  "position": {
+                    "x": 9.187519,
+                    "y": 1.87154,
+                    "z": 0.757746
+                  },
+                  "rotation": {
+                    "x": 359.918304,
+                    "y": 179.959808,
+                    "z": 359.940521
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Sun Demon",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": {
+                "x": 6.5625,
+                "y": 2.067874,
+                "z": 2.273316
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": 7.875,
+                "y": 2.067906,
+                "z": -1.515544
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": 9.1875,
+                "y": 2.067912,
+                "z": 2.273316
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": 10.5,
+                "y": 2.067938,
+                "z": 0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "monsterList": [
+    "Cultist",
+    "Living Bones",
+    "Living Corpse",
+    "Night Demon",
+    "Sun Demon"
+  ]
+}

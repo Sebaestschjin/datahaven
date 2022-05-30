@@ -1,0 +1,191 @@
+[
+  {
+    "orientation": [
+      0,
+      90,
+      0
+    ],
+    "boss": {
+      "health": "9xC",
+      "move": 2,
+      "attack": 3,
+      "range": 0,
+      "special1": [
+        "%heal% 2, Affect self and all allies"
+      ],
+      "special2": [
+        "All allies add +1 Attack to all attacks this round",
+        "%attack% +1"
+      ],
+      "immunities": [
+        "%disarm%",
+        "%wound%",
+        "%muddle%",
+        "%stun%"
+      ],
+      "notes": ""
+    }
+  },
+  {
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "boss": {
+      "health": "11xC",
+      "move": 2,
+      "attack": 4,
+      "range": 0,
+      "special1": [
+        "%heal% 2, Affect self and all allies"
+      ],
+      "special2": [
+        "All allies add +1 Attack to all attacks this round",
+        "%attack% +1"
+      ],
+      "immunities": [
+        "%disarm%",
+        "%wound%",
+        "%muddle%",
+        "%stun%"
+      ],
+      "notes": ""
+    }
+  },
+  {
+    "orientation": [
+      0,
+      270,
+      0
+    ],
+    "boss": {
+      "health": "14xC",
+      "move": 3,
+      "attack": 4,
+      "range": 0,
+      "special1": [
+        "%heal% 2, Affect self and all allies"
+      ],
+      "special2": [
+        "All allies add +1 Attack to all attacks this round",
+        "%attack% +1"
+      ],
+      "immunities": [
+        "%disarm%",
+        "%wound%",
+        "%muddle%",
+        "%stun%"
+      ],
+      "notes": ""
+    }
+  },
+  {
+    "orientation": [
+      0,
+      180,
+      180
+    ],
+    "boss": {
+      "health": "16xC",
+      "move": 3,
+      "attack": 5,
+      "range": 0,
+      "special1": [
+        "%heal% 2, Affect self and all allies"
+      ],
+      "special2": [
+        "All allies add +1 Attack to all attacks this round",
+        "%attack% +1"
+      ],
+      "immunities": [
+        "%disarm%",
+        "%wound%",
+        "%muddle%",
+        "%stun%"
+      ],
+      "notes": ""
+    }
+  },
+  {
+    "orientation": [
+      0,
+      90,
+      180
+    ],
+    "boss": {
+      "health": "20xC",
+      "move": 3,
+      "attack": 5,
+      "range": 0,
+      "special1": [
+        "%heal% 2, Affect self and all allies"
+      ],
+      "special2": [
+        "All allies add +1 Attack to all attacks this round",
+        "%attack% +1"
+      ],
+      "immunities": [
+        "%disarm%",
+        "%wound%",
+        "%muddle%",
+        "%stun%"
+      ],
+      "notes": ""
+    }
+  },
+  {
+    "orientation": [
+      0,
+      0,
+      180
+    ],
+    "boss": {
+      "health": "21xC",
+      "move": 4,
+      "attack": 6,
+      "range": 0,
+      "special1": [
+        "%heal% 2, Affect self and all allies"
+      ],
+      "special2": [
+        "All allies add +1 Attack to all attacks this round",
+        "%attack% +1"
+      ],
+      "immunities": [
+        "%disarm%",
+        "%wound%",
+        "%muddle%",
+        "%stun%"
+      ],
+      "notes": ""
+    }
+  },
+  {
+    "orientation": [
+      0,
+      270,
+      180
+    ],
+    "boss": {
+      "health": "25xC",
+      "move": 4,
+      "attack": 6,
+      "range": 0,
+      "special1": [
+        "%heal% 2, Affect self and all allies"
+      ],
+      "special2": [
+        "All allies add +1 Attack to all attacks this round",
+        "%attack% +1"
+      ],
+      "immunities": [
+        "%disarm%",
+        "%wound%",
+        "%muddle%",
+        "%stun%"
+      ],
+      "notes": ""
+    }
+  }
+]

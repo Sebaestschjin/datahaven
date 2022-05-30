@@ -1,0 +1,775 @@
+{
+  "name": "Ink Not Yet Dry",
+  "scenarioPages": [
+    {
+      "image": "http://cloud-3.steamusercontent.com/ugc/1011564617604203707/CE852F5A5EFACDBC231A8D8A6958833DD6AA0432/"
+    }
+  ],
+  "scenarioConclusions": [
+    {
+      "image": "http://cloud-3.steamusercontent.com/ugc/1752439086837886169/006B4DA88E0C0FFE4968714D47815CEFE0F10F25/",
+      "scale": [
+        1.6,
+        1,
+        1.6
+      ]
+    }
+  ],
+  "gridType": 2,
+  "doorTiles": [
+    {
+      "name": "Wooden Door Vertical",
+      "tiles": [
+        {
+          "rooms": [
+            1,
+            2
+          ],
+          "position": [
+            3.03,
+            1.77,
+            7.87
+          ],
+          "rotation": [
+            0.02,
+            89.99,
+            0
+          ],
+          "tokens": [
+            "1"
+          ]
+        }
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "mapTiles": [
+        {
+          "tile": "G2",
+          "position": [
+            -3.03,
+            1.71,
+            7.88
+          ],
+          "rotation": [
+            0,
+            89.98,
+            180
+          ]
+        },
+        {
+          "tile": "I1",
+          "position": [
+            -8.34,
+            1.77,
+            1.31
+          ],
+          "rotation": [
+            0,
+            270.02,
+            0
+          ]
+        },
+        {
+          "tile": "I2",
+          "position": [
+            0.76,
+            1.65,
+            1.31
+          ],
+          "rotation": [
+            0,
+            270,
+            180
+          ]
+        }
+      ],
+      "startTiles": {
+        "name": "Stone Corridor 1",
+        "tiles": [
+          {
+            "position": [
+              4.52,
+              1.88,
+              0
+            ],
+            "rotation": [
+              0,
+              30,
+              0
+            ]
+          },
+          {
+            "position": [
+              3.79,
+              1.88,
+              -1.31
+            ],
+            "rotation": [
+              0,
+              30,
+              0
+            ]
+          },
+          {
+            "position": [
+              5.31,
+              1.88,
+              -1.32
+            ],
+            "rotation": [
+              0,
+              30,
+              0
+            ]
+          },
+          {
+            "position": [
+              -0.76,
+              1.88,
+              1.31
+            ],
+            "rotation": [
+              0,
+              30,
+              0
+            ]
+          }
+        ]
+      },
+      "overlayTiles": [
+        {
+          "bag": 1,
+          "type": [
+            {
+              "name": "Wooden Corridor 1",
+              "tiles": [
+                {
+                  "position": [
+                    -3.03,
+                    1.77,
+                    2.62
+                  ],
+                  "rotation": [
+                    0.19,
+                    90,
+                    180
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Wooden Corridor 2",
+              "tiles": [
+                {
+                  "position": [
+                    -3.78,
+                    1.89,
+                    3.93
+                  ],
+                  "rotation": [
+                    0.1,
+                    89.7,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -3.79,
+                    1.89,
+                    -1.31
+                  ],
+                  "rotation": [
+                    0.1,
+                    90.04,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 2,
+          "type": [
+            {
+              "name": "Rubble",
+              "tiles": [
+                {
+                  "position": [
+                    -9.85,
+                    1.88,
+                    3.94
+                  ],
+                  "rotation": [
+                    0,
+                    270,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -6.82,
+                    1.88,
+                    1.31
+                  ],
+                  "rotation": [
+                    0,
+                    270,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -1.52,
+                    1.88,
+                    7.88
+                  ],
+                  "rotation": [
+                    0,
+                    270,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -0.76,
+                    1.88,
+                    3.94
+                  ],
+                  "rotation": [
+                    0,
+                    270,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    2.27,
+                    1.88,
+                    1.31
+                  ],
+                  "rotation": [
+                    0,
+                    270,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Stairs Vertical",
+              "tiles": [
+                {
+                  "position": [
+                    -7.58,
+                    1.89,
+                    5.25
+                  ],
+                  "rotation": [
+                    0,
+                    90,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -6.06,
+                    1.89,
+                    5.25
+                  ],
+                  "rotation": [
+                    0,
+                    90,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Barrel",
+              "tiles": [
+                {
+                  "position": [
+                    -6.82,
+                    1.88,
+                    9.19
+                  ],
+                  "rotation": [
+                    0,
+                    30.02,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -5.3,
+                    1.88,
+                    9.19
+                  ],
+                  "rotation": [
+                    0,
+                    89.96,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -2.28,
+                    1.88,
+                    6.56
+                  ],
+                  "rotation": [
+                    0,
+                    150,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Crate B",
+              "tiles": [
+                {
+                  "position": [
+                    0.76,
+                    1.88,
+                    9.19
+                  ],
+                  "rotation": [
+                    0,
+                    90,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    2.27,
+                    1.88,
+                    6.56
+                  ],
+                  "rotation": [
+                    0,
+                    90,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Stone Pillar",
+              "tiles": [
+                {
+                  "position": [
+                    -2.26,
+                    1.88,
+                    1.31
+                  ],
+                  "rotation": [
+                    0,
+                    90,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -3.8,
+                    1.88,
+                    1.31
+                  ],
+                  "rotation": [
+                    0,
+                    90,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -3.03,
+                    1.88,
+                    0
+                  ],
+                  "rotation": [
+                    0,
+                    90,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Shelf",
+              "tiles": [
+                {
+                  "position": [
+                    -4.53,
+                    1.89,
+                    5.26
+                  ],
+                  "rotation": [
+                    0,
+                    90,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -9.11,
+                    1.89,
+                    2.6
+                  ],
+                  "rotation": [
+                    0,
+                    210.14,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Table",
+              "tiles": [
+                {
+                  "position": [
+                    -4.55,
+                    1.89,
+                    0
+                  ],
+                  "rotation": [
+                    0,
+                    269.99,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    0,
+                    1.88,
+                    2.62
+                  ],
+                  "rotation": [
+                    0,
+                    89.89,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    1.52,
+                    1.88,
+                    0
+                  ],
+                  "rotation": [
+                    0,
+                    210,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": [
+            {
+              "name": "Scenario Aid Token",
+              "tiles": [
+                {
+                  "name": "a",
+                  "position": [
+                    -1.52,
+                    1.91,
+                    2.63
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ],
+                  "hp": [
+                    "+",
+                    4,
+                    [
+                      "*",
+                      2,
+                      "L"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Aesther Ashblade",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": [
+                -7.58,
+                1.77,
+                2.63
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                -5.3,
+                1.77,
+                3.94
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                -5.3,
+                1.77,
+                1.31
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                3.79,
+                1.77,
+                3.94
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Aesther Scout",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": [
+                -9.85,
+                1.77,
+                -1.31
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                -5.3,
+                1.77,
+                6.56
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                1.52,
+                1.77,
+                7.88
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                2.27,
+                1.77,
+                3.94
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Wind Demon",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": [
+                -11.37,
+                1.77,
+                3.94
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                -8.34,
+                1.77,
+                9.19
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                -2.27,
+                1.77,
+                9.19
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                -0.76,
+                1.77,
+                -1.31
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "A1",
+          "position": [
+            6.82,
+            1.71,
+            9.19
+          ],
+          "rotation": [
+            0,
+            89.98,
+            180
+          ]
+        }
+      ],
+      "scenarioSections": [
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086836491090/2EF8F244AA4B9F0EE04F20D4908340C750D55ADE/",
+          "position": [
+            15.91,
+            1.75,
+            8.31
+          ],
+          "scale": [
+            1.5,
+            1,
+            1.5
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 7,
+          "type": [
+            {
+              "name": "Bear Trap",
+              "statuses": [
+                "Damage"
+              ],
+              "tiles": [
+                {
+                  "position": [
+                    8.34,
+                    1.88,
+                    9.19
+                  ],
+                  "rotation": [
+                    0,
+                    270,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    9.09,
+                    1.88,
+                    7.87
+                  ],
+                  "rotation": [
+                    0,
+                    270,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Cabinet",
+              "tiles": [
+                {
+                  "position": [
+                    9.83,
+                    1.88,
+                    9.23
+                  ],
+                  "rotation": [
+                    0,
+                    150.12,
+                    0
+                  ],
+                  "tokens": [
+                    "b"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Aesther Ashblade",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": [
+                3.79,
+                1.77,
+                9.19
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Aesther Scout",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": [
+                6.82,
+                1.77,
+                9.19
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                7.58,
+                1.77,
+                7.88
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Wind Demon",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": [
+                6.06,
+                1.77,
+                7.88
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "monsterList": [
+    "Aesther Ashblade",
+    "Aesther Scout",
+    "Wind Demon"
+  ]
+}

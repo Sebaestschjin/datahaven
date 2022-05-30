@@ -1,0 +1,177 @@
+[
+  {
+    "orientation": [
+      0,
+      90,
+      0
+    ],
+    "normal": {
+      "health": 4,
+      "move": 0,
+      "attack": 2,
+      "range": 0,
+      "attributes": [
+        "%retaliate% 1"
+      ]
+    },
+    "elite": {
+      "health": 6,
+      "move": 0,
+      "attack": 3,
+      "range": 0,
+      "attributes": [
+        "%retaliate% 1"
+      ]
+    }
+  },
+  {
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "normal": {
+      "health": 4,
+      "move": 0,
+      "attack": 3,
+      "range": 0,
+      "attributes": [
+        "%retaliate% 1"
+      ]
+    },
+    "elite": {
+      "health": 7,
+      "move": 0,
+      "attack": 4,
+      "range": 0,
+      "attributes": [
+        "%retaliate% 1"
+      ]
+    }
+  },
+  {
+    "orientation": [
+      0,
+      270,
+      0
+    ],
+    "normal": {
+      "health": 5,
+      "move": 0,
+      "attack": 3,
+      "range": 0,
+      "attributes": [
+        "%retaliate% 2"
+      ]
+    },
+    "elite": {
+      "health": 8,
+      "move": 0,
+      "attack": 4,
+      "range": 0,
+      "attributes": [
+        "%retaliate% 2"
+      ]
+    }
+  },
+  {
+    "orientation": [
+      0,
+      180,
+      180
+    ],
+    "normal": {
+      "health": 6,
+      "move": 0,
+      "attack": 4,
+      "range": 0,
+      "attributes": [
+        "%retaliate% 2"
+      ]
+    },
+    "elite": {
+      "health": 9,
+      "move": 0,
+      "attack": 5,
+      "range": 0,
+      "attributes": [
+        "%retaliate% 2"
+      ]
+    }
+  },
+  {
+    "orientation": [
+      0,
+      90,
+      180
+    ],
+    "normal": {
+      "health": 7,
+      "move": 0,
+      "attack": 4,
+      "range": 0,
+      "attributes": [
+        "%retaliate% 3"
+      ]
+    },
+    "elite": {
+      "health": 11,
+      "move": 0,
+      "attack": 5,
+      "range": 0,
+      "attributes": [
+        "%retaliate% 3"
+      ]
+    }
+  },
+  {
+    "orientation": [
+      0,
+      0,
+      180
+    ],
+    "normal": {
+      "health": 8,
+      "move": 0,
+      "attack": 5,
+      "range": 0,
+      "attributes": [
+        "%retaliate% 3"
+      ]
+    },
+    "elite": {
+      "health": 13,
+      "move": 0,
+      "attack": 6,
+      "range": 0,
+      "attributes": [
+        "%retaliate% 3"
+      ]
+    }
+  },
+  {
+    "orientation": [
+      0,
+      270,
+      180
+    ],
+    "normal": {
+      "health": 9,
+      "move": 0,
+      "attack": 5,
+      "range": 0,
+      "attributes": [
+        "%retaliate% 4"
+      ]
+    },
+    "elite": {
+      "health": 15,
+      "move": 0,
+      "attack": 6,
+      "range": 0,
+      "attributes": [
+        "%retaliate% 4"
+      ]
+    }
+  }
+]

@@ -1,0 +1,191 @@
+[
+  {
+    "orientation": [
+      0,
+      90,
+      0
+    ],
+    "boss": {
+      "health": "12xC",
+      "move": 3,
+      "attack": 5,
+      "range": 3,
+      "special1": [
+        "Summon Giant Viper and Fear"
+      ],
+      "special2": [
+        "Mind Control"
+      ],
+      "immunities": [
+        "%wound%",
+        "%poison%",
+        "%stun%",
+        "%disarm%",
+        "%curse%"
+      ],
+      "notes": ""
+    }
+  },
+  {
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "boss": {
+      "health": "14xC",
+      "move": 3,
+      "attack": 6,
+      "range": 4,
+      "special1": [
+        "Summon Giant Viper and Fear"
+      ],
+      "special2": [
+        "Mind Control"
+      ],
+      "immunities": [
+        "%wound%",
+        "%poison%",
+        "%stun%",
+        "%disarm%",
+        "%curse%"
+      ],
+      "notes": ""
+    }
+  },
+  {
+    "orientation": [
+      0,
+      270,
+      0
+    ],
+    "boss": {
+      "health": "16xC",
+      "move": 4,
+      "attack": 7,
+      "range": 4,
+      "special1": [
+        "Summon Giant Viper and Fear"
+      ],
+      "special2": [
+        "Mind Control"
+      ],
+      "immunities": [
+        "%wound%",
+        "%poison%",
+        "%stun%",
+        "%disarm%",
+        "%curse%"
+      ],
+      "notes": ""
+    }
+  },
+  {
+    "orientation": [
+      0,
+      180,
+      180
+    ],
+    "boss": {
+      "health": "18xC",
+      "move": 4,
+      "attack": 8,
+      "range": 4,
+      "special1": [
+        "Summon Giant Viper and Fear"
+      ],
+      "special2": [
+        "Mind Control"
+      ],
+      "immunities": [
+        "%wound%",
+        "%poison%",
+        "%stun%",
+        "%disarm%",
+        "%curse%"
+      ],
+      "notes": ""
+    }
+  },
+  {
+    "orientation": [
+      0,
+      90,
+      180
+    ],
+    "boss": {
+      "health": "20xC",
+      "move": 5,
+      "attack": 8,
+      "range": 5,
+      "special1": [
+        "Summon Giant Viper and Fear"
+      ],
+      "special2": [
+        "Mind Control"
+      ],
+      "immunities": [
+        "%wound%",
+        "%poison%",
+        "%stun%",
+        "%disarm%",
+        "%curse%"
+      ],
+      "notes": ""
+    }
+  },
+  {
+    "orientation": [
+      0,
+      0,
+      180
+    ],
+    "boss": {
+      "health": "23xC",
+      "move": 5,
+      "attack": 9,
+      "range": 5,
+      "special1": [
+        "Summon Giant Viper and Fear"
+      ],
+      "special2": [
+        "Mind Control"
+      ],
+      "immunities": [
+        "%wound%",
+        "%poison%",
+        "%stun%",
+        "%disarm%",
+        "%curse%"
+      ],
+      "notes": ""
+    }
+  },
+  {
+    "orientation": [
+      0,
+      270,
+      180
+    ],
+    "boss": {
+      "health": "27xC",
+      "move": 5,
+      "attack": 9,
+      "range": 5,
+      "special1": [
+        "Summon Giant Viper and Fear"
+      ],
+      "special2": [
+        "Mind Control"
+      ],
+      "immunities": [
+        "%wound%",
+        "%poison%",
+        "%stun%",
+        "%disarm%",
+        "%curse%"
+      ],
+      "notes": ""
+    }
+  }
+]

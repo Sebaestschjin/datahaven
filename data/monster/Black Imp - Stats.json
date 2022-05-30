@@ -1,0 +1,182 @@
+[
+  {
+    "orientation": [
+      0,
+      90,
+      0
+    ],
+    "normal": {
+      "health": 4,
+      "move": 1,
+      "attack": 1,
+      "range": 3,
+      "attributes": [
+        "%poison%"
+      ]
+    },
+    "elite": {
+      "health": 6,
+      "move": 1,
+      "attack": 2,
+      "range": 3,
+      "attributes": [
+        "%poison%"
+      ]
+    }
+  },
+  {
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "normal": {
+      "health": 5,
+      "move": 1,
+      "attack": 1,
+      "range": 4,
+      "attributes": [
+        "%poison%"
+      ]
+    },
+    "elite": {
+      "health": 8,
+      "move": 1,
+      "attack": 2,
+      "range": 4,
+      "attributes": [
+        "%poison%"
+      ]
+    }
+  },
+  {
+    "orientation": [
+      0,
+      270,
+      0
+    ],
+    "normal": {
+      "health": 5,
+      "move": 1,
+      "attack": 2,
+      "range": 4,
+      "attributes": [
+        "%poison%"
+      ]
+    },
+    "elite": {
+      "health": 8,
+      "move": 1,
+      "attack": 3,
+      "range": 4,
+      "attributes": [
+        "Attackers gain Disadvantage",
+        "%poison%"
+      ]
+    }
+  },
+  {
+    "orientation": [
+      0,
+      180,
+      180
+    ],
+    "normal": {
+      "health": 7,
+      "move": 1,
+      "attack": 2,
+      "range": 4,
+      "attributes": [
+        "%poison%"
+      ]
+    },
+    "elite": {
+      "health": 11,
+      "move": 1,
+      "attack": 3,
+      "range": 4,
+      "attributes": [
+        "Attackers gain Disadvantage",
+        "%poison%"
+      ]
+    }
+  },
+  {
+    "orientation": [
+      0,
+      90,
+      180
+    ],
+    "normal": {
+      "health": 9,
+      "move": 1,
+      "attack": 2,
+      "range": 4,
+      "attributes": [
+        "%poison%"
+      ]
+    },
+    "elite": {
+      "health": 12,
+      "move": 1,
+      "attack": 3,
+      "range": 5,
+      "attributes": [
+        "Attackers gain Disadvantage",
+        "%poison%"
+      ]
+    }
+  },
+  {
+    "orientation": [
+      0,
+      0,
+      180
+    ],
+    "normal": {
+      "health": 10,
+      "move": 1,
+      "attack": 3,
+      "range": 4,
+      "attributes": [
+        "%poison%"
+      ]
+    },
+    "elite": {
+      "health": 14,
+      "move": 1,
+      "attack": 4,
+      "range": 5,
+      "attributes": [
+        "Attackers gain Disadvantage",
+        "%poison%"
+      ]
+    }
+  },
+  {
+    "orientation": [
+      0,
+      270,
+      180
+    ],
+    "normal": {
+      "health": 12,
+      "move": 1,
+      "attack": 3,
+      "range": 4,
+      "attributes": [
+        "%poison%"
+      ]
+    },
+    "elite": {
+      "health": 17,
+      "move": 1,
+      "attack": 4,
+      "range": 5,
+      "attributes": [
+        "Attackers gain Disadvantage",
+        "%poison%"
+      ]
+    }
+  }
+]

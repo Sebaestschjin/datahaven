@@ -1,0 +1,186 @@
+[
+  {
+    "orientation": [
+      0,
+      90,
+      0
+    ],
+    "normal": {
+      "health": 9,
+      "move": 3,
+      "attack": 2,
+      "range": 0,
+      "attributes": [
+        "%poison%"
+      ]
+    },
+    "elite": {
+      "health": 15,
+      "move": 3,
+      "attack": 3,
+      "range": 0,
+      "attributes": [
+        "%wound%"
+      ]
+    }
+  },
+  {
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "normal": {
+      "health": 11,
+      "move": 3,
+      "attack": 3,
+      "range": 0,
+      "attributes": [
+        "%poison%"
+      ]
+    },
+    "elite": {
+      "health": 18,
+      "move": 3,
+      "attack": 3,
+      "range": 0,
+      "attributes": [
+        "%poison%",
+        "%wound%"
+      ]
+    }
+  },
+  {
+    "orientation": [
+      0,
+      270,
+      0
+    ],
+    "normal": {
+      "health": 14,
+      "move": 3,
+      "attack": 3,
+      "range": 0,
+      "attributes": [
+        "%poison%"
+      ]
+    },
+    "elite": {
+      "health": 21,
+      "move": 3,
+      "attack": 4,
+      "range": 0,
+      "attributes": [
+        "%poison%",
+        "%wound%"
+      ]
+    }
+  },
+  {
+    "orientation": [
+      0,
+      180,
+      180
+    ],
+    "normal": {
+      "health": 16,
+      "move": 3,
+      "attack": 4,
+      "range": 0,
+      "attributes": [
+        "%poison%"
+      ]
+    },
+    "elite": {
+      "health": 24,
+      "move": 4,
+      "attack": 4,
+      "range": 0,
+      "attributes": [
+        "%poison%",
+        "%wound%"
+      ]
+    }
+  },
+  {
+    "orientation": [
+      0,
+      90,
+      180
+    ],
+    "normal": {
+      "health": 18,
+      "move": 3,
+      "attack": 4,
+      "range": 0,
+      "attributes": [
+        "%poison%",
+        "%wound%"
+      ]
+    },
+    "elite": {
+      "health": 27,
+      "move": 4,
+      "attack": 5,
+      "range": 0,
+      "attributes": [
+        "%poison%",
+        "%wound%"
+      ]
+    }
+  },
+  {
+    "orientation": [
+      0,
+      0,
+      180
+    ],
+    "normal": {
+      "health": 20,
+      "move": 4,
+      "attack": 4,
+      "range": 0,
+      "attributes": [
+        "%poison%",
+        "%wound%"
+      ]
+    },
+    "elite": {
+      "health": 30,
+      "move": 4,
+      "attack": 6,
+      "range": 0,
+      "attributes": [
+        "%poison%",
+        "%wound%"
+      ]
+    }
+  },
+  {
+    "orientation": [
+      0,
+      270,
+      180
+    ],
+    "normal": {
+      "health": 24,
+      "move": 4,
+      "attack": 4,
+      "range": 0,
+      "attributes": [
+        "%poison%",
+        "%wound%"
+      ]
+    },
+    "elite": {
+      "health": 35,
+      "move": 4,
+      "attack": 6,
+      "range": 0,
+      "attributes": [
+        "%poison%",
+        "%wound%"
+      ]
+    }
+  }
+]

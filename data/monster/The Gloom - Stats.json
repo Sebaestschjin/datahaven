@@ -1,0 +1,247 @@
+[
+  {
+    "orientation": [
+      0,
+      90,
+      0
+    ],
+    "boss": {
+      "health": "25xC",
+      "move": 2,
+      "attack": 5,
+      "range": 0,
+      "special1": [
+        "%move% +9",
+        "%attack% +9"
+      ],
+      "special2": [
+        "Teleport",
+        "%attack% +1",
+        "%range% 5",
+        "%poison%",
+        "%wound%",
+        "%stun%"
+      ],
+      "immunities": [
+        "%wound%",
+        "%poison%",
+        "%disarm%",
+        "%immobilize%",
+        "%muddle%",
+        "%stun%",
+        "%curse%"
+      ],
+      "notes": ""
+    }
+  },
+  {
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "boss": {
+      "health": "29xC",
+      "move": 2,
+      "attack": 6,
+      "range": 0,
+      "special1": [
+        "%move% +9",
+        "%attack% +9"
+      ],
+      "special2": [
+        "Teleport",
+        "%attack% +1",
+        "%range% 5",
+        "%poison%",
+        "%wound%",
+        "%stun%"
+      ],
+      "immunities": [
+        "%wound%",
+        "%poison%",
+        "%disarm%",
+        "%immobilize%",
+        "%muddle%",
+        "%stun%",
+        "%curse%"
+      ],
+      "notes": ""
+    }
+  },
+  {
+    "orientation": [
+      0,
+      270,
+      0
+    ],
+    "boss": {
+      "health": "35xC",
+      "move": 2,
+      "attack": 6,
+      "range": 0,
+      "special1": [
+        "%move% +9",
+        "%attack% +9"
+      ],
+      "special2": [
+        "Teleport",
+        "%attack% +1",
+        "%range% 5",
+        "%poison%",
+        "%wound%",
+        "%stun%"
+      ],
+      "immunities": [
+        "%wound%",
+        "%poison%",
+        "%disarm%",
+        "%immobilize%",
+        "%muddle%",
+        "%stun%",
+        "%curse%"
+      ],
+      "notes": ""
+    }
+  },
+  {
+    "orientation": [
+      0,
+      180,
+      180
+    ],
+    "boss": {
+      "health": "39xC",
+      "move": 3,
+      "attack": 7,
+      "range": 0,
+      "special1": [
+        "%move% +9",
+        "%attack% +9"
+      ],
+      "special2": [
+        "Teleport",
+        "%attack% +1",
+        "%range% 5",
+        "%poison%",
+        "%wound%",
+        "%stun%"
+      ],
+      "immunities": [
+        "%wound%",
+        "%poison%",
+        "%disarm%",
+        "%immobilize%",
+        "%muddle%",
+        "%stun%",
+        "%curse%"
+      ],
+      "notes": ""
+    }
+  },
+  {
+    "orientation": [
+      0,
+      90,
+      180
+    ],
+    "boss": {
+      "health": "46xC",
+      "move": 3,
+      "attack": 7,
+      "range": 0,
+      "special1": [
+        "%move% +9",
+        "%attack% +9"
+      ],
+      "special2": [
+        "Teleport",
+        "%attack% +1",
+        "%range% 5",
+        "%poison%",
+        "%wound%",
+        "%stun%"
+      ],
+      "immunities": [
+        "%wound%",
+        "%poison%",
+        "%disarm%",
+        "%immobilize%",
+        "%muddle%",
+        "%stun%",
+        "%curse%"
+      ],
+      "notes": ""
+    }
+  },
+  {
+    "orientation": [
+      0,
+      0,
+      180
+    ],
+    "boss": {
+      "health": "50xC",
+      "move": 3,
+      "attack": 8,
+      "range": 0,
+      "special1": [
+        "%move% +9",
+        "%attack% +9"
+      ],
+      "special2": [
+        "Teleport",
+        "%attack% +1",
+        "%range% 5",
+        "%poison%",
+        "%wound%",
+        "%stun%"
+      ],
+      "immunities": [
+        "%wound%",
+        "%poison%",
+        "%disarm%",
+        "%immobilize%",
+        "%muddle%",
+        "%stun%",
+        "%curse%"
+      ],
+      "notes": ""
+    }
+  },
+  {
+    "orientation": [
+      0,
+      270,
+      180
+    ],
+    "boss": {
+      "health": "56xC",
+      "move": 3,
+      "attack": 9,
+      "range": 0,
+      "special1": [
+        "%move% +9",
+        "%attack% +9"
+      ],
+      "special2": [
+        "Teleport",
+        "%attack% +1",
+        "%range% 5",
+        "%poison%",
+        "%wound%",
+        "%stun%"
+      ],
+      "immunities": [
+        "%wound%",
+        "%poison%",
+        "%disarm%",
+        "%immobilize%",
+        "%muddle%",
+        "%stun%",
+        "%curse%"
+      ],
+      "notes": ""
+    }
+  }
+]

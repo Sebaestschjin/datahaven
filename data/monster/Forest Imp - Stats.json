@@ -1,0 +1,200 @@
+[
+  {
+    "orientation": [
+      0,
+      90,
+      0
+    ],
+    "normal": {
+      "health": 2,
+      "move": 3,
+      "attack": 1,
+      "range": 3,
+      "attributes": [
+        "%flying%",
+        "%shield% 1"
+      ]
+    },
+    "elite": {
+      "health": 5,
+      "move": 3,
+      "attack": 2,
+      "range": 3,
+      "attributes": [
+        "%flying%",
+        "%shield% 1"
+      ]
+    }
+  },
+  {
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "normal": {
+      "health": 2,
+      "move": 3,
+      "attack": 2,
+      "range": 3,
+      "attributes": [
+        "%flying%",
+        "%shield% 1"
+      ]
+    },
+    "elite": {
+      "health": 6,
+      "move": 3,
+      "attack": 2,
+      "range": 3,
+      "attributes": [
+        "%flying%",
+        "%curse%",
+        "%shield% 1"
+      ]
+    }
+  },
+  {
+    "orientation": [
+      0,
+      270,
+      0
+    ],
+    "normal": {
+      "health": 3,
+      "move": 4,
+      "attack": 2,
+      "range": 4,
+      "attributes": [
+        "%flying%",
+        "%shield% 1"
+      ]
+    },
+    "elite": {
+      "health": 7,
+      "move": 4,
+      "attack": 2,
+      "range": 4,
+      "attributes": [
+        "%flying%",
+        "%curse%",
+        "%shield% 1"
+      ]
+    }
+  },
+  {
+    "orientation": [
+      0,
+      180,
+      180
+    ],
+    "normal": {
+      "health": 3,
+      "move": 4,
+      "attack": 2,
+      "range": 4,
+      "attributes": [
+        "%flying%",
+        "%shield% 2"
+      ]
+    },
+    "elite": {
+      "health": 7,
+      "move": 4,
+      "attack": 2,
+      "range": 4,
+      "attributes": [
+        "%flying%",
+        "%curse%",
+        "%shield% 2"
+      ]
+    }
+  },
+  {
+    "orientation": [
+      0,
+      90,
+      180
+    ],
+    "normal": {
+      "health": 4,
+      "move": 4,
+      "attack": 2,
+      "range": 4,
+      "attributes": [
+        "%flying%",
+        "%curse%",
+        "%shield% 2"
+      ]
+    },
+    "elite": {
+      "health": 8,
+      "move": 4,
+      "attack": 3,
+      "range": 4,
+      "attributes": [
+        "%flying%",
+        "%curse%",
+        "%shield% 2"
+      ]
+    }
+  },
+  {
+    "orientation": [
+      0,
+      0,
+      180
+    ],
+    "normal": {
+      "health": 4,
+      "move": 4,
+      "attack": 3,
+      "range": 4,
+      "attributes": [
+        "%flying%",
+        "%curse%",
+        "%shield% 2"
+      ]
+    },
+    "elite": {
+      "health": 9,
+      "move": 4,
+      "attack": 4,
+      "range": 4,
+      "attributes": [
+        "%flying%",
+        "%curse%",
+        "%shield% 2"
+      ]
+    }
+  },
+  {
+    "orientation": [
+      0,
+      270,
+      180
+    ],
+    "normal": {
+      "health": 6,
+      "move": 4,
+      "attack": 3,
+      "range": 4,
+      "attributes": [
+        "%flying%",
+        "%curse%",
+        "%shield% 2"
+      ]
+    },
+    "elite": {
+      "health": 11,
+      "move": 4,
+      "attack": 4,
+      "range": 4,
+      "attributes": [
+        "%flying%",
+        "%curse%",
+        "%shield% 2"
+      ]
+    }
+  }
+]

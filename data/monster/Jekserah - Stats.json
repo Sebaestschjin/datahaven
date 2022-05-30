@@ -1,0 +1,205 @@
+[
+  {
+    "orientation": [
+      0,
+      90,
+      0
+    ],
+    "boss": {
+      "health": "7xC",
+      "move": 2,
+      "attack": 3,
+      "range": 0,
+      "special1": [
+        "Summon Living Bones",
+        "%attack% -1, Target all adjacent enemies"
+      ],
+      "special2": [
+        "Summon Living Corpse",
+        "%move% -1",
+        "%attack% +2"
+      ],
+      "immunities": [
+        "%disarm%",
+        "%wound%",
+        "%curse%",
+        "%stun%"
+      ],
+      "notes": ""
+    }
+  },
+  {
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "boss": {
+      "health": "9xC",
+      "move": 3,
+      "attack": 3,
+      "range": 0,
+      "special1": [
+        "Summon Living Bones",
+        "%attack% -1, Target all adjacent enemies"
+      ],
+      "special2": [
+        "Summon Living Corpse",
+        "%move% -1",
+        "%attack% +2"
+      ],
+      "immunities": [
+        "%disarm%",
+        "%wound%",
+        "%curse%",
+        "%stun%"
+      ],
+      "notes": ""
+    }
+  },
+  {
+    "orientation": [
+      0,
+      270,
+      0
+    ],
+    "boss": {
+      "health": "12xC",
+      "move": 4,
+      "attack": 4,
+      "range": 0,
+      "special1": [
+        "Summon Living Bones",
+        "%attack% -1, Target all adjacent enemies"
+      ],
+      "special2": [
+        "Summon Living Corpse",
+        "%move% -1",
+        "%attack% +2"
+      ],
+      "immunities": [
+        "%disarm%",
+        "%wound%",
+        "%curse%",
+        "%stun%"
+      ],
+      "notes": ""
+    }
+  },
+  {
+    "orientation": [
+      0,
+      180,
+      180
+    ],
+    "boss": {
+      "health": "13xC",
+      "move": 4,
+      "attack": 5,
+      "range": 0,
+      "special1": [
+        "Summon Living Bones",
+        "%attack% -1, Target all adjacent enemies"
+      ],
+      "special2": [
+        "Summon Living Corpse",
+        "%move% -1",
+        "%attack% +2"
+      ],
+      "immunities": [
+        "%disarm%",
+        "%wound%",
+        "%curse%",
+        "%stun%"
+      ],
+      "notes": ""
+    }
+  },
+  {
+    "orientation": [
+      0,
+      90,
+      180
+    ],
+    "boss": {
+      "health": "15xC",
+      "move": 5,
+      "attack": 5,
+      "range": 0,
+      "special1": [
+        "Summon Living Bones",
+        "%attack% -1, Target all adjacent enemies"
+      ],
+      "special2": [
+        "Summon Living Corpse",
+        "%move% -1",
+        "%attack% +2"
+      ],
+      "immunities": [
+        "%disarm%",
+        "%wound%",
+        "%curse%",
+        "%stun%"
+      ],
+      "notes": ""
+    }
+  },
+  {
+    "orientation": [
+      0,
+      0,
+      180
+    ],
+    "boss": {
+      "health": "18xC",
+      "move": 5,
+      "attack": 5,
+      "range": 0,
+      "special1": [
+        "Summon Living Bones",
+        "%attack% -1, Target all adjacent enemies"
+      ],
+      "special2": [
+        "Summon Living Corpse",
+        "%move% -1",
+        "%attack% +2"
+      ],
+      "immunities": [
+        "%disarm%",
+        "%wound%",
+        "%curse%",
+        "%stun%"
+      ],
+      "notes": ""
+    }
+  },
+  {
+    "orientation": [
+      0,
+      270,
+      180
+    ],
+    "boss": {
+      "health": "22xC",
+      "move": 5,
+      "attack": 5,
+      "range": 0,
+      "special1": [
+        "Summon Living Bones",
+        "%attack% -1, Target all adjacent enemies"
+      ],
+      "special2": [
+        "Summon Living Corpse",
+        "%move% -1",
+        "%attack% +2"
+      ],
+      "immunities": [
+        "%disarm%",
+        "%wound%",
+        "%curse%",
+        "%stun%"
+      ],
+      "notes": ""
+    }
+  }
+]

@@ -1,0 +1,205 @@
+[
+  {
+    "orientation": [
+      0,
+      90,
+      0
+    ],
+    "boss": {
+      "health": "7xC",
+      "move": 2,
+      "attack": "1+C",
+      "range": 0,
+      "special1": [
+        "%move% -1",
+        "%attack% -1 %boss-aoe-inox-bodyguard-sp1%"
+      ],
+      "special2": [
+        "%move% +0",
+        "%attack% +0",
+        "%retaliate% 3"
+      ],
+      "immunities": [
+        "%disarm%",
+        "%poison%",
+        "%muddle%",
+        "%stun%"
+      ],
+      "notes": "C = Number of Characters"
+    }
+  },
+  {
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "boss": {
+      "health": "9xC",
+      "move": 2,
+      "attack": "1+C",
+      "range": 0,
+      "special1": [
+        "%move% -1",
+        "%attack% -1 %boss-aoe-inox-bodyguard-sp1%"
+      ],
+      "special2": [
+        "%move% +0",
+        "%attack% +0",
+        "%retaliate% 3"
+      ],
+      "immunities": [
+        "%disarm%",
+        "%poison%",
+        "%muddle%",
+        "%stun%"
+      ],
+      "notes": "C = Number of Characters"
+    }
+  },
+  {
+    "orientation": [
+      0,
+      270,
+      0
+    ],
+    "boss": {
+      "health": "10xC",
+      "move": 3,
+      "attack": "2+C",
+      "range": 0,
+      "special1": [
+        "%move% -1",
+        "%attack% -1 %boss-aoe-inox-bodyguard-sp1%"
+      ],
+      "special2": [
+        "%move% +0",
+        "%attack% +0",
+        "%retaliate% 4"
+      ],
+      "immunities": [
+        "%disarm%",
+        "%poison%",
+        "%muddle%",
+        "%stun%"
+      ],
+      "notes": "C = Number of Characters"
+    }
+  },
+  {
+    "orientation": [
+      0,
+      180,
+      180
+    ],
+    "boss": {
+      "health": "11xC",
+      "move": 3,
+      "attack": "2+C",
+      "range": 0,
+      "special1": [
+        "%move% -1",
+        "%attack% -1 %boss-aoe-inox-bodyguard-sp1%"
+      ],
+      "special2": [
+        "%move% +0",
+        "%attack% +0",
+        "%retaliate% 4"
+      ],
+      "immunities": [
+        "%disarm%",
+        "%poison%",
+        "%muddle%",
+        "%stun%"
+      ],
+      "notes": "C = Number of Characters"
+    }
+  },
+  {
+    "orientation": [
+      0,
+      90,
+      180
+    ],
+    "boss": {
+      "health": "13xC",
+      "move": 3,
+      "attack": "3+C",
+      "range": 0,
+      "special1": [
+        "%move% -1",
+        "%attack% -1 %boss-aoe-inox-bodyguard-sp1%"
+      ],
+      "special2": [
+        "%move% +0",
+        "%attack% +0",
+        "%retaliate% 5"
+      ],
+      "immunities": [
+        "%disarm%",
+        "%poison%",
+        "%muddle%",
+        "%stun%"
+      ],
+      "notes": "C = Number of Characters"
+    }
+  },
+  {
+    "orientation": [
+      0,
+      0,
+      180
+    ],
+    "boss": {
+      "health": "15xC",
+      "move": 4,
+      "attack": "3+C",
+      "range": 0,
+      "special1": [
+        "%move% -1",
+        "%attack% -1 %boss-aoe-inox-bodyguard-sp1%"
+      ],
+      "special2": [
+        "%move% +0",
+        "%attack% +0",
+        "%retaliate% 5"
+      ],
+      "immunities": [
+        "%disarm%",
+        "%poison%",
+        "%muddle%",
+        "%stun%"
+      ],
+      "notes": "C = Number of Characters"
+    }
+  },
+  {
+    "orientation": [
+      0,
+      270,
+      180
+    ],
+    "boss": {
+      "health": "17xC",
+      "move": 4,
+      "attack": "4+C",
+      "range": 0,
+      "special1": [
+        "%move% -1",
+        "%attack% -1 %boss-aoe-inox-bodyguard-sp1%"
+      ],
+      "special2": [
+        "%move% +0",
+        "%attack% +0",
+        "%retaliate% 5"
+      ],
+      "immunities": [
+        "%disarm%",
+        "%poison%",
+        "%muddle%",
+        "%stun%"
+      ],
+      "notes": "C = Number of Characters"
+    }
+  }
+]

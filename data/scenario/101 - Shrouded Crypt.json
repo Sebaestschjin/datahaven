@@ -1,0 +1,1490 @@
+{
+  "name": "Shrouded Crypt",
+  "scenarioPages": [
+    {
+      "image": "http://cloud-3.steamusercontent.com/ugc/1014941430736134182/C2150000ECD34CFD33D3304A14FD21CEFADDF2EF/"
+    }
+  ],
+  "scenarioConclusions": [
+    {
+      "image": "http://cloud-3.steamusercontent.com/ugc/1752439086837787213/A3FBB697D74AD9D1F993C5CA9B68989C91688E69/",
+      "scale": [
+        1.7,
+        1,
+        1.7
+      ]
+    }
+  ],
+  "gridType": 1,
+  "doorTiles": [
+    {
+      "name": "Stone Door Vertical",
+      "tiles": [
+        {
+          "rooms": [
+            1
+          ],
+          "position": [
+            2.63,
+            1.77,
+            6.06
+          ],
+          "rotation": [
+            0.23,
+            0.03,
+            0
+          ],
+          "tokens": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dark Fog",
+      "tiles": [
+        {
+          "rooms": [
+            2,
+            3
+          ],
+          "position": [
+            9.2,
+            1.88,
+            8.33
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "tokens": [
+            "2"
+          ]
+        },
+        {
+          "rooms": [
+            3,
+            4
+          ],
+          "position": [
+            3.94,
+            1.88,
+            8.33
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "tokens": [
+            "3"
+          ]
+        },
+        {
+          "rooms": [
+            3,
+            4
+          ],
+          "position": [
+            3.94,
+            1.88,
+            9.85
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "tokens": [
+            "3"
+          ]
+        },
+        {
+          "rooms": [
+            3,
+            4
+          ],
+          "position": [
+            3.93,
+            1.88,
+            6.82
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "tokens": [
+            "3"
+          ]
+        },
+        {
+          "rooms": [
+            4,
+            5
+          ],
+          "position": [
+            -1.31,
+            1.88,
+            9.85
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "tokens": [
+            "4"
+          ]
+        },
+        {
+          "rooms": [
+            4,
+            5
+          ],
+          "position": [
+            -1.32,
+            1.88,
+            11.37
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "tokens": [
+            "4"
+          ]
+        },
+        {
+          "rooms": [
+            4,
+            5
+          ],
+          "position": [
+            -2.63,
+            1.88,
+            9.1
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "tokens": [
+            "4"
+          ]
+        }
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "mapTiles": [
+        {
+          "tile": "D1",
+          "position": [
+            -10.5,
+            1.65,
+            1.52
+          ],
+          "rotation": [
+            0,
+            90,
+            180
+          ]
+        },
+        {
+          "tile": "H3",
+          "position": [
+            0,
+            1.65,
+            1.52
+          ],
+          "rotation": [
+            0,
+            180,
+            0
+          ]
+        }
+      ],
+      "startTiles": {
+        "name": "Stone Corridor 1",
+        "tiles": [
+          {
+            "position": [
+              -13.13,
+              1.88,
+              3.03
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "position": [
+              -13.14,
+              1.88,
+              1.52
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "position": [
+              -11.81,
+              1.88,
+              3.79
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "position": [
+              -11.8,
+              1.88,
+              2.31
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      "overlayTiles": [
+        {
+          "bag": 1,
+          "type": [
+            {
+              "name": "Earth Corridor 1",
+              "tiles": [
+                {
+                  "position": [
+                    -6.57,
+                    1.77,
+                    -0.74
+                  ],
+                  "rotation": [
+                    0,
+                    359.38,
+                    180
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Man Stone Corridor 1",
+              "tiles": [
+                {
+                  "position": [
+                    0,
+                    1.77,
+                    -1.52
+                  ],
+                  "rotation": [
+                    359.95,
+                    0.01,
+                    180
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Man Stone Corridor 2",
+              "tiles": [
+                {
+                  "position": [
+                    0.01,
+                    1.88,
+                    3.04
+                  ],
+                  "rotation": [
+                    0.02,
+                    60,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Pressure Plate",
+              "tiles": [
+                {
+                  "position": [
+                    2.63,
+                    1.88,
+                    -1.52
+                  ],
+                  "rotation": [
+                    0.23,
+                    0.03,
+                    0
+                  ],
+                  "tokens": [
+                    "d"
+                  ],
+                  "action": {
+                    "rooms": [
+                      2
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 3,
+          "type": [
+            {
+              "name": "Thorns",
+              "tiles": [
+                {
+                  "position": [
+                    -10.5,
+                    1.88,
+                    1.52
+                  ],
+                  "rotation": [
+                    0,
+                    120,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -9.19,
+                    1.88,
+                    0.76
+                  ],
+                  "rotation": [
+                    0,
+                    120,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -7.87,
+                    1.88,
+                    1.52
+                  ],
+                  "rotation": [
+                    0,
+                    120,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -7.87,
+                    1.88,
+                    3.03
+                  ],
+                  "rotation": [
+                    0,
+                    120,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 7,
+          "type": [
+            {
+              "name": "Spike Trap",
+              "statuses": [
+                "Damage"
+              ],
+              "tiles": [
+                {
+                  "position": [
+                    -3.94,
+                    1.88,
+                    2.29
+                  ],
+                  "rotation": [
+                    0,
+                    179.98,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -1.31,
+                    1.88,
+                    -0.76
+                  ],
+                  "rotation": [
+                    0,
+                    179.98,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 2,
+          "type": [
+            {
+              "name": "Water 1",
+              "tiles": [
+                {
+                  "position": [
+                    -10.5,
+                    1.88,
+                    3.03
+                  ],
+                  "rotation": [
+                    0,
+                    179.98,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -9.19,
+                    1.88,
+                    -0.76
+                  ],
+                  "rotation": [
+                    0,
+                    179.98,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -7.87,
+                    1.88,
+                    0
+                  ],
+                  "rotation": [
+                    0,
+                    179.98,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    1.31,
+                    1.88,
+                    -0.76
+                  ],
+                  "rotation": [
+                    0,
+                    179.98,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Log",
+              "tiles": [
+                {
+                  "position": [
+                    -11.81,
+                    1.88,
+                    0.76
+                  ],
+                  "rotation": [
+                    0,
+                    239.98,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -6.56,
+                    1.88,
+                    0.76
+                  ],
+                  "rotation": [
+                    0,
+                    359.92,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Wall Section",
+              "tiles": [
+                {
+                  "position": [
+                    0,
+                    1.88,
+                    0
+                  ],
+                  "rotation": [
+                    359.99,
+                    0.02,
+                    359.97
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Boulder",
+              "tiles": [
+                {
+                  "position": [
+                    -10.5,
+                    1.88,
+                    4.55
+                  ],
+                  "rotation": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    2.63,
+                    1.88,
+                    0
+                  ],
+                  "rotation": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "tokens": [
+                    "c"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Nest",
+              "tiles": [
+                {
+                  "position": [
+                    1.31,
+                    1.88,
+                    5.3
+                  ],
+                  "rotation": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    1.31,
+                    1.88,
+                    -3.79
+                  ],
+                  "rotation": [
+                    0,
+                    0,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": [
+            {
+              "name": "Coin 1",
+              "tiles": [
+                {
+                  "position": [
+                    1.31,
+                    3.37,
+                    5.3
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    1.31,
+                    3.37,
+                    -3.79
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": [
+            {
+              "name": "Scenario Aid Token",
+              "tiles": [
+                {
+                  "name": "a",
+                  "position": [
+                    1.31,
+                    1.88,
+                    3.79
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ]
+                },
+                {
+                  "name": "b",
+                  "position": [
+                    1.31,
+                    1.77,
+                    -2.27
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ]
+                },
+                {
+                  "name": "k",
+                  "position": [
+                    2.63,
+                    1.77,
+                    1.52
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ]
+                },
+                {
+                  "name": "m",
+                  "position": [
+                    -2.62,
+                    1.77,
+                    1.52
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Rending Drake",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": [
+                -9.19,
+                1.77,
+                3.79
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                -5.25,
+                1.77,
+                0
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                -1.31,
+                1.77,
+                0.76
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Spitting Drake",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": [
+                2.63,
+                1.77,
+                4.55
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                2.63,
+                1.77,
+                -3.03
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "J2",
+          "position": [
+            11.81,
+            1.65,
+            9.85
+          ],
+          "rotation": [
+            0,
+            359.98,
+            180
+          ]
+        }
+      ],
+      "scenarioSections": [
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086837787702/2641723B73F55F7D77219021C471069EAC8C2921/",
+          "position": [
+            22.31,
+            1.75,
+            12.88
+          ],
+          "scale": [
+            1.8,
+            1,
+            1.8
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 10,
+          "type": [
+            {
+              "name": "Dark Corridor",
+              "tiles": [
+                {
+                  "position": [
+                    3.94,
+                    1.88,
+                    0.76
+                  ],
+                  "rotation": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    5.26,
+                    1.88,
+                    1.51
+                  ],
+                  "rotation": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    6.56,
+                    1.88,
+                    2.27
+                  ],
+                  "rotation": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    7.87,
+                    1.88,
+                    3.03
+                  ],
+                  "rotation": [
+                    0,
+                    0,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Rock Column",
+              "tiles": [
+                {
+                  "position": [
+                    11.81,
+                    1.88,
+                    5.3
+                  ],
+                  "rotation": [
+                    0,
+                    120,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Barrel",
+              "tiles": [
+                {
+                  "position": [
+                    10.5,
+                    2.02,
+                    6.06
+                  ],
+                  "rotation": [
+                    0,
+                    120,
+                    0
+                  ],
+                  "tokens": [
+                    "f"
+                  ]
+                },
+                {
+                  "position": [
+                    13.12,
+                    2.02,
+                    6.06
+                  ],
+                  "rotation": [
+                    0,
+                    120,
+                    0
+                  ],
+                  "tokens": [
+                    "f"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 2,
+          "type": [
+            {
+              "name": "Water 1",
+              "tiles": [
+                {
+                  "position": [
+                    9.19,
+                    1.88,
+                    3.79
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    13.12,
+                    1.88,
+                    6.06
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Water 2",
+              "tiles": [
+                {
+                  "position": [
+                    9.19,
+                    1.88,
+                    5.3
+                  ],
+                  "rotation": [
+                    0,
+                    60,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    10.5,
+                    1.88,
+                    7.58
+                  ],
+                  "rotation": [
+                    0,
+                    60,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    14.44,
+                    1.88,
+                    6.82
+                  ],
+                  "rotation": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    14.44,
+                    1.88,
+                    11.37
+                  ],
+                  "rotation": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    15.75,
+                    1.88,
+                    13.64
+                  ],
+                  "rotation": [
+                    0,
+                    0,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Water 3",
+              "tiles": [
+                {
+                  "position": [
+                    14.44,
+                    1.88,
+                    9.85
+                  ],
+                  "rotation": [
+                    0,
+                    240,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": [
+            {
+              "name": "Coin 1",
+              "tiles": [
+                {
+                  "position": [
+                    14.42,
+                    1.83,
+                    14.41
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    13.11,
+                    1.83,
+                    13.65
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 8,
+          "type": [
+            {
+              "name": "Treasure Chest Vertical",
+              "tiles": [
+                {
+                  "position": [
+                    13.12,
+                    1.88,
+                    15.16
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ],
+                  "action": {
+                    "treasure": 93
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": [
+            {
+              "name": "Scenario Aid Token",
+              "tiles": [
+                {
+                  "name": "g",
+                  "position": [
+                    15.75,
+                    1.9,
+                    15.16
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Living Bones",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": [
+                7.88,
+                1.77,
+                6.06
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                10.5,
+                1.77,
+                4.55
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Living Corpse",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": [
+                13.12,
+                1.77,
+                7.58
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                15.75,
+                1.77,
+                9.09
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                13.13,
+                1.77,
+                12.12
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "J1",
+          "position": [
+            2.63,
+            1.65,
+            10.61
+          ],
+          "rotation": [
+            0,
+            59.99,
+            180
+          ]
+        }
+      ],
+      "scenarioSections": [
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086837880360/F983BF10936C5791605D4A3A66682A41CD9A000D/",
+          "position": [
+            10.06,
+            1.75,
+            18.94
+          ],
+          "scale": [
+            1.5,
+            1,
+            1.5
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Living Spirit",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": [
+                5.25,
+                1.77,
+                10.61
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                7.87,
+                1.77,
+                12.11
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Night Demon",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": [
+                6.56,
+                1.77,
+                8.34
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "A1",
+          "position": [
+            -4.42,
+            1.47,
+            15.15
+          ],
+          "rotation": [
+            0,
+            269.96,
+            178.21
+          ]
+        }
+      ],
+      "scenarioSections": [
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086838273992/34AD24FDE3E22B60BCAFA654AA1D9D3628163792/",
+          "position": [
+            0,
+            1.75,
+            18.19
+          ],
+          "scale": [
+            1.6,
+            1,
+            1.6
+          ]
+        },
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086837884723/88B058145F5B6ACA58C827CB428439B0775AF405/",
+          "position": [
+            -14,
+            1.75,
+            12.12
+          ],
+          "scale": [
+            1.5,
+            1,
+            1.5
+          ],
+          "hidden": true,
+          "buttonLabel": "Section 93"
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Boulder",
+              "tiles": [
+                {
+                  "position": [
+                    1.31,
+                    1.88,
+                    8.34
+                  ],
+                  "rotation": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "tokens": [
+                    "h"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 1,
+          "type": [
+            {
+              "name": "Pressure Plate",
+              "tiles": [
+                {
+                  "position": [
+                    0.01,
+                    1.88,
+                    9.09
+                  ],
+                  "rotation": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "tokens": [
+                    "i"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Living Spirit",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": [
+                1.31,
+                1.77,
+                9.85
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                0,
+                1.77,
+                7.58
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Night Demon",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": [
+                1.31,
+                1.77,
+                6.82
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "A2",
+          "position": [
+            -4.42,
+            1.47,
+            15.15
+          ],
+          "rotation": [
+            0,
+            269.96,
+            178.21
+          ]
+        }
+      ],
+      "scenarioSections": [
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086837781928/572A3311819F902BE7E08C622D0A42CD62B88967/",
+          "position": [
+            -7.88,
+            1.75,
+            13.64
+          ],
+          "scale": [
+            1.5,
+            1,
+            1.5
+          ],
+          "hidden": true,
+          "buttonLabel": "Section 41"
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Altar Horizontal",
+              "tiles": [
+                {
+                  "position": [
+                    -2.63,
+                    1.88,
+                    10.61
+                  ],
+                  "rotation": [
+                    0,
+                    300,
+                    0
+                  ],
+                  "tokens": [
+                    "j"
+                  ],
+                  "hp": [
+                    "+",
+                    20,
+                    "L",
+                    [
+                      "*",
+                      2,
+                      "C"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 2,
+          "type": [
+            {
+              "name": "TriggerPP",
+              "tiles": [
+                {
+                  "position": [
+                    -5.25,
+                    1.65,
+                    12.12
+                  ],
+                  "rotation": [
+                    0,
+                    300,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Living Spirit",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": [
+                -2.63,
+                1.77,
+                12.12
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Night Demon",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": [
+                -3.94,
+                1.77,
+                9.85
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "monsterList": [
+    "Rending Drake",
+    "Spitting Drake",
+    "Living Bones",
+    "Living Corpse",
+    "Living Spirit",
+    "Night Demon"
+  ]
+}

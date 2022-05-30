@@ -1,0 +1,420 @@
+{
+  "name": "Realm of the Voice",
+  "scenarioPages": [
+    {
+      "image": "http://cloud-3.steamusercontent.com/ugc/931553965084833848/4C7B508EB132261B93922C3F797CD624B98C3D62/"
+    }
+  ],
+  "gridType": 1,
+  "rooms": [
+    {
+      "mapTiles": [
+        {
+          "tile": "J1",
+          "position": {
+            "x": 5.25,
+            "y": 1.700495,
+            "z": -7e-06
+          },
+          "rotation": {
+            "x": 0.000284,
+            "y": 359.992828,
+            "z": 180.000778
+          }
+        },
+        {
+          "tile": "J2",
+          "position": {
+            "x": -5.249997,
+            "y": 1.700464,
+            "z": -1e-06
+          },
+          "rotation": {
+            "x": -0.00203,
+            "y": 120.015923,
+            "z": 179.999176
+          }
+        },
+        {
+          "tile": "L2",
+          "position": {
+            "x": -1.5e-05,
+            "y": -3.775538,
+            "z": 6.062183
+          },
+          "rotation": {
+            "x": -0.000457,
+            "y": 180.008484,
+            "z": -0.000803
+          }
+        }
+      ],
+      "startTiles": {
+        "name": "Stone Corridor 1",
+        "tiles": [
+          {
+            "position": {
+              "x": -1.312534,
+              "y": 1.933949,
+              "z": 5.304405
+            },
+            "rotation": {
+              "x": 0.000458,
+              "y": 4.5e-05,
+              "z": 0.0008
+            }
+          },
+          {
+            "position": {
+              "x": -1.3125,
+              "y": 1.933961,
+              "z": 3.78886
+            },
+            "rotation": {
+              "x": 0.000459,
+              "y": 8.8e-05,
+              "z": 0.000802
+            }
+          },
+          {
+            "position": {
+              "x": 0,
+              "y": 1.933974,
+              "z": 4.546633
+            },
+            "rotation": {
+              "x": 0.000454,
+              "y": 7.3e-05,
+              "z": 0.000801
+            }
+          },
+          {
+            "position": {
+              "x": 1.3125,
+              "y": 1.933986,
+              "z": 5.304406
+            },
+            "rotation": {
+              "x": 0.00046,
+              "y": 8.4e-05,
+              "z": 0.000805
+            }
+          },
+          {
+            "position": {
+              "x": 1.3125,
+              "y": 1.933998,
+              "z": 3.788859
+            },
+            "rotation": {
+              "x": 0.000454,
+              "y": 0.000143,
+              "z": 0.000802
+            }
+          }
+        ]
+      },
+      "overlayTiles": [
+        {
+          "bag": 1,
+          "type": [
+            {
+              "name": "Stone Corridor 2",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -5.25,
+                    "y": 1.934466,
+                    "z": 3.031088
+                  },
+                  "rotation": {
+                    "x": -0.001018,
+                    "y": 359.985809,
+                    "z": 359.980072
+                  }
+                },
+                {
+                  "position": {
+                    "x": 5.249928,
+                    "y": 1.93448,
+                    "z": 3.031094
+                  },
+                  "rotation": {
+                    "x": 0.000246,
+                    "y": 0.017869,
+                    "z": 0.01668
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Altar Horizontal",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -2.625,
+                    "y": 1.931032,
+                    "z": 4.546633
+                  },
+                  "rotation": {
+                    "x": 0.000456,
+                    "y": 359.976227,
+                    "z": 0.0008
+                  }
+                },
+                {
+                  "position": {
+                    "x": 2.625,
+                    "y": 1.931105,
+                    "z": 4.546633
+                  },
+                  "rotation": {
+                    "x": 0.000456,
+                    "y": 359.976196,
+                    "z": 0.000804
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 8,
+          "type": [
+            {
+              "name": "Treasure Chest Vertical",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -9.187499,
+                    "y": 1.931582,
+                    "z": 5.304405
+                  },
+                  "rotation": {
+                    "x": -0.000297,
+                    "y": 180.018097,
+                    "z": -0.002175
+                  },
+                  "params": {
+                    "buttonTheme": "Treasure",
+                    "buttonLabel": "30"
+                  }
+                },
+                {
+                  "position": {
+                    "x": 9.187527,
+                    "y": 1.931818,
+                    "z": 5.304408
+                  },
+                  "rotation": {
+                    "x": -0.000288,
+                    "y": 180.000702,
+                    "z": -0.000786
+                  },
+                  "params": {
+                    "buttonTheme": "Treasure",
+                    "buttonLabel": "55"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": [
+            {
+              "name": "Scenario Aid Token",
+              "tiles": [
+                {
+                  "name": "1",
+                  "position": [
+                    -3.94,
+                    1.82,
+                    8.34
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ]
+                },
+                {
+                  "name": "2",
+                  "position": [
+                    -2.63,
+                    1.82,
+                    7.58
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ]
+                },
+                {
+                  "name": "3",
+                  "position": [
+                    -1.31,
+                    1.82,
+                    8.34
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ]
+                },
+                {
+                  "name": "4",
+                  "position": [
+                    1.31,
+                    1.82,
+                    8.34
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ]
+                },
+                {
+                  "name": "a",
+                  "position": [
+                    2.63,
+                    1.82,
+                    7.58
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ]
+                },
+                {
+                  "name": "b",
+                  "position": [
+                    3.94,
+                    1.82,
+                    8.34
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Living Spirit",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -6.562536,
+                "y": 2.068434,
+                "z": -3.788878
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -2.624999,
+                "y": 2.06858,
+                "z": -3.031089
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": 2.625007,
+                "y": 2.068475,
+                "z": -3.031089
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": 2.625,
+                "y": 2.06849,
+                "z": -6.062178
+              }
+            }
+          ]
+        },
+        {
+          "name": "Night Demon",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -1.312303,
+                "y": 2.067782,
+                "z": 2.275944
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": 1.3125,
+                "y": 2.067811,
+                "z": 2.273315
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": 6.5625,
+                "y": 2.068532,
+                "z": -3.788862
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -2.625006,
+                "y": 2.068596,
+                "z": -6.062178
+              }
+            }
+          ]
+        },
+        {
+          "name": "Wind Demon",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": {
+                "x": 9.1875,
+                "y": 2.068552,
+                "z": -0.757774
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -9.19,
+                "y": 2.068552,
+                "z": -0.76
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "monsterList": [
+    "Living Spirit",
+    "Night Demon",
+    "Wind Demon"
+  ]
+}

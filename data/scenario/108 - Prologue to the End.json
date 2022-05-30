@@ -1,0 +1,855 @@
+{
+  "name": "Prologue to the End",
+  "scenarioPages": [
+    {
+      "image": "http://cloud-3.steamusercontent.com/ugc/1011564521088398839/A3207F15C58050EBB79B0C36B0BF6C425F9F13CE/"
+    }
+  ],
+  "scenarioConclusions": [
+    {
+      "image": "http://cloud-3.steamusercontent.com/ugc/1752439086837887522/F394E27DAB3F31033FE6F26BFA2F0D8733D3C1ED/",
+      "scale": [
+        1.4,
+        1,
+        1.4
+      ],
+      "buttonLabel": "Reveal Conclusion (104)"
+    },
+    {
+      "image": "http://cloud-3.steamusercontent.com/ugc/1752439086838271499/710E53634DF840C791E457C6977629C80D3B5B87/",
+      "scale": [
+        1.3,
+        1,
+        1.3
+      ],
+      "buttonLabel": "Reveal Conclusion (111)"
+    },
+    {
+      "image": "http://cloud-3.steamusercontent.com/ugc/1752439086838273246/E77B5F7DD7CE3B202440AB81825390897717DA06/",
+      "scale": [
+        1.4,
+        1,
+        1.4
+      ],
+      "buttonLabel": "Reveal Conclusion (120)"
+    }
+  ],
+  "gridType": 1,
+  "rooms": [
+    {
+      "mapTiles": [
+        {
+          "tile": "A4",
+          "position": [
+            -9.19,
+            1.71,
+            3.79
+          ],
+          "rotation": [
+            0,
+            180.06,
+            0
+          ]
+        },
+        {
+          "tile": "L1",
+          "position": [
+            -1.31,
+            7.24,
+            12.88
+          ],
+          "rotation": [
+            0,
+            359.97,
+            180
+          ]
+        },
+        {
+          "tile": "L3",
+          "position": [
+            -1.31,
+            7.24,
+            6.82
+          ],
+          "rotation": [
+            0,
+            180,
+            180
+          ]
+        },
+        {
+          "tile": "N1",
+          "position": [
+            -1.31,
+            1.71,
+            -3.79
+          ],
+          "rotation": [
+            0,
+            179.99,
+            0
+          ]
+        }
+      ],
+      "scenarioSections": [
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086837782792/DE5FC5C37CC5193DE5B74816D7D3FAA64EF37E9A/",
+          "position": [
+            -17.94,
+            1.75,
+            8.34
+          ],
+          "scale": [
+            1.5,
+            1,
+            1.5
+          ],
+          "hidden": true,
+          "buttonLabel": "Section 44"
+        },
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086837780317/566CEE518FB3E857843C0080EABCE01F64747591/",
+          "position": [
+            -17.94,
+            1.75,
+            3.79
+          ],
+          "scale": [
+            1.65,
+            1,
+            1.65
+          ],
+          "hidden": true,
+          "buttonLabel": "Section 37"
+        },
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086837886883/B8E611B2F9072ABA26B2D0F6AC9CDF6C4A294287/",
+          "position": [
+            -17.94,
+            1.75,
+            -0.76
+          ],
+          "scale": [
+            1.5,
+            1,
+            1.5
+          ],
+          "hidden": true,
+          "buttonLabel": "Section 101"
+        }
+      ],
+      "startTiles": {
+        "name": "Stone Corridor 1",
+        "tiles": [
+          {
+            "position": [
+              -9.19,
+              1.89,
+              6.82
+            ],
+            "rotation": [
+              0,
+              59.96,
+              0
+            ]
+          },
+          {
+            "position": [
+              -9.19,
+              1.89,
+              5.3
+            ],
+            "rotation": [
+              0,
+              59.96,
+              0
+            ]
+          },
+          {
+            "position": [
+              -9.18,
+              1.89,
+              3.79
+            ],
+            "rotation": [
+              0,
+              59.96,
+              0
+            ]
+          },
+          {
+            "position": [
+              -9.18,
+              1.89,
+              2.27
+            ],
+            "rotation": [
+              0,
+              59.96,
+              0
+            ]
+          },
+          {
+            "position": [
+              -9.18,
+              1.89,
+              0.76
+            ],
+            "rotation": [
+              0,
+              59.96,
+              0
+            ]
+          }
+        ]
+      },
+      "overlayTiles": [
+        {
+          "bag": 1,
+          "type": [
+            {
+              "name": "Earth Corridor 1",
+              "tiles": [
+                {
+                  "position": [
+                    -1.31,
+                    1.76,
+                    9.85
+                  ],
+                  "rotation": [
+                    0,
+                    359.95,
+                    180
+                  ]
+                },
+                {
+                  "position": [
+                    -2.62,
+                    1.76,
+                    3.03
+                  ],
+                  "rotation": [
+                    0,
+                    0.31,
+                    180
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Earth Corridor 2",
+              "tiles": [
+                {
+                  "position": [
+                    -6.56,
+                    1.89,
+                    6.82
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -6.56,
+                    1.89,
+                    2.27
+                  ],
+                  "rotation": [
+                    0.17,
+                    59.99,
+                    0.01
+                  ]
+                },
+                {
+                  "position": [
+                    -2.63,
+                    1.88,
+                    10.61
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    1.31,
+                    1.88,
+                    9.85
+                  ],
+                  "rotation": [
+                    0,
+                    120,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Stone Corridor 2",
+              "tiles": [
+                {
+                  "position": [
+                    -6.56,
+                    1.89,
+                    0.76
+                  ],
+                  "rotation": [
+                    0.02,
+                    59.88,
+                    359.99
+                  ]
+                },
+                {
+                  "position": [
+                    -2.63,
+                    1.88,
+                    1.52
+                  ],
+                  "rotation": [
+                    0,
+                    59.88,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    0.01,
+                    1.88,
+                    3.03
+                  ],
+                  "rotation": [
+                    359.82,
+                    179.82,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 3,
+          "type": [
+            {
+              "name": "Thorns",
+              "tiles": [
+                {
+                  "position": [
+                    -7.87,
+                    1.88,
+                    4.55
+                  ],
+                  "rotation": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -6.56,
+                    1.88,
+                    3.79
+                  ],
+                  "rotation": [
+                    0,
+                    1.28,
+                    359.99
+                  ]
+                },
+                {
+                  "position": [
+                    -3.94,
+                    1.88,
+                    6.82
+                  ],
+                  "rotation": [
+                    0,
+                    0,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 2,
+          "type": [
+            {
+              "name": "Rubble",
+              "tiles": [
+                {
+                  "position": [
+                    -5.25,
+                    1.88,
+                    -6.06
+                  ],
+                  "rotation": [
+                    0,
+                    359.97,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -3.94,
+                    1.88,
+                    2.25
+                  ],
+                  "rotation": [
+                    0,
+                    357.11,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -3.94,
+                    1.88,
+                    -2.27
+                  ],
+                  "rotation": [
+                    0,
+                    359.97,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -1.31,
+                    1.88,
+                    -2.27
+                  ],
+                  "rotation": [
+                    0,
+                    359.97,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    1.32,
+                    1.88,
+                    0.75
+                  ],
+                  "rotation": [
+                    0,
+                    359.28,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    1.31,
+                    1.88,
+                    -5.3
+                  ],
+                  "rotation": [
+                    0,
+                    359.97,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Log",
+              "tiles": [
+                {
+                  "position": [
+                    0,
+                    1.88,
+                    10.61
+                  ],
+                  "rotation": [
+                    0,
+                    180.39,
+                    359.99
+                  ]
+                },
+                {
+                  "position": [
+                    1.31,
+                    1.88,
+                    5.31
+                  ],
+                  "rotation": [
+                    0,
+                    299.97,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Bush",
+              "tiles": [
+                {
+                  "position": [
+                    -3.94,
+                    1.88,
+                    15.91
+                  ],
+                  "rotation": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -2.63,
+                    1.88,
+                    4.55
+                  ],
+                  "rotation": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    2.62,
+                    1.88,
+                    13.64
+                  ],
+                  "rotation": [
+                    0,
+                    0,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Rock Column",
+              "tiles": [
+                {
+                  "position": [
+                    -2.63,
+                    1.88,
+                    -3.04
+                  ],
+                  "rotation": [
+                    0,
+                    118.59,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    0,
+                    1.88,
+                    -6.06
+                  ],
+                  "rotation": [
+                    0,
+                    118.59,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Tree",
+              "tiles": [
+                {
+                  "position": [
+                    -5.25,
+                    1.88,
+                    9.09
+                  ],
+                  "rotation": [
+                    0,
+                    0.01,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    1.32,
+                    1.88,
+                    2.28
+                  ],
+                  "rotation": [
+                    0,
+                    59.97,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "City Archer",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": [
+                -5.25,
+                1.77,
+                13.64
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                -3.94,
+                1.77,
+                11.37
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                0,
+                1.77,
+                16.67
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                1.31,
+                1.77,
+                14.4
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                1.31,
+                1.77,
+                11.37
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                2.63,
+                1.77,
+                10.61
+              ]
+            }
+          ]
+        },
+        {
+          "name": "City Guard",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": [
+                -5.25,
+                1.77,
+                7.58
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                -2.63,
+                1.77,
+                15.16
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                -2.63,
+                1.77,
+                12.12
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                -1.31,
+                1.77,
+                6.82
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                0,
+                1.77,
+                13.64
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                1.31,
+                1.77,
+                8.34
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Human Commander",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": [
+                -1.31,
+                1.77,
+                15.91
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Valrath Commander",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": [
+                -1.31,
+                1.77,
+                -6.82
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Valrath Savage",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": [
+                -3.94,
+                1.77,
+                3.79
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                -3.94,
+                1.77,
+                -5.3
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                -2.63,
+                1.77,
+                -9.09
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                -1.31,
+                1.77,
+                3.79
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                -1.31,
+                1.77,
+                -0.76
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                -1.31,
+                1.77,
+                -3.79
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                1.31,
+                1.77,
+                3.79
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Valrath Tracker",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": [
+                -5.25,
+                1.77,
+                -1.52
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                -3.94,
+                1.77,
+                -6.82
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                0,
+                1.77,
+                -9.09
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                1.31,
+                1.77,
+                -2.27
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                2.63,
+                1.77,
+                0
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                2.63,
+                1.77,
+                -6.06
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "monsterList": [
+    "City Archer",
+    "City Guard",
+    "Human Commander",
+    "Valrath Commander",
+    "Valrath Savage",
+    "Valrath Tracker"
+  ]
+}

@@ -1,0 +1,191 @@
+[
+  {
+    "orientation": [
+      0,
+      90,
+      0
+    ],
+    "boss": {
+      "health": "8xC",
+      "move": 2,
+      "attack": "V",
+      "range": 0,
+      "special1": [
+        "All Scouts act again"
+      ],
+      "special2": [
+        "Summon Vermling Scouts"
+      ],
+      "immunities": [
+        "%disarm%",
+        "%wound%",
+        "%curse%",
+        "%stun%"
+      ],
+      "notes": "V = Number of Scouts present",
+      "text": "V = Number of Scouts present"
+    }
+  },
+  {
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "boss": {
+      "health": "9xC",
+      "move": 3,
+      "attack": "V",
+      "range": 0,
+      "special1": [
+        "All Scouts act again"
+      ],
+      "special2": [
+        "Summon Vermling Scouts"
+      ],
+      "immunities": [
+        "%disarm%",
+        "%wound%",
+        "%curse%",
+        "%stun%"
+      ],
+      "notes": "V = Number of Scouts present",
+      "text": "V = Number of Scouts present"
+    }
+  },
+  {
+    "orientation": [
+      0,
+      270,
+      0
+    ],
+    "boss": {
+      "health": "11xC",
+      "move": 3,
+      "attack": "V",
+      "range": 0,
+      "special1": [
+        "All Scouts act again"
+      ],
+      "special2": [
+        "Summon Vermling Scouts"
+      ],
+      "immunities": [
+        "%disarm%",
+        "%wound%",
+        "%curse%",
+        "%stun%"
+      ],
+      "notes": "V = Number of Scouts present",
+      "text": "V = Number of Scouts present"
+    }
+  },
+  {
+    "orientation": [
+      0,
+      180,
+      180
+    ],
+    "boss": {
+      "health": "12xC",
+      "move": 4,
+      "attack": "V",
+      "range": 0,
+      "special1": [
+        "All Scouts act again"
+      ],
+      "special2": [
+        "Summon Vermling Scouts"
+      ],
+      "immunities": [
+        "%disarm%",
+        "%wound%",
+        "%curse%",
+        "%stun%"
+      ],
+      "notes": "V = Number of Scouts present",
+      "text": "V = Number of Scouts present"
+    }
+  },
+  {
+    "orientation": [
+      0,
+      90,
+      180
+    ],
+    "boss": {
+      "health": "14xC",
+      "move": 4,
+      "attack": "V",
+      "range": 0,
+      "special1": [
+        "All Scouts act again"
+      ],
+      "special2": [
+        "Summon Vermling Scouts"
+      ],
+      "immunities": [
+        "%disarm%",
+        "%wound%",
+        "%curse%",
+        "%stun%"
+      ],
+      "notes": "V = Number of Scouts present",
+      "text": "V = Number of Scouts present"
+    }
+  },
+  {
+    "orientation": [
+      0,
+      0,
+      180
+    ],
+    "boss": {
+      "health": "16xC",
+      "move": 4,
+      "attack": "V",
+      "range": 0,
+      "special1": [
+        "All Scouts act again"
+      ],
+      "special2": [
+        "Summon Vermling Scouts"
+      ],
+      "immunities": [
+        "%disarm%",
+        "%wound%",
+        "%curse%",
+        "%stun%"
+      ],
+      "notes": "V = Number of Scouts present",
+      "text": "V = Number of Scouts present"
+    }
+  },
+  {
+    "orientation": [
+      0,
+      270,
+      180
+    ],
+    "boss": {
+      "health": "19xC",
+      "move": 4,
+      "attack": "V",
+      "range": 0,
+      "special1": [
+        "All Scouts act again"
+      ],
+      "special2": [
+        "Summon Vermling Scouts"
+      ],
+      "immunities": [
+        "%disarm%",
+        "%wound%",
+        "%curse%",
+        "%stun%"
+      ],
+      "notes": "V = Number of Scouts present",
+      "text": "V = Number of Scouts present"
+    }
+  }
+]

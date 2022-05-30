@@ -1,0 +1,912 @@
+{
+  "name": "Vibrant Grotto",
+  "scenarioPages": [
+    {
+      "image": "http://cloud-3.steamusercontent.com/ugc/931553965084821304/AF7328C68E384A31D9DB64855717D17D17A695A6/"
+    },
+    {
+      "image": "http://cloud-3.steamusercontent.com/ugc/931553965084824637/1B6FD94041B03DF0678CFC19C9E1810E7DFF510A/"
+    }
+  ],
+  "gridType": 2,
+  "doorTiles": [
+    {
+      "name": "Dark Fog",
+      "tiles": [
+        {
+          "rooms": [
+            3,
+            4
+          ],
+          "position": {
+            "x": -3.031089,
+            "y": 1.934515,
+            "z": 10.5
+          },
+          "rotation": {
+            "x": 0.000762,
+            "y": 330,
+            "z": -0.000229
+          }
+        },
+        {
+          "rooms": [
+            2,
+            3
+          ],
+          "position": {
+            "x": -7.577722,
+            "y": 1.934476,
+            "z": 5.25
+          },
+          "rotation": {
+            "x": 0.000777,
+            "y": 330,
+            "z": -0.000247
+          }
+        },
+        {
+          "rooms": [
+            3,
+            5
+          ],
+          "position": {
+            "x": 3.031136,
+            "y": 1.934509,
+            "z": 7.875001
+          },
+          "rotation": {
+            "x": 359.979523,
+            "y": 330,
+            "z": -0.000972
+          }
+        }
+      ]
+    },
+    {
+      "name": "Light Fog",
+      "tiles": [
+        {
+          "rooms": [
+            1,
+            2
+          ],
+          "position": {
+            "x": -6.062203,
+            "y": 1.935057,
+            "z": 2.8e-05
+          },
+          "rotation": {
+            "x": 0.005213,
+            "y": 330,
+            "z": 0.022483
+          }
+        },
+        {
+          "rooms": [
+            5,
+            6
+          ],
+          "position": {
+            "x": 6.062172,
+            "y": 1.935191,
+            "z": 5.250119
+          },
+          "rotation": {
+            "x": 0.003879,
+            "y": 330,
+            "z": 359.941589
+          }
+        },
+        {
+          "rooms": [
+            1,
+            6
+          ],
+          "position": {
+            "x": 3.788861,
+            "y": 1.935257,
+            "z": -1.3125
+          },
+          "rotation": {
+            "x": -0.000534,
+            "y": 330,
+            "z": -0.00066
+          }
+        }
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "mapTiles": [
+        {
+          "tile": "M1",
+          "position": {
+            "x": -1.515544,
+            "y": 1.700392,
+            "z": -2.625001
+          },
+          "rotation": {
+            "x": -0.000168,
+            "y": 29.981836,
+            "z": 180.000778
+          }
+        }
+      ],
+      "startTiles": {
+        "name": "Stone Corridor 1",
+        "tiles": [
+          {
+            "position": {
+              "x": -1.515546,
+              "y": 1.934603,
+              "z": -5.250002
+            },
+            "rotation": {
+              "x": 0.000582,
+              "y": 330,
+              "z": 0.000529
+            }
+          },
+          {
+            "position": {
+              "x": 0.008052,
+              "y": 1.934623,
+              "z": -5.235695
+            },
+            "rotation": {
+              "x": 0.000583,
+              "y": 329.939636,
+              "z": 0.00053
+            }
+          },
+          {
+            "position": {
+              "x": -2.260128,
+              "y": 1.934599,
+              "z": -6.568851
+            },
+            "rotation": {
+              "x": 0.000585,
+              "y": 329.974487,
+              "z": 0.00053
+            }
+          },
+          {
+            "position": {
+              "x": -0.757772,
+              "y": 1.934619,
+              "z": -6.562501
+            },
+            "rotation": {
+              "x": 0.000589,
+              "y": 329.974487,
+              "z": 0.000532
+            }
+          },
+          {
+            "position": {
+              "x": 0.757772,
+              "y": 1.934638,
+              "z": -6.562501
+            },
+            "rotation": {
+              "x": 0.000585,
+              "y": 329.974426,
+              "z": 0.000532
+            }
+          }
+        ]
+      },
+      "overlayTiles": [
+        {
+          "bag": 3,
+          "type": [
+            {
+              "name": "Thorns",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -5.304405,
+                    "y": 1.931643,
+                    "z": -3.9375
+                  },
+                  "rotation": {
+                    "x": -0.000168,
+                    "y": 30.015732,
+                    "z": 0.000771
+                  }
+                },
+                {
+                  "position": {
+                    "x": 0.757773,
+                    "y": 1.931711,
+                    "z": -1.3125
+                  },
+                  "rotation": {
+                    "x": -0.000167,
+                    "y": 30.015694,
+                    "z": 0.000771
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Bush",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -3.031089,
+                    "y": 1.931667,
+                    "z": -2.625
+                  },
+                  "rotation": {
+                    "x": -0.000752,
+                    "y": 90.005646,
+                    "z": 0.00024
+                  }
+                },
+                {
+                  "position": {
+                    "x": 0.757772,
+                    "y": 1.931722,
+                    "z": -3.9375
+                  },
+                  "rotation": {
+                    "x": -0.000751,
+                    "y": 90.005646,
+                    "z": 0.00024
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 8,
+          "type": [
+            {
+              "name": "Treasure Chest Horizontal",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -6.062178,
+                    "y": 1.931628,
+                    "z": -2.625
+                  },
+                  "rotation": {
+                    "x": -0.000752,
+                    "y": 89.999969,
+                    "z": 0.00024
+                  },
+                  "params": {
+                    "buttonTheme": "Treasure",
+                    "buttonLabel": "G"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Forest Imp",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -0.757771,
+                "y": 2.068386,
+                "z": 1.312503
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -2.273282,
+                "y": 2.068366,
+                "z": 1.312693
+              }
+            }
+          ]
+        },
+        {
+          "name": "Cave Bear",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -1e-06,
+                "y": 2.068401,
+                "z": 2.7e-05
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -1.515544,
+                "y": 2.068382,
+                "z": 1e-06
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -3.016953,
+                "y": 2.068366,
+                "z": -0.011655
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "C2",
+          "position": {
+            "x": -7.576458,
+            "y": 1.699988,
+            "z": 2.624351
+          },
+          "rotation": {
+            "x": 0.000602,
+            "y": 329.97998,
+            "z": 180.000534
+          }
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 3,
+          "type": [
+            {
+              "name": "Thorns",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -7.577722,
+                    "y": 1.930983,
+                    "z": 2.625
+                  },
+                  "rotation": {
+                    "x": -0.00016,
+                    "y": 30.015724,
+                    "z": 0.000785
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Bush",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -9.851039,
+                    "y": 1.930958,
+                    "z": 1.3125
+                  },
+                  "rotation": {
+                    "x": -0.000767,
+                    "y": 90.00563,
+                    "z": 0.000252
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 8,
+          "type": [
+            {
+              "name": "Treasure Chest Horizontal",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -10.60881,
+                    "y": 1.930942,
+                    "z": 2.625
+                  },
+                  "rotation": {
+                    "x": -0.000767,
+                    "y": 89.999969,
+                    "z": 0.000254
+                  },
+                  "params": {
+                    "buttonTheme": "Treasure",
+                    "buttonLabel": "G"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Earth Demon",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -9.093266,
+                "y": 2.067668,
+                "z": 2.625
+              }
+            }
+          ]
+        },
+        {
+          "name": "Forest Imp",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -8.335494,
+                "y": 2.067672,
+                "z": 3.9375
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -9.851039,
+                "y": 2.067652,
+                "z": 3.9375
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "G2",
+          "position": {
+            "x": -3.031091,
+            "y": 1.759026,
+            "z": 7.875001
+          },
+          "rotation": {
+            "x": -0.000769,
+            "y": 90.014336,
+            "z": 0.000251
+          }
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Forest Imp",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -1.515545,
+                "y": 2.067747,
+                "z": 7.875
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -2.273316,
+                "y": 2.067731,
+                "z": 9.187499
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -3.788862,
+                "y": 2.067711,
+                "z": 9.187499
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -4.546632,
+                "y": 2.067706,
+                "z": 7.875
+              }
+            }
+          ]
+        },
+        {
+          "name": "Inox Shaman",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -3.031089,
+                "y": 2.067726,
+                "z": 7.875
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "B4",
+          "position": {
+            "x": -3.030799,
+            "y": 1.759003,
+            "z": 13.121941
+          },
+          "rotation": {
+            "x": -0.000766,
+            "y": 89.974846,
+            "z": 180.000259
+          }
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 8,
+          "type": [
+            {
+              "name": "Treasure Chest Horizontal",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -1.515544,
+                    "y": 1.931006,
+                    "z": 15.75
+                  },
+                  "rotation": {
+                    "x": -0.000766,
+                    "y": 89.999985,
+                    "z": 0.00026
+                  },
+                  "params": {
+                    "buttonTheme": "Treasure",
+                    "buttonLabel": "G"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Cave Bear",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -2.273317,
+                "y": 2.067707,
+                "z": 14.437499
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -0.757772,
+                "y": 2.067728,
+                "z": 14.4375
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": -3.031089,
+                "y": 2.067691,
+                "z": 15.750001
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "F1",
+          "position": {
+            "x": 5.304405,
+            "y": 1.758922,
+            "z": 11.8125
+          },
+          "rotation": {
+            "x": -0.00025,
+            "y": 179.987686,
+            "z": -0.000767
+          }
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 3,
+          "type": [
+            {
+              "name": "Thorns",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 3.788861,
+                    "y": 1.930698,
+                    "z": 11.8125
+                  },
+                  "rotation": {
+                    "x": -0.00017,
+                    "y": 30.015755,
+                    "z": 0.000787
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Bush",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 6.81995,
+                    "y": 1.93075,
+                    "z": 9.1875
+                  },
+                  "rotation": {
+                    "x": -0.000768,
+                    "y": 90.00563,
+                    "z": 0.000249
+                  }
+                },
+                {
+                  "position": {
+                    "x": 6.062178,
+                    "y": 1.930745,
+                    "z": 7.875
+                  },
+                  "rotation": {
+                    "x": -0.000767,
+                    "y": 90.00563,
+                    "z": 0.000251
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 7,
+          "type": [
+            {
+              "name": "Poison Gas",
+              "statuses": [
+                "Poison",
+                "Stun"
+              ],
+              "tiles": [
+                {
+                  "position": {
+                    "x": 4.546633,
+                    "y": 1.930691,
+                    "z": 15.75
+                  },
+                  "rotation": {
+                    "x": 0.000165,
+                    "y": 209.986008,
+                    "z": -0.000791
+                  }
+                },
+                {
+                  "position": {
+                    "x": 6.062178,
+                    "y": 1.930711,
+                    "z": 15.75
+                  },
+                  "rotation": {
+                    "x": 0.000162,
+                    "y": 209.986008,
+                    "z": -0.000792
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 8,
+          "type": [
+            {
+              "name": "Treasure Chest Horizontal",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 6.81995,
+                    "y": 1.930716,
+                    "z": 17.0625
+                  },
+                  "rotation": {
+                    "x": -0.000766,
+                    "y": 89.999985,
+                    "z": 0.000251
+                  },
+                  "params": {
+                    "buttonTheme": "Treasure",
+                    "buttonLabel": "G"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Earth Demon",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": {
+                "x": 5.304404,
+                "y": 2.067412,
+                "z": 14.4375
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": 3.78886,
+                "y": 2.067391,
+                "z": 14.437501
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": 6.819951,
+                "y": 2.067432,
+                "z": 14.4375
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "D2",
+          "position": {
+            "x": 6.81995,
+            "y": 1.700487,
+            "z": 1.3125
+          },
+          "rotation": {
+            "x": 0.00054,
+            "y": 240.016571,
+            "z": 179.999405
+          }
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 7,
+          "type": [
+            {
+              "name": "Poison Gas",
+              "statuses": [
+                "Poison",
+                "Stun"
+              ],
+              "tiles": [
+                {
+                  "position": {
+                    "x": 5.304405,
+                    "y": 1.931762,
+                    "z": 1.3125
+                  },
+                  "rotation": {
+                    "x": 0.000166,
+                    "y": 209.986008,
+                    "z": -0.00079
+                  }
+                },
+                {
+                  "position": {
+                    "x": 7.577723,
+                    "y": 1.931798,
+                    "z": 0
+                  },
+                  "rotation": {
+                    "x": 0.000167,
+                    "y": 209.985992,
+                    "z": -0.000786
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 8,
+          "type": [
+            {
+              "name": "Treasure Chest Horizontal",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 6.81995,
+                    "y": 1.931771,
+                    "z": 3.9375
+                  },
+                  "rotation": {
+                    "x": -0.000767,
+                    "y": 89.999374,
+                    "z": 0.000245
+                  },
+                  "params": {
+                    "buttonTheme": "Treasure",
+                    "buttonLabel": "G"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Forest Imp",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": {
+                "x": 6.81995,
+                "y": 2.068488,
+                "z": 1.312501
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": 4.546633,
+                "y": 2.068451,
+                "z": 2.625
+              }
+            },
+            {
+              "numCharacters": {},
+              "position": {
+                "x": 9.093267,
+                "y": 2.068524,
+                "z": 0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "monsterList": [
+    "Cave Bear",
+    "Earth Demon",
+    "Forest Imp",
+    "Inox Shaman"
+  ]
+}

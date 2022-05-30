@@ -1,0 +1,598 @@
+{
+  "name": "Unnatural Insults",
+  "scenarioPages": [
+    {
+      "image": "http://cloud-3.steamusercontent.com/ugc/1018321821846854203/41BE437AC5A81B65F0006B90A0B1648DDB99EB4B/"
+    },
+    {
+      "image": "http://cloud-3.steamusercontent.com/ugc/878629355914712986/8995CC5884C7B75F688FC83FB814878AFA09A8B6/"
+    }
+  ],
+  "doorTiles": [
+    {
+      "name": "Light Fog",
+      "tiles": [
+        {
+          "rooms": [
+            1,
+            2
+          ],
+          "position": [
+            3.94,
+            1.88,
+            6.82
+          ],
+          "rotation": [
+            0.01,
+            0,
+            359.98
+          ]
+        },
+        {
+          "rooms": [
+            2,
+            3
+          ],
+          "position": [
+            0,
+            1.88,
+            -1.52
+          ],
+          "rotation": [
+            0,
+            0,
+            0.01
+          ],
+          "tokens": [
+            "1"
+          ]
+        },
+        {
+          "rooms": [
+            2,
+            3
+          ],
+          "position": [
+            -1.31,
+            1.88,
+            0.76
+          ],
+          "rotation": [
+            0,
+            0.88,
+            0
+          ],
+          "tokens": [
+            "1"
+          ]
+        }
+      ]
+    }
+  ],
+  "gridType": 1,
+  "rooms": [
+    {
+      "mapTiles": [
+        {
+          "tile": "G1",
+          "position": [
+            3.94,
+            1.71,
+            12.88
+          ],
+          "rotation": [
+            0,
+            359.9,
+            0
+          ]
+        }
+      ],
+      "startTiles": {
+        "name": "Stone Corridor 1",
+        "tiles": [
+          {
+            "position": [
+              2.63,
+              1.88,
+              18.19
+            ],
+            "rotation": [
+              359.99,
+              240,
+              -0.01
+            ]
+          },
+          {
+            "position": [
+              3.94,
+              1.88,
+              17.43
+            ],
+            "rotation": [
+              359.99,
+              240,
+              -0.01
+            ]
+          },
+          {
+            "position": [
+              5.25,
+              1.88,
+              18.19
+            ],
+            "rotation": [
+              359.99,
+              240,
+              -0.01
+            ]
+          }
+        ]
+      },
+      "overlayTiles": [
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Bush",
+              "tiles": [
+                {
+                  "position": [
+                    5.25,
+                    1.88,
+                    16.67
+                  ],
+                  "rotation": [
+                    0,
+                    299.96,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Stump",
+              "tiles": [
+                {
+                  "position": [
+                    2.63,
+                    1.88,
+                    10.61
+                  ],
+                  "rotation": [
+                    0,
+                    0,
+                    359.99
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 2,
+          "type": [
+            {
+              "name": "Log",
+              "tiles": [
+                {
+                  "position": [
+                    5.25,
+                    1.88,
+                    12.12
+                  ],
+                  "rotation": [
+                    359.99,
+                    299.99,
+                    359.99
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 7,
+          "type": [
+            {
+              "name": "Spike Trap",
+              "statuses": [
+                "Damage"
+              ],
+              "tiles": [
+                {
+                  "position": [
+                    3.94,
+                    1.88,
+                    14.4
+                  ],
+                  "rotation": [
+                    359.99,
+                    240.19,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Living Corpse",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": [
+                3.94,
+                1.77,
+                11.37
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                2.63,
+                1.77,
+                9.09
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                5.25,
+                1.77,
+                7.58
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "M1",
+          "position": [
+            3.95,
+            1.65,
+            2.29
+          ],
+          "rotation": [
+            0,
+            359.93,
+            180
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Tree",
+              "tiles": [
+                {
+                  "position": [
+                    2.62,
+                    1.88,
+                    3.03
+                  ],
+                  "rotation": [
+                    0,
+                    300.45,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    6.56,
+                    1.88,
+                    2.27
+                  ],
+                  "rotation": [
+                    0,
+                    119.99,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 2,
+          "type": [
+            {
+              "name": "Log",
+              "tiles": [
+                {
+                  "position": [
+                    3.94,
+                    1.88,
+                    0.76
+                  ],
+                  "rotation": [
+                    0,
+                    240,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 7,
+          "type": [
+            {
+              "name": "Spike Trap",
+              "statuses": [
+                "Damage"
+              ],
+              "tiles": [
+                {
+                  "position": [
+                    1.31,
+                    1.88,
+                    0.76
+                  ],
+                  "rotation": [
+                    359.99,
+                    240.19,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    5.25,
+                    1.88,
+                    3.03
+                  ],
+                  "rotation": [
+                    359.99,
+                    240.19,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Cultist",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": [
+                6.56,
+                1.77,
+                -0.76
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Living Bones",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": [
+                0,
+                1.77,
+                3.03
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                5.25,
+                1.77,
+                4.55
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "C2",
+          "position": [
+            -1.31,
+            1.65,
+            -5.3
+          ],
+          "rotation": [
+            0,
+            120.01,
+            180
+          ]
+        },
+        {
+          "tile": "D1",
+          "position": [
+            -5.26,
+            1.65,
+            1.52
+          ],
+          "rotation": [
+            0,
+            329.85,
+            180
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 1,
+          "type": [
+            {
+              "name": "Earth Corridor 1",
+              "tiles": [
+                {
+                  "position": [
+                    -2.62,
+                    1.77,
+                    -1.52
+                  ],
+                  "rotation": [
+                    359.98,
+                    0.01,
+                    179.99
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Bush",
+              "tiles": [
+                {
+                  "position": [
+                    -6.56,
+                    1.88,
+                    2.27
+                  ],
+                  "rotation": [
+                    0,
+                    300,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -5.25,
+                    1.88,
+                    -1.52
+                  ],
+                  "rotation": [
+                    0,
+                    300,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Stump",
+              "tiles": [
+                {
+                  "position": [
+                    -1.31,
+                    1.88,
+                    -3.79
+                  ],
+                  "rotation": [
+                    0,
+                    0,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 7,
+          "type": [
+            {
+              "name": "Spike Trap",
+              "statuses": [
+                "Damage"
+              ],
+              "tiles": [
+                {
+                  "position": [
+                    -2.63,
+                    1.88,
+                    1.52
+                  ],
+                  "rotation": [
+                    0,
+                    240.37,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Cultist",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": [
+                -1.31,
+                1.77,
+                -6.82
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Living Bones",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": [
+                0,
+                1.77,
+                -3.03
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Living Corpse",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": [
+                -5.25,
+                1.77,
+                3.03
+              ]
+            },
+            {
+              "numCharacters": {},
+              "position": [
+                -2.63,
+                1.77,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Inox Shaman",
+          "tiles": [
+            {
+              "numCharacters": {},
+              "position": [
+                -7.87,
+                1.77,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "monsterList": [
+    "Living Corpse",
+    "Living Bones",
+    "Cultist",
+    "Inox Shaman"
+  ]
+}

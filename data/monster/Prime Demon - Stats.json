@@ -1,0 +1,240 @@
+[
+  {
+    "orientation": [
+      0,
+      90,
+      0
+    ],
+    "boss": {
+      "health": "9xC",
+      "move": 4,
+      "attack": 4,
+      "range": 0,
+      "special1": [
+        "Throne moves",
+        "Summon Demon",
+        "%move% +2",
+        "%attack% -1"
+      ],
+      "special2": [
+        "Throne moves",
+        "Summon Demon",
+        "%move% +2",
+        "%attack% -1"
+      ],
+      "immunities": [
+        "%wound%",
+        "%poison%",
+        "%disarm%",
+        "%immobilize%",
+        "%muddle%",
+        "%stun%"
+      ],
+      "notes": ""
+    }
+  },
+  {
+    "orientation": [
+      0,
+      0,
+      0
+    ],
+    "boss": {
+      "health": "10xC",
+      "move": 4,
+      "attack": 5,
+      "range": 0,
+      "special1": [
+        "Throne moves",
+        "Summon Demon",
+        "%move% +2",
+        "%attack% -1"
+      ],
+      "special2": [
+        "Throne moves",
+        "Summon Demon",
+        "%move% +2",
+        "%attack% -1"
+      ],
+      "immunities": [
+        "%wound%",
+        "%poison%",
+        "%disarm%",
+        "%immobilize%",
+        "%muddle%",
+        "%stun%"
+      ],
+      "notes": ""
+    }
+  },
+  {
+    "orientation": [
+      0,
+      270,
+      0
+    ],
+    "boss": {
+      "health": "12xC",
+      "move": 4,
+      "attack": 6,
+      "range": 0,
+      "special1": [
+        "Throne moves",
+        "Summon Demon",
+        "%move% +2",
+        "%attack% -1"
+      ],
+      "special2": [
+        "Throne moves",
+        "Summon Demon",
+        "%move% +2",
+        "%attack% -1"
+      ],
+      "immunities": [
+        "%wound%",
+        "%poison%",
+        "%disarm%",
+        "%immobilize%",
+        "%muddle%",
+        "%stun%"
+      ],
+      "notes": ""
+    }
+  },
+  {
+    "orientation": [
+      0,
+      180,
+      180
+    ],
+    "boss": {
+      "health": "14xC",
+      "move": 5,
+      "attack": 6,
+      "range": 0,
+      "special1": [
+        "Throne moves",
+        "Summon Demon",
+        "%move% +2",
+        "%attack% -1"
+      ],
+      "special2": [
+        "Throne moves",
+        "Summon Demon",
+        "%move% +2",
+        "%attack% -1"
+      ],
+      "immunities": [
+        "%wound%",
+        "%poison%",
+        "%disarm%",
+        "%immobilize%",
+        "%muddle%",
+        "%stun%"
+      ],
+      "notes": ""
+    }
+  },
+  {
+    "orientation": [
+      0,
+      90,
+      180
+    ],
+    "boss": {
+      "health": "16xC",
+      "move": 5,
+      "attack": 7,
+      "range": 0,
+      "special1": [
+        "Throne moves",
+        "Summon Demon",
+        "%move% +2",
+        "%attack% -1"
+      ],
+      "special2": [
+        "Throne moves",
+        "Summon Demon",
+        "%move% +2",
+        "%attack% -1"
+      ],
+      "immunities": [
+        "%wound%",
+        "%poison%",
+        "%disarm%",
+        "%immobilize%",
+        "%muddle%",
+        "%stun%"
+      ],
+      "notes": ""
+    }
+  },
+  {
+    "orientation": [
+      0,
+      0,
+      180
+    ],
+    "boss": {
+      "health": "20xC",
+      "move": 5,
+      "attack": 7,
+      "range": 0,
+      "special1": [
+        "Throne moves",
+        "Summon Demon",
+        "%move% +2",
+        "%attack% -1"
+      ],
+      "special2": [
+        "Throne moves",
+        "Summon Demon",
+        "%move% +2",
+        "%attack% -1"
+      ],
+      "immunities": [
+        "%wound%",
+        "%poison%",
+        "%disarm%",
+        "%immobilize%",
+        "%muddle%",
+        "%stun%"
+      ],
+      "notes": ""
+    }
+  },
+  {
+    "orientation": [
+      0,
+      270,
+      180
+    ],
+    "boss": {
+      "health": "22xC",
+      "move": 5,
+      "attack": 8,
+      "range": 0,
+      "special1": [
+        "Throne moves",
+        "Summon Demon",
+        "%move% +2",
+        "%attack% -1"
+      ],
+      "special2": [
+        "Throne moves",
+        "Summon Demon",
+        "%move% +2",
+        "%attack% -1"
+      ],
+      "immunities": [
+        "%wound%",
+        "%poison%",
+        "%disarm%",
+        "%immobilize%",
+        "%muddle%",
+        "%stun%"
+      ],
+      "notes": ""
+    }
+  }
+]
