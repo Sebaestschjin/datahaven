@@ -7,6 +7,7 @@ const main = () => {
   const scenarios = JSON.parse(scenarioFile) as Record<string, any>;
 
   for (const [id, scenario] of Object.entries(scenarios)) {
+    scenario.id = id;
     const campaign = scenario.campaign || "Other";
 
     const scenarioPath = `data/scenario/${campaign}`.replace(":", "_");

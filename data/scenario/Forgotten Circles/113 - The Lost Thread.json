@@ -1,0 +1,1117 @@
+{
+  "name": "The Lost Thread",
+  "campaign": "Forgotten Circles",
+  "scenarioBook": {
+    "name": "Forgotten Circles",
+    "page": 22
+  },
+  "scenarioPages": [
+    {
+      "image": "http://cloud-3.steamusercontent.com/ugc/1011564617603744951/B4550F0F6C2A21299BCA6AD21A7CE0A76DAF0445/"
+    }
+  ],
+  "scenarioConclusions": [
+    {
+      "image": "http://cloud-3.steamusercontent.com/ugc/1752439086838272708/8B79AC7409E5BBD545874406CCBF956B6B28A7BE/",
+      "scale": [
+        1.6,
+        1,
+        1.6
+      ]
+    }
+  ],
+  "gridType": 2,
+  "doorTiles": [
+    {
+      "name": "Dark Fog",
+      "tiles": [
+        {
+          "rooms": [
+            1,
+            5
+          ],
+          "position": [
+            5.3,
+            1.88,
+            6.56
+          ],
+          "rotation": [
+            0,
+            330,
+            0
+          ],
+          "tokens": [
+            "2"
+          ]
+        },
+        {
+          "rooms": [
+            1,
+            2
+          ],
+          "position": [
+            5.3,
+            1.88,
+            1.31
+          ],
+          "rotation": [
+            0,
+            330,
+            0
+          ],
+          "tokens": [
+            "1"
+          ]
+        },
+        {
+          "rooms": [
+            4,
+            5
+          ],
+          "position": [
+            -2.27,
+            1.88,
+            11.81
+          ],
+          "rotation": [
+            0,
+            330,
+            0
+          ]
+        },
+        {
+          "rooms": [
+            2,
+            3
+          ],
+          "position": [
+            -2.27,
+            1.88,
+            -3.94
+          ],
+          "rotation": [
+            0,
+            330,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dark Corridor",
+      "tiles": [
+        {
+          "rooms": [
+            1,
+            4
+          ],
+          "position": [
+            0.76,
+            1.77,
+            6.58
+          ],
+          "rotation": [
+            0,
+            210,
+            0
+          ],
+          "tokens": [
+            "c"
+          ]
+        },
+        {
+          "rooms": [
+            1,
+            3
+          ],
+          "position": [
+            0.75,
+            1.88,
+            1.31
+          ],
+          "rotation": [
+            0,
+            330.15,
+            0
+          ],
+          "tokens": [
+            "d"
+          ]
+        }
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "mapTiles": [
+        {
+          "tile": "D2",
+          "position": [
+            2.27,
+            1.65,
+            3.94
+          ],
+          "rotation": [
+            0,
+            60.01,
+            180
+          ]
+        }
+      ],
+      "startTiles": {
+        "name": "Stone Corridor 1",
+        "tiles": [
+          {
+            "position": [
+              1.52,
+              1.88,
+              5.25
+            ],
+            "rotation": [
+              0,
+              30,
+              0
+            ]
+          },
+          {
+            "position": [
+              3.03,
+              1.88,
+              5.25
+            ],
+            "rotation": [
+              0,
+              30,
+              0
+            ]
+          },
+          {
+            "position": [
+              1.52,
+              1.88,
+              2.63
+            ],
+            "rotation": [
+              0,
+              30,
+              0
+            ]
+          },
+          {
+            "position": [
+              3.03,
+              1.88,
+              2.62
+            ],
+            "rotation": [
+              0,
+              30,
+              0
+            ]
+          }
+        ]
+      },
+      "overlayTiles": [
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Crystal",
+              "tiles": [
+                {
+                  "position": [
+                    0.76,
+                    1.88,
+                    3.94
+                  ],
+                  "rotation": [
+                    0,
+                    89.81,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    3.8,
+                    1.88,
+                    3.94
+                  ],
+                  "rotation": [
+                    0,
+                    91.53,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Stalagmites",
+              "tiles": [
+                {
+                  "position": [
+                    -0.75,
+                    1.88,
+                    3.92
+                  ],
+                  "rotation": [
+                    0,
+                    210.38,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": [
+            {
+              "name": "Scenario Aid Token",
+              "tiles": [
+                {
+                  "name": "b",
+                  "position": [
+                    2.27,
+                    1.77,
+                    3.94
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ],
+                  "hp": [
+                    "+",
+                    4,
+                    [
+                      "*",
+                      2,
+                      "L"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Stone Golem",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 2
+              },
+              "position": [
+                5.3,
+                1.77,
+                3.94
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "J2",
+          "position": [
+            3.79,
+            1.65,
+            -1.31
+          ],
+          "rotation": [
+            0,
+            30,
+            180
+          ]
+        }
+      ],
+      "scenarioSections": [
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086837786628/AEC49FA41B701238B1EA7740002ED11D914481CE/",
+          "position": [
+            15.16,
+            1.75,
+            -7
+          ],
+          "scale": [
+            1.8,
+            1,
+            1.8
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Rock Column",
+              "tiles": [
+                {
+                  "position": [
+                    4.55,
+                    1.88,
+                    -5.25
+                  ],
+                  "rotation": [
+                    0,
+                    90,
+                    0
+                  ],
+                  "tokens": [
+                    "a"
+                  ],
+                  "hp": [
+                    "+",
+                    5,
+                    "C"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 2,
+          "type": [
+            {
+              "name": "Rubble",
+              "tiles": [
+                {
+                  "position": [
+                    0.76,
+                    1.88,
+                    -3.94
+                  ],
+                  "rotation": [
+                    0,
+                    330,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    5.3,
+                    1.88,
+                    -1.31
+                  ],
+                  "rotation": [
+                    0,
+                    330,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    6.06,
+                    1.88,
+                    -2.63
+                  ],
+                  "rotation": [
+                    0,
+                    330,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Living Corpse",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 1
+              },
+              "position": [
+                0,
+                1.77,
+                -2.63
+              ]
+            },
+            {
+              "numCharacters": {
+                "4": 2
+              },
+              "position": [
+                4.55,
+                1.77,
+                -2.63
+              ]
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 1
+              },
+              "position": [
+                8.34,
+                1.77,
+                1.31
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Living Spirit",
+          "tiles": [
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 1
+              },
+              "position": [
+                1.52,
+                1.77,
+                -5.25
+              ]
+            },
+            {
+              "numCharacters": {
+                "2": 2,
+                "3": 2,
+                "4": 2
+              },
+              "position": [
+                6.82,
+                1.77,
+                -3.94
+              ]
+            },
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 1
+              },
+              "position": [
+                8.34,
+                1.77,
+                -1.31
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "L2",
+          "position": [
+            -5.3,
+            -3.83,
+            -3.94
+          ],
+          "rotation": [
+            0,
+            269.99,
+            0
+          ]
+        }
+      ],
+      "scenarioSections": [
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086836495235/1888698ACA6AC40034C2EF7364C41729490C7F42/",
+          "position": [
+            -15.16,
+            1.75,
+            -4.38
+          ],
+          "scale": [
+            1.5,
+            1,
+            1.5
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Rock Column",
+              "tiles": [
+                {
+                  "position": [
+                    -5.3,
+                    1.88,
+                    -3.94
+                  ],
+                  "rotation": [
+                    0,
+                    90,
+                    0
+                  ],
+                  "tokens": [
+                    "a"
+                  ],
+                  "hp": [
+                    "+",
+                    5,
+                    "C"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Stalagmites",
+              "tiles": [
+                {
+                  "position": [
+                    -9.09,
+                    1.88,
+                    -7.88
+                  ],
+                  "rotation": [
+                    0,
+                    90,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 10,
+          "type": [
+            {
+              "name": "Dark Corridor",
+              "tiles": [
+                {
+                  "position": [
+                    -6.06,
+                    1.88,
+                    0
+                  ],
+                  "rotation": [
+                    0,
+                    270.02,
+                    0
+                  ],
+                  "tokens": [
+                    "e"
+                  ],
+                  "action": {
+                    "rooms": [
+                      4
+                    ]
+                  }
+                },
+                {
+                  "position": [
+                    -8.33,
+                    1.88,
+                    -6.57
+                  ],
+                  "rotation": [
+                    0,
+                    150,
+                    0
+                  ],
+                  "tokens": [
+                    "d"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Deep Terror",
+          "tiles": [
+            {
+              "numCharacters": {
+                "4": 1
+              },
+              "position": [
+                -9.09,
+                1.76,
+                -2.62
+              ]
+            },
+            {
+              "numCharacters": {
+                "4": 1
+              },
+              "position": [
+                -9.09,
+                1.76,
+                -5.25
+              ]
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 1
+              },
+              "position": [
+                -3.03,
+                1.76,
+                0
+              ]
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 1
+              },
+              "position": [
+                -3.03,
+                1.76,
+                -7.88
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Living Bones",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 2,
+                "3": 2,
+                "4": 2
+              },
+              "position": [
+                -6.82,
+                1.76,
+                -3.94
+              ]
+            },
+            {
+              "numCharacters": {
+                "3": 2,
+                "4": 2
+              },
+              "position": [
+                -3.79,
+                1.76,
+                -3.94
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "L3",
+          "position": [
+            -5.3,
+            -3.83,
+            11.81
+          ],
+          "rotation": [
+            0,
+            270.02,
+            0
+          ]
+        }
+      ],
+      "scenarioSections": [
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086838270565/12D99A1DE080E6535E74A2445176B09A00363AB9/",
+          "position": [
+            -15.16,
+            1.75,
+            12.25
+          ],
+          "scale": [
+            1.5,
+            1,
+            1.5
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Rock Column",
+              "tiles": [
+                {
+                  "position": [
+                    -5.3,
+                    1.88,
+                    11.81
+                  ],
+                  "rotation": [
+                    0,
+                    90,
+                    0
+                  ],
+                  "tokens": [
+                    "a"
+                  ],
+                  "hp": [
+                    "+",
+                    5,
+                    "C"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Stalagmites",
+              "tiles": [
+                {
+                  "position": [
+                    -9.1,
+                    1.88,
+                    15.75
+                  ],
+                  "rotation": [
+                    0,
+                    329.85,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 10,
+          "type": [
+            {
+              "name": "Dark Corridor",
+              "tiles": [
+                {
+                  "position": [
+                    -6.06,
+                    1.88,
+                    7.87
+                  ],
+                  "rotation": [
+                    0,
+                    270.02,
+                    0
+                  ],
+                  "tokens": [
+                    "e"
+                  ],
+                  "action": {
+                    "rooms": [
+                      3
+                    ]
+                  }
+                },
+                {
+                  "position": [
+                    -7.58,
+                    1.88,
+                    15.75
+                  ],
+                  "rotation": [
+                    0,
+                    209.92,
+                    0
+                  ],
+                  "tokens": [
+                    "c"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Deep Terror",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 2,
+                "3": 2,
+                "4": 2
+              },
+              "position": [
+                -3.03,
+                1.76,
+                15.75
+              ]
+            },
+            {
+              "numCharacters": {
+                "3": 2,
+                "4": 2
+              },
+              "position": [
+                -3.03,
+                1.76,
+                7.88
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Living Bones",
+          "tiles": [
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 1
+              },
+              "position": [
+                -7.58,
+                1.76,
+                13.13
+              ]
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 1
+              },
+              "position": [
+                -7.58,
+                1.76,
+                10.5
+              ]
+            },
+            {
+              "numCharacters": {
+                "4": 1
+              },
+              "position": [
+                -5.3,
+                1.76,
+                14.44
+              ]
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "4": 1
+              },
+              "position": [
+                -5.3,
+                1.76,
+                9.19
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "J1",
+          "position": [
+            3.79,
+            1.65,
+            9.19
+          ],
+          "rotation": [
+            0,
+            269.96,
+            180
+          ]
+        }
+      ],
+      "scenarioSections": [
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086837885371/537BD19160DAE97D9D2AD9D4895AB988197F1111/",
+          "position": [
+            15.91,
+            1.75,
+            12.69
+          ],
+          "scale": [
+            1.8,
+            1,
+            1.8
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Rock Column",
+              "tiles": [
+                {
+                  "position": [
+                    4.55,
+                    1.88,
+                    13.12
+                  ],
+                  "rotation": [
+                    0,
+                    90,
+                    0
+                  ],
+                  "tokens": [
+                    "a"
+                  ],
+                  "hp": [
+                    "+",
+                    5,
+                    "C"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 2,
+          "type": [
+            {
+              "name": "Rubble",
+              "tiles": [
+                {
+                  "position": [
+                    0.75,
+                    1.88,
+                    11.79
+                  ],
+                  "rotation": [
+                    0,
+                    330,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    1.52,
+                    1.88,
+                    10.49
+                  ],
+                  "rotation": [
+                    0,
+                    330,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    6.06,
+                    1.88,
+                    10.5
+                  ],
+                  "rotation": [
+                    0,
+                    330,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Living Corpse",
+          "tiles": [
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 1
+              },
+              "position": [
+                0,
+                1.77,
+                10.5
+              ]
+            },
+            {
+              "numCharacters": {
+                "2": 2,
+                "3": 2,
+                "4": 2
+              },
+              "position": [
+                4.55,
+                1.77,
+                10.5
+              ]
+            },
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 1
+              },
+              "position": [
+                9.85,
+                1.77,
+                6.56
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Living Spirit",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 1
+              },
+              "position": [
+                1.52,
+                1.77,
+                13.13
+              ]
+            },
+            {
+              "numCharacters": {
+                "4": 2
+              },
+              "position": [
+                6.82,
+                1.77,
+                11.81
+              ]
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 1
+              },
+              "position": [
+                7.58,
+                1.77,
+                7.87
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "monsterList": [
+    "Stone Golem",
+    "Living Bones",
+    "Living Corpse",
+    "Living Spirit",
+    "Deep Terror"
+  ],
+  "id": "113"
+}

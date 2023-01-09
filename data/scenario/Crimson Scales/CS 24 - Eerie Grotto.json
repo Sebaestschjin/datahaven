@@ -1,0 +1,1005 @@
+{
+  "name": "Eerie Grotto",
+  "gridType": 2,
+  "campaign": "Crimson Scales",
+  "scenarioBook": {
+    "name": "CS Rulebook and Scenario Guide",
+    "page": 39
+  },
+  "sectionBook": {
+    "name": "CS Section Book",
+    "sections": [
+      {
+        "id": "24C"
+      },
+      {
+        "id": "25A"
+      },
+      {
+        "id": "25B"
+      },
+      {
+        "id": "26A"
+      }
+    ]
+  },
+  "overlays": {
+    "Poison Gas": {
+      "conditions": [
+        "Stun"
+      ],
+      "name": "Stun Trap"
+    },
+    "Hot Coals 1": {
+      "name": "Warm Fire"
+    }
+  },
+  "doorTiles": [
+    {
+      "name": "Stone Door Horizontal",
+      "tiles": [
+        {
+          "rooms": [
+            4,
+            3
+          ],
+          "position": {
+            "x": 4.55,
+            "y": 1.77,
+            "z": 2.62
+          },
+          "rotation": {
+            "x": 0,
+            "y": 270,
+            "z": 360
+          },
+          "tokens": [
+            "3"
+          ]
+        },
+        {
+          "rooms": [
+            3,
+            2
+          ],
+          "position": {
+            "x": 3.79,
+            "y": 1.77,
+            "z": 9.19
+          },
+          "rotation": {
+            "x": 0,
+            "y": 270,
+            "z": 360
+          },
+          "tokens": [
+            "2"
+          ]
+        },
+        {
+          "rooms": [
+            2,
+            1
+          ],
+          "position": {
+            "x": -3.79,
+            "y": 1.77,
+            "z": 9.19
+          },
+          "rotation": {
+            "x": 0,
+            "y": 270,
+            "z": 360
+          },
+          "tokens": [
+            "1"
+          ]
+        }
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "mapTiles": [
+        {
+          "tile": "B3",
+          "position": {
+            "x": -3.79,
+            "y": 1.71,
+            "z": 6.58
+          },
+          "rotation": {
+            "x": 0,
+            "y": 270,
+            "z": 180
+          }
+        },
+        {
+          "tile": "A3",
+          "position": {
+            "x": -10.61,
+            "y": 1.71,
+            "z": 5.27
+          },
+          "rotation": {
+            "x": 0,
+            "y": 270,
+            "z": 180
+          }
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Frozen Cadaver",
+          "tiles": [
+            {
+              "numCharacters": {
+                "4": 2
+              },
+              "position": {
+                "x": -6.06,
+                "y": 1.77,
+                "z": 7.89
+              }
+            },
+            {
+              "numCharacters": {
+                "4": 2
+              },
+              "position": {
+                "x": -1.52,
+                "y": 1.77,
+                "z": 7.89
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 2,
+                "3": 2
+              },
+              "position": {
+                "x": -3.03,
+                "y": 1.77,
+                "z": 7.89
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 2
+              },
+              "position": {
+                "x": -4.55,
+                "y": 1.77,
+                "z": 7.89
+              }
+            }
+          ]
+        },
+        {
+          "name": "Harrower Icecrawlers",
+          "tiles": [
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 2
+              },
+              "position": {
+                "x": -12.88,
+                "y": 1.77,
+                "z": 6.58
+              }
+            }
+          ]
+        }
+      ],
+      "startTiles": {
+        "name": "Start Area",
+        "tiles": [
+          {
+            "position": {
+              "x": -5.31,
+              "y": 1.88,
+              "z": 3.94
+            },
+            "rotation": {
+              "x": 0,
+              "y": 30,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": -3.79,
+              "y": 1.88,
+              "z": 3.95
+            },
+            "rotation": {
+              "x": 0,
+              "y": 30,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": -2.28,
+              "y": 1.88,
+              "z": 3.95
+            },
+            "rotation": {
+              "x": 0,
+              "y": 30,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": -4.55,
+              "y": 1.88,
+              "z": 5.26
+            },
+            "rotation": {
+              "x": 0,
+              "y": 30,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": -3.03,
+              "y": 1.88,
+              "z": 5.26
+            },
+            "rotation": {
+              "x": 0,
+              "y": 30,
+              "z": 0
+            }
+          }
+        ]
+      },
+      "overlayTiles": [
+        {
+          "bag": 7,
+          "type": [
+            {
+              "name": "Poison Gas",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -12.13,
+                    "y": 1.88,
+                    "z": 5.27
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 1,
+          "type": [
+            {
+              "name": "Man Stone Corridor 1",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -6.82,
+                    "y": 1.83,
+                    "z": 6.56
+                  },
+                  "rotation": {
+                    "x": 358,
+                    "y": 90,
+                    "z": 184
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Man Stone Corridor 2",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -7.58,
+                    "y": 1.88,
+                    "z": 5.27
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Boulder",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -13.64,
+                    "y": 1.88,
+                    "z": 5.27
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 360
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "K1",
+          "position": {
+            "x": 0,
+            "y": 1.7,
+            "z": 13.14
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Frozen Cadaver",
+          "tiles": [
+            {
+              "numCharacters": {
+                "3": 2
+              },
+              "position": {
+                "x": -1.51,
+                "y": 1.77,
+                "z": 15.76
+              }
+            },
+            {
+              "numCharacters": {
+                "4": 2
+              },
+              "position": {
+                "x": -0.76,
+                "y": 1.77,
+                "z": 14.45
+              }
+            },
+            {
+              "numCharacters": {
+                "3": 2
+              },
+              "position": {
+                "x": 1.52,
+                "y": 1.77,
+                "z": 15.76
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 2,
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": 0,
+                "y": 1.77,
+                "z": 15.76
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 2,
+                "4": 2
+              },
+              "position": {
+                "x": 0.76,
+                "y": 1.77,
+                "z": 14.45
+              }
+            }
+          ]
+        },
+        {
+          "name": "Hail Demon",
+          "tiles": [
+            {
+              "numCharacters": {
+                "4": 2
+              },
+              "position": {
+                "x": 4.54,
+                "y": 1.77,
+                "z": 10.51
+              }
+            },
+            {
+              "numCharacters": {
+                "4": 1
+              },
+              "position": {
+                "x": 3.03,
+                "y": 1.77,
+                "z": 10.51
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 2,
+                "3": 2,
+                "4": 1
+              },
+              "position": {
+                "x": 3.78,
+                "y": 1.77,
+                "z": 11.82
+              }
+            },
+            {
+              "numCharacters": {
+                "3": 1
+              },
+              "position": {
+                "x": 4.54,
+                "y": 1.77,
+                "z": 13.13
+              }
+            }
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 3,
+          "type": [
+            {
+              "name": "Hot Coals 1",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 1.51,
+                    "y": 1.88,
+                    "z": 13.13
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -3.03,
+                    "y": 1.89,
+                    "z": 15.76
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -3.79,
+                    "y": 1.89,
+                    "z": 14.45
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 7,
+          "type": [
+            {
+              "name": "Poison Gas",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 5.3,
+                    "y": 1.88,
+                    "z": 11.82
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -2.28,
+                    "y": 1.88,
+                    "z": 11.83
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": [
+            {
+              "name": "Scenario Aid Token",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -2.27,
+                    "y": 1.77,
+                    "z": 17.06
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "a"
+                },
+                {
+                  "position": {
+                    "x": -0.76,
+                    "y": 1.77,
+                    "z": 17.06
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "b"
+                },
+                {
+                  "position": {
+                    "x": 0.76,
+                    "y": 1.77,
+                    "z": 17.06
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "c"
+                },
+                {
+                  "position": {
+                    "x": 2.27,
+                    "y": 1.77,
+                    "z": 17.06
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "d"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "B2",
+          "position": {
+            "x": 3.79,
+            "y": 1.71,
+            "z": 6.59
+          },
+          "rotation": {
+            "x": 0,
+            "y": 270,
+            "z": 180
+          }
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Hail Demon",
+          "tiles": [
+            {
+              "numCharacters": {
+                "3": 1
+              },
+              "position": {
+                "x": 3.78,
+                "y": 1.77,
+                "z": 3.96
+              }
+            },
+            {
+              "numCharacters": {
+                "4": 2
+              },
+              "position": {
+                "x": 5.3,
+                "y": 1.77,
+                "z": 3.96
+              }
+            }
+          ]
+        },
+        {
+          "name": "Frozen Cadaver",
+          "tiles": [
+            {
+              "numCharacters": {
+                "4": 1
+              },
+              "position": {
+                "x": 3.79,
+                "y": 1.77,
+                "z": 6.59
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 2,
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": 2.27,
+                "y": 1.77,
+                "z": 6.59
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 2,
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": 5.3,
+                "y": 1.77,
+                "z": 6.59
+              }
+            }
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Boulder 2",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 1.51,
+                    "y": 1.88,
+                    "z": 5.27
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 150,
+                    "z": 0
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Boulder",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 6.06,
+                    "y": 1.88,
+                    "z": 5.27
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "K2",
+          "position": {
+            "x": 0.76,
+            "y": 1.7,
+            "z": -1.31
+          },
+          "rotation": {
+            "x": 360,
+            "y": 360,
+            "z": 0
+          }
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Hail Demon",
+          "tiles": [
+            {
+              "numCharacters": {
+                "4": 2
+              },
+              "position": {
+                "x": -2.27,
+                "y": 1.77,
+                "z": -1.31
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": -3.03,
+                "y": 1.77,
+                "z": -2.63
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1
+              },
+              "position": {
+                "x": -1.51,
+                "y": 1.77,
+                "z": 0
+              }
+            }
+          ]
+        },
+        {
+          "name": "Harrower Icecrawlers",
+          "tiles": [
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": 0,
+                "y": 1.77,
+                "z": -5.25
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 2
+              },
+              "position": {
+                "x": 0.76,
+                "y": 1.77,
+                "z": -3.94
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": 1.52,
+                "y": 1.77,
+                "z": -5.25
+              }
+            }
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Altar Vertical",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -3.03,
+                    "y": 1.88,
+                    "z": 0
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 360
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 8,
+          "type": [
+            {
+              "name": "Treasure Chest Horizontal",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -3.79,
+                    "y": 1.88,
+                    "z": 1.31
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 360
+                  },
+                  "action": {
+                    "name": "35",
+                    "treasure": "CS Treasure 35"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 3,
+          "type": [
+            {
+              "name": "Hot Coals 1",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -0.76,
+                    "y": 1.89,
+                    "z": -1.31
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 3.79,
+                    "y": 1.89,
+                    "z": -3.94
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 4.55,
+                    "y": 1.89,
+                    "z": -2.63
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 7,
+          "type": [
+            {
+              "name": "Poison Gas",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 6.06,
+                    "y": 1.88,
+                    "z": 0
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -1.51,
+                    "y": 1.88,
+                    "z": -5.25
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": [
+            {
+              "name": "Coin 1",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -4.54,
+                    "y": 1.83,
+                    "z": 0
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -2.27,
+                    "y": 1.83,
+                    "z": 1.31
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "monsterList": [
+    "Frozen Cadaver",
+    "Harrower Icecrawlers",
+    "Hail Demon"
+  ],
+  "id": "CS 24"
+}

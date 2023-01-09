@@ -1,0 +1,1036 @@
+{
+  "name": "Bazaar of Knowledge",
+  "campaign": "Forgotten Circles",
+  "scenarioBook": {
+    "name": "Forgotten Circles",
+    "page": 11
+  },
+  "scenarioPages": [
+    {
+      "image": "http://cloud-3.steamusercontent.com/ugc/1011563885674424726/9B8B7E68836EE6B31478A5DED345B5344D993E12/"
+    }
+  ],
+  "scenarioConclusions": [
+    {
+      "image": "http://cloud-3.steamusercontent.com/ugc/1752439086838272057/99477662CD8A4B99944E0FA80E4B294E1D5B8D27/",
+      "scale": [
+        1.2,
+        1,
+        1.2
+      ]
+    }
+  ],
+  "randomPools": [
+    {
+      "name": "Orchid",
+      "type": 1,
+      "values": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "name": "Quatryl",
+      "type": 1,
+      "values": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    }
+  ],
+  "gridType": 2,
+  "doorTiles": [
+    {
+      "name": "Wooden Door Horizontal",
+      "tiles": [
+        {
+          "rooms": [
+            1,
+            2
+          ],
+          "position": [
+            -3.79,
+            1.77,
+            9.19
+          ],
+          "rotation": [
+            0,
+            270,
+            0
+          ]
+        },
+        {
+          "rooms": [
+            1,
+            3
+          ],
+          "position": [
+            3.79,
+            1.77,
+            9.19
+          ],
+          "rotation": [
+            0,
+            270.01,
+            0
+          ]
+        },
+        {
+          "rooms": [
+            1,
+            4
+          ],
+          "position": [
+            -4.55,
+            1.77,
+            5.25
+          ],
+          "rotation": [
+            0,
+            270,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wooden Door Vertical",
+      "tiles": [
+        {
+          "rooms": [
+            1,
+            5
+          ],
+          "position": [
+            1.54,
+            1.77,
+            0
+          ],
+          "rotation": [
+            0,
+            270,
+            0
+          ]
+        },
+        {
+          "rooms": [
+            1,
+            6
+          ],
+          "position": [
+            -3.03,
+            1.77,
+            -5.25
+          ],
+          "rotation": [
+            0,
+            270,
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "mapTiles": [
+        {
+          "tile": "F1",
+          "position": [
+            -0.76,
+            1.71,
+            -1.31
+          ],
+          "rotation": [
+            0,
+            0,
+            180
+          ]
+        },
+        {
+          "tile": "H3",
+          "position": [
+            0.76,
+            1.65,
+            9.17
+          ],
+          "rotation": [
+            0,
+            270.13,
+            0
+          ]
+        }
+      ],
+      "startTiles": {
+        "name": "Stone Corridor 1",
+        "tiles": [
+          {
+            "position": [
+              -0.76,
+              1.88,
+              14.44
+            ],
+            "rotation": [
+              0,
+              30,
+              0
+            ]
+          },
+          {
+            "position": [
+              0.76,
+              1.88,
+              14.44
+            ],
+            "rotation": [
+              0,
+              30,
+              0
+            ]
+          },
+          {
+            "position": [
+              -1.52,
+              1.88,
+              13.12
+            ],
+            "rotation": [
+              0,
+              30,
+              0
+            ]
+          },
+          {
+            "position": [
+              0,
+              1.88,
+              13.12
+            ],
+            "rotation": [
+              0,
+              30,
+              0
+            ]
+          },
+          {
+            "position": [
+              1.54,
+              1.88,
+              13.13
+            ],
+            "rotation": [
+              0,
+              30,
+              0
+            ]
+          }
+        ]
+      },
+      "overlayTiles": [
+        {
+          "bag": 1,
+          "type": [
+            {
+              "name": "Man Stone Corridor 2",
+              "tiles": [
+                {
+                  "position": [
+                    -1.52,
+                    1.88,
+                    5.25
+                  ],
+                  "rotation": [
+                    0,
+                    90.01,
+                    0.07
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Shelf",
+              "tiles": [
+                {
+                  "position": [
+                    -1.51,
+                    1.88,
+                    2.61
+                  ],
+                  "rotation": [
+                    0,
+                    210.4,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    0,
+                    1.88,
+                    -5.25
+                  ],
+                  "rotation": [
+                    0,
+                    29.82,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "randomObjects": [
+        {
+          "pool": "Orchid",
+          "position": [
+            -1.52,
+            1.77,
+            10.5
+          ]
+        },
+        {
+          "pool": "Orchid",
+          "position": [
+            3.79,
+            1.77,
+            6.56
+          ]
+        },
+        {
+          "pool": "Orchid",
+          "position": [
+            -2.27,
+            1.91,
+            3.94
+          ]
+        },
+        {
+          "pool": "Quatryl",
+          "position": [
+            -2.27,
+            1.91,
+            -1.31
+          ]
+        },
+        {
+          "pool": "Quatryl",
+          "position": [
+            0.72,
+            1.91,
+            -6.56
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "B1",
+          "position": [
+            -5.3,
+            1.71,
+            11.81
+          ],
+          "rotation": [
+            0,
+            269.98,
+            0
+          ]
+        }
+      ],
+      "scenarioSections": [
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086836488297/721E91F947113FF884DB29460ED2F3ECB3B25126/",
+          "position": [
+            -11.37,
+            1.75,
+            12.69
+          ],
+          "scale": [
+            1.4,
+            1,
+            1.4
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Barrel",
+              "tiles": [
+                {
+                  "position": [
+                    -6.82,
+                    1.88,
+                    14.44
+                  ],
+                  "rotation": [
+                    0,
+                    30.01,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -7.58,
+                    1.88,
+                    13.12
+                  ],
+                  "rotation": [
+                    0,
+                    30.01,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -7.58,
+                    1.88,
+                    10.5
+                  ],
+                  "rotation": [
+                    0,
+                    330,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Shelf",
+              "tiles": [
+                {
+                  "position": [
+                    -4.55,
+                    1.88,
+                    13.13
+                  ],
+                  "rotation": [
+                    0,
+                    90.01,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "randomObjects": [
+        {
+          "pool": "Orchid",
+          "position": [
+            -5.3,
+            1.77,
+            14.44
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "I2",
+          "position": [
+            6.08,
+            1.65,
+            13.1
+          ],
+          "rotation": [
+            0,
+            270.09,
+            180
+          ]
+        }
+      ],
+      "scenarioSections": [
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086836492564/3342767565D26ACAF6A1BFE31B5A8D440F5518B9/",
+          "position": [
+            16.67,
+            1.75,
+            13.12
+          ],
+          "scale": [
+            1.75,
+            1,
+            1.75
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 2,
+          "type": [
+            {
+              "name": "Water 2",
+              "tiles": [
+                {
+                  "position": [
+                    7.59,
+                    1.88,
+                    15.76
+                  ],
+                  "rotation": [
+                    0,
+                    89.74,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Crate B",
+              "tiles": [
+                {
+                  "position": [
+                    3.03,
+                    1.88,
+                    15.74
+                  ],
+                  "rotation": [
+                    0,
+                    90,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    6.06,
+                    1.88,
+                    10.5
+                  ],
+                  "rotation": [
+                    0,
+                    90,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Cabinet",
+              "tiles": [
+                {
+                  "position": [
+                    9.85,
+                    1.88,
+                    11.81
+                  ],
+                  "rotation": [
+                    0,
+                    270,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Stone Pillar",
+              "tiles": [
+                {
+                  "position": [
+                    8.34,
+                    1.88,
+                    14.44
+                  ],
+                  "rotation": [
+                    0,
+                    269.33,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Wall Section",
+              "tiles": [
+                {
+                  "position": [
+                    6.82,
+                    1.88,
+                    14.43
+                  ],
+                  "rotation": [
+                    0,
+                    330.02,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    10.61,
+                    1.88,
+                    15.75
+                  ],
+                  "rotation": [
+                    0,
+                    210.22,
+                    359.99
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "randomObjects": [
+        {
+          "pool": "Orchid",
+          "position": [
+            9.09,
+            1.77,
+            13.13
+          ]
+        },
+        {
+          "pool": "Quatryl",
+          "position": [
+            3.79,
+            1.77,
+            14.44
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "G2",
+          "position": [
+            -9.09,
+            1.71,
+            2.63
+          ],
+          "rotation": [
+            0,
+            270,
+            180
+          ]
+        }
+      ],
+      "scenarioSections": [
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086838272240/0BF23DA85178614CB887E6FACB7F64409331F768/",
+          "position": [
+            -18.19,
+            1.75,
+            2.63
+          ],
+          "scale": [
+            1.4,
+            1,
+            1.4
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 8,
+          "type": [
+            {
+              "name": "Treasure Chest Horizontal",
+              "tiles": [
+                {
+                  "position": [
+                    -14.4,
+                    1.88,
+                    1.31
+                  ],
+                  "rotation": [
+                    0,
+                    90,
+                    0
+                  ],
+                  "action": {
+                    "treasure": 86
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Shelf",
+              "tiles": [
+                {
+                  "position": [
+                    -6.82,
+                    1.88,
+                    1.31
+                  ],
+                  "rotation": [
+                    0,
+                    90,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -8.34,
+                    1.88,
+                    3.94
+                  ],
+                  "rotation": [
+                    0,
+                    270,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -12.87,
+                    1.88,
+                    1.3
+                  ],
+                  "rotation": [
+                    0,
+                    90,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -14.41,
+                    1.88,
+                    3.96
+                  ],
+                  "rotation": [
+                    0,
+                    150,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "randomObjects": [
+        {
+          "pool": "Orchid",
+          "position": [
+            -8.34,
+            1.77,
+            1.31
+          ]
+        },
+        {
+          "pool": "Quatryl",
+          "position": [
+            -11.37,
+            1.91,
+            3.94
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "B2",
+          "position": [
+            4.55,
+            1.71,
+            2.62
+          ],
+          "rotation": [
+            0,
+            90.08,
+            0
+          ]
+        }
+      ],
+      "scenarioSections": [
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086836489911/BADADA3AEFF4FAE727E1FEA5DF1538E5578EDE13/",
+          "position": [
+            11.37,
+            1.75,
+            2.19
+          ],
+          "scale": [
+            1.5,
+            1,
+            1.5
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 2,
+          "type": [
+            {
+              "name": "Stairs Horizontal",
+              "tiles": [
+                {
+                  "position": [
+                    2.27,
+                    1.88,
+                    1.32
+                  ],
+                  "rotation": [
+                    0,
+                    30,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    4.55,
+                    1.88,
+                    2.62
+                  ],
+                  "rotation": [
+                    0,
+                    90,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 8,
+          "type": [
+            {
+              "name": "Treasure Chest Horizontal",
+              "tiles": [
+                {
+                  "position": [
+                    6.06,
+                    1.88,
+                    0
+                  ],
+                  "rotation": [
+                    0,
+                    90,
+                    0
+                  ],
+                  "action": {
+                    "treasure": 77
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Bush",
+              "tiles": [
+                {
+                  "position": [
+                    3.79,
+                    1.88,
+                    3.94
+                  ],
+                  "rotation": [
+                    0,
+                    330,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Cabinet",
+              "tiles": [
+                {
+                  "position": [
+                    5.31,
+                    1.88,
+                    3.94
+                  ],
+                  "rotation": [
+                    0,
+                    330,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Tree",
+              "tiles": [
+                {
+                  "position": [
+                    3.8,
+                    1.88,
+                    1.32
+                  ],
+                  "rotation": [
+                    0,
+                    150.05,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "randomObjects": [
+        {
+          "pool": "Quatryl",
+          "position": [
+            6.82,
+            1.77,
+            3.94
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "B3",
+          "position": [
+            -6.06,
+            1.71,
+            -5.25
+          ],
+          "rotation": [
+            0,
+            270.01,
+            0
+          ]
+        }
+      ],
+      "scenarioSections": [
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086837888054/C2320EC6D4580AD7780F7AAE04B4DBE8EA68227A/",
+          "position": [
+            -14.4,
+            1.75,
+            -4.81
+          ],
+          "scale": [
+            1.5,
+            1,
+            1.5
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 2,
+          "type": [
+            {
+              "name": "Rubble",
+              "tiles": [
+                {
+                  "position": [
+                    -3.79,
+                    1.88,
+                    -6.56
+                  ],
+                  "rotation": [
+                    0,
+                    30,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -5.31,
+                    1.88,
+                    -6.56
+                  ],
+                  "rotation": [
+                    0,
+                    30,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Altar Vertical",
+              "tiles": [
+                {
+                  "position": [
+                    -4.55,
+                    1.88,
+                    -2.63
+                  ],
+                  "rotation": [
+                    0,
+                    90,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -7.57,
+                    1.88,
+                    -2.64
+                  ],
+                  "rotation": [
+                    0,
+                    30,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -8.34,
+                    1.88,
+                    -6.56
+                  ],
+                  "rotation": [
+                    0,
+                    330,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "randomObjects": [
+        {
+          "pool": "Orchid",
+          "position": [
+            -6.82,
+            1.77,
+            -3.94
+          ]
+        }
+      ]
+    }
+  ],
+  "id": "102"
+}

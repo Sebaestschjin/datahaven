@@ -1,0 +1,1747 @@
+{
+  "name": "The Shackles Loosen",
+  "campaign": "Forgotten Circles",
+  "scenarioBook": {
+    "name": "Forgotten Circles",
+    "page": 20
+  },
+  "scenarioPages": [
+    {
+      "image": "http://cloud-3.steamusercontent.com/ugc/1011564617599733416/D47BA08C42A0F4BFBD6F1BC81D476F81EFBFFC5C/"
+    }
+  ],
+  "scenarioConclusions": [
+    {
+      "image": "http://cloud-3.steamusercontent.com/ugc/1752439086837886354/01829920806FEAE3EA5D635FE6B63BF632A10E81/",
+      "scale": [
+        1.6,
+        1,
+        1.6
+      ],
+      "buttonLabel": "Reveal Conclusion (99)"
+    },
+    {
+      "image": "http://cloud-3.steamusercontent.com/ugc/1752439086838277499/5F4A7792BBD7864FF2847C21B3E71B00E2962166/",
+      "scale": [
+        1.6,
+        1,
+        1.6
+      ],
+      "buttonLabel": "Reveal Conclusion (135)"
+    }
+  ],
+  "gridType": 2,
+  "doorTiles": [
+    {
+      "name": "Dark Fog",
+      "tiles": [
+        {
+          "rooms": [
+            1,
+            2
+          ],
+          "position": [
+            -10.61,
+            1.89,
+            2.63
+          ],
+          "rotation": [
+            0,
+            330,
+            0
+          ],
+          "tokens": [
+            "1"
+          ]
+        },
+        {
+          "rooms": [
+            1,
+            2
+          ],
+          "position": [
+            -2.27,
+            1.89,
+            1.31
+          ],
+          "rotation": [
+            0,
+            330,
+            0
+          ],
+          "tokens": [
+            "1"
+          ]
+        },
+        {
+          "rooms": [
+            2,
+            3
+          ],
+          "position": [
+            6.82,
+            1.89,
+            3.94
+          ],
+          "rotation": [
+            0,
+            330,
+            0
+          ],
+          "tokens": [
+            "3"
+          ]
+        },
+        {
+          "rooms": [
+            2,
+            4
+          ],
+          "position": [
+            -10.61,
+            1.88,
+            13.12
+          ],
+          "rotation": [
+            0,
+            330,
+            0
+          ],
+          "tokens": [
+            "2"
+          ]
+        },
+        {
+          "rooms": [
+            2,
+            4
+          ],
+          "position": [
+            0.76,
+            1.89,
+            6.56
+          ],
+          "rotation": [
+            0,
+            330,
+            0
+          ],
+          "tokens": [
+            "2"
+          ]
+        },
+        {
+          "rooms": [
+            3,
+            5
+          ],
+          "position": [
+            12.12,
+            1.88,
+            13.12
+          ],
+          "rotation": [
+            0,
+            330,
+            0
+          ],
+          "tokens": [
+            "4"
+          ]
+        },
+        {
+          "rooms": [
+            4,
+            5
+          ],
+          "position": [
+            6.06,
+            1.88,
+            15.75
+          ],
+          "rotation": [
+            0,
+            330,
+            0
+          ],
+          "tokens": [
+            "4"
+          ]
+        }
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "mapTiles": [
+        {
+          "tile": "A2",
+          "position": [
+            -3.79,
+            1.71,
+            -1.31
+          ],
+          "rotation": [
+            0,
+            90.02,
+            0
+          ]
+        },
+        {
+          "tile": "F1",
+          "position": [
+            -9.85,
+            1.71,
+            -3.94
+          ],
+          "rotation": [
+            0,
+            179.99,
+            180
+          ]
+        }
+      ],
+      "scenarioSections": [
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086837788222/DA606EF9677925840303305D888206911529B1EF/",
+          "position": [
+            30.31,
+            1.75,
+            7.88
+          ],
+          "scale": [
+            1.2,
+            1,
+            1.2
+          ],
+          "hidden": true,
+          "buttonLabel": "Section 66"
+        },
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086838275240/AFC08FF8995D6A434A73CA4A028BD8E1EC666042/",
+          "position": [
+            40.16,
+            1.75,
+            10.94
+          ],
+          "scale": [
+            1.4,
+            1,
+            1.4
+          ],
+          "hidden": true,
+          "buttonLabel": "Section 128"
+        }
+      ],
+      "startTiles": {
+        "name": "Stone Corridor 1",
+        "tiles": [
+          {
+            "position": [
+              -10.61,
+              1.88,
+              -5.25
+            ],
+            "rotation": [
+              0,
+              30,
+              0
+            ]
+          },
+          {
+            "position": [
+              -9.09,
+              1.88,
+              -5.25
+            ],
+            "rotation": [
+              0,
+              30,
+              0
+            ]
+          },
+          {
+            "position": [
+              -11.37,
+              1.88,
+              -6.57
+            ],
+            "rotation": [
+              0,
+              30,
+              0
+            ]
+          },
+          {
+            "position": [
+              -9.84,
+              1.88,
+              -6.56
+            ],
+            "rotation": [
+              0,
+              30,
+              0
+            ]
+          },
+          {
+            "position": [
+              -8.34,
+              1.88,
+              -6.56
+            ],
+            "rotation": [
+              0,
+              30,
+              0
+            ]
+          }
+        ]
+      },
+      "overlayTiles": [
+        {
+          "bag": 1,
+          "type": [
+            {
+              "name": "Man Stone Corridor 1",
+              "tiles": [
+                {
+                  "position": [
+                    -7.58,
+                    1.77,
+                    0
+                  ],
+                  "rotation": [
+                    0.09,
+                    269.92,
+                    180
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Man Stone Corridor 2",
+              "tiles": [
+                {
+                  "position": [
+                    -8.34,
+                    1.89,
+                    -1.31
+                  ],
+                  "rotation": [
+                    359.95,
+                    90.05,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 2,
+          "type": [
+            {
+              "name": "Water 1",
+              "tiles": [
+                {
+                  "position": [
+                    -3.03,
+                    1.88,
+                    0
+                  ],
+                  "rotation": [
+                    359.95,
+                    30,
+                    359.93
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 7,
+          "type": [
+            {
+              "name": "Spike Trap",
+              "statuses": [
+                "Damage"
+              ],
+              "tiles": [
+                {
+                  "position": [
+                    -9.85,
+                    1.88,
+                    1.31
+                  ],
+                  "rotation": [
+                    0,
+                    90.03,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -10.61,
+                    1.88,
+                    0
+                  ],
+                  "rotation": [
+                    0,
+                    90.03,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Bear Trap",
+              "statuses": [
+                "Damage",
+                "Curse"
+              ],
+              "tiles": [
+                {
+                  "position": [
+                    -11.39,
+                    1.88,
+                    1.33
+                  ],
+                  "rotation": [
+                    0,
+                    88.84,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Aesther Ashblade",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 2,
+                "3": 2,
+                "4": 2
+              },
+              "position": [
+                -9.85,
+                1.77,
+                -9.19
+              ],
+              "named": "Husk",
+              "hp": [
+                "*",
+                "H",
+                "C"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Aesther Scout",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 2
+              },
+              "position": [
+                -0.76,
+                1.77,
+                -1.31
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Black Imp",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 1
+              },
+              "position": [
+                -10.61,
+                1.77,
+                -2.62
+              ]
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 1
+              },
+              "position": [
+                -9.09,
+                1.77,
+                -2.63
+              ]
+            },
+            {
+              "numCharacters": {
+                "2": 2,
+                "4": 2
+              },
+              "position": [
+                -5.3,
+                1.77,
+                -1.31
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Night Demon",
+          "tiles": [
+            {
+              "numCharacters": {
+                "3": 2,
+                "4": 1
+              },
+              "position": [
+                -4.55,
+                1.77,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "H3",
+          "position": [
+            -9.85,
+            1.65,
+            6.56
+          ],
+          "rotation": [
+            0,
+            270.05,
+            0
+          ]
+        },
+        {
+          "tile": "G1",
+          "position": [
+            0.76,
+            1.71,
+            3.94
+          ],
+          "rotation": [
+            0,
+            89.98,
+            180
+          ]
+        }
+      ],
+      "scenarioSections": [
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086837788343/666FC4F512665F88C7F7C3CD6CD13177A620882D/",
+          "position": [
+            -18.19,
+            1.75,
+            11.38
+          ],
+          "scale": [
+            1.8,
+            1,
+            1.8
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 1,
+          "type": [
+            {
+              "name": "Man Stone Corridor 1",
+              "tiles": [
+                {
+                  "position": [
+                    -5.3,
+                    1.77,
+                    3.94
+                  ],
+                  "rotation": [
+                    0,
+                    269.98,
+                    180
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Man Stone Corridor 2",
+              "tiles": [
+                {
+                  "position": [
+                    -6.07,
+                    1.88,
+                    5.26
+                  ],
+                  "rotation": [
+                    0,
+                    90.25,
+                    359.97
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Fountain",
+              "tiles": [
+                {
+                  "position": [
+                    0.76,
+                    1.88,
+                    3.94
+                  ],
+                  "rotation": [
+                    0,
+                    90.01,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Wall Section",
+              "tiles": [
+                {
+                  "position": [
+                    -13.64,
+                    1.88,
+                    5.25
+                  ],
+                  "rotation": [
+                    0,
+                    210.01,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 8,
+          "type": [
+            {
+              "name": "Treasure Chest Horizontal",
+              "tiles": [
+                {
+                  "position": [
+                    -15.16,
+                    1.88,
+                    5.25
+                  ],
+                  "rotation": [
+                    0,
+                    90,
+                    0
+                  ],
+                  "action": {
+                    "treasure": 82
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 7,
+          "type": [
+            {
+              "name": "Spike Trap",
+              "statuses": [
+                "Damage"
+              ],
+              "tiles": [
+                {
+                  "position": [
+                    -1.52,
+                    1.88,
+                    5.25
+                  ],
+                  "rotation": [
+                    0,
+                    90.03,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    3.03,
+                    1.88,
+                    5.25
+                  ],
+                  "rotation": [
+                    0,
+                    90.03,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Bear Trap",
+              "statuses": [
+                "Damage",
+                "Curse"
+              ],
+              "tiles": [
+                {
+                  "position": [
+                    -0.76,
+                    1.88,
+                    3.93
+                  ],
+                  "rotation": [
+                    0,
+                    88.84,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    0.01,
+                    1.95,
+                    5.25
+                  ],
+                  "rotation": [
+                    0,
+                    88.84,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    1.54,
+                    1.88,
+                    5.26
+                  ],
+                  "rotation": [
+                    0,
+                    88.84,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    2.28,
+                    1.88,
+                    3.94
+                  ],
+                  "rotation": [
+                    0,
+                    88.84,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 2,
+          "type": [
+            {
+              "name": "Water 1",
+              "tiles": [
+                {
+                  "position": [
+                    -12.12,
+                    1.88,
+                    5.25
+                  ],
+                  "rotation": [
+                    0,
+                    29.94,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -9.85,
+                    1.88,
+                    3.94
+                  ],
+                  "rotation": [
+                    0,
+                    29.94,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -3.03,
+                    1.88,
+                    5.25
+                  ],
+                  "rotation": [
+                    0,
+                    29.94,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    5.29,
+                    1.88,
+                    3.93
+                  ],
+                  "rotation": [
+                    0,
+                    29.94,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Water 2",
+              "tiles": [
+                {
+                  "position": [
+                    -9.09,
+                    1.88,
+                    10.5
+                  ],
+                  "rotation": [
+                    0,
+                    330,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -8.33,
+                    1.88,
+                    3.94
+                  ],
+                  "rotation": [
+                    0,
+                    330,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": [
+            {
+              "name": "Scenario Aid Token",
+              "tiles": [
+                {
+                  "name": "b",
+                  "position": [
+                    -6.06,
+                    1.88,
+                    5.25
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Aesther Scout",
+          "tiles": [
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 1
+              },
+              "position": [
+                -12.12,
+                1.77,
+                10.5
+              ]
+            },
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 1
+              },
+              "position": [
+                6.07,
+                1.77,
+                2.65
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Black Imp",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 2
+              },
+              "position": [
+                -12.88,
+                1.77,
+                3.94
+              ]
+            },
+            {
+              "numCharacters": {
+                "3": 1
+              },
+              "position": [
+                -7.58,
+                1.77,
+                5.25
+              ]
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 1
+              },
+              "position": [
+                -4.55,
+                1.77,
+                2.63
+              ]
+            },
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 2
+              },
+              "position": [
+                6.06,
+                1.77,
+                5.25
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Night Demon",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1
+              },
+              "position": [
+                -10.61,
+                1.77,
+                10.5
+              ]
+            },
+            {
+              "numCharacters": {
+                "4": 1
+              },
+              "position": [
+                -9.85,
+                1.77,
+                6.56
+              ]
+            },
+            {
+              "numCharacters": {
+                "2": 1
+              },
+              "position": [
+                4.55,
+                1.77,
+                2.63
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "H2",
+          "position": [
+            12.88,
+            1.65,
+            6.56
+          ],
+          "rotation": [
+            0,
+            269.99,
+            0
+          ]
+        }
+      ],
+      "scenarioSections": [
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086838269956/CE6FFDF8FF940343016BCED91F36D26E30C4A337/",
+          "position": [
+            12.12,
+            1.75,
+            -1.75
+          ],
+          "scale": [
+            1.5,
+            1,
+            1.5
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 2,
+          "type": [
+            {
+              "name": "Water 1",
+              "tiles": [
+                {
+                  "position": [
+                    11.37,
+                    1.88,
+                    3.94
+                  ],
+                  "rotation": [
+                    0.04,
+                    29.94,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    12.12,
+                    1.88,
+                    10.5
+                  ],
+                  "rotation": [
+                    0,
+                    29.94,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Water 2",
+              "tiles": [
+                {
+                  "position": [
+                    15.15,
+                    1.88,
+                    5.25
+                  ],
+                  "rotation": [
+                    0,
+                    150.05,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 3,
+          "type": [
+            {
+              "name": "Thorns",
+              "tiles": [
+                {
+                  "position": [
+                    9.09,
+                    1.88,
+                    5.25
+                  ],
+                  "rotation": [
+                    359.98,
+                    269.62,
+                    359.97
+                  ]
+                },
+                {
+                  "position": [
+                    11.36,
+                    1.88,
+                    11.81
+                  ],
+                  "rotation": [
+                    359.98,
+                    269.62,
+                    359.97
+                  ]
+                },
+                {
+                  "position": [
+                    12.87,
+                    1.88,
+                    3.95
+                  ],
+                  "rotation": [
+                    359.98,
+                    269.62,
+                    359.97
+                  ]
+                },
+                {
+                  "position": [
+                    13.64,
+                    1.88,
+                    7.87
+                  ],
+                  "rotation": [
+                    359.98,
+                    269.62,
+                    359.97
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 8,
+          "type": [
+            {
+              "name": "Treasure Chest Horizontal",
+              "tiles": [
+                {
+                  "position": [
+                    16.67,
+                    1.88,
+                    5.25
+                  ],
+                  "rotation": [
+                    0,
+                    90,
+                    0
+                  ],
+                  "action": {
+                    "treasure": 92
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Harrower Infester",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 2
+              },
+              "position": [
+                11.37,
+                1.77,
+                6.56
+              ]
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 2,
+                "4": 2
+              },
+              "position": [
+                13.64,
+                1.77,
+                5.25
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Vermling Shaman",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 2
+              },
+              "position": [
+                11.37,
+                1.77,
+                9.19
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "A4",
+          "position": [
+            -8.34,
+            1.71,
+            14.42
+          ],
+          "rotation": [
+            0,
+            269.74,
+            180
+          ]
+        },
+        {
+          "tile": "H1",
+          "position": [
+            0,
+            1.65,
+            13.13
+          ],
+          "rotation": [
+            0,
+            90.02,
+            0
+          ]
+        }
+      ],
+      "scenarioSections": [
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086837882381/6C2FD11E979D9A31D28706D7EC8610AA8385DDF2/",
+          "position": [
+            -6.82,
+            1.75,
+            20.56
+          ],
+          "scale": [
+            2,
+            1,
+            2
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 1,
+          "type": [
+            {
+              "name": "Man Stone Corridor 1",
+              "tiles": [
+                {
+                  "position": [
+                    -4.55,
+                    1.77,
+                    15.75
+                  ],
+                  "rotation": [
+                    0,
+                    269.98,
+                    180
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Man Stone Corridor 2",
+              "tiles": [
+                {
+                  "position": [
+                    -5.3,
+                    1.88,
+                    14.44
+                  ],
+                  "rotation": [
+                    0,
+                    90.25,
+                    359.97
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Wall Section",
+              "tiles": [
+                {
+                  "position": [
+                    1.52,
+                    1.88,
+                    13.13
+                  ],
+                  "rotation": [
+                    0,
+                    269.96,
+                    0
+                  ],
+                  "tokens": [
+                    "d"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 7,
+          "type": [
+            {
+              "name": "Spike Trap",
+              "statuses": [
+                "Damage"
+              ],
+              "tiles": [
+                {
+                  "position": [
+                    -7.58,
+                    1.88,
+                    15.75
+                  ],
+                  "rotation": [
+                    0,
+                    90.03,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -6.83,
+                    1.88,
+                    14.42
+                  ],
+                  "rotation": [
+                    0,
+                    90.03,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Bear Trap",
+              "statuses": [
+                "Damage",
+                "Curse"
+              ],
+              "tiles": [
+                {
+                  "position": [
+                    -6.04,
+                    1.88,
+                    15.76
+                  ],
+                  "rotation": [
+                    359.99,
+                    89.85,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 2,
+          "type": [
+            {
+              "name": "Water 1",
+              "tiles": [
+                {
+                  "position": [
+                    -2.27,
+                    1.88,
+                    14.44
+                  ],
+                  "rotation": [
+                    0,
+                    30.21,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Water 2",
+              "tiles": [
+                {
+                  "position": [
+                    -0.76,
+                    1.88,
+                    9.19
+                  ],
+                  "rotation": [
+                    0,
+                    29.94,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": [
+            {
+              "name": "Scenario Aid Token",
+              "tiles": [
+                {
+                  "name": "c",
+                  "position": [
+                    0.76,
+                    1.77,
+                    11.81
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Aesther Scout",
+          "tiles": [
+            {
+              "numCharacters": {
+                "4": 1
+              },
+              "position": [
+                0,
+                1.77,
+                15.75
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Night Demon",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 1
+              },
+              "position": [
+                -10.61,
+                1.77,
+                15.75
+              ]
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 2
+              },
+              "position": [
+                0.76,
+                1.77,
+                9.19
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Black Imp",
+          "tiles": [
+            {
+              "numCharacters": {
+                "3": 2,
+                "4": 1
+              },
+              "position": [
+                -8.34,
+                1.77,
+                14.44
+              ]
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 2
+              },
+              "position": [
+                -3.03,
+                1.77,
+                15.75
+              ]
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 2,
+                "4": 2
+              },
+              "position": [
+                3.79,
+                1.77,
+                14.44
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "A3",
+          "position": [
+            9.85,
+            1.71,
+            14.42
+          ],
+          "rotation": [
+            0,
+            270.35,
+            180
+          ]
+        },
+        {
+          "tile": "C1",
+          "position": [
+            11.37,
+            1.77,
+            19.69
+          ],
+          "rotation": [
+            0,
+            329.91,
+            0
+          ]
+        }
+      ],
+      "scenarioSections": [
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086838276131/D62FABE8766196C78247DBDA9095442146A1F6D4/",
+          "position": [
+            21.22,
+            1.75,
+            18.37
+          ],
+          "scale": [
+            1.5,
+            1,
+            1.5
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 2,
+          "type": [
+            {
+              "name": "Water 2",
+              "tiles": [
+                {
+                  "position": [
+                    10.61,
+                    1.88,
+                    15.75
+                  ],
+                  "rotation": [
+                    359.96,
+                    330,
+                    0.02
+                  ]
+                },
+                {
+                  "position": [
+                    12.88,
+                    1.89,
+                    17.06
+                  ],
+                  "rotation": [
+                    0,
+                    270.01,
+                    0.11
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": [
+            {
+              "name": "Scenario Aid Token",
+              "tiles": [
+                {
+                  "name": "a",
+                  "position": [
+                    11.37,
+                    1.77,
+                    22.31
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ]
+                },
+                {
+                  "name": "a",
+                  "position": [
+                    12.88,
+                    1.77,
+                    22.31
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ]
+                },
+                {
+                  "name": "a",
+                  "position": [
+                    10.61,
+                    1.77,
+                    21
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ]
+                },
+                {
+                  "name": "a",
+                  "position": [
+                    12.12,
+                    1.77,
+                    21
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ]
+                },
+                {
+                  "name": "a",
+                  "position": [
+                    13.64,
+                    1.77,
+                    21
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Aesther Scout",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 2
+              },
+              "position": [
+                12.88,
+                1.77,
+                14.44
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Night Demon",
+          "tiles": [
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 1
+              },
+              "position": [
+                9.09,
+                1.77,
+                15.75
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Black Imp",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 2,
+                "4": 1
+              },
+              "position": [
+                9.85,
+                1.77,
+                19.69
+              ]
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "4": 1
+              },
+              "position": [
+                14.4,
+                1.77,
+                19.69
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "monsterList": [
+    "Aesther Ashblade",
+    "Aesther Scout",
+    "Black Imp",
+    "Night Demon",
+    "Harrower Infester",
+    "Vermling Shaman"
+  ],
+  "id": "111"
+}

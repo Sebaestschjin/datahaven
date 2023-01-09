@@ -1,0 +1,932 @@
+{
+  "name": "The Heist",
+  "gridType": 1,
+  "scenarioBook": {
+    "name": "JotL Scenario Book",
+    "page": 19
+  },
+  "doorTiles": [
+    {
+      "name": "Wooden Door Horizontal",
+      "tiles": [
+        {
+          "rooms": [
+            1,
+            5
+          ],
+          "position": {
+            "x": -1.31,
+            "y": 1.75,
+            "z": 5.29
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "rooms": [
+            1,
+            4
+          ],
+          "position": {
+            "x": -1.31,
+            "y": 1.75,
+            "z": 0.76
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "rooms": [
+            2,
+            1
+          ],
+          "position": {
+            "x": 5.25,
+            "y": 1.75,
+            "z": 3.03
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Wooden Door Vertical",
+      "tiles": [
+        {
+          "rooms": [
+            3,
+            1
+          ],
+          "position": {
+            "x": 2.63,
+            "y": 1.75,
+            "z": -1.52
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "mapTiles": [
+        {
+          "tile": "JOTL18-1",
+          "position": {
+            "x": 1.94,
+            "y": 1.7,
+            "z": 4.89
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      ],
+      "startTiles": {
+        "name": "Start Area",
+        "tiles": [
+          {
+            "position": {
+              "x": 3.94,
+              "y": 1.87,
+              "z": 9.85
+            },
+            "rotation": {
+              "x": 0,
+              "y": 360,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": 2.62,
+              "y": 1.87,
+              "z": 9.09
+            },
+            "rotation": {
+              "x": 0,
+              "y": 360,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": 1.31,
+              "y": 1.87,
+              "z": 9.85
+            },
+            "rotation": {
+              "x": 0,
+              "y": 360,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": 0,
+              "y": 1.87,
+              "z": 9.09
+            },
+            "rotation": {
+              "x": 0,
+              "y": 360,
+              "z": 0
+            }
+          }
+        ]
+      },
+      "overlayTiles": [
+        {
+          "type": [
+            {
+              "name": "Scenario Aid Token",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 0,
+                    "y": 1.75,
+                    "z": 6.06
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "b"
+                },
+                {
+                  "position": {
+                    "x": 3.94,
+                    "y": 1.75,
+                    "z": 6.82
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "b"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Statue",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 2.61,
+                    "y": 1.87,
+                    "z": 6.05
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 1,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 1.31,
+                    "y": 1.87,
+                    "z": 6.82
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Bookcase",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 2.63,
+                    "y": 1.87,
+                    "z": 1.52
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 300,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "JOTL18-2",
+          "position": {
+            "x": 7.64,
+            "y": 1.7,
+            "z": 4.64
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 8,
+          "type": [
+            {
+              "name": "Treasure Chest Vertical",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 7.87,
+                    "y": 1.86,
+                    "z": 7.58
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "action": {
+                    "name": "02",
+                    "treasure": "JotL Treasure 02"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": [
+            {
+              "name": "Coin 1",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 6.56,
+                    "y": 1.81,
+                    "z": -0.76
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 7.88,
+                    "y": 1.81,
+                    "z": 0
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 7.87,
+                    "y": 1.81,
+                    "z": 6.04
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 6.56,
+                    "y": 1.81,
+                    "z": 6.82
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 6.56,
+                    "y": 1.81,
+                    "z": 8.34
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 7.88,
+                    "y": 1.81,
+                    "z": 9.09
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Barrel",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 6.56,
+                    "y": 1.87,
+                    "z": 0.76
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Statue",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 7.88,
+                    "y": 1.87,
+                    "z": 4.55
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": [
+            {
+              "name": "Scenario Aid Token",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 6.56,
+                    "y": 1.75,
+                    "z": 3.79
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "a"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "JOTL18-3",
+          "position": {
+            "x": 2.64,
+            "y": 1.65,
+            "z": -5.94
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 8,
+          "type": [
+            {
+              "name": "Treasure Chest Vertical",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 0,
+                    "y": 1.86,
+                    "z": -7.58
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "action": {
+                    "name": "13",
+                    "treasure": "JotL Treasure 13"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": [
+            {
+              "name": "Coin 1",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 1.31,
+                    "y": 1.81,
+                    "z": -6.82
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 0,
+                    "y": 1.81,
+                    "z": -6.06
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 3.94,
+                    "y": 1.81,
+                    "z": -8.34
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 5.25,
+                    "y": 1.81,
+                    "z": -7.58
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": [
+            {
+              "name": "Scenario Aid Token",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 2.63,
+                    "y": 1.75,
+                    "z": -4.55
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "a"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Statue",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 1.31,
+                    "y": 1.87,
+                    "z": -3.79
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 3.94,
+                    "y": 1.87,
+                    "z": -6.82
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "JOTL18-4",
+          "position": {
+            "x": -6.38,
+            "y": 1.7,
+            "z": 0.59
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      ],
+      "overlayTiles": [
+        {
+          "type": [
+            {
+              "name": "Scenario Aid Token",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -5.25,
+                    "y": 1.75,
+                    "z": 0
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "a"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": [
+            {
+              "name": "Coin 1",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -9.19,
+                    "y": 1.81,
+                    "z": 2.27
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -7.87,
+                    "y": 1.81,
+                    "z": 0
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 8,
+          "type": [
+            {
+              "name": "Treasure Chest Vertical",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -9.19,
+                    "y": 1.86,
+                    "z": -0.76
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "action": {
+                    "name": "06",
+                    "treasure": "JotL Treasure 06"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Bookcase",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -6.56,
+                    "y": 1.87,
+                    "z": 2.27
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Statue",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -3.94,
+                    "y": 1.87,
+                    "z": 0.76
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Cabinet",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -3.93,
+                    "y": 1.87,
+                    "z": 2.27
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 360,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "JOTL18-5",
+          "position": {
+            "x": -6.38,
+            "y": 1.65,
+            "z": 6.36
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      ],
+      "overlayTiles": [
+        {
+          "type": [
+            {
+              "name": "Coin 1",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -7.87,
+                    "y": 1.81,
+                    "z": 6.06
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -7.87,
+                    "y": 1.81,
+                    "z": 4.55
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -5.25,
+                    "y": 1.81,
+                    "z": 4.55
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": [
+            {
+              "name": "Scenario Aid Token",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -5.25,
+                    "y": 1.75,
+                    "z": 6.06
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "a"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Statue",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -3.94,
+                    "y": 1.87,
+                    "z": 5.3
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Cabinet",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -2.63,
+                    "y": 1.87,
+                    "z": 7.58
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Bookcase",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -6.56,
+                    "y": 1.87,
+                    "z": 6.82
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 300,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 8,
+          "type": [
+            {
+              "name": "Treasure Chest Vertical",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -9.19,
+                    "y": 1.86,
+                    "z": 6.82
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "action": {
+                    "name": "07",
+                    "treasure": "JotL Treasure 07"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "monsterList": [
+    "Stone Golem <JotL>"
+  ],
+  "campaign": "Jaws of the Lion",
+  "sectionBook": {
+    "name": "JotL Section Book",
+    "sections": [
+      {
+        "id": "13A"
+      },
+      {
+        "id": "13B"
+      },
+      {
+        "id": "13C"
+      }
+    ]
+  },
+  "id": "JotL 18"
+}

@@ -1,0 +1,1124 @@
+{
+  "name": "Intricate Work",
+  "campaign": "Forgotten Circles",
+  "scenarioBook": {
+    "name": "Forgotten Circles",
+    "page": 15
+  },
+  "scenarioPages": [
+    {
+      "image": "http://cloud-3.steamusercontent.com/ugc/1011564389375757125/9377352A4CC886B3EAFEAFD51E20D5FA7D85520A/"
+    }
+  ],
+  "scenarioConclusions": [
+    {
+      "image": "http://cloud-3.steamusercontent.com/ugc/1752439086838272509/718AD1E869CEE3ED00CF62696882D2C58CFF5693/",
+      "scale": [
+        1.2,
+        1,
+        1.2
+      ],
+      "buttonLabel": "Reveal Conclusion (116)"
+    },
+    {
+      "image": "http://cloud-3.steamusercontent.com/ugc/1752439086837883376/7BBB77021D0797F97A129E7113AB322459AE52E7/",
+      "scale": [
+        1.5,
+        1,
+        1.5
+      ],
+      "buttonLabel": "Reveal Conclusion (86)"
+    }
+  ],
+  "doorTiles": [
+    {
+      "name": "Stone Door Horizontal",
+      "tiles": [
+        {
+          "rooms": [
+            1,
+            2
+          ],
+          "position": [
+            -3.04,
+            1.77,
+            7.89
+          ],
+          "rotation": [
+            0,
+            209.99,
+            0
+          ]
+        },
+        {
+          "rooms": [
+            1,
+            3
+          ],
+          "position": [
+            -3.03,
+            1.77,
+            0
+          ],
+          "rotation": [
+            0,
+            149.96,
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "gridType": 2,
+  "rooms": [
+    {
+      "mapTiles": [
+        {
+          "tile": "M1",
+          "position": [
+            0.76,
+            1.77,
+            3.94
+          ],
+          "rotation": [
+            0,
+            270,
+            0
+          ]
+        }
+      ],
+      "startTiles": {
+        "name": "Stone Corridor 1",
+        "tiles": [
+          {
+            "position": [
+              0.76,
+              1.89,
+              3.94
+            ],
+            "rotation": [
+              0,
+              30,
+              0
+            ]
+          },
+          {
+            "position": [
+              1.52,
+              1.89,
+              5.25
+            ],
+            "rotation": [
+              0,
+              30,
+              0
+            ]
+          },
+          {
+            "position": [
+              2.28,
+              1.89,
+              3.94
+            ],
+            "rotation": [
+              0,
+              30,
+              0
+            ]
+          },
+          {
+            "position": [
+              1.52,
+              1.89,
+              2.62
+            ],
+            "rotation": [
+              0,
+              30,
+              0
+            ]
+          }
+        ]
+      },
+      "scenarioSections": [
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086836489751/9BF29F2609E4A6734B473C29B89FEC3272B4451F/",
+          "position": [
+            1.52,
+            1.75,
+            14.88
+          ],
+          "scale": [
+            1.25,
+            1,
+            1.25
+          ],
+          "hidden": true,
+          "buttonLabel": "Section 11"
+        },
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086836491271/F5D888997BE1838649BD728DEF52A2BB87E696C6/",
+          "position": [
+            10.61,
+            1.75,
+            7
+          ],
+          "scale": [
+            1.25,
+            1,
+            1.25
+          ],
+          "hidden": true,
+          "buttonLabel": "Section 18"
+        },
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086837883559/97A4F049F493DF3396ADC15C9444AFC9CAB4BDD6/",
+          "position": [
+            8.34,
+            1.75,
+            14.44
+          ],
+          "scale": [
+            1.7,
+            1,
+            1.7
+          ],
+          "hidden": true,
+          "buttonLabel": "Section 87"
+        },
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086837884407/2B92E1D7BA085B2D0E7C63C715EDC8FD7AB03DA6/",
+          "position": [
+            6.91,
+            1.75,
+            -7.99
+          ],
+          "scale": [
+            1.1,
+            1,
+            1.1
+          ],
+          "hidden": true,
+          "buttonLabel": "Section 91"
+        },
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086838274180/325B7323E7B7B49F42991DB380E75883A7172BE7/",
+          "position": [
+            1.52,
+            1.75,
+            -7
+          ],
+          "scale": [
+            1.2,
+            1,
+            1.2
+          ],
+          "hidden": true,
+          "buttonLabel": "Section 124"
+        },
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086837788571/9BFF902748EEBFD5AF575BEB102B4E5013930081/",
+          "position": [
+            9.09,
+            1.75,
+            0
+          ],
+          "scale": [
+            1.7,
+            1,
+            1.7
+          ],
+          "hidden": true,
+          "action": {
+            "compound": [
+              {
+                "section": 68
+              },
+              {
+                "spawn": {
+                  "element": {
+                    "type": 2,
+                    "name": "Stairs Horizontal"
+                  },
+                  "placement": {
+                    "position": [
+                      -2.27,
+                      1.89,
+                      3.94
+                    ],
+                    "rotation": [
+                      0,
+                      270,
+                      0
+                    ]
+                  }
+                }
+              },
+              {
+                "spawn": {
+                  "element": {
+                    "type": 10,
+                    "name": "Stone Door Vertical"
+                  },
+                  "placement": {
+                    "position": [
+                      -3.79,
+                      1.77,
+                      3.94
+                    ],
+                    "rotation": [
+                      0,
+                      90,
+                      0
+                    ]
+                  },
+                  "action": {
+                    "rooms": [
+                      4
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Stone Pillar",
+              "tiles": [
+                {
+                  "position": [
+                    -3.03,
+                    1.88,
+                    5.25
+                  ],
+                  "rotation": [
+                    0,
+                    90,
+                    0
+                  ],
+                  "tokens": [
+                    "f"
+                  ]
+                },
+                {
+                  "position": [
+                    -3.03,
+                    1.88,
+                    2.62
+                  ],
+                  "rotation": [
+                    0,
+                    90,
+                    0
+                  ],
+                  "tokens": [
+                    "e"
+                  ]
+                },
+                {
+                  "position": [
+                    4.55,
+                    1.88,
+                    5.25
+                  ],
+                  "rotation": [
+                    0,
+                    90,
+                    0
+                  ],
+                  "tokens": [
+                    "b"
+                  ]
+                },
+                {
+                  "position": [
+                    1.52,
+                    1.88,
+                    7.88
+                  ],
+                  "rotation": [
+                    0,
+                    90,
+                    0
+                  ],
+                  "tokens": [
+                    "a"
+                  ]
+                },
+                {
+                  "position": [
+                    1.52,
+                    1.88,
+                    0
+                  ],
+                  "rotation": [
+                    0,
+                    90,
+                    0
+                  ],
+                  "tokens": [
+                    "d"
+                  ]
+                },
+                {
+                  "position": [
+                    4.52,
+                    1.88,
+                    2.63
+                  ],
+                  "rotation": [
+                    0,
+                    90,
+                    0
+                  ],
+                  "tokens": [
+                    "c"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": [
+            {
+              "name": "Scenario Aid Token",
+              "tiles": [
+                {
+                  "name": "g",
+                  "position": [
+                    -0.76,
+                    1.77,
+                    6.56
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ]
+                },
+                {
+                  "name": "h",
+                  "position": [
+                    2.27,
+                    1.77,
+                    6.56
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ]
+                },
+                {
+                  "name": "i",
+                  "position": [
+                    -0.76,
+                    1.77,
+                    1.31
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ]
+                },
+                {
+                  "name": "j",
+                  "position": [
+                    2.27,
+                    1.77,
+                    1.31
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ]
+                },
+                {
+                  "name": "k",
+                  "position": [
+                    -2.27,
+                    1.77,
+                    3.94
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Aesther Scout",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 2,
+                "3": 2,
+                "4": 2
+              },
+              "position": [
+                -1.52,
+                1.77,
+                7.88
+              ]
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 2,
+                "4": 1
+              },
+              "position": [
+                -2.27,
+                1.77,
+                1.31
+              ]
+            },
+            {
+              "numCharacters": {
+                "4": 1
+              },
+              "position": [
+                3.79,
+                1.77,
+                6.56
+              ]
+            },
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 2
+              },
+              "position": [
+                3.79,
+                1.77,
+                1.31
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "D1",
+          "position": [
+            -6.07,
+            1.77,
+            10.5
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "scenarioSections": [
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086836490119/BE5FAB5C360391AE8EEE3508229A3B761D2699ED/",
+          "position": [
+            -16.67,
+            1.75,
+            10.5
+          ],
+          "scale": [
+            1.75,
+            1,
+            1.75
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 2,
+          "type": [
+            {
+              "name": "Rubble",
+              "tiles": [
+                {
+                  "position": [
+                    -4.55,
+                    1.9,
+                    10.5
+                  ],
+                  "rotation": [
+                    0,
+                    29.98,
+                    0.86
+                  ]
+                },
+                {
+                  "position": [
+                    -5.31,
+                    1.9,
+                    9.18
+                  ],
+                  "rotation": [
+                    0,
+                    29.98,
+                    0.86
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Altar Vertical",
+              "tiles": [
+                {
+                  "position": [
+                    -7.58,
+                    1.84,
+                    13.13
+                  ],
+                  "rotation": [
+                    0,
+                    30.01,
+                    0.85
+                  ]
+                },
+                {
+                  "position": [
+                    -9.09,
+                    1.84,
+                    10.5
+                  ],
+                  "rotation": [
+                    0,
+                    30.01,
+                    0.85
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Wall Section",
+              "tiles": [
+                {
+                  "position": [
+                    -3.79,
+                    1.91,
+                    11.81
+                  ],
+                  "rotation": [
+                    0.74,
+                    270.03,
+                    359.57
+                  ]
+                },
+                {
+                  "position": [
+                    -6.82,
+                    1.89,
+                    9.19
+                  ],
+                  "rotation": [
+                    359.26,
+                    150,
+                    359.57
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Ancient Artillery",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 2,
+                "3": 1,
+                "4": 1
+              },
+              "position": [
+                -4.55,
+                1.77,
+                13.12
+              ]
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 2,
+                "4": 1
+              },
+              "position": [
+                -7.58,
+                1.77,
+                7.87
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Earth Demon",
+          "tiles": [
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 2
+              },
+              "position": [
+                -7.58,
+                1.75,
+                10.5
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Flame Demon",
+          "tiles": [
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 2
+              },
+              "position": [
+                -6.82,
+                1.75,
+                11.81
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Savvas Lavaflow",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 2
+              },
+              "position": [
+                -6.06,
+                1.77,
+                10.5
+              ],
+              "named": "Avatar of Ashtar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "D2",
+          "position": [
+            -6.06,
+            1.77,
+            -2.63
+          ],
+          "rotation": [
+            0,
+            180.03,
+            0
+          ]
+        }
+      ],
+      "scenarioSections": [
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086836497057/38524D9385DFABD768826A692DF68D16096D7989/",
+          "position": [
+            -16.67,
+            1.75,
+            -3.5
+          ],
+          "scale": [
+            1.65,
+            1,
+            1.65
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 2,
+          "type": [
+            {
+              "name": "Rubble",
+              "tiles": [
+                {
+                  "position": [
+                    -5.3,
+                    1.88,
+                    -1.31
+                  ],
+                  "rotation": [
+                    0,
+                    29.98,
+                    0.86
+                  ]
+                },
+                {
+                  "position": [
+                    -4.55,
+                    1.88,
+                    -2.63
+                  ],
+                  "rotation": [
+                    0,
+                    29.98,
+                    0.86
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Altar Vertical",
+              "tiles": [
+                {
+                  "position": [
+                    -9.09,
+                    1.88,
+                    -2.63
+                  ],
+                  "rotation": [
+                    -9.09,
+                    1.88,
+                    -2.63
+                  ]
+                },
+                {
+                  "position": [
+                    -7.57,
+                    1.88,
+                    -5.25
+                  ],
+                  "rotation": [
+                    -9.09,
+                    1.88,
+                    -2.63
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Wall Section",
+              "tiles": [
+                {
+                  "position": [
+                    -6.07,
+                    1.89,
+                    -0.01
+                  ],
+                  "rotation": [
+                    0,
+                    210.21,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -5.3,
+                    1.89,
+                    -3.94
+                  ],
+                  "rotation": [
+                    0,
+                    90.02,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Ancient Artillery",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 2,
+                "3": 1,
+                "4": 1
+              },
+              "position": [
+                -4.55,
+                1.77,
+                -5.25
+              ]
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 2,
+                "4": 1
+              },
+              "position": [
+                -7.58,
+                1.77,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Wind Demon",
+          "tiles": [
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 2
+              },
+              "position": [
+                -7.59,
+                1.77,
+                -2.62
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Frost Demon",
+          "tiles": [
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 2
+              },
+              "position": [
+                -6.82,
+                1.77,
+                -3.94
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Savvas Icestorm",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 2
+              },
+              "position": [
+                -6.06,
+                1.77,
+                -2.62
+              ],
+              "named": "Avatar of Thelija"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "A1",
+          "position": [
+            -7.58,
+            1.71,
+            5.25
+          ],
+          "rotation": [
+            0,
+            269.98,
+            0
+          ]
+        }
+      ],
+      "scenarioSections": [
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086838276651/E3CED7FF869FEF92FB5ACCB24192B337A92322BB/",
+          "position": [
+            -16.67,
+            1.75,
+            3.5
+          ],
+          "scale": [
+            1.4,
+            1,
+            1.4
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 7,
+          "type": [
+            {
+              "name": "Bear Trap",
+              "statuses": [
+                "Damage"
+              ],
+              "tiles": [
+                {
+                  "position": [
+                    -4.55,
+                    1.89,
+                    5.25
+                  ],
+                  "rotation": [
+                    0,
+                    29.98,
+                    0.86
+                  ]
+                },
+                {
+                  "position": [
+                    -5.31,
+                    1.89,
+                    3.94
+                  ],
+                  "rotation": [
+                    0,
+                    29.98,
+                    0.86
+                  ]
+                },
+                {
+                  "position": [
+                    -6.83,
+                    1.89,
+                    3.94
+                  ],
+                  "rotation": [
+                    0,
+                    29.98,
+                    0.86
+                  ]
+                },
+                {
+                  "position": [
+                    -9.09,
+                    1.89,
+                    5.25
+                  ],
+                  "rotation": [
+                    0,
+                    29.98,
+                    0.86
+                  ]
+                },
+                {
+                  "position": [
+                    -9.85,
+                    1.89,
+                    3.94
+                  ],
+                  "rotation": [
+                    0,
+                    29.98,
+                    0.86
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Sarcophagus A",
+              "tiles": [
+                {
+                  "position": [
+                    -7.58,
+                    1.89,
+                    5.25
+                  ],
+                  "rotation": [
+                    0,
+                    89.95,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 8,
+          "type": [
+            {
+              "name": "Treasure Chest Vertical",
+              "tiles": [
+                {
+                  "position": [
+                    -10.61,
+                    1.88,
+                    5.25
+                  ],
+                  "rotation": [
+                    0,
+                    269.97,
+                    0
+                  ],
+                  "action": {
+                    "treasure": "G"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Ancient Artillery",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 2
+              },
+              "position": [
+                -8.34,
+                1.77,
+                3.94
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "monsterList": [
+    "Aesther Scout",
+    "Ancient Artillery",
+    "Savvas Lavaflow",
+    "Earth Demon",
+    "Flame Demon",
+    "Savvas Icestorm",
+    "Wind Demon",
+    "Frost Demon"
+  ],
+  "id": "106"
+}

@@ -1,0 +1,805 @@
+{
+  "name": "A Ritual in Stone",
+  "scenarioBook": {
+    "name": "JotL Scenario Book",
+    "page": 5
+  },
+  "sectionBook": {
+    "name": "JotL Section Book",
+    "sections": [
+      {
+        "id": "3A"
+      },
+      {
+        "id": "3B"
+      },
+      {
+        "id": "3C"
+      }
+    ]
+  },
+  "monsters": {},
+  "figures": {},
+  "doorTiles": {},
+  "rooms": [
+    {
+      "mapTiles": [
+        {
+          "tile": "JOTL04-1",
+          "position": {
+            "x": -1.29,
+            "y": 1.7,
+            "z": 3.02
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Stone Golem <JotL>",
+          "tiles": [
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": -2.63,
+                "y": 1.75,
+                "z": 12.12
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": -1.31,
+                "y": 1.75,
+                "z": -5.3
+              }
+            }
+          ]
+        },
+        {
+          "name": "Zealot",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": -1.31,
+                "y": 1.75,
+                "z": 8.34
+              }
+            },
+            {
+              "numCharacters": {
+                "4": 2
+              },
+              "position": {
+                "x": 2.62,
+                "y": 1.75,
+                "z": 6.05
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 2,
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": -1.31,
+                "y": 1.75,
+                "z": 2.27
+              }
+            },
+            {
+              "numCharacters": {
+                "4": 1
+              },
+              "position": {
+                "x": -1.31,
+                "y": 1.75,
+                "z": 0.76
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": -7.88,
+                "y": 1.75,
+                "z": 3.03
+              }
+            }
+          ]
+        }
+      ],
+      "startTiles": {
+        "name": "Start Area",
+        "tiles": [
+          {
+            "position": {
+              "x": 5.25,
+              "y": 1.87,
+              "z": 10.61
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": 3.94,
+              "y": 1.87,
+              "z": 9.85
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": 2.63,
+              "y": 1.87,
+              "z": 10.61
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": 2.63,
+              "y": 1.87,
+              "z": 12.12
+            },
+            "rotation": {
+              "x": 0,
+              "y": 360,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": 3.95,
+              "y": 1.87,
+              "z": 11.35
+            },
+            "rotation": {
+              "x": 0,
+              "y": 360,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": 5.25,
+              "y": 1.87,
+              "z": 12.12
+            },
+            "rotation": {
+              "x": 0,
+              "y": 360,
+              "z": 0
+            }
+          }
+        ]
+      },
+      "overlayTiles": [
+        {
+          "bag": 2,
+          "type": [
+            {
+              "name": "Fissure 1",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 0.01,
+                    "y": 1.86,
+                    "z": 9.09
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Fissure 2",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 0,
+                    "y": 1.87,
+                    "z": 10.62
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 300,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 1.31,
+                    "y": 1.87,
+                    "z": 2.27
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 300,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -1.31,
+                    "y": 1.87,
+                    "z": -3.79
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 300,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -6.56,
+                    "y": 1.87,
+                    "z": 0.76
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 300,
+                    "z": 0
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Rubble",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 2.63,
+                    "y": 1.86,
+                    "z": 4.55
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 360,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -1.31,
+                    "y": 1.86,
+                    "z": -0.76
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 360,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -5.25,
+                    "y": 1.86,
+                    "z": 3.03
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": [
+            {
+              "name": "Scenario Aid Token",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 1.31,
+                    "y": 1.75,
+                    "z": -3.79
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "b"
+                },
+                {
+                  "position": {
+                    "x": -7.88,
+                    "y": 1.75,
+                    "z": 0
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "c"
+                },
+                {
+                  "position": {
+                    "x": -5.25,
+                    "y": 1.75,
+                    "z": -3.03
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "a"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 7,
+          "type": [
+            {
+              "name": "Bear Trap",
+              "statuses": [
+                "Damage"
+              ],
+              "tiles": [
+                {
+                  "position": {
+                    "x": 1.31,
+                    "y": 1.87,
+                    "z": 5.3
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "name": "Damage Trap"
+                },
+                {
+                  "position": {
+                    "x": -3.94,
+                    "y": 1.87,
+                    "z": 2.27
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 360,
+                    "z": 0
+                  },
+                  "name": "Damage Trap"
+                },
+                {
+                  "position": {
+                    "x": -3.94,
+                    "y": 1.87,
+                    "z": -2.27
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "name": "Damage Trap"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Boulder",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -2.63,
+                    "y": 1.87,
+                    "z": 1.52
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 120,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 1.31,
+                    "y": 1.87,
+                    "z": -0.76
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 120,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 2.63,
+                    "y": 1.87,
+                    "z": 9.09
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 120,
+                    "z": 0
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Summoning Stone",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -1.31,
+                    "y": 1.87,
+                    "z": 9.85
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "name": "Summoning Stone",
+                  "hp": [
+                    "+",
+                    "C",
+                    1
+                  ]
+                },
+                {
+                  "position": {
+                    "x": -6.57,
+                    "y": 1.87,
+                    "z": 2.26
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "name": "Summoning Stone",
+                  "hp": [
+                    "+",
+                    "C",
+                    1
+                  ]
+                },
+                {
+                  "position": {
+                    "x": 1.31,
+                    "y": 1.87,
+                    "z": 3.77
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 360,
+                    "z": 360
+                  },
+                  "name": "Summoning Stone",
+                  "hp": [
+                    "+",
+                    "C",
+                    1
+                  ]
+                },
+                {
+                  "position": {
+                    "x": -1.32,
+                    "y": 1.87,
+                    "z": -2.28
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "name": "Summoning Stone",
+                  "hp": [
+                    "+",
+                    "C",
+                    1
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Scenario Spawn Piece",
+              "tiles": [
+                {
+                  "position": {
+                    "x": "11.37",
+                    "y": "1.66",
+                    "z": "7.58"
+                  },
+                  "rotation": {
+                    "x": "0.0",
+                    "y": "270",
+                    "z": "0.0"
+                  },
+                  "action": {
+                    "name": "2 Stones Remain",
+                    "style": "pressure plate",
+                    "rooms": [
+                      2
+                    ]
+                  }
+                },
+                {
+                  "position": {
+                    "x": "18.38",
+                    "y": "1.66",
+                    "z": "7.58"
+                  },
+                  "rotation": {
+                    "x": "0.0",
+                    "y": "270",
+                    "z": "0.0"
+                  },
+                  "action": {
+                    "name": "0 Stones Remain",
+                    "style": "pressure plate",
+                    "rooms": [
+                      3
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 8,
+          "type": [
+            {
+              "name": "Treasure Chest Vertical",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -3.94,
+                    "y": 1.86,
+                    "z": 0.76
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "action": {
+                    "name": "16",
+                    "treasure": "JotL Treasure 16"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": [
+            {
+              "name": "Coin 1",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -2.63,
+                    "y": 1.81,
+                    "z": -1.52
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -6.56,
+                    "y": 1.81,
+                    "z": 3.79
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 2.6,
+                    "y": 1.81,
+                    "z": 3.03
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -2.63,
+                    "y": 1.81,
+                    "z": 10.61
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": {},
+      "monsters": [
+        {
+          "name": "Zealot",
+          "tiles": [
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 2
+              },
+              "position": {
+                "x": -10.06,
+                "y": 1.65,
+                "z": -0.76
+              }
+            },
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": -10.06,
+                "y": 1.65,
+                "z": 0.76
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": 2.63,
+                "y": 1.65,
+                "z": -6.06
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 2,
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": 3.5,
+                "y": 1.65,
+                "z": -4.55
+              }
+            }
+          ]
+        }
+      ],
+      "overlayTiles": {}
+    },
+    {
+      "mapTiles": {},
+      "monsters": [
+        {
+          "name": "Stone Golem <JotL>",
+          "tiles": [
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": 4.38,
+                "y": 1.65,
+                "z": -3.03
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": -8.31,
+                "y": 1.65,
+                "z": -3.79
+              }
+            }
+          ]
+        },
+        {
+          "name": "Zealot",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": -7.44,
+                "y": 1.65,
+                "z": -6.82
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": -7.44,
+                "y": 1.65,
+                "z": -5.3
+              }
+            }
+          ]
+        }
+      ],
+      "overlayTiles": {}
+    }
+  ],
+  "monsterList": [
+    "Stone Golem <JotL>",
+    "Zealot"
+  ],
+  "campaign": "Jaws of the Lion",
+  "gridType": 1,
+  "id": "JotL 04"
+}

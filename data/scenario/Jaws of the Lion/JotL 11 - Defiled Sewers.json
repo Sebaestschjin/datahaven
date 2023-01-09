@@ -1,0 +1,784 @@
+{
+  "name": "Defiled Sewers",
+  "gridType": 1,
+  "scenarioBook": {
+    "name": "JotL Scenario Book",
+    "page": 12
+  },
+  "sectionBook": {
+    "name": "JotL Section Book",
+    "sections": [
+      {
+        "id": "9A"
+      }
+    ]
+  },
+  "overlays": {
+    "Bear Trap": {
+      "conditions": [
+        "Damage"
+      ],
+      "name": "Damage Trap"
+    }
+  },
+  "doorTiles": [
+    {
+      "name": "Pressure Plate",
+      "tiles": [
+        {
+          "rooms": [
+            3,
+            4
+          ],
+          "position": {
+            "x": 11.81,
+            "y": 1.87,
+            "z": 3.79
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "tokens": [
+            "d"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Stone Door Horizontal",
+      "tiles": [
+        {
+          "rooms": [
+            2,
+            3
+          ],
+          "position": {
+            "x": 3.94,
+            "y": 1.75,
+            "z": 0.76
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "tokens": [
+            "1"
+          ]
+        },
+        {
+          "rooms": [
+            2,
+            1
+          ],
+          "position": {
+            "x": -3.94,
+            "y": 1.75,
+            "z": -2.27
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "mapTiles": [
+        {
+          "tile": "JOTL11-1",
+          "position": {
+            "x": -9.44,
+            "y": 1.65,
+            "z": -1.13
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Giant Viper <JotL>",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 2
+              },
+              "position": {
+                "x": -9.19,
+                "y": 1.75,
+                "z": -2.27
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": -9.19,
+                "y": 1.75,
+                "z": -0.76
+              }
+            },
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": -7.87,
+                "y": 1.75,
+                "z": -3.03
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 2,
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": -7.87,
+                "y": 1.75,
+                "z": -1.52
+              }
+            },
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": -7.87,
+                "y": 1.75,
+                "z": 0
+              }
+            }
+          ]
+        },
+        {
+          "name": "Black Sludge",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 2
+              },
+              "position": {
+                "x": -6.56,
+                "y": 1.75,
+                "z": -0.76
+              }
+            }
+          ]
+        }
+      ],
+      "startTiles": {
+        "name": "Start Area",
+        "tiles": [
+          {
+            "position": {
+              "x": -11.81,
+              "y": 1.87,
+              "z": -2.27
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": -13.12,
+              "y": 1.87,
+              "z": -3.03
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": -13.12,
+              "y": 1.87,
+              "z": -1.52
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": -11.81,
+              "y": 1.87,
+              "z": -0.76
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": -11.81,
+              "y": 1.87,
+              "z": 0.76
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": -13.12,
+              "y": 1.87,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 360,
+              "z": 0
+            }
+          }
+        ]
+      },
+      "overlayTiles": [
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Crate B",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -9.19,
+                    "y": 1.86,
+                    "z": 0.76
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 120,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "JOTL11-2",
+          "position": {
+            "x": 0.01,
+            "y": 1.65,
+            "z": 2.2
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Black Sludge",
+          "tiles": [
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": 1.31,
+                "y": 1.75,
+                "z": 5.3
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 2,
+                "3": 1,
+                "4": 2
+              },
+              "position": {
+                "x": 0,
+                "y": 1.75,
+                "z": 6.06
+              }
+            },
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": -1.31,
+                "y": 1.75,
+                "z": 5.3
+              }
+            }
+          ]
+        },
+        {
+          "name": "Giant Viper <JotL>",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": -1.31,
+                "y": 1.75,
+                "z": 2.27
+              }
+            },
+            {
+              "numCharacters": {
+                "4": 1
+              },
+              "position": {
+                "x": -2.62,
+                "y": 1.75,
+                "z": 0
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 2
+              },
+              "position": {
+                "x": 1.31,
+                "y": 1.75,
+                "z": -2.27
+              }
+            },
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": 2.63,
+                "y": 1.75,
+                "z": 1.52
+              }
+            }
+          ]
+        },
+        {
+          "name": "Vermling Scout <JotL>",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 2,
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": 2.62,
+                "y": 1.75,
+                "z": 0
+              }
+            }
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "type": [
+            {
+              "name": "Scenario Aid Token",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -2.62,
+                    "y": 1.75,
+                    "z": 7.58
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "a"
+                },
+                {
+                  "position": {
+                    "x": 2.63,
+                    "y": 1.75,
+                    "z": 7.58
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "a"
+                },
+                {
+                  "position": {
+                    "x": 1.31,
+                    "y": 1.75,
+                    "z": 6.82
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "a"
+                },
+                {
+                  "position": {
+                    "x": -1.31,
+                    "y": 1.75,
+                    "z": 6.82
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "a"
+                },
+                {
+                  "position": {
+                    "x": 0,
+                    "y": 1.75,
+                    "z": 7.58
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "a"
+                },
+                {
+                  "position": {
+                    "x": 2.63,
+                    "y": 1.75,
+                    "z": 4.55
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "c"
+                },
+                {
+                  "position": {
+                    "x": 2.62,
+                    "y": 1.75,
+                    "z": 6.06
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "b"
+                },
+                {
+                  "position": {
+                    "x": -2.6,
+                    "y": 1.75,
+                    "z": 4.53
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "c"
+                },
+                {
+                  "position": {
+                    "x": -2.62,
+                    "y": 1.75,
+                    "z": 6.06
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "b"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Crate B",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 2.62,
+                    "y": 1.86,
+                    "z": -1.52
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 120,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "JOTL11-3",
+          "position": {
+            "x": 8.81,
+            "y": 1.7,
+            "z": 1.88
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Vermling Scout <JotL>",
+          "tiles": [
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 2
+              },
+              "position": {
+                "x": 7.88,
+                "y": 1.75,
+                "z": 0
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 2
+              },
+              "position": {
+                "x": 9.19,
+                "y": 1.75,
+                "z": 0.76
+              }
+            },
+            {
+              "numCharacters": {
+                "4": 1
+              },
+              "position": {
+                "x": 6.56,
+                "y": 1.75,
+                "z": 2.27
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": 5.25,
+                "y": 1.75,
+                "z": 1.52
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 2,
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": 9.19,
+                "y": 1.75,
+                "z": 3.79
+              }
+            },
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": 9.19,
+                "y": 1.75,
+                "z": 2.27
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 2,
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": 10.5,
+                "y": 1.75,
+                "z": 1.52
+              }
+            }
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 7,
+          "type": [
+            {
+              "name": "Bear Trap",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 11.81,
+                    "y": 1.87,
+                    "z": 2.27
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 10.5,
+                    "y": 1.87,
+                    "z": 3.03
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 10.5,
+                    "y": 1.87,
+                    "z": 4.55
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": {},
+      "monsters": [
+        {
+          "name": "Giant Viper <JotL>",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": -2.63,
+                "y": 1.9,
+                "z": 4.55
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": 2.63,
+                "y": 1.9,
+                "z": 4.55
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 2
+              },
+              "position": {
+                "x": 2.62,
+                "y": 1.9,
+                "z": 6.06
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 2
+              },
+              "position": {
+                "x": -2.62,
+                "y": 1.9,
+                "z": 6.06
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "monsterList": [
+    "Giant Viper <JotL>",
+    "Black Sludge",
+    "Vermling Scout <JotL>"
+  ],
+  "campaign": "Jaws of the Lion",
+  "id": "JotL 11"
+}

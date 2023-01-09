@@ -1,0 +1,1103 @@
+{
+  "name": "Past in Flames",
+  "campaign": "Forgotten Circles",
+  "scenarioBook": {
+    "name": "Forgotten Circles",
+    "page": 7
+  },
+  "scenarioPages": [
+    {
+      "image": "http://cloud-3.steamusercontent.com/ugc/1011563720479351494/A2E94DBCED32B78848367A53F26C9378932E7F3D/"
+    }
+  ],
+  "scenarioConclusions": [
+    {
+      "image": "http://cloud-3.steamusercontent.com/ugc/1752439086837785983/977CB4225B5DA668002FD3A789EF6A28E82D448F/",
+      "scale": [
+        1.5,
+        1,
+        1.5
+      ],
+      "buttonLabel": "Reveal Conclusion (55)"
+    },
+    {
+      "image": "http://cloud-3.steamusercontent.com/ugc/1752439086837786487/BF610EA265EBB738F96634181EC13121D61EC207/",
+      "scale": [
+        1.2,
+        1,
+        1.2
+      ],
+      "buttonLabel": "Reveal Conclusion (59)"
+    },
+    {
+      "image": "http://cloud-3.steamusercontent.com/ugc/1752439086837882609/9286D0EF9C22B339BD21994C7327E0B577463D4E/",
+      "scale": [
+        1.5,
+        1,
+        1.5
+      ],
+      "buttonLabel": "Reveal Conclusion (82)"
+    }
+  ],
+  "gridType": 2,
+  "doorTiles": [
+    {
+      "name": "Wooden Door Horizontal",
+      "tiles": [
+        {
+          "rooms": [
+            1,
+            2
+          ],
+          "position": [
+            -8.34,
+            1.77,
+            3.06
+          ],
+          "rotation": [
+            0,
+            270,
+            0
+          ],
+          "tokens": [
+            "1"
+          ]
+        },
+        {
+          "rooms": [
+            1,
+            3
+          ],
+          "position": [
+            -12.12,
+            1.88,
+            -0.88
+          ],
+          "rotation": [
+            0,
+            270,
+            0
+          ],
+          "tokens": [
+            "2"
+          ]
+        }
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "mapTiles": [
+        {
+          "tile": "A4",
+          "position": [
+            -9.09,
+            1.71,
+            1.75
+          ],
+          "rotation": [
+            0,
+            90.13,
+            180
+          ]
+        },
+        {
+          "tile": "H3",
+          "position": [
+            0.76,
+            1.65,
+            3.06
+          ],
+          "rotation": [
+            0,
+            269.98,
+            0
+          ]
+        }
+      ],
+      "startTiles": {
+        "name": "Stone Corridor 1",
+        "tiles": [
+          {
+            "position": [
+              3.03,
+              1.88,
+              1.75
+            ],
+            "rotation": [
+              0,
+              89.94,
+              0
+            ]
+          },
+          {
+            "position": [
+              4.54,
+              1.88,
+              1.75
+            ],
+            "rotation": [
+              0,
+              269.95,
+              0
+            ]
+          },
+          {
+            "position": [
+              2.27,
+              1.88,
+              0.44
+            ],
+            "rotation": [
+              0,
+              89.85,
+              0
+            ]
+          },
+          {
+            "position": [
+              3.79,
+              1.88,
+              0.44
+            ],
+            "rotation": [
+              0,
+              90.02,
+              0
+            ]
+          }
+        ]
+      },
+      "overlayTiles": [
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Fountain",
+              "tiles": [
+                {
+                  "position": [
+                    0,
+                    1.88,
+                    1.75
+                  ],
+                  "rotation": [
+                    0,
+                    90,
+                    0
+                  ],
+                  "tokens": [
+                    "d"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Wall Section",
+              "tiles": [
+                {
+                  "position": [
+                    -5.3,
+                    1.88,
+                    3.06
+                  ],
+                  "rotation": [
+                    0,
+                    270.05,
+                    0.04
+                  ],
+                  "tokens": [
+                    "c"
+                  ]
+                },
+                {
+                  "position": [
+                    -9.85,
+                    1.88,
+                    3.06
+                  ],
+                  "rotation": [
+                    0,
+                    269.99,
+                    0.05
+                  ],
+                  "tokens": [
+                    "c"
+                  ],
+                  "hp": 12
+                },
+                {
+                  "position": [
+                    -12.88,
+                    1.88,
+                    3.06
+                  ],
+                  "rotation": [
+                    0,
+                    270,
+                    0.05
+                  ],
+                  "tokens": [
+                    "c"
+                  ]
+                },
+                {
+                  "position": [
+                    -10.61,
+                    1.88,
+                    -0.88
+                  ],
+                  "rotation": [
+                    0,
+                    89.97,
+                    0.05
+                  ],
+                  "tokens": [
+                    "c"
+                  ],
+                  "hp": 12
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 1,
+          "type": [
+            {
+              "name": "Man Stone Corridor 2",
+              "tiles": [
+                {
+                  "position": [
+                    -5.3,
+                    1.88,
+                    0.42
+                  ],
+                  "rotation": [
+                    0,
+                    330,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Ancient Artillery",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 2,
+                "4": 2
+              },
+              "position": [
+                0,
+                1.77,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bandit Archer",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 2
+              },
+              "position": [
+                0.76,
+                1.77,
+                8.31
+              ]
+            },
+            {
+              "numCharacters": {
+                "4": 2
+              },
+              "position": [
+                -9.09,
+                1.77,
+                1.75
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bandit Guard",
+          "tiles": [
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 1
+              },
+              "position": [
+                -0.76,
+                1.77,
+                5.69
+              ]
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 1
+              },
+              "position": [
+                0.76,
+                1.77,
+                5.69
+              ]
+            },
+            {
+              "numCharacters": {
+                "4": 1
+              },
+              "position": [
+                0.76,
+                1.77,
+                3.06
+              ]
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 2
+              },
+              "position": [
+                -1.52,
+                1.77,
+                1.75
+              ]
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 2,
+                "4": 1
+              },
+              "position": [
+                -6.82,
+                1.77,
+                0.44
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Spitting Drake",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 2,
+                "4": 1
+              },
+              "position": [
+                -12.88,
+                4.1,
+                3.06
+              ]
+            },
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 1
+              },
+              "position": [
+                -10.61,
+                4.1,
+                -0.87
+              ],
+              "rotation": [
+                0,
+                270,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "B1",
+          "position": [
+            -6.82,
+            1.71,
+            5.69
+          ],
+          "rotation": [
+            0,
+            270.05,
+            0
+          ]
+        },
+        {
+          "tile": "B3",
+          "position": [
+            -12.88,
+            1.71,
+            5.69
+          ],
+          "rotation": [
+            0,
+            270.03,
+            0
+          ]
+        }
+      ],
+      "scenarioSections": [
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086836488476/B7333437A009D3C4C3B34990688B9B7569001BB6/",
+          "position": [
+            -9.85,
+            1.75,
+            15.31
+          ],
+          "scale": [
+            1.8,
+            1,
+            1.8
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Shelf",
+              "tiles": [
+                {
+                  "position": [
+                    -10.61,
+                    1.88,
+                    4.37
+                  ],
+                  "rotation": [
+                    0,
+                    89.84,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -8.34,
+                    1.88,
+                    8.3
+                  ],
+                  "rotation": [
+                    0,
+                    270.37,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Table",
+              "tiles": [
+                {
+                  "position": [
+                    -15.16,
+                    1.88,
+                    7
+                  ],
+                  "rotation": [
+                    0,
+                    150,
+                    0
+                  ],
+                  "tokens": [
+                    "e"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Stone Pillar",
+              "tiles": [
+                {
+                  "position": [
+                    -9.86,
+                    1.88,
+                    5.67
+                  ],
+                  "rotation": [
+                    0,
+                    89.99,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 2,
+          "type": [
+            {
+              "name": "Stairs Horizontal",
+              "tiles": [
+                {
+                  "position": [
+                    -9.11,
+                    1.88,
+                    6.99
+                  ],
+                  "rotation": [
+                    0,
+                    88.85,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -10.6,
+                    1.88,
+                    7
+                  ],
+                  "rotation": [
+                    0,
+                    88.96,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 3,
+          "type": [
+            {
+              "name": "Hot Coals 1",
+              "tiles": [
+                {
+                  "position": [
+                    -12.12,
+                    1.88,
+                    7
+                  ],
+                  "rotation": [
+                    0,
+                    210,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Hot Coals 3",
+              "tiles": [
+                {
+                  "position": [
+                    -6.06,
+                    1.89,
+                    4.38
+                  ],
+                  "rotation": [
+                    0,
+                    330.04,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": [
+            {
+              "name": "Scenario Aid Token",
+              "tiles": [
+                {
+                  "name": "g",
+                  "position": [
+                    -12.12,
+                    1.97,
+                    7
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ]
+                },
+                {
+                  "name": "g",
+                  "position": [
+                    -6.06,
+                    1.99,
+                    5.25
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Bandit Archer",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 1
+              },
+              "position": [
+                -14.4,
+                1.77,
+                8.31
+              ]
+            },
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 2
+              },
+              "position": [
+                -15.16,
+                1.77,
+                4.38
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bandit Guard",
+          "tiles": [
+            {
+              "numCharacters": {
+                "4": 1
+              },
+              "position": [
+                -5.3,
+                1.77,
+                8.31
+              ]
+            },
+            {
+              "numCharacters": {
+                "2": 2,
+                "3": 2,
+                "4": 1
+              },
+              "position": [
+                -8.34,
+                1.77,
+                5.69
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Spitting Drake",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 2
+              },
+              "position": [
+                -11.37,
+                1.77,
+                8.31
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "B2",
+          "position": [
+            -17.43,
+            1.71,
+            -4.81
+          ],
+          "rotation": [
+            0,
+            269.97,
+            0
+          ]
+        },
+        {
+          "tile": "B4",
+          "position": [
+            -11.36,
+            1.71,
+            -4.82
+          ],
+          "rotation": [
+            0,
+            269.99,
+            0
+          ]
+        }
+      ],
+      "scenarioSections": [
+        {
+          "image": "http://cloud-3.steamusercontent.com/ugc/1752439086836495748/2DF0916E6D928AA089497F261A0A9C9418331010/",
+          "position": [
+            -3.79,
+            1.75,
+            -5.69
+          ],
+          "scale": [
+            1.8,
+            1,
+            1.8
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Wall Section",
+              "tiles": [
+                {
+                  "position": [
+                    -15.15,
+                    1.88,
+                    -0.88
+                  ],
+                  "rotation": [
+                    0,
+                    89.85,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -18.19,
+                    1.88,
+                    -0.88
+                  ],
+                  "rotation": [
+                    0,
+                    90.02,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Shelf",
+              "tiles": [
+                {
+                  "position": [
+                    -18.94,
+                    1.88,
+                    -2.19
+                  ],
+                  "rotation": [
+                    0,
+                    209.97,
+                    0
+                  ],
+                  "tokens": [
+                    "f"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Stone Pillar",
+              "tiles": [
+                {
+                  "position": [
+                    -11.37,
+                    1.88,
+                    -4.81
+                  ],
+                  "rotation": [
+                    0,
+                    89.99,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -14.4,
+                    1.88,
+                    -4.81
+                  ],
+                  "rotation": [
+                    0,
+                    89.99,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -17.43,
+                    1.88,
+                    -4.81
+                  ],
+                  "rotation": [
+                    0,
+                    89.99,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 1,
+          "type": [
+            {
+              "name": "Wooden Corridor 2",
+              "tiles": [
+                {
+                  "position": [
+                    -13.64,
+                    1.88,
+                    -6.12
+                  ],
+                  "rotation": [
+                    0,
+                    270.21,
+                    0
+                  ]
+                },
+                {
+                  "position": [
+                    -15.15,
+                    1.88,
+                    -3.54
+                  ],
+                  "rotation": [
+                    0,
+                    89.89,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Wooden Corridor 1",
+              "tiles": [
+                {
+                  "position": [
+                    -14.4,
+                    1.77,
+                    -2.19
+                  ],
+                  "rotation": [
+                    0,
+                    90.03,
+                    180
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 3,
+          "type": [
+            {
+              "name": "Hot Coals 2",
+              "tiles": [
+                {
+                  "position": [
+                    -9.84,
+                    1.88,
+                    -4.82
+                  ],
+                  "rotation": [
+                    0,
+                    330,
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Hot Coals 3",
+              "tiles": [
+                {
+                  "position": [
+                    -16.69,
+                    1.89,
+                    -3.52
+                  ],
+                  "rotation": [
+                    0,
+                    330.18,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 8,
+          "type": [
+            {
+              "name": "Treasure Chest Horizontal",
+              "tiles": [
+                {
+                  "position": [
+                    -9.09,
+                    1.88,
+                    -6.13
+                  ],
+                  "rotation": [
+                    0,
+                    90,
+                    0
+                  ],
+                  "action": {
+                    "treasure": 79
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": [
+            {
+              "name": "Scenario Aid Token",
+              "tiles": [
+                {
+                  "name": "g",
+                  "position": [
+                    -16.67,
+                    1.99,
+                    -2.63
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ]
+                },
+                {
+                  "name": "g",
+                  "position": [
+                    -10.11,
+                    1.98,
+                    -4.13
+                  ],
+                  "rotation": [
+                    0,
+                    180,
+                    0
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Bandit Archer",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 2,
+                "3": 2,
+                "4": 1
+              },
+              "position": [
+                -19.7,
+                1.77,
+                -6.13
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bandit Guard",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 2
+              },
+              "position": [
+                -12.88,
+                1.77,
+                -4.81
+              ]
+            },
+            {
+              "numCharacters": {
+                "3": 2,
+                "4": 1
+              },
+              "position": [
+                -9.09,
+                1.77,
+                -3.5
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Spitting Drake",
+          "tiles": [
+            {
+              "numCharacters": {
+                "4": 1
+              },
+              "position": [
+                -10.61,
+                1.77,
+                -6.13
+              ]
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 1
+              },
+              "position": [
+                -18.18,
+                4.1,
+                -0.87
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "monsterList": [
+    "Ancient Artillery",
+    "Bandit Archer",
+    "Bandit Guard",
+    "Spitting Drake"
+  ],
+  "id": "98"
+}

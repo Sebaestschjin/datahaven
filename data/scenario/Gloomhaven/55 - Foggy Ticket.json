@@ -1,0 +1,15 @@
+{
+  "name": "Foggy Ticket",
+  "campaign": "Gloomhaven",
+  "scenarioBook": {
+    "name": "Gloomhaven",
+    "page": 72
+  },
+  "scenarioPages": [
+    {
+      "image": "http://cloud-3.steamusercontent.com/ugc/931553965084823170/6E46BD68C6B85AD4AA0FF929C6C21E34BBBE1DA3/"
+    }
+  ],
+  "rooms": {},
+  "id": "55"
+}
