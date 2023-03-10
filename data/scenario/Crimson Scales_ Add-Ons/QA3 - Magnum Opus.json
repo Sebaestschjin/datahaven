@@ -94,7 +94,17 @@
             "C",
             "L"
           ]
-        ]
+        ],
+        "stats": {
+          "immunities": {
+            "add": [
+              "Poison",
+              "Wound",
+              "Disarm",
+              "Stun"
+            ]
+          }
+        }
       }
     }
   },

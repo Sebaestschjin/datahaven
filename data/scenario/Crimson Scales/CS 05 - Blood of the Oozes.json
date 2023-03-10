@@ -20,6 +20,19 @@
       }
     ]
   },
+  "monsters": {
+    "Blood Ooze": {
+      "all": {
+        "abilityDeck": "Boss",
+        "hp": [
+          "*",
+          "H",
+          "C"
+        ],
+        "base": "Named"
+      }
+    }
+  },
   "doorTiles": [
     {
       "name": "Wooden Door Vertical",
@@ -355,12 +368,7 @@
                 "y": "1.769118",
                 "z": "3.499999"
               },
-              "named": "Gelatinous Giant",
-              "hp": [
-                "*",
-                "H",
-                "C"
-              ]
+              "named": "Gelatinous Giant"
             }
           ]
         },

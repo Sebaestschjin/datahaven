@@ -21,9 +21,10 @@
     ]
   },
   "monsters": {
-    "Living Bones Ally": {
+    "Living Bones": {
       "all": {
-        "team": "Ally"
+        "team": "Ally",
+        "abilityDeck": "CS55 Living Bones"
       }
     }
   },
@@ -471,7 +472,7 @@
       ],
       "monsters": [
         {
-          "name": "Living Bones Ally",
+          "name": "Living Bones",
           "tiles": [
             {
               "numCharacters": {
@@ -1050,7 +1051,7 @@
       ],
       "monsters": [
         {
-          "name": "Living Bones Ally",
+          "name": "Living Bones",
           "tiles": [
             {
               "numCharacters": {
@@ -1126,7 +1127,7 @@
       ],
       "monsters": [
         {
-          "name": "Living Bones Ally",
+          "name": "Living Bones",
           "tiles": [
             {
               "numCharacters": {
@@ -1560,7 +1561,7 @@
       ],
       "monsters": [
         {
-          "name": "Living Bones Ally",
+          "name": "Living Bones",
           "tiles": [
             {
               "numCharacters": {
@@ -1583,7 +1584,7 @@
   "monsterList": [
     "Earth Demon",
     "Bandit Archer",
-    "Living Bones Ally",
+    "Living Bones",
     "Harrower Infester",
     "Living Corpse",
     "Stone Golem"

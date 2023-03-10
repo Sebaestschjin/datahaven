@@ -1,15 +1,6 @@
 local count = 0
 
-local function hasTag(object, name)
-  for _, tag in ipairs(object.Tags or {}) do
-    if tag == name then
-      return true
-    end
-  end
-  return false
-end
-
-local function placeScenario(object)
+local function placeObject(object)
   count = count + 1
   spawnObjectData({
     data = object,
@@ -21,18 +12,13 @@ local function placeScenario(object)
 end
 
 local function getAllContainedObjects(tag)
-  local obj = getObjectsWithTag(tag)
+  local obj = getObjectsWithTag(tag)[1]
   return obj.getData().ContainedObjects or {}
 end
 
-local function placeAllScenarios(objects)
+local function placeAllObjects(objects)
   for _, object in ipairs(objects) do
-    if hasTag(object, "Scenario") then
-      placeScenario(object)
-    end
-    if object.ContainedObjects then
-      placeAllScenarios(object.ContainedObjects)
-    end
+    placeObject(object)
   end
 end
 
@@ -70,7 +56,8 @@ local function extractScenarios()
   print(json)
 end
 
-placeAllScenarios(getAllContainedObjects("UnlockedScenarios"))
-placeAllScenarios(getAllContainedObjects("LockedScenarios"))
+placeAllObjects(getAllContainedObjects("LockedCharacters"))
+placeAllObjects(getAllContainedObjects("UnlockedScenarios"))
+placeAllObjects(getAllContainedObjects("LockedScenarios"))
 print(count)
 Wait.time(extractScenarios, 1)

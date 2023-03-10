@@ -1,0 +1,1014 @@
+{
+  "name": "Spirits Rising",
+  "scenarioBook": {
+    "name": "ToA Rulebook and Scenario Guide",
+    "page": 16
+  },
+  "monsters": {
+    "Vermling Scout": {
+      "all": {
+        "abilityDeck": "Scavenger"
+      },
+      "normal": {
+        "base": "Normal"
+      },
+      "elite": {
+        "base": "Elite"
+      }
+    }
+  },
+  "doorTiles": [
+    {
+      "name": "Light Fog",
+      "tiles": [
+        {
+          "rooms": [
+            2,
+            3
+          ],
+          "position": {
+            "x": -3.79,
+            "y": 1.89,
+            "z": 3.06
+          },
+          "rotation": {
+            "x": 360,
+            "y": 30,
+            "z": 360
+          },
+          "tokens": [
+            "3"
+          ]
+        },
+        {
+          "rooms": [
+            1,
+            2
+          ],
+          "position": {
+            "x": 3.79,
+            "y": 1.89,
+            "z": 3.06
+          },
+          "rotation": {
+            "x": 360,
+            "y": 30,
+            "z": 360
+          },
+          "tokens": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Stone Door Vertical",
+      "tiles": [
+        {
+          "rooms": [
+            1,
+            3
+          ],
+          "position": {
+            "x": -0.76,
+            "y": 1.77,
+            "z": -2.19
+          },
+          "rotation": {
+            "x": 360,
+            "y": 90,
+            "z": 0
+          },
+          "tokens": [
+            "2"
+          ]
+        }
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "mapTiles": [
+        {
+          "tile": "M1",
+          "position": {
+            "x": 3.79,
+            "y": 1.65,
+            "z": -2.19
+          },
+          "rotation": {
+            "x": 0,
+            "y": 270,
+            "z": 180
+          }
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Vermling Scout",
+          "tiles": [
+            {
+              "numCharacters": {
+                "4": 1
+              },
+              "position": {
+                "x": 2.27,
+                "y": 1.77,
+                "z": 0.44
+              },
+              "named": "Vermling Scavenger"
+            },
+            {
+              "numCharacters": {
+                "2": 2
+              },
+              "position": {
+                "x": 0,
+                "y": 1.77,
+                "z": -0.88
+              },
+              "named": "Vermling Scavenger"
+            },
+            {
+              "numCharacters": {
+                "3": 2,
+                "4": 1
+              },
+              "position": {
+                "x": 7.58,
+                "y": 1.77,
+                "z": -0.87
+              },
+              "named": "Vermling Scavenger"
+            }
+          ]
+        },
+        {
+          "name": "Forest Imp",
+          "tiles": [
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": 4.55,
+                "y": 1.77,
+                "z": 1.75
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1
+              },
+              "position": {
+                "x": 0,
+                "y": 1.77,
+                "z": -3.5
+              }
+            }
+          ]
+        },
+        {
+          "name": "Smoke Spirit",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": 3.03,
+                "y": 1.77,
+                "z": 1.75
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 2,
+                "4": 2
+              },
+              "position": {
+                "x": 6.06,
+                "y": 1.77,
+                "z": 1.75
+              }
+            },
+            {
+              "numCharacters": {
+                "3": 2
+              },
+              "position": {
+                "x": 5.3,
+                "y": 1.77,
+                "z": 0.44
+              }
+            },
+            {
+              "numCharacters": {
+                "4": 1
+              },
+              "position": {
+                "x": 6.06,
+                "y": 1.77,
+                "z": -0.87
+              }
+            },
+            {
+              "numCharacters": {
+                "3": 1
+              },
+              "position": {
+                "x": 2.27,
+                "y": 1.77,
+                "z": -2.19
+              }
+            },
+            {
+              "numCharacters": {
+                "4": 2
+              },
+              "position": {
+                "x": 0.76,
+                "y": 1.77,
+                "z": -4.81
+              }
+            }
+          ]
+        }
+      ],
+      "startTiles": {
+        "name": "Start Area",
+        "tiles": [
+          {
+            "position": {
+              "x": 6.82,
+              "y": 1.88,
+              "z": -4.81
+            },
+            "rotation": {
+              "x": 0,
+              "y": 30,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": 5.3,
+              "y": 1.88,
+              "z": -4.81
+            },
+            "rotation": {
+              "x": 0,
+              "y": 30,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": 4.54,
+              "y": 1.88,
+              "z": -6.12
+            },
+            "rotation": {
+              "x": 0,
+              "y": 30,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": 6.06,
+              "y": 1.88,
+              "z": -6.12
+            },
+            "rotation": {
+              "x": 0,
+              "y": 30,
+              "z": 0
+            }
+          }
+        ]
+      },
+      "overlayTiles": [
+        {
+          "bag": 3,
+          "type": [
+            {
+              "name": "Hot Coals 1",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 3.79,
+                    "y": 1.88,
+                    "z": 0.44
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 3.03,
+                    "y": 1.88,
+                    "z": -0.88
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 4.55,
+                    "y": 1.88,
+                    "z": -0.87
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Thorns",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 5.3,
+                    "y": 1.88,
+                    "z": -2.19
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 30,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 2.27,
+                    "y": 1.88,
+                    "z": -4.81
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 30,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Stump",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 1.52,
+                    "y": 1.88,
+                    "z": 1.75
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 150,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "K1",
+          "position": {
+            "x": 0,
+            "y": 1.7,
+            "z": 7
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Water Spirit",
+          "tiles": [
+            {
+              "numCharacters": {
+                "4": 1
+              },
+              "position": {
+                "x": 3.03,
+                "y": 1.77,
+                "z": 7
+              }
+            },
+            {
+              "numCharacters": {
+                "4": 1
+              },
+              "position": {
+                "x": -4.55,
+                "y": 1.77,
+                "z": 7
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 2
+              },
+              "position": {
+                "x": -1.51,
+                "y": 1.77,
+                "z": 9.63
+              }
+            },
+            {
+              "numCharacters": {
+                "3": 1
+              },
+              "position": {
+                "x": -0.76,
+                "y": 1.77,
+                "z": 10.94
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1
+              },
+              "position": {
+                "x": 2.28,
+                "y": 1.77,
+                "z": 10.94
+              }
+            },
+            {
+              "numCharacters": {
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": 3.03,
+                "y": 1.77,
+                "z": 9.62
+              }
+            }
+          ]
+        },
+        {
+          "name": "Vermling Scout",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 2,
+                "3": 1,
+                "4": 2
+              },
+              "position": {
+                "x": -2.28,
+                "y": 1.77,
+                "z": 5.69
+              },
+              "named": "Vermling Scavenger"
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": 2.27,
+                "y": 1.77,
+                "z": 5.69
+              },
+              "named": "Vermling Scavenger"
+            }
+          ]
+        },
+        {
+          "name": "Bandit Archer",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 2,
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": 0.76,
+                "y": 1.77,
+                "z": 10.94
+              }
+            }
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 2,
+          "type": [
+            {
+              "name": "Water 1",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 4.55,
+                    "y": 1.88,
+                    "z": 4.37
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -4.55,
+                    "y": 1.88,
+                    "z": 4.38
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 1.52,
+                    "y": 1.88,
+                    "z": 7
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -3.03,
+                    "y": 1.88,
+                    "z": 7
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -3.03,
+                    "y": 1.88,
+                    "z": 9.63
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -3.79,
+                    "y": 1.88,
+                    "z": 8.31
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -2.27,
+                    "y": 1.88,
+                    "z": 8.31
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -0.76,
+                    "y": 1.88,
+                    "z": 8.31
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 3.79,
+                    "y": 1.88,
+                    "z": 8.31
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 2.27,
+                    "y": 1.88,
+                    "z": 8.31
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 0.76,
+                    "y": 1.88,
+                    "z": 8.31
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 1.52,
+                    "y": 1.88,
+                    "z": 9.62
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Rock Column",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -1.52,
+                    "y": 1.89,
+                    "z": 7
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 30,
+                    "z": 0
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Stalagmites",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 4.55,
+                    "y": 1.89,
+                    "z": 7
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -2.27,
+                    "y": 1.89,
+                    "z": 10.94
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 8,
+          "type": [
+            {
+              "name": "Treasure Chest Horizontal",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 0,
+                    "y": 1.88,
+                    "z": 9.62
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                  },
+                  "action": {
+                    "name": "56",
+                    "treasure": "CS Treasure 56"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "L3",
+          "position": {
+            "x": -5.3,
+            "y": 7.24,
+            "z": -2.19
+          },
+          "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 180
+          }
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Vermling Scout",
+          "tiles": [
+            {
+              "numCharacters": {
+                "4": 1
+              },
+              "position": {
+                "x": -2.27,
+                "y": 1.77,
+                "z": 0.44
+              },
+              "named": "Vermling Scavenger"
+            },
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 2
+              },
+              "position": {
+                "x": -5.3,
+                "y": 1.77,
+                "z": 0.44
+              },
+              "named": "Vermling Scavenger"
+            }
+          ]
+        },
+        {
+          "name": "Smoke Spirit",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": -6.82,
+                "y": 1.77,
+                "z": -2.19
+              }
+            },
+            {
+              "numCharacters": {
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": -7.58,
+                "y": 1.77,
+                "z": -0.88
+              }
+            }
+          ]
+        },
+        {
+          "name": "Forest Imp",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": -1.52,
+                "y": 1.77,
+                "z": 1.75
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": -6.06,
+                "y": 1.77,
+                "z": -6.13
+              }
+            }
+          ]
+        },
+        {
+          "name": "Water Spirit",
+          "tiles": [
+            {
+              "numCharacters": {
+                "4": 2
+              },
+              "position": {
+                "x": -4.55,
+                "y": 1.77,
+                "z": -3.5
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 2,
+                "3": 1
+              },
+              "position": {
+                "x": -5.3,
+                "y": 1.77,
+                "z": -4.81
+              }
+            },
+            {
+              "numCharacters": {
+                "4": 1
+              },
+              "position": {
+                "x": -4.55,
+                "y": 1.77,
+                "z": -6.12
+              }
+            }
+          ]
+        },
+        {
+          "name": "Bandit Archer",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 2,
+                "4": 1
+              },
+              "position": {
+                "x": -6.82,
+                "y": 1.77,
+                "z": -4.81
+              }
+            }
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 2,
+          "type": [
+            {
+              "name": "Water 1",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -6.06,
+                    "y": 1.88,
+                    "z": 1.75
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -7.58,
+                    "y": 1.88,
+                    "z": 1.75
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Tree",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -1.52,
+                    "y": 1.88,
+                    "z": -6.12
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 270,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 8,
+          "type": [
+            {
+              "name": "Treasure Chest Horizontal",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -7.58,
+                    "y": 1.88,
+                    "z": -6.13
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                  },
+                  "action": {
+                    "name": "59",
+                    "treasure": "CS Treasure 59"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "monsterList": [
+    "Vermling Scout",
+    "Forest Imp",
+    "Smoke Spirit",
+    "Water Spirit",
+    "Bandit Archer"
+  ],
+  "campaign": "Crimson Scales",
+  "gridType": 2,
+  "id": "CS 70"
+}

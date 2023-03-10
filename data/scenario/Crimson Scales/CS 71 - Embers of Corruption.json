@@ -1,0 +1,1036 @@
+{
+  "name": "Embers of Corruption",
+  "scenarioBook": {
+    "name": "ToA Rulebook and Scenario Guide",
+    "page": 18
+  },
+  "rooms": [
+    {
+      "mapTiles": [
+        {
+          "tile": "G2",
+          "position": {
+            "x": 0,
+            "y": 1.71,
+            "z": -0.87
+          },
+          "rotation": {
+            "x": 0,
+            "y": 270,
+            "z": 0
+          }
+        },
+        {
+          "tile": "J1",
+          "position": {
+            "x": 10.61,
+            "y": 1.65,
+            "z": -0.87
+          },
+          "rotation": {
+            "x": 0,
+            "y": 150,
+            "z": 180
+          }
+        },
+        {
+          "tile": "J2",
+          "position": {
+            "x": -10.61,
+            "y": 1.65,
+            "z": -0.87
+          },
+          "rotation": {
+            "x": 0,
+            "y": 330,
+            "z": 180
+          }
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Smoke Spirit",
+          "tiles": [
+            {
+              "numCharacters": {
+                "4": 1
+              },
+              "position": {
+                "x": 9.85,
+                "y": 1.77,
+                "z": -4.81
+              }
+            },
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": -9.85,
+                "y": 1.77,
+                "z": 3.06
+              }
+            }
+          ]
+        },
+        {
+          "name": "Valrath Vanquisher",
+          "tiles": [
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": 9.09,
+                "y": 1.77,
+                "z": 4.38
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1
+              },
+              "position": {
+                "x": 9.09,
+                "y": 1.77,
+                "z": -3.5
+              }
+            },
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": -9.09,
+                "y": 1.77,
+                "z": -6.13
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1
+              },
+              "position": {
+                "x": -9.09,
+                "y": 1.77,
+                "z": 1.75
+              }
+            }
+          ]
+        }
+      ],
+      "startTiles": {
+        "name": "Start Area",
+        "tiles": [
+          {
+            "position": {
+              "x": 0.76,
+              "y": 1.88,
+              "z": 0.44
+            },
+            "rotation": {
+              "x": 0,
+              "y": 30,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": -0.76,
+              "y": 1.88,
+              "z": 0.44
+            },
+            "rotation": {
+              "x": 0,
+              "y": 30,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": -1.52,
+              "y": 1.88,
+              "z": -0.87
+            },
+            "rotation": {
+              "x": 0,
+              "y": 30,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": 1.52,
+              "y": 1.88,
+              "z": -0.87
+            },
+            "rotation": {
+              "x": 0,
+              "y": 30,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": 0.76,
+              "y": 1.88,
+              "z": -2.19
+            },
+            "rotation": {
+              "x": 0,
+              "y": 30,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": -0.76,
+              "y": 1.88,
+              "z": -2.19
+            },
+            "rotation": {
+              "x": 0,
+              "y": 30,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": 0,
+              "y": 1.88,
+              "z": -0.87
+            },
+            "rotation": {
+              "x": 0,
+              "y": 30,
+              "z": 0
+            }
+          }
+        ]
+      },
+      "overlayTiles": [
+        {
+          "type": [
+            {
+              "name": "Scenario Aid Token",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 9.85,
+                    "y": 1.77,
+                    "z": -7.44
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "c"
+                },
+                {
+                  "position": {
+                    "x": -9.85,
+                    "y": 1.77,
+                    "z": 5.69
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "c"
+                },
+                {
+                  "position": {
+                    "x": 11.37,
+                    "y": 1.77,
+                    "z": 3.06
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "b"
+                },
+                {
+                  "position": {
+                    "x": -11.37,
+                    "y": 1.77,
+                    "z": -4.81
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "b"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": [
+            {
+              "name": "Coin 1",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -9.85,
+                    "y": 1.83,
+                    "z": -7.44
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -12.12,
+                    "y": 1.83,
+                    "z": -6.12
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 12.13,
+                    "y": 1.83,
+                    "z": 4.37
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 9.85,
+                    "y": 1.83,
+                    "z": 5.69
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 3,
+          "type": [
+            {
+              "name": "Hot Coals 1",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 11.37,
+                    "y": 1.88,
+                    "z": -4.81
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 10.61,
+                    "y": 1.88,
+                    "z": -6.12
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -10.61,
+                    "y": 1.88,
+                    "z": -6.12
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -11.37,
+                    "y": 1.88,
+                    "z": 3.06
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -10.61,
+                    "y": 1.88,
+                    "z": 4.38
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 10.61,
+                    "y": 1.88,
+                    "z": 4.38
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 8,
+          "type": [
+            {
+              "name": "Treasure Chest Horizontal",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -12.12,
+                    "y": 1.88,
+                    "z": 4.38
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                  },
+                  "action": {
+                    "name": "58",
+                    "treasure": "CS Treasure 58"
+                  }
+                },
+                {
+                  "position": {
+                    "x": 12.12,
+                    "y": 1.88,
+                    "z": -6.13
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                  },
+                  "action": {
+                    "name": "66",
+                    "treasure": "CS Treasure 66"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Crystal",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 6.06,
+                    "y": 2,
+                    "z": -0.88
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 270,
+                    "z": 0
+                  },
+                  "tokens": [
+                    "a"
+                  ]
+                },
+                {
+                  "position": {
+                    "x": -6.06,
+                    "y": 2,
+                    "z": -0.87
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 270,
+                    "z": 0
+                  },
+                  "tokens": [
+                    "a"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Scenario Spawn Piece",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 18.94,
+                    "y": 1.66,
+                    "z": 3.06
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 270,
+                    "z": 0
+                  },
+                  "action": {
+                    "name": "19A",
+                    "compound": [
+                      {
+                        "rooms": [
+                          2
+                        ]
+                      },
+                      {
+                        "call": {
+                          "functionName": "envelopeS"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "position": {
+                    "x": 26.52,
+                    "y": 1.66,
+                    "z": 3.06
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 270,
+                    "z": 0
+                  },
+                  "action": {
+                    "name": "19B",
+                    "rooms": [
+                      3
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 1,
+          "type": [
+            {
+              "name": "Stone Corridor 2",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -6.82,
+                    "y": 1.88,
+                    "z": -2.18
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -6.82,
+                    "y": 1.88,
+                    "z": 0.43
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 5.31,
+                    "y": 1.88,
+                    "z": -2.19
+                  },
+                  "rotation": {
+                    "x": 360,
+                    "y": 90,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 5.3,
+                    "y": 1.88,
+                    "z": 0.44
+                  },
+                  "rotation": {
+                    "x": 360,
+                    "y": 90,
+                    "z": 0
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Stone Corridor 1",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 6.06,
+                    "y": 1.77,
+                    "z": -0.88
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 30,
+                    "z": 180
+                  }
+                },
+                {
+                  "position": {
+                    "x": -6.06,
+                    "y": 1.77,
+                    "z": -0.88
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 30,
+                    "z": 180
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "extraContent": [
+        {
+          "name": "Enraged Vanquisher A-D Abilities",
+          "position": [
+            20.46,
+            1.71,
+            -2.19
+          ],
+          "rotation": [
+            0,
+            180,
+            180
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Orchid Shardrender",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": 0,
+                "y": 1.65,
+                "z": 2.63
+              },
+              "base": "Ally"
+            }
+          ]
+        },
+        {
+          "name": "Smoke Spirit",
+          "tiles": [
+            {
+              "numCharacters": {
+                "4": 2
+              },
+              "position": {
+                "x": -9.09,
+                "y": 1.65,
+                "z": 7.88
+              }
+            },
+            {
+              "numCharacters": {
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": 9.09,
+                "y": 1.65,
+                "z": -9.62
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": 13.64,
+                "y": 1.65,
+                "z": 1.75
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": -13.64,
+                "y": 1.65,
+                "z": -3.5
+              }
+            }
+          ]
+        },
+        {
+          "name": "Valrath Vanquisher",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": -10.61,
+                "y": 1.65,
+                "z": 7
+              },
+              "hp": [
+                "byScenarioLevel",
+                [
+                  "*",
+                  5,
+                  [
+                    "+",
+                    "C",
+                    1
+                  ]
+                ],
+                [
+                  "*",
+                  7,
+                  [
+                    "+",
+                    "C",
+                    1
+                  ]
+                ],
+                [
+                  "*",
+                  9,
+                  [
+                    "+",
+                    "C",
+                    1
+                  ]
+                ],
+                [
+                  "*",
+                  10,
+                  [
+                    "+",
+                    "C",
+                    1
+                  ]
+                ],
+                [
+                  "*",
+                  12,
+                  [
+                    "+",
+                    "C",
+                    1
+                  ]
+                ],
+                [
+                  "*",
+                  13,
+                  [
+                    "+",
+                    "C",
+                    1
+                  ]
+                ],
+                [
+                  "*",
+                  14,
+                  [
+                    "+",
+                    "C",
+                    1
+                  ]
+                ],
+                [
+                  "*",
+                  16,
+                  [
+                    "+",
+                    "C",
+                    1
+                  ]
+                ]
+              ]
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": 10.61,
+                "y": 1.65,
+                "z": -8.75
+              },
+              "hp": [
+                "byScenarioLevel",
+                [
+                  "*",
+                  5,
+                  [
+                    "+",
+                    "C",
+                    1
+                  ]
+                ],
+                [
+                  "*",
+                  7,
+                  [
+                    "+",
+                    "C",
+                    1
+                  ]
+                ],
+                [
+                  "*",
+                  9,
+                  [
+                    "+",
+                    "C",
+                    1
+                  ]
+                ],
+                [
+                  "*",
+                  10,
+                  [
+                    "+",
+                    "C",
+                    1
+                  ]
+                ],
+                [
+                  "*",
+                  12,
+                  [
+                    "+",
+                    "C",
+                    1
+                  ]
+                ],
+                [
+                  "*",
+                  13,
+                  [
+                    "+",
+                    "C",
+                    1
+                  ]
+                ],
+                [
+                  "*",
+                  14,
+                  [
+                    "+",
+                    "C",
+                    1
+                  ]
+                ],
+                [
+                  "*",
+                  16,
+                  [
+                    "+",
+                    "C",
+                    1
+                  ]
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "extraContent": [
+        {
+          "name": "Enraged Vanquisher 0 Abilities",
+          "position": [
+            25.01,
+            1.71,
+            -2.19
+          ],
+          "rotation": [
+            0,
+            180,
+            180
+          ]
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Valrath Vanquisher",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": 0,
+                "y": 1.65,
+                "z": 2.63
+              },
+              "hp": [
+                "byScenarioLevel",
+                [
+                  "*",
+                  5,
+                  [
+                    "+",
+                    "C",
+                    1
+                  ]
+                ],
+                [
+                  "*",
+                  7,
+                  [
+                    "+",
+                    "C",
+                    1
+                  ]
+                ],
+                [
+                  "*",
+                  9,
+                  [
+                    "+",
+                    "C",
+                    1
+                  ]
+                ],
+                [
+                  "*",
+                  10,
+                  [
+                    "+",
+                    "C",
+                    1
+                  ]
+                ],
+                [
+                  "*",
+                  12,
+                  [
+                    "+",
+                    "C",
+                    1
+                  ]
+                ],
+                [
+                  "*",
+                  13,
+                  [
+                    "+",
+                    "C",
+                    1
+                  ]
+                ],
+                [
+                  "*",
+                  14,
+                  [
+                    "+",
+                    "C",
+                    1
+                  ]
+                ],
+                [
+                  "*",
+                  16,
+                  [
+                    "+",
+                    "C",
+                    1
+                  ]
+                ]
+              ],
+              "named": "Enraged Vanquisher",
+              "base": "Boss",
+              "stats": {
+                "immunities": {
+                  "add": [
+                    "Poison",
+                    "Immobilize",
+                    "Brittle",
+                    "Wound",
+                    "Bane",
+                    "Muddle"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "monsterList": [
+    "Smoke Spirit",
+    "Valrath Vanquisher",
+    "Orchid Shardrender"
+  ],
+  "campaign": "Crimson Scales",
+  "gridType": 2,
+  "id": "CS 71"
+}

@@ -1,0 +1,690 @@
+{
+  "name": "Agents of Chaos",
+  "gridType": 1,
+  "scenarioBook": {
+    "name": "JotL Scenario Book",
+    "page": 22
+  },
+  "sectionBook": {
+    "name": "JotL Section Book",
+    "sections": [
+      {
+        "id": "17A"
+      },
+      {
+        "id": "17B"
+      },
+      {
+        "id": "17C"
+      }
+    ]
+  },
+  "overlays": {
+    "Poison Gas": {
+      "conditions": [
+        "Poison",
+        "Wound"
+      ],
+      "name": "Poison and Wound Trap"
+    },
+    "Table": {
+      "hp": [
+        "-",
+        [
+          "*",
+          2,
+          "C"
+        ],
+        1
+      ],
+      "name": "Table"
+    }
+  },
+  "monsters": {
+    "Giant Viper <JotL>": {
+      "all": {
+        "hp": 1,
+        "stats": {
+          "attributes": {
+            "add": {
+              "Shield": [
+                "+",
+                "L",
+                2
+              ]
+            },
+            "text": "Attackers suffer L damage."
+          }
+        }
+      }
+    }
+  },
+  "doorTiles": [
+    {
+      "name": "Wooden Door Horizontal",
+      "tiles": [
+        {
+          "rooms": [
+            3,
+            4
+          ],
+          "position": {
+            "x": 6.56,
+            "y": 1.75,
+            "z": 6.82
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "rooms": [
+            1,
+            5
+          ],
+          "position": {
+            "x": 6.56,
+            "y": 1.75,
+            "z": -0.76
+          },
+          "rotation": {
+            "x": 360,
+            "y": 0,
+            "z": 0
+          },
+          "tokens": [
+            "3"
+          ]
+        },
+        {
+          "rooms": [
+            2,
+            1
+          ],
+          "position": {
+            "x": -6.56,
+            "y": 1.75,
+            "z": -0.73
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          },
+          "tokens": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wooden Door Vertical",
+      "tiles": [
+        {
+          "rooms": [
+            3,
+            1
+          ],
+          "position": {
+            "x": 1.31,
+            "y": 1.75,
+            "z": 0.76
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "tokens": [
+            "2"
+          ]
+        }
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "mapTiles": [
+        {
+          "tile": "JOTL21-1",
+          "position": {
+            "x": 0.02,
+            "y": 1.7,
+            "z": -1.62
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      ],
+      "startTiles": {
+        "name": "Start Area",
+        "tiles": [
+          {
+            "position": {
+              "x": 1.32,
+              "y": 1.87,
+              "z": -2.27
+            },
+            "rotation": {
+              "x": 0,
+              "y": 360,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": 0,
+              "y": 1.87,
+              "z": -3.04
+            },
+            "rotation": {
+              "x": 0,
+              "y": 360,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": -1.32,
+              "y": 1.87,
+              "z": -2.28
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": 0,
+              "y": 1.87,
+              "z": -1.52
+            },
+            "rotation": {
+              "x": 0,
+              "y": 360,
+              "z": 0
+            }
+          }
+        ]
+      },
+      "overlayTiles": [
+        {
+          "bag": 7,
+          "type": [
+            {
+              "name": "Poison Gas",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -5.25,
+                    "y": 1.86,
+                    "z": -1.52
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -5.25,
+                    "y": 1.86,
+                    "z": 0
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 5.25,
+                    "y": 1.86,
+                    "z": -1.52
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 5.25,
+                    "y": 1.86,
+                    "z": 0
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "JOTL21-2",
+          "position": {
+            "x": -9.66,
+            "y": 1.7,
+            "z": 0.37
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Table",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -11.81,
+                    "y": 1.87,
+                    "z": 3.79
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -10.51,
+                    "y": 1.87,
+                    "z": 3.03
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -7.87,
+                    "y": 1.87,
+                    "z": 1.52
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -9.19,
+                    "y": 1.87,
+                    "z": -2.27
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 120,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -11.81,
+                    "y": 1.87,
+                    "z": -2.27
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 120,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "JOTL21-3",
+          "position": {
+            "x": 2.66,
+            "y": 1.7,
+            "z": 4.92
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Chaos Demon",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 2
+              },
+              "position": {
+                "x": 0,
+                "y": 1.75,
+                "z": 7.58
+              }
+            }
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Crate B",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 5.26,
+                    "y": 1.86,
+                    "z": 6.07
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 120,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 0,
+                    "y": 1.86,
+                    "z": 4.55
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 120,
+                    "z": 0
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Crate A",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 5.26,
+                    "y": 1.86,
+                    "z": 4.54
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 61,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 0,
+                    "y": 1.86,
+                    "z": 3.03
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 60,
+                    "z": 0
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Shelf",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 3.94,
+                    "y": 1.87,
+                    "z": 5.3
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 300,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 2.63,
+                    "y": 1.87,
+                    "z": 3.03
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 300,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "JOTL21-4",
+          "position": {
+            "x": 9.99,
+            "y": 1.65,
+            "z": 5.99
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Chaos Demon",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": 10.5,
+                "y": 1.75,
+                "z": 6.06
+              }
+            }
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 8,
+          "type": [
+            {
+              "name": "Treasure Chest Vertical",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 11.81,
+                    "y": 1.86,
+                    "z": 3.79
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "action": {
+                    "name": "11",
+                    "treasure": "JotL 11"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "JOTL21-5",
+          "position": {
+            "x": 10.72,
+            "y": 1.7,
+            "z": -0.61
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Chaos Demon",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 2
+              },
+              "position": {
+                "x": 13.13,
+                "y": 1.75,
+                "z": -3.03
+              }
+            }
+          ]
+        },
+        {
+          "name": "Giant Viper <JotL>",
+          "tiles": [
+            {
+              "numCharacters": {
+                "4": 2
+              },
+              "position": {
+                "x": 13.13,
+                "y": 1.75,
+                "z": 1.52
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 2,
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": 10.5,
+                "y": 1.75,
+                "z": 0
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 2,
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": 10.5,
+                "y": 1.75,
+                "z": -3.03
+              }
+            },
+            {
+              "numCharacters": {
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": 7.88,
+                "y": 1.75,
+                "z": 1.52
+              }
+            }
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Weapon Rack",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 11.82,
+                    "y": 1.8,
+                    "z": -0.77
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 9.19,
+                    "y": 1.8,
+                    "z": 0.76
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "monsterList": [
+    "Chaos Demon",
+    "Giant Viper <JotL>"
+  ],
+  "campaign": "Jaws of the Lion",
+  "id": "JotL 21"
+}

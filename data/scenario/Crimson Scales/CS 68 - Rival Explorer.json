@@ -1,0 +1,798 @@
+{
+  "name": "Rival Explorer",
+  "scenarioBook": {
+    "name": "ToA Rulebook and Scenario Guide",
+    "page": 12
+  },
+  "monsters": {
+    "Vermling Scout": {
+      "all": {
+        "abilityDeck": "Vermling Explorers"
+      }
+    },
+    "Vermling Shaman": {
+      "all": {
+        "abilityDeck": "Vermling Explorers"
+      }
+    }
+  },
+  "figures": {},
+  "doorTiles": {},
+  "rooms": [
+    {
+      "mapTiles": [
+        {
+          "tile": "A4",
+          "position": {
+            "x": 3.81,
+            "y": 1.71,
+            "z": -6.56
+          },
+          "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 180
+          }
+        },
+        {
+          "tile": "M1",
+          "position": {
+            "x": 6.07,
+            "y": 1.77,
+            "z": 13.13
+          },
+          "rotation": {
+            "x": 0,
+            "y": 270,
+            "z": 0
+          }
+        },
+        {
+          "tile": "F1",
+          "position": {
+            "x": 5.32,
+            "y": 1.71,
+            "z": 1.31
+          },
+          "rotation": {
+            "x": 0,
+            "y": 360,
+            "z": 180
+          }
+        },
+        {
+          "tile": "H3",
+          "position": {
+            "x": -3.02,
+            "y": 1.65,
+            "z": 2.63
+          },
+          "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 0
+          }
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Vermling Scout",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 2,
+                "4": 1
+              },
+              "position": {
+                "x": -1.5,
+                "y": 1.77,
+                "z": -2.62
+              }
+            },
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": -3.02,
+                "y": 1.77,
+                "z": -2.62
+              }
+            },
+            {
+              "numCharacters": {
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": 6.09,
+                "y": 1.77,
+                "z": -7.87
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 2,
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": 3.06,
+                "y": 1.77,
+                "z": -7.87
+              }
+            }
+          ]
+        },
+        {
+          "name": "Vermling Shaman",
+          "tiles": [
+            {
+              "numCharacters": {
+                "4": 1
+              },
+              "position": {
+                "x": -2.26,
+                "y": 1.77,
+                "z": -1.31
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 2,
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": 4.57,
+                "y": 1.77,
+                "z": -7.87
+              }
+            },
+            {
+              "numCharacters": {
+                "4": 2
+              },
+              "position": {
+                "x": 3.81,
+                "y": 1.77,
+                "z": -6.56
+              }
+            }
+          ]
+        },
+        {
+          "name": "Smoke Spirit",
+          "tiles": [
+            {
+              "numCharacters": {
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": 6.84,
+                "y": 1.77,
+                "z": -6.56
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 2
+              },
+              "position": {
+                "x": 6.82,
+                "y": 1.77,
+                "z": 14.45
+              }
+            },
+            {
+              "numCharacters": {
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": 1.52,
+                "y": 1.77,
+                "z": 5.26
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 2,
+                "3": 1,
+                "4": 2
+              },
+              "position": {
+                "x": -5.3,
+                "y": 1.77,
+                "z": 3.94
+              }
+            }
+          ]
+        },
+        {
+          "name": "Ancient Artillery",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 2
+              },
+              "position": {
+                "x": 6.84,
+                "y": 1.77,
+                "z": -3.94
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1
+              },
+              "position": {
+                "x": 9.86,
+                "y": 1.77,
+                "z": 11.84
+              }
+            },
+            {
+              "numCharacters": {
+                "4": 2
+              },
+              "position": {
+                "x": 9.85,
+                "y": 1.77,
+                "z": 14.46
+              }
+            },
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 2
+              },
+              "position": {
+                "x": 6.84,
+                "y": 1.77,
+                "z": -1.31
+              }
+            },
+            {
+              "numCharacters": {
+                "3": 2
+              },
+              "position": {
+                "x": 9.1,
+                "y": 1.77,
+                "z": 13.15
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": 6.84,
+                "y": 1.77,
+                "z": 9.2
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1
+              },
+              "position": {
+                "x": 2.29,
+                "y": 1.77,
+                "z": 11.8
+              }
+            },
+            {
+              "numCharacters": {
+                "3": 1
+              },
+              "position": {
+                "x": 3.04,
+                "y": 1.77,
+                "z": 13.12
+              }
+            },
+            {
+              "numCharacters": {
+                "4": 2
+              },
+              "position": {
+                "x": 2.27,
+                "y": 1.77,
+                "z": 14.43
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 2,
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": -6.81,
+                "y": 1.77,
+                "z": 3.94
+              }
+            }
+          ]
+        }
+      ],
+      "startTiles": {
+        "name": "Start Area",
+        "tiles": [
+          {
+            "position": {
+              "x": -0.75,
+              "y": 1.88,
+              "z": -1.31
+            },
+            "rotation": {
+              "x": 0,
+              "y": 90,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": -3.78,
+              "y": 1.88,
+              "z": -1.31
+            },
+            "rotation": {
+              "x": 0,
+              "y": 90,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": -1.51,
+              "y": 1.88,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 90,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": -3.02,
+              "y": 1.88,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 90,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": -2.26,
+              "y": 1.88,
+              "z": 1.32
+            },
+            "rotation": {
+              "x": 0,
+              "y": 90,
+              "z": 0
+            }
+          }
+        ]
+      },
+      "overlayTiles": [
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Boulder",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 8.34,
+                    "y": 1.88,
+                    "z": 14.46
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 360
+                  }
+                },
+                {
+                  "position": {
+                    "x": 3.81,
+                    "y": 1.88,
+                    "z": -1.32
+                  },
+                  "rotation": {
+                    "x": 360,
+                    "y": 90,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 6.84,
+                    "y": 1.88,
+                    "z": 1.31
+                  },
+                  "rotation": {
+                    "x": 360,
+                    "y": 90,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 3.8,
+                    "y": 1.88,
+                    "z": 3.93
+                  },
+                  "rotation": {
+                    "x": 360,
+                    "y": 90,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -6.06,
+                    "y": 1.88,
+                    "z": 5.25
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Boulder 3",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 0.78,
+                    "y": 1.88,
+                    "z": -6.56
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Boulder 2",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 6.08,
+                    "y": 1.88,
+                    "z": 10.51
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 270,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 1,
+          "type": [
+            {
+              "name": "Man Stone Corridor 2",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 4.55,
+                    "y": 1.88,
+                    "z": -5.25
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 4.55,
+                    "y": 1.88,
+                    "z": 7.87
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 360
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Man Stone Corridor 1",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 3.04,
+                    "y": 1.77,
+                    "z": 5.24
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 180
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": [
+            {
+              "name": "Scenario Aid Token",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 9.09,
+                    "y": 1.77,
+                    "z": 10.5
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "b"
+                },
+                {
+                  "position": {
+                    "x": 9.09,
+                    "y": 1.77,
+                    "z": 15.75
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "a"
+                },
+                {
+                  "position": {
+                    "x": 7.58,
+                    "y": 1.77,
+                    "z": 15.75
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "a"
+                },
+                {
+                  "position": {
+                    "x": 6.06,
+                    "y": 1.77,
+                    "z": 15.75
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "a"
+                },
+                {
+                  "position": {
+                    "x": 4.55,
+                    "y": 1.77,
+                    "z": 15.75
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "a"
+                },
+                {
+                  "position": {
+                    "x": 3.03,
+                    "y": 1.77,
+                    "z": 15.75
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "a"
+                },
+                {
+                  "position": {
+                    "x": 3.04,
+                    "y": 1.77,
+                    "z": 10.5
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "b"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 8,
+          "type": [
+            {
+              "name": "Treasure Chest Horizontal",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 8.33,
+                    "y": 1.88,
+                    "z": 17.08
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 360
+                  },
+                  "action": {
+                    "name": "54",
+                    "treasure": "CS Treasure 54"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 7,
+          "type": [
+            {
+              "name": "Poison Gas",
+              "statuses": [
+                "Immobilize",
+                "Poison"
+              ],
+              "tiles": [
+                {
+                  "position": {
+                    "x": 6.83,
+                    "y": 1.88,
+                    "z": 6.56
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 270,
+                    "z": 0
+                  },
+                  "name": "Immobilize & Poison Trap"
+                },
+                {
+                  "position": {
+                    "x": 4.56,
+                    "y": 1.88,
+                    "z": -0.01
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 270,
+                    "z": 0
+                  },
+                  "name": "Immobilize & Poison Trap"
+                },
+                {
+                  "position": {
+                    "x": 4.55,
+                    "y": 1.88,
+                    "z": 13.13
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 270,
+                    "z": 0
+                  },
+                  "name": "Immobilize & Poison Trap"
+                },
+                {
+                  "position": {
+                    "x": -1.51,
+                    "y": 1.88,
+                    "z": 5.25
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 270,
+                    "z": 0
+                  },
+                  "name": "Immobilize & Poison Trap"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": [
+            {
+              "name": "Coin 1",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 6.81,
+                    "y": 1.83,
+                    "z": 17.07
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 5.29,
+                    "y": 1.83,
+                    "z": 17.07
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 3.78,
+                    "y": 1.83,
+                    "z": 17.06
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "monsterList": [
+    "Vermling Scout",
+    "Vermling Shaman",
+    "Smoke Spirit",
+    "Ancient Artillery"
+  ],
+  "gridType": 2,
+  "campaign": "Crimson Scales",
+  "id": "CS 68"
+}

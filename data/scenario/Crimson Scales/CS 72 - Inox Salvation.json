@@ -1,0 +1,965 @@
+{
+  "name": "Inox Salvation",
+  "gridType": 2,
+  "scenarioBook": {
+    "name": "ToA Rulebook and Scenario Guide",
+    "page": 20
+  },
+  "overlays": {
+    "Bear Trap": {
+      "conditions": [
+        "Stun"
+      ],
+      "name": "Stun Trap"
+    },
+    "Stump": {
+      "name": "Stump (see scenario special rules)"
+    },
+    "Tree": {
+      "hp": [
+        "+",
+        "L",
+        "C"
+      ]
+    }
+  },
+  "doorTiles": [
+    {
+      "name": "Light Fog",
+      "tiles": [
+        {
+          "rooms": [
+            1,
+            2
+          ],
+          "position": {
+            "x": -4.55,
+            "y": 2,
+            "z": 2.63
+          },
+          "rotation": {
+            "x": 1,
+            "y": 30,
+            "z": 360
+          }
+        }
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "mapTiles": [
+        {
+          "tile": "D1",
+          "position": {
+            "x": -7.58,
+            "y": 1.65,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 120,
+            "z": 180
+          }
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Earth Demon",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "4": 1
+              },
+              "position": {
+                "x": -5.3,
+                "y": 1.77,
+                "z": 1.31
+              }
+            },
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 2
+              },
+              "position": {
+                "x": -9.09,
+                "y": 1.77,
+                "z": 2.62
+              }
+            }
+          ]
+        },
+        {
+          "name": "Smoke Spirit",
+          "tiles": [
+            {
+              "numCharacters": {
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": -6.06,
+                "y": 1.77,
+                "z": 2.62
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 2
+              },
+              "position": {
+                "x": -7.58,
+                "y": 1.77,
+                "z": 2.62
+              }
+            },
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": -9.85,
+                "y": 1.77,
+                "z": 1.31
+              }
+            }
+          ]
+        }
+      ],
+      "startTiles": {
+        "name": "Start Area",
+        "tiles": [
+          {
+            "position": {
+              "x": -6.82,
+              "y": 1.88,
+              "z": -1.31
+            },
+            "rotation": {
+              "x": 0,
+              "y": 30,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": -8.34,
+              "y": 1.88,
+              "z": -1.31
+            },
+            "rotation": {
+              "x": 0,
+              "y": 30,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": -6.06,
+              "y": 1.88,
+              "z": -2.63
+            },
+            "rotation": {
+              "x": 0,
+              "y": 30,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": -7.57,
+              "y": 1.88,
+              "z": -2.63
+            },
+            "rotation": {
+              "x": 0,
+              "y": 30,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": -9.09,
+              "y": 1.88,
+              "z": -2.63
+            },
+            "rotation": {
+              "x": 0,
+              "y": 30,
+              "z": 0
+            }
+          }
+        ]
+      },
+      "overlayTiles": [
+        {
+          "bag": 7,
+          "type": [
+            {
+              "name": "Bear Trap",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -10.61,
+                    "y": 1.88,
+                    "z": 0
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "M1",
+          "position": {
+            "x": -0.76,
+            "y": 1.65,
+            "z": 6.56
+          },
+          "rotation": {
+            "x": 0,
+            "y": 270,
+            "z": 180
+          }
+        },
+        {
+          "tile": "B1",
+          "position": {
+            "x": -0.76,
+            "y": 1.71,
+            "z": 14.44
+          },
+          "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 180
+          }
+        },
+        {
+          "tile": "F1",
+          "position": {
+            "x": -7.58,
+            "y": 1.71,
+            "z": 10.5
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Smoke Spirit",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": -1.52,
+                "y": 1.77,
+                "z": 15.75
+              }
+            }
+          ]
+        },
+        {
+          "name": "Inox Archer",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 2,
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": -0.76,
+                "y": 1.77,
+                "z": 17.06
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": -1.51,
+                "y": 1.77,
+                "z": 7.87
+              }
+            },
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": 0,
+                "y": 1.77,
+                "z": 13.12
+              }
+            }
+          ]
+        },
+        {
+          "name": "Earth Demon",
+          "tiles": [
+            {
+              "numCharacters": {
+                "4": 1
+              },
+              "position": {
+                "x": -7.58,
+                "y": 1.77,
+                "z": 10.5
+              }
+            }
+          ]
+        },
+        {
+          "name": "Flame Demon",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 2
+              },
+              "position": {
+                "x": 0,
+                "y": 1.77,
+                "z": 5.25
+              }
+            }
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Tree",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -2.27,
+                    "y": 1.88,
+                    "z": 9.19
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 270,
+                    "z": 0
+                  },
+                  "tokens": [
+                    "d"
+                  ],
+                  "action": {
+                    "name": "Kill",
+                    "rooms": [
+                      6
+                    ]
+                  },
+                  "characterCount": {
+                    "2": "__REMOVE__"
+                  }
+                },
+                {
+                  "position": {
+                    "x": 1.52,
+                    "y": 1.88,
+                    "z": 15.75
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 270,
+                    "z": 0
+                  },
+                  "action": {
+                    "name": "Kill",
+                    "rooms": [
+                      5
+                    ]
+                  }
+                },
+                {
+                  "position": {
+                    "x": 1.52,
+                    "y": 1.88,
+                    "z": 2.62
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 330,
+                    "z": 0
+                  },
+                  "action": {
+                    "name": "Kill",
+                    "rooms": [
+                      4
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Bush",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 3.03,
+                    "y": 1.88,
+                    "z": 7.88
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 30,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -5.3,
+                    "y": 2,
+                    "z": 6.56
+                  },
+                  "rotation": {
+                    "x": 360,
+                    "y": 30,
+                    "z": 0
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Scenario Spawn Piece",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -13.64,
+                    "y": 1.66,
+                    "z": 14
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 270,
+                    "z": 0
+                  },
+                  "action": {
+                    "name": "21B",
+                    "rooms": [
+                      3
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 1,
+          "type": [
+            {
+              "name": "Earth Corridor 2",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -0.76,
+                    "y": 1.88,
+                    "z": 11.81
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 270,
+                    "z": 360
+                  }
+                },
+                {
+                  "position": {
+                    "x": -4.53,
+                    "y": 1.88,
+                    "z": 7.87
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 270,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -4.53,
+                    "y": 1.88,
+                    "z": 5.26
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 270,
+                    "z": 360
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Earth Corridor 1",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 0.76,
+                    "y": 1.77,
+                    "z": 11.81
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 30,
+                    "z": 180
+                  }
+                },
+                {
+                  "position": {
+                    "x": -5.27,
+                    "y": 1.77,
+                    "z": 6.56
+                  },
+                  "rotation": {
+                    "x": 360,
+                    "y": 30,
+                    "z": 180
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": [
+            {
+              "name": "Scenario Aid Token",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -6.82,
+                    "y": 1.77,
+                    "z": 14.44
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "b"
+                },
+                {
+                  "position": {
+                    "x": -8.34,
+                    "y": 1.77,
+                    "z": 14.44
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "b"
+                },
+                {
+                  "position": {
+                    "x": -6.06,
+                    "y": 1.77,
+                    "z": 13.13
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "a"
+                },
+                {
+                  "position": {
+                    "x": -7.58,
+                    "y": 1.77,
+                    "z": 13.13
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "a"
+                },
+                {
+                  "position": {
+                    "x": -9.09,
+                    "y": 1.77,
+                    "z": 13.13
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "a"
+                },
+                {
+                  "position": {
+                    "x": 0,
+                    "y": 1.77,
+                    "z": 2.62
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "c"
+                },
+                {
+                  "position": {
+                    "x": 2.27,
+                    "y": 1.77,
+                    "z": 9.19
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "c"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 7,
+          "type": [
+            {
+              "name": "Bear Trap",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 1.52,
+                    "y": 1.88,
+                    "z": 5.26
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -9.1,
+                    "y": 1.88,
+                    "z": 7.88
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 1.52,
+                    "y": 1.88,
+                    "z": 13.12
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 3,
+          "type": [
+            {
+              "name": "Hot Coals 1",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 3.03,
+                    "y": 1.88,
+                    "z": 5.25
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -1.52,
+                    "y": 1.88,
+                    "z": 10.5
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -3.03,
+                    "y": 1.88,
+                    "z": 15.75
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -2.27,
+                    "y": 1.88,
+                    "z": 17.06
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 2,
+          "type": [
+            {
+              "name": "Log",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -4.54,
+                    "y": 2,
+                    "z": 7.87
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 270,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 8,
+          "type": [
+            {
+              "name": "Treasure Chest Horizontal",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -7.58,
+                    "y": 1.88,
+                    "z": 15.75
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                  },
+                  "action": {
+                    "name": "53",
+                    "treasure": "CS Treasure 53"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": {},
+      "monsters": [
+        {
+          "name": "Inox Archer",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": 5.3,
+                "y": 1.65,
+                "z": 9.19
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 2
+              },
+              "position": {
+                "x": 0,
+                "y": 1.65,
+                "z": 0
+              }
+            }
+          ]
+        },
+        {
+          "name": "Flame Demon",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 2
+              },
+              "position": {
+                "x": -12.12,
+                "y": 1.68,
+                "z": 15.75
+              }
+            }
+          ]
+        },
+        {
+          "name": "Earth Demon",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": -15.15,
+                "y": 1.68,
+                "z": 15.75
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "overlayTiles": [
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Stump",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 4.55,
+                    "y": 1.76,
+                    "z": 1.75
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 150,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "overlayTiles": [
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Stump",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 3.79,
+                    "y": 1.76,
+                    "z": 16.19
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 150,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "overlayTiles": [
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Stump",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -11.37,
+                    "y": 1.76,
+                    "z": 9.19
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 150,
+                    "z": 0
+                  },
+                  "tokens": [
+                    "d"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "monsterList": [
+    "Earth Demon",
+    "Smoke Spirit",
+    "Inox Archer",
+    "Flame Demon"
+  ],
+  "campaign": "Crimson Scales",
+  "id": "CS 72"
+}

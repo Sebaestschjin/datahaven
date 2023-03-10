@@ -1,0 +1,837 @@
+{
+  "name": "Lootpalooza",
+  "campaign": "Crimson Scales",
+  "gridType": 2,
+  "scenarioBook": {
+    "name": "ToA Rulebook and Scenario Guide",
+    "page": 23
+  },
+  "monsters": {
+    "Stone Golem": {
+      "all": {
+        "abilityDeck": "Guard",
+        "hp": [
+          "*",
+          "H",
+          [
+            "-",
+            "C",
+            1
+          ]
+        ],
+        "stats": {
+          "immunities": {
+            "add": [
+              "Stun",
+              "Disarm",
+              "Immobilize"
+            ]
+          },
+          "text": "Whenever Lootbot attacks, remove 1 money token."
+        }
+      }
+    },
+    "Vermling Scout": {
+      "all": {
+        "abilityDeck": "Scavenger"
+      },
+      "normal": {
+        "base": "Normal"
+      },
+      "elite": {
+        "base": "Elite"
+      }
+    }
+  },
+  "figures": {
+    "Lootbot": {
+      "basedOn": "Stone Golem",
+      "base": "Named",
+      "frameOffset": 320,
+      "stats": {
+        "health": [
+          "*",
+          "C",
+          3
+        ],
+        "attributes": {
+          "text": "HP = Money Tokens Remaining"
+        },
+        "immunities": {},
+        "text": "HP = Money Tokens Remaining."
+      }
+    }
+  },
+  "doorTiles": [
+    {
+      "name": "Wooden Door Horizontal",
+      "tiles": [
+        {
+          "rooms": [
+            1,
+            2
+          ],
+          "position": {
+            "x": 3.03,
+            "y": 1.77,
+            "z": -0.88
+          },
+          "rotation": {
+            "x": 0,
+            "y": 30,
+            "z": 0
+          },
+          "tokens": [
+            "1"
+          ]
+        }
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "mapTiles": [
+        {
+          "tile": "J2",
+          "position": {
+            "x": -3.03,
+            "y": 1.77,
+            "z": -0.87
+          },
+          "rotation": {
+            "x": 0,
+            "y": 270,
+            "z": 0
+          }
+        },
+        {
+          "tile": "I1",
+          "position": {
+            "x": -6.82,
+            "y": 1.65,
+            "z": 3.06
+          },
+          "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 180
+          }
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Bandit Guard",
+          "tiles": [
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 2
+              },
+              "position": {
+                "x": 3.02,
+                "y": 1.77,
+                "z": 1.76
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 2,
+                "4": 1
+              },
+              "position": {
+                "x": 1.52,
+                "y": 1.77,
+                "z": 1.75
+              }
+            },
+            {
+              "numCharacters": {
+                "3": 2,
+                "4": 1
+              },
+              "position": {
+                "x": 0.76,
+                "y": 1.77,
+                "z": 3.07
+              }
+            },
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": -3.79,
+                "y": 1.77,
+                "z": 0.43
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "4": 1
+              },
+              "position": {
+                "x": -4.57,
+                "y": 1.77,
+                "z": 1.75
+              }
+            },
+            {
+              "numCharacters": {
+                "4": 1
+              },
+              "position": {
+                "x": -7.58,
+                "y": 1.77,
+                "z": -3.49
+              }
+            },
+            {
+              "numCharacters": {
+                "3": 1
+              },
+              "position": {
+                "x": -5.3,
+                "y": 1.77,
+                "z": -4.81
+              }
+            }
+          ]
+        },
+        {
+          "name": "Vermling Scout",
+          "tiles": [
+            {
+              "numCharacters": {
+                "3": 2
+              },
+              "position": {
+                "x": 0.76,
+                "y": 1.77,
+                "z": -2.18
+              },
+              "named": "Vermling Scavenger"
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": 1.52,
+                "y": 1.77,
+                "z": -0.87
+              },
+              "named": "Vermling Scavenger"
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": 2.27,
+                "y": 1.77,
+                "z": 0.44
+              },
+              "named": "Vermling Scavenger"
+            },
+            {
+              "numCharacters": {
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": -9.85,
+                "y": 1.77,
+                "z": 0.44
+              },
+              "named": "Vermling Scavenger"
+            },
+            {
+              "numCharacters": {
+                "2": 2,
+                "4": 2
+              },
+              "position": {
+                "x": -11.37,
+                "y": 1.77,
+                "z": 0.44
+              },
+              "named": "Vermling Scavenger"
+            },
+            {
+              "numCharacters": {
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": -4.55,
+                "y": 1.77,
+                "z": 4.37
+              },
+              "named": "Vermling Scavenger"
+            },
+            {
+              "numCharacters": {
+                "2": 2,
+                "4": 2
+              },
+              "position": {
+                "x": -3.79,
+                "y": 1.77,
+                "z": 5.68
+              },
+              "named": "Vermling Scavenger"
+            }
+          ]
+        }
+      ],
+      "startTiles": {
+        "name": "Start Area",
+        "tiles": [
+          {
+            "position": {
+              "x": -9.08,
+              "y": 1.88,
+              "z": 4.37
+            },
+            "rotation": {
+              "x": 0,
+              "y": 30,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": -10.6,
+              "y": 1.88,
+              "z": 4.36
+            },
+            "rotation": {
+              "x": 0,
+              "y": 30,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": -8.33,
+              "y": 1.88,
+              "z": 5.69
+            },
+            "rotation": {
+              "x": 0,
+              "y": 30,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": -9.84,
+              "y": 1.88,
+              "z": 5.69
+            },
+            "rotation": {
+              "x": 0,
+              "y": 30,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": -11.36,
+              "y": 1.88,
+              "z": 5.69
+            },
+            "rotation": {
+              "x": 0,
+              "y": 30,
+              "z": 0
+            }
+          }
+        ]
+      },
+      "overlayTiles": [
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Cabinet",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 0,
+                    "y": 1.88,
+                    "z": 1.75
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -3.79,
+                    "y": 1.88,
+                    "z": 3.06
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Shelf",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -3.79,
+                    "y": 1.88,
+                    "z": -4.81
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -8.33,
+                    "y": 1.88,
+                    "z": -4.81
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 1,
+          "type": [
+            {
+              "name": "Man Stone Corridor 1",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -4.55,
+                    "y": 1.88,
+                    "z": -0.87
+                  },
+                  "rotation": {
+                    "x": 360,
+                    "y": 150,
+                    "z": 0
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Man Stone Corridor 2",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -7.58,
+                    "y": 1.88,
+                    "z": -0.87
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "E1",
+          "position": {
+            "x": 9.1,
+            "y": 1.71,
+            "z": 7.02
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        },
+        {
+          "tile": "D1",
+          "position": {
+            "x": 6.83,
+            "y": 1.77,
+            "z": -2.2
+          },
+          "rotation": {
+            "x": 0,
+            "y": 60,
+            "z": 0
+          }
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Bandit Guard",
+          "tiles": [
+            {
+              "numCharacters": {
+                "4": 2
+              },
+              "position": {
+                "x": 8.34,
+                "y": 1.77,
+                "z": -4.82
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1
+              },
+              "position": {
+                "x": 9.1,
+                "y": 1.77,
+                "z": -3.51
+              }
+            },
+            {
+              "numCharacters": {
+                "4": 2
+              },
+              "position": {
+                "x": 8.34,
+                "y": 1.77,
+                "z": 0.43
+              }
+            },
+            {
+              "numCharacters": {
+                "3": 1
+              },
+              "position": {
+                "x": 9.1,
+                "y": 1.77,
+                "z": -0.89
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": 9.86,
+                "y": 1.77,
+                "z": -2.2
+              }
+            }
+          ]
+        },
+        {
+          "name": "Bandit Archer",
+          "tiles": [
+            {
+              "numCharacters": {
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": 11.37,
+                "y": 1.77,
+                "z": 3.08
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": 8.34,
+                "y": 1.77,
+                "z": 5.71
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 2,
+                "4": 1
+              },
+              "position": {
+                "x": 6.82,
+                "y": 1.77,
+                "z": 3.08
+              }
+            }
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "name": "Lootbot",
+          "position": {
+            "x": "9.1",
+            "y": "1.77",
+            "z": "4.39"
+          },
+          "rotation": {
+            "x": "0.00",
+            "y": "180.00",
+            "z": "0.00"
+          }
+        }
+      ],
+      "overlayTiles": [
+        {
+          "type": [
+            {
+              "name": "Coin 1",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 10.61,
+                    "y": 1.82,
+                    "z": 7.02
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 9.86,
+                    "y": 1.82,
+                    "z": 8.33
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 11.37,
+                    "y": 1.82,
+                    "z": 8.33
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Scenario Spawn Piece",
+              "tiles": [
+                {
+                  "action": {
+                    "name": "22C",
+                    "compound": [
+                      {
+                        "rooms": [
+                          3
+                        ]
+                      },
+                      {
+                        "remove": {
+                          "name": "Lootbot"
+                        }
+                      }
+                    ]
+                  },
+                  "position": {
+                    "x": 16.67,
+                    "y": 1.66,
+                    "z": 5.25
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Crate A",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 12.13,
+                    "y": 1.88,
+                    "z": 7.02
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Crate B",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 6.07,
+                    "y": 1.88,
+                    "z": 7.02
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Bookcase",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 8.34,
+                    "y": 1.88,
+                    "z": -2.2
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 270,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 1,
+          "type": [
+            {
+              "name": "Man Stone Corridor 2",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 6.06,
+                    "y": 1.88,
+                    "z": 1.75
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Man Stone Corridor 1",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 9.09,
+                    "y": 1.88,
+                    "z": 1.75
+                  },
+                  "rotation": {
+                    "x": 360,
+                    "y": 150,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 8,
+          "type": [
+            {
+              "name": "Treasure Chest Horizontal",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 6.83,
+                    "y": 1.88,
+                    "z": 8.33
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                  },
+                  "action": {
+                    "name": "65",
+                    "treasure": "CS Treasure 65"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "monsters": [
+        {
+          "name": "Stone Golem",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 2,
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": 9.1,
+                "y": 1.77,
+                "z": 4.39
+              },
+              "named": "Lootbot"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "monsterList": [
+    "Bandit Guard",
+    "Vermling Scout",
+    "Bandit Archer",
+    "Stone Golem"
+  ],
+  "id": "CS 73"
+}

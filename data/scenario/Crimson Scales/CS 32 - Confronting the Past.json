@@ -20,6 +20,39 @@
       }
     ]
   },
+  "figures": {
+    "Ancient Artillery": {
+      "basedOn": "Ancient Artillery",
+      "base": "Elite",
+      "frameOffset": 225,
+      "stats": {
+        "health": 999,
+        "attack": [
+          "byScenarioLevel",
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          5,
+          5
+        ],
+        "range": [
+          "byScenarioLevel",
+          5,
+          5,
+          6,
+          6,
+          6,
+          7,
+          7,
+          7
+        ],
+        "text": "Cannot be targeted. Performs Selandre's abilities immediately after her."
+      }
+    }
+  },
   "doorTiles": [
     {
       "name": "Dark Fog",
@@ -750,6 +783,21 @@
           ]
         }
       ],
+      "figures": [
+        {
+          "name": "Ancient Artillery",
+          "position": {
+            "x": "-8.34",
+            "y": "1.77",
+            "z": "1.31"
+          },
+          "rotation": {
+            "x": "0.00",
+            "y": "180.00",
+            "z": "0.00"
+          }
+        }
+      ],
       "overlayTiles": [
         {
           "type": [
@@ -802,19 +850,6 @@
                     "y": "269.988892",
                     "z": "0.003800"
                   }
-                }
-              ]
-            },
-            {
-              "name": "Ancient Artillery Token",
-              "tiles": [
-                {
-                  "position": {
-                    "x": "-8.335494",
-                    "y": "1.768357",
-                    "z": "1.312501"
-                  },
-                  "name": "Ancient Artillery"
                 }
               ]
             }

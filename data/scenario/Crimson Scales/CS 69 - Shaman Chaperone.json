@@ -1,0 +1,1001 @@
+{
+  "name": "Shaman Chaperone",
+  "scenarioBook": {
+    "name": "ToA Rulebook and Scenario Guide",
+    "page": 14
+  },
+  "monsters": {
+    "Talo": {
+      "all": {
+        "base": "Ally"
+      }
+    },
+    "Inox Shaman": {
+      "all": {
+        "base": "Ally"
+      }
+    }
+  },
+  "overlays": {
+    "Bear Trap": {
+      "conditions": [
+        "Damage"
+      ],
+      "name": "Damage Trap"
+    }
+  },
+  "doorTiles": [
+    {
+      "name": "Light Fog",
+      "tiles": [
+        {
+          "rooms": [
+            2,
+            3
+          ],
+          "position": {
+            "x": 4.55,
+            "y": 1.88,
+            "z": 2.63
+          },
+          "rotation": {
+            "x": 0,
+            "y": 30,
+            "z": 0
+          },
+          "tokens": [
+            "2"
+          ]
+        },
+        {
+          "rooms": [
+            1,
+            2
+          ],
+          "position": {
+            "x": 1.52,
+            "y": 1.88,
+            "z": 13.13
+          },
+          "rotation": {
+            "x": 0,
+            "y": 30,
+            "z": 360
+          },
+          "tokens": [
+            "1"
+          ]
+        }
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "mapTiles": [
+        {
+          "tile": "H2",
+          "position": {
+            "x": -4.55,
+            "y": 1.65,
+            "z": 10.5
+          },
+          "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 0
+          }
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Talo",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": -8.34,
+                "y": 1.76,
+                "z": 11.81
+              }
+            }
+          ]
+        },
+        {
+          "name": "Hound",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": 0,
+                "y": 1.77,
+                "z": 13.13
+              }
+            },
+            {
+              "numCharacters": {
+                "4": 1
+              },
+              "position": {
+                "x": -2.27,
+                "y": 1.77,
+                "z": 9.19
+              }
+            }
+          ]
+        },
+        {
+          "name": "Earth Demon",
+          "tiles": [
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 2
+              },
+              "position": {
+                "x": -2.27,
+                "y": 1.77,
+                "z": 6.56
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 2,
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": -4.55,
+                "y": 1.77,
+                "z": 5.25
+              }
+            }
+          ]
+        },
+        {
+          "name": "Vermling Scout",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 2,
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": -0.76,
+                "y": 1.77,
+                "z": 11.81
+              }
+            }
+          ]
+        }
+      ],
+      "startTiles": {
+        "name": "Start Area",
+        "tiles": [
+          {
+            "position": {
+              "x": -5.3,
+              "y": 1.88,
+              "z": 11.81
+            },
+            "rotation": {
+              "x": 0,
+              "y": 30,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": -6.06,
+              "y": 1.88,
+              "z": 13.12
+            },
+            "rotation": {
+              "x": 0,
+              "y": 30,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": -6.82,
+              "y": 1.88,
+              "z": 11.81
+            },
+            "rotation": {
+              "x": 0,
+              "y": 30,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": -7.57,
+              "y": 1.88,
+              "z": 13.14
+            },
+            "rotation": {
+              "x": 0,
+              "y": 30,
+              "z": 0
+            }
+          }
+        ]
+      },
+      "overlayTiles": [
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Stump",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -3.03,
+                    "y": 1.88,
+                    "z": 7.88
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 150,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 2,
+          "type": [
+            {
+              "name": "Water 1",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -4.55,
+                    "y": 1.88,
+                    "z": 7.84
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -3.79,
+                    "y": 1.88,
+                    "z": 6.52
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Rubble",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 0.76,
+                    "y": 1.88,
+                    "z": 11.81
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 30,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 7,
+          "type": [
+            {
+              "name": "Bear Trap",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -5.3,
+                    "y": 1.88,
+                    "z": 6.56
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 8,
+          "type": [
+            {
+              "name": "Treasure Chest Horizontal",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -3.03,
+                    "y": 1.88,
+                    "z": 5.25
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                  },
+                  "action": {
+                    "name": "51",
+                    "treasure": "CS Treasure 51"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "F1",
+          "position": {
+            "x": 3.79,
+            "y": 1.71,
+            "z": 9.19
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+          }
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Hound",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 2
+              },
+              "position": {
+                "x": 2.28,
+                "y": 1.77,
+                "z": 6.56
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": 4.55,
+                "y": 1.77,
+                "z": 5.25
+              }
+            }
+          ]
+        },
+        {
+          "name": "Vermling Scout",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 2,
+                "4": 1
+              },
+              "position": {
+                "x": 5.31,
+                "y": 1.77,
+                "z": 11.81
+              }
+            }
+          ]
+        },
+        {
+          "name": "Cave Bear",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": 3.79,
+                "y": 1.77,
+                "z": 3.94
+              }
+            }
+          ]
+        },
+        {
+          "name": "Earth Demon",
+          "tiles": [
+            {
+              "numCharacters": {
+                "4": 2
+              },
+              "position": {
+                "x": 2.27,
+                "y": 1.77,
+                "z": 3.94
+              }
+            }
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Bush",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 5.31,
+                    "y": 1.88,
+                    "z": 14.43
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 30,
+                    "z": 0
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Stump",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 3.03,
+                    "y": 1.88,
+                    "z": 5.25
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 150,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 2,
+          "type": [
+            {
+              "name": "Water 1",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 2.28,
+                    "y": 1.88,
+                    "z": 11.81
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 7,
+          "type": [
+            {
+              "name": "Bear Trap",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 5.31,
+                    "y": 1.88,
+                    "z": 6.56
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "G1",
+          "position": {
+            "x": 4.55,
+            "y": 1.71,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 0
+          }
+        },
+        {
+          "tile": "B1",
+          "position": {
+            "x": -4.55,
+            "y": 1.71,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 270,
+            "z": 180
+          }
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Vermling Scout",
+          "tiles": [
+            {
+              "numCharacters": {
+                "4": 2
+              },
+              "position": {
+                "x": -2.27,
+                "y": 1.88,
+                "z": -1.31
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": -3.79,
+                "y": 1.77,
+                "z": -1.31
+              }
+            },
+            {
+              "numCharacters": {
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": -3.03,
+                "y": 1.77,
+                "z": -2.62
+              }
+            }
+          ]
+        },
+        {
+          "name": "Hound",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 2,
+                "4": 1
+              },
+              "position": {
+                "x": 9.85,
+                "y": 1.77,
+                "z": 1.31
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 2
+              },
+              "position": {
+                "x": 9.09,
+                "y": 1.77,
+                "z": 0
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 2
+              },
+              "position": {
+                "x": 6.82,
+                "y": 1.77,
+                "z": -1.31
+              }
+            },
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": 2.27,
+                "y": 1.77,
+                "z": -1.31
+              }
+            }
+          ]
+        },
+        {
+          "name": "Cave Bear",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": 9.85,
+                "y": 1.77,
+                "z": -1.32
+              }
+            }
+          ]
+        },
+        {
+          "name": "Earth Demon",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": -3.03,
+                "y": 1.77,
+                "z": 0
+              }
+            }
+          ]
+        },
+        {
+          "name": "Inox Shaman",
+          "tiles": [
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": -6.06,
+                "y": 1.77,
+                "z": -2.62
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 2,
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": -6.82,
+                "y": 1.77,
+                "z": -1.31
+              }
+            }
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 1,
+          "type": [
+            {
+              "name": "Earth Corridor 2",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -2.27,
+                    "y": 1.88,
+                    "z": 1.31
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -2.28,
+                    "y": 1.88,
+                    "z": -1.32
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": [
+            {
+              "name": "Scenario Aid Token",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -4.55,
+                    "y": 1.77,
+                    "z": -2.63
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "a"
+                },
+                {
+                  "position": {
+                    "x": -5.3,
+                    "y": 1.77,
+                    "z": -1.31
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "a"
+                },
+                {
+                  "position": {
+                    "x": -4.55,
+                    "y": 1.77,
+                    "z": 0
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "a"
+                },
+                {
+                  "position": {
+                    "x": -5.3,
+                    "y": 1.89,
+                    "z": 1.32
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "a"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 7,
+          "type": [
+            {
+              "name": "Bear Trap",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 0.76,
+                    "y": 1.88,
+                    "z": -1.31
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Bush",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 8.34,
+                    "y": 1.88,
+                    "z": 1.31
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 30,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 2,
+          "type": [
+            {
+              "name": "Rubble",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 5.31,
+                    "y": 1.88,
+                    "z": 1.31
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 30,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -1.52,
+                    "y": 1.88,
+                    "z": 0
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 30,
+                    "z": 0
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Water 1",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 7.59,
+                    "y": 1.88,
+                    "z": 0
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -3.79,
+                    "y": 1.88,
+                    "z": 1.31
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -5.31,
+                    "y": 1.88,
+                    "z": 1.32
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -6.07,
+                    "y": 1.88,
+                    "z": 0
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 8.35,
+                    "y": 1.88,
+                    "z": -1.32
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 8,
+          "type": [
+            {
+              "name": "Treasure Chest Horizontal",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -6.82,
+                    "y": 1.88,
+                    "z": 1.31
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                  },
+                  "action": {
+                    "name": "57",
+                    "treasure": "CS Treasure 57"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "monsterList": [
+    "Talo",
+    "Hound",
+    "Earth Demon",
+    "Vermling Scout",
+    "Cave Bear",
+    "Inox Shaman"
+  ],
+  "campaign": "Crimson Scales",
+  "gridType": 2,
+  "id": "CS 69"
+}

@@ -1,0 +1,793 @@
+{
+  "name": "The Dark Valley",
+  "scenarioBook": {
+    "name": "ToA Rulebook and Scenario Guide",
+    "page": 10
+  },
+  "monsters": {
+    "Vermling Scout": {
+      "all": {
+        "abilityDeck": "Scavenger"
+      },
+      "normal": {
+        "base": "Normal"
+      },
+      "elite": {
+        "base": "Elite"
+      }
+    }
+  },
+  "doorTiles": [
+    {
+      "name": "Light Fog",
+      "tiles": [
+        {
+          "rooms": [
+            1,
+            2
+          ],
+          "position": {
+            "x": 5.3,
+            "y": 1.88,
+            "z": 1.31
+          },
+          "rotation": {
+            "x": 359.98,
+            "y": 30,
+            "z": 359.98
+          }
+        },
+        {
+          "rooms": [
+            2,
+            3
+          ],
+          "position": {
+            "x": 0.76,
+            "y": 1.88,
+            "z": -3.94
+          },
+          "rotation": {
+            "x": 359.99,
+            "y": 30,
+            "z": 0.01
+          }
+        }
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "mapTiles": [
+        {
+          "tile": "C2",
+          "position": {
+            "x": 4.55,
+            "y": 1.65,
+            "z": 5.25
+          },
+          "rotation": {
+            "x": 0,
+            "y": 269.93,
+            "z": 180
+          }
+        },
+        {
+          "tile": "D1",
+          "position": {
+            "x": -1.52,
+            "y": 1.65,
+            "z": 7.88
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180.06,
+            "z": 180
+          }
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Smoke Spirit",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 2
+              },
+              "position": {
+                "x": 4.55,
+                "y": 1.77,
+                "z": 2.62
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 2,
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": 6.82,
+                "y": 1.77,
+                "z": 3.94
+              }
+            },
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": 5.3,
+                "y": 1.77,
+                "z": 6.56
+              }
+            }
+          ]
+        },
+        {
+          "name": "Vermling Scout",
+          "tiles": [
+            {
+              "numCharacters": {
+                "4": 2
+              },
+              "position": {
+                "x": 5.31,
+                "y": 1.77,
+                "z": 3.94
+              },
+              "named": "Vermling Scavenger"
+            },
+            {
+              "numCharacters": {
+                "2": 2,
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": 0,
+                "y": 1.77,
+                "z": 5.25
+              },
+              "named": "Vermling Scavenger"
+            },
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 2
+              },
+              "position": {
+                "x": 1.51,
+                "y": 1.77,
+                "z": 7.87
+              },
+              "named": "Vermling Scavenger"
+            }
+          ]
+        }
+      ],
+      "startTiles": {
+        "name": "Start Area",
+        "tiles": [
+          {
+            "position": {
+              "x": -2.27,
+              "y": 1.88,
+              "z": 9.19
+            },
+            "rotation": {
+              "x": 0,
+              "y": 30.01,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": -3.79,
+              "y": 1.88,
+              "z": 9.19
+            },
+            "rotation": {
+              "x": 0,
+              "y": 30.01,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": -1.52,
+              "y": 1.88,
+              "z": 10.5
+            },
+            "rotation": {
+              "x": 0,
+              "y": 30,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": -3.03,
+              "y": 1.88,
+              "z": 10.5
+            },
+            "rotation": {
+              "x": 0,
+              "y": 30,
+              "z": 0
+            }
+          }
+        ]
+      },
+      "overlayTiles": [
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Stump",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 6.07,
+                    "y": 1.88,
+                    "z": 2.63
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 150,
+                    "z": 0
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Bush",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 0.04,
+                    "y": 1.88,
+                    "z": 10.5
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 30,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 2,
+          "type": [
+            {
+              "name": "Log",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -3.79,
+                    "y": 1.88,
+                    "z": 6.56
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 330,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 1,
+          "type": [
+            {
+              "name": "Earth Corridor 2",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 1.52,
+                    "y": 1.88,
+                    "z": 5.24
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 30,
+                    "z": 359.96
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "L1",
+          "position": {
+            "x": 3.79,
+            "y": 7.24,
+            "z": -3.94
+          },
+          "rotation": {
+            "x": 0,
+            "y": 89.99,
+            "z": 180
+          }
+        },
+        {
+          "tile": "C2",
+          "position": {
+            "x": 4.55,
+            "y": 1.65,
+            "z": 5.25
+          },
+          "rotation": {
+            "x": 0,
+            "y": 269.93,
+            "z": 180
+          }
+        },
+        {
+          "tile": "D1",
+          "position": {
+            "x": -1.52,
+            "y": 1.65,
+            "z": 7.88
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180.06,
+            "z": 180
+          }
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Smoke Spirit",
+          "tiles": [
+            {
+              "numCharacters": {
+                "4": 2
+              },
+              "position": {
+                "x": 6.82,
+                "y": 1.77,
+                "z": -6.56
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": 4.55,
+                "y": 1.77,
+                "z": -5.25
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 2,
+                "4": 1
+              },
+              "position": {
+                "x": 2.27,
+                "y": 1.77,
+                "z": -6.56
+              }
+            }
+          ]
+        },
+        {
+          "name": "Deep Terror",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 2
+              },
+              "position": {
+                "x": 1.52,
+                "y": 1.77,
+                "z": -7.88
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": 7.58,
+                "y": 1.77,
+                "z": -7.88
+              }
+            }
+          ]
+        },
+        {
+          "name": "Vermling Scout",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 2
+              },
+              "position": {
+                "x": 1.52,
+                "y": 1.77,
+                "z": 0
+              },
+              "named": "Vermling Scavenger"
+            }
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 3,
+          "type": [
+            {
+              "name": "Hot Coals 1",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 5.3,
+                    "y": 1.88,
+                    "z": -6.56
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210.28,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 6.06,
+                    "y": 1.88,
+                    "z": -7.87
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210.26,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 7.58,
+                    "y": 1.88,
+                    "z": 0
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 2,
+          "type": [
+            {
+              "name": "Log",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 4.55,
+                    "y": 1.88,
+                    "z": -7.88
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 270,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Stump",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 6.82,
+                    "y": 1.88,
+                    "z": -1.31
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 150,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "A4",
+          "position": {
+            "x": -4.55,
+            "y": 1.71,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 0
+          }
+        },
+        {
+          "tile": "B1",
+          "position": {
+            "x": -2.27,
+            "y": 1.71,
+            "z": -3.94
+          },
+          "rotation": {
+            "x": 0,
+            "y": 270.01,
+            "z": 180
+          }
+        },
+        {
+          "tile": "L1",
+          "position": {
+            "x": 3.79,
+            "y": 7.24,
+            "z": -3.94
+          },
+          "rotation": {
+            "x": 0,
+            "y": 89.99,
+            "z": 180
+          }
+        },
+        {
+          "tile": "C2",
+          "position": {
+            "x": 4.55,
+            "y": 1.65,
+            "z": 5.25
+          },
+          "rotation": {
+            "x": 0,
+            "y": 269.93,
+            "z": 180
+          }
+        },
+        {
+          "tile": "D1",
+          "position": {
+            "x": -1.52,
+            "y": 1.65,
+            "z": 7.88
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180.06,
+            "z": 180
+          }
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Spitting Drake",
+          "tiles": [
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 2
+              },
+              "position": {
+                "x": -7.58,
+                "y": 1.77,
+                "z": 0
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1
+              },
+              "position": {
+                "x": -6.06,
+                "y": 1.77,
+                "z": 0
+              }
+            },
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": -5.3,
+                "y": 1.77,
+                "z": 1.31
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1
+              },
+              "position": {
+                "x": -3.79,
+                "y": 1.77,
+                "z": 1.31
+              }
+            }
+          ]
+        },
+        {
+          "name": "Smoke Spirit",
+          "tiles": [
+            {
+              "numCharacters": {
+                "3": 2
+              },
+              "position": {
+                "x": -2.27,
+                "y": 1.77,
+                "z": 1.31
+              }
+            },
+            {
+              "numCharacters": {
+                "4": 1
+              },
+              "position": {
+                "x": -1.52,
+                "y": 1.77,
+                "z": 0
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 2,
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": -3.03,
+                "y": 1.77,
+                "z": -2.62
+              }
+            },
+            {
+              "numCharacters": {
+                "4": 2
+              },
+              "position": {
+                "x": -4.55,
+                "y": 1.77,
+                "z": -5.25
+              }
+            }
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 8,
+          "type": [
+            {
+              "name": "Treasure Chest Horizontal",
+              "tiles": [
+                {
+                  "action": {
+                    "name": "67",
+                    "treasure": "CS Treasure 67"
+                  },
+                  "position": {
+                    "x": -6.82,
+                    "y": 1.88,
+                    "z": 1.31
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 89.99,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Bush",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -3.79,
+                    "y": 1.88,
+                    "z": -6.56
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 30,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 3,
+          "type": [
+            {
+              "name": "Hot Coals 1",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -3.79,
+                    "y": 1.88,
+                    "z": -1.31
+                  },
+                  "rotation": {
+                    "x": 0.02,
+                    "y": 210,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -2.27,
+                    "y": 1.88,
+                    "z": -1.31
+                  },
+                  "rotation": {
+                    "x": 0.01,
+                    "y": 210,
+                    "z": 0.01
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "monsterList": [
+    "Vermling Scout",
+    "Smoke Spirit",
+    "Deep Terror",
+    "Spitting Drake"
+  ],
+  "campaign": "Crimson Scales",
+  "gridType": 2,
+  "id": "CS 67"
+}

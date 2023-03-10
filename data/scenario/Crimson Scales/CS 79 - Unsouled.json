@@ -1,0 +1,643 @@
+{
+  "name": "Unsouled",
+  "icon": "http://cloud-3.steamusercontent.com/ugc/2041854257214275617/D7B76DF4C01D2A9FAFE627C5D356A02C38F06DC5/",
+  "campaign": "Crimson Scales",
+  "gridType": 2,
+  "scenarioBook": {
+    "name": "ToA Rulebook and Scenario Guide",
+    "page": 37
+  },
+  "extraContent": [
+    {
+      "name": "CS 79 Inox Guard Ally Abilities",
+      "position": [
+        7.65,
+        1.71,
+        -1.34
+      ]
+    }
+  ],
+  "overlays": {
+    "Spike Trap": {
+      "conditions": [
+        "Wound"
+      ],
+      "name": "Wound Trap"
+    }
+  },
+  "figures": {
+    "Okeda, The Unsouled": {
+      "basedOn": "Inox Bodyguard",
+      "base": "Named",
+      "frameOffset": 325,
+      "stats": {
+        "health": [
+          "apply",
+          "$calculateHealth",
+          "06b91f"
+        ],
+        "attributes": {
+          "Shield": 1,
+          "Retaliate": 1
+        },
+        "immunities": [
+          "Disarm",
+          "Stun"
+        ]
+      }
+    }
+  },
+  "doorTiles": [
+    {
+      "name": "Wooden Door Horizontal",
+      "tiles": [
+        {
+          "rooms": [
+            1,
+            2
+          ],
+          "position": {
+            "x": 0.77,
+            "y": 1.77,
+            "z": 8.32
+          },
+          "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 0
+          },
+          "tokens": [
+            "1"
+          ]
+        },
+        {
+          "rooms": [
+            1,
+            2
+          ],
+          "position": {
+            "x": -0.76,
+            "y": 1.77,
+            "z": 8.31
+          },
+          "rotation": {
+            "x": 0,
+            "y": 270,
+            "z": 360
+          },
+          "tokens": [
+            "1"
+          ]
+        }
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "mapTiles": [
+        {
+          "tile": "D1",
+          "position": {
+            "x": 0,
+            "y": 1.65,
+            "z": 4.38
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 180
+          }
+        },
+        {
+          "tile": "C2",
+          "position": {
+            "x": 0,
+            "y": 1.65,
+            "z": -3.5
+          },
+          "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 180
+          }
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Inox Guard",
+          "tiles": [
+            {
+              "numCharacters": {
+                "1": 1
+              },
+              "position": {
+                "x": -1.52,
+                "y": 1.77,
+                "z": 1.75
+              }
+            },
+            {
+              "numCharacters": {
+                "1": 1
+              },
+              "position": {
+                "x": 1.52,
+                "y": 1.77,
+                "z": 1.75
+              }
+            },
+            {
+              "numCharacters": {
+                "1": 1
+              },
+              "position": {
+                "x": 0.76,
+                "y": 1.77,
+                "z": 5.69
+              }
+            },
+            {
+              "numCharacters": {
+                "1": 1
+              },
+              "position": {
+                "x": -0.76,
+                "y": 1.77,
+                "z": 5.69
+              }
+            },
+            {
+              "numCharacters": {
+                "1": 2
+              },
+              "position": {
+                "x": 2.27,
+                "y": 1.77,
+                "z": -2.19
+              },
+              "base": "Ally"
+            },
+            {
+              "numCharacters": {
+                "1": 2
+              },
+              "position": {
+                "x": -2.27,
+                "y": 1.77,
+                "z": -2.19
+              },
+              "base": "Ally"
+            }
+          ]
+        },
+        {
+          "name": "Inox Archer",
+          "tiles": [
+            {
+              "numCharacters": {
+                "1": 2
+              },
+              "position": {
+                "x": -1.52,
+                "y": 1.77,
+                "z": 7
+              }
+            },
+            {
+              "numCharacters": {
+                "1": 2
+              },
+              "position": {
+                "x": 1.52,
+                "y": 2.35,
+                "z": 7
+              }
+            }
+          ]
+        }
+      ],
+      "startTiles": {
+        "name": "Start Area",
+        "tiles": [
+          {
+            "position": {
+              "x": 0,
+              "y": 1.88,
+              "z": -3.5
+            },
+            "rotation": {
+              "x": 0,
+              "y": 30,
+              "z": 0
+            }
+          }
+        ]
+      },
+      "overlayTiles": [
+        {
+          "type": [
+            {
+              "name": "Scenario Aid Token",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 3.03,
+                    "y": 1.77,
+                    "z": 4.38
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "b"
+                },
+                {
+                  "position": {
+                    "x": -3.03,
+                    "y": 1.77,
+                    "z": 4.38
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "b"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 7,
+          "type": [
+            {
+              "name": "Spike Trap",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -0.01,
+                    "y": 1.88,
+                    "z": 7
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 210,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 2,
+          "type": [
+            {
+              "name": "Log",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 2.27,
+                    "y": 1.88,
+                    "z": 5.69
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 330,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 3,
+          "type": [
+            {
+              "name": "Thorns",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 0,
+                    "y": 1.88,
+                    "z": 1.75
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 30,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -1.52,
+                    "y": 1.88,
+                    "z": -3.5
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 30,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 1,
+          "type": [
+            {
+              "name": "Earth Corridor 2",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -0.76,
+                    "y": 1.88,
+                    "z": 0.44
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 360
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Tree",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 0.76,
+                    "y": 1.88,
+                    "z": 3.06
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 270,
+                    "z": 0
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Bush",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 0.76,
+                    "y": 1.88,
+                    "z": -4.82
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 29,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "C1",
+          "position": {
+            "x": 0,
+            "y": 1.65,
+            "z": 12.25
+          },
+          "rotation": {
+            "x": 0,
+            "y": 270,
+            "z": 180
+          }
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Inox Guard",
+          "tiles": [
+            {
+              "numCharacters": {
+                "1": 1
+              },
+              "position": {
+                "x": 0.76,
+                "y": 1.77,
+                "z": 10.94
+              }
+            },
+            {
+              "numCharacters": {
+                "1": 1
+              },
+              "position": {
+                "x": -0.76,
+                "y": 1.77,
+                "z": 10.94
+              }
+            }
+          ]
+        },
+        {
+          "name": "Inox Archer",
+          "tiles": [
+            {
+              "numCharacters": {
+                "1": 2
+              },
+              "position": {
+                "x": 0.76,
+                "y": 1.77,
+                "z": 13.56
+              }
+            }
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Scenario Spawn Piece",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 7.58,
+                    "y": 1.79,
+                    "z": 11.37
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 270,
+                    "z": 0
+                  },
+                  "action": {
+                    "name": "38A",
+                    "rooms": [
+                      3
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Barrel",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -2.27,
+                    "y": 1.88,
+                    "z": 10.94
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 270,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": [
+            {
+              "name": "Coin 1",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 2.27,
+                    "y": 1.82,
+                    "z": 10.94
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 1.52,
+                    "y": 1.82,
+                    "z": 12.25
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -1.52,
+                    "y": 1.82,
+                    "z": 12.25
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": -0.76,
+                    "y": 1.82,
+                    "z": 13.56
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": [
+            {
+              "name": "Scenario Aid Token",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 0,
+                    "y": 1.77,
+                    "z": 12.25
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "a"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "figures": [
+        {
+          "name": "Okeda, The Unsouled",
+          "position": {
+            "x": "7.58",
+            "y": "1.65",
+            "z": "7.88"
+          }
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Inox Archer",
+          "tiles": [
+            {
+              "numCharacters": {
+                "1": 2
+              },
+              "position": {
+                "x": 6.06,
+                "y": 1.65,
+                "z": 7
+              }
+            },
+            {
+              "numCharacters": {
+                "1": 2
+              },
+              "position": {
+                "x": 9.09,
+                "y": 1.65,
+                "z": 7
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "monsterList": [
+    "Inox Guard",
+    "Inox Archer"
+  ],
+  "id": "CS 79"
+}

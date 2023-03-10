@@ -1,0 +1,711 @@
+{
+  "name": "Song of the Harrower",
+  "gridType": 2,
+  "scenarioBook": {
+    "name": "ToA Rulebook and Scenario Guide",
+    "page": 25
+  },
+  "doorTiles": [
+    {
+      "name": "Stone Door Horizontal",
+      "tiles": [
+        {
+          "rooms": [
+            1,
+            2
+          ],
+          "position": {
+            "x": -2.27,
+            "y": 1.77,
+            "z": -4.81
+          },
+          "rotation": {
+            "x": 0,
+            "y": 330,
+            "z": 0
+          },
+          "tokens": [
+            "1"
+          ]
+        },
+        {
+          "rooms": [
+            2,
+            3
+          ],
+          "position": {
+            "x": 3.79,
+            "y": 1.77,
+            "z": 3.06
+          },
+          "rotation": {
+            "x": 0,
+            "y": 270,
+            "z": 360
+          },
+          "tokens": [
+            "2"
+          ]
+        }
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "mapTiles": [
+        {
+          "tile": "J2",
+          "position": {
+            "x": -4.55,
+            "y": 1.77,
+            "z": -0.88
+          },
+          "rotation": {
+            "x": 0,
+            "y": 30,
+            "z": 0
+          }
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Black Imp",
+          "tiles": [
+            {
+              "numCharacters": {
+                "3": 2
+              },
+              "position": {
+                "x": -3.03,
+                "y": 1.77,
+                "z": -6.12
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "4": 2
+              },
+              "position": {
+                "x": -5.32,
+                "y": 1.77,
+                "z": -7.44
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": -8.34,
+                "y": 1.77,
+                "z": 0.44
+              }
+            }
+          ]
+        },
+        {
+          "name": "Harrower Infester",
+          "tiles": [
+            {
+              "numCharacters": {
+                "4": 1
+              },
+              "position": {
+                "x": -6.06,
+                "y": 1.77,
+                "z": -3.49
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1
+              },
+              "position": {
+                "x": -4.55,
+                "y": 1.77,
+                "z": -3.5
+              }
+            },
+            {
+              "numCharacters": {
+                "4": 1
+              },
+              "position": {
+                "x": -3.79,
+                "y": 1.77,
+                "z": -4.81
+              }
+            },
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 2
+              },
+              "position": {
+                "x": -4.55,
+                "y": 1.77,
+                "z": -6.12
+              }
+            },
+            {
+              "numCharacters": {
+                "4": 1
+              },
+              "position": {
+                "x": -6.06,
+                "y": 1.77,
+                "z": -6.13
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1
+              },
+              "position": {
+                "x": -6.82,
+                "y": 1.77,
+                "z": -4.81
+              }
+            }
+          ]
+        },
+        {
+          "name": "Harrower Bugflute",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": -5.3,
+                "y": 1.77,
+                "z": -4.81
+              }
+            }
+          ]
+        }
+      ],
+      "startTiles": {
+        "name": "Start Area",
+        "tiles": [
+          {
+            "position": {
+              "x": -6.07,
+              "y": 1.88,
+              "z": 4.37
+            },
+            "rotation": {
+              "x": 0,
+              "y": 30,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": -3.79,
+              "y": 1.88,
+              "z": 3.06
+            },
+            "rotation": {
+              "x": 0,
+              "y": 30,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": -3.02,
+              "y": 1.88,
+              "z": 4.38
+            },
+            "rotation": {
+              "x": 0,
+              "y": 30,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": -4.54,
+              "y": 1.88,
+              "z": 4.37
+            },
+            "rotation": {
+              "x": 0,
+              "y": 30,
+              "z": 0
+            }
+          },
+          {
+            "position": {
+              "x": -5.3,
+              "y": 1.88,
+              "z": 5.69
+            },
+            "rotation": {
+              "x": 0,
+              "y": 30,
+              "z": 0
+            }
+          }
+        ]
+      },
+      "overlayTiles": [
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Nest",
+              "tiles": [
+                {
+                  "position": {
+                    "x": -8.34,
+                    "y": 1.88,
+                    "z": -2.19
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 30,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "K1",
+          "position": {
+            "x": 3.79,
+            "y": 1.72,
+            "z": -2.19
+          },
+          "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 180
+          }
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Black Imp",
+          "tiles": [
+            {
+              "numCharacters": {
+                "4": 1
+              },
+              "position": {
+                "x": 1.52,
+                "y": 1.77,
+                "z": -3.5
+              }
+            },
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": 1.52,
+                "y": 1.77,
+                "z": -0.88
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 2
+              },
+              "position": {
+                "x": 7.58,
+                "y": 1.77,
+                "z": -3.5
+              }
+            }
+          ]
+        },
+        {
+          "name": "Harrower Infester",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": 3.03,
+                "y": 1.77,
+                "z": 1.75
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 2,
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": 7.58,
+                "y": 1.77,
+                "z": -0.87
+              }
+            },
+            {
+              "numCharacters": {
+                "4": 1
+              },
+              "position": {
+                "x": 5.3,
+                "y": 1.77,
+                "z": -2.19
+              }
+            },
+            {
+              "numCharacters": {
+                "3": 2,
+                "4": 2
+              },
+              "position": {
+                "x": 8.34,
+                "y": 1.77,
+                "z": -4.81
+              }
+            }
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "type": [
+            {
+              "name": "Scenario Aid Token",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 3.79,
+                    "y": 1.77,
+                    "z": 0.44
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "a"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Nest",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 8.34,
+                    "y": 1.88,
+                    "z": -2.19
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 30,
+                    "z": 0
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Stone Pillar",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 6.82,
+                    "y": 1.88,
+                    "z": 0.44
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 0.76,
+                    "y": 1.88,
+                    "z": 0.44
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": [
+            {
+              "name": "Coin 1",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 9.09,
+                    "y": 1.83,
+                    "z": -3.5
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 6.82,
+                    "y": 1.83,
+                    "z": -4.81
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapTiles": [
+        {
+          "tile": "D1",
+          "position": {
+            "x": 3.03,
+            "y": 1.77,
+            "z": 7
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ],
+      "monsters": [
+        {
+          "name": "Harrower Infester",
+          "tiles": [
+            {
+              "numCharacters": {
+                "2": 1,
+                "3": 1,
+                "4": 1
+              },
+              "position": {
+                "x": 3.79,
+                "y": 1.77,
+                "z": 8.31
+              }
+            },
+            {
+              "numCharacters": {
+                "2": 1,
+                "4": 1
+              },
+              "position": {
+                "x": 2.27,
+                "y": 1.77,
+                "z": 8.31
+              }
+            },
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 2
+              },
+              "position": {
+                "x": 4.55,
+                "y": 1.77,
+                "z": 9.63
+              }
+            },
+            {
+              "numCharacters": {
+                "3": 1,
+                "4": 2
+              },
+              "position": {
+                "x": 1.52,
+                "y": 1.77,
+                "z": 9.63
+              }
+            }
+          ]
+        }
+      ],
+      "overlayTiles": [
+        {
+          "type": [
+            {
+              "name": "Scenario Aid Token",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 3.03,
+                    "y": 1.77,
+                    "z": 7
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  },
+                  "name": "b"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 5,
+          "type": [
+            {
+              "name": "Nest",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 0.76,
+                    "y": 1.88,
+                    "z": 5.69
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 30,
+                    "z": 0
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Stone Pillar",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 0.76,
+                    "y": 1.88,
+                    "z": 8.31
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 5.3,
+                    "y": 1.88,
+                    "z": 8.31
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": [
+            {
+              "name": "Coin 1",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 0,
+                    "y": 1.83,
+                    "z": 7
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                },
+                {
+                  "position": {
+                    "x": 6.06,
+                    "y": 1.83,
+                    "z": 7
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 180,
+                    "z": 0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bag": 8,
+          "type": [
+            {
+              "name": "Treasure Chest Horizontal",
+              "tiles": [
+                {
+                  "position": {
+                    "x": 3.03,
+                    "y": 1.88,
+                    "z": 9.63
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                  },
+                  "action": {
+                    "name": "61",
+                    "treasure": "CS Treasure 61"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "monsterList": [
+    "Black Imp",
+    "Harrower Infester",
+    "Harrower Bugflute"
+  ],
+  "campaign": "Crimson Scales",
+  "id": "CS 74"
+}
