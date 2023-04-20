@@ -1,651 +1,392 @@
 {
   "name": "Mindthief",
+  "version": 1,
+  "spoilerName": "",
+  "hpProgression": [6, 7, 8, 9, 10, 11, 12, 13, 14],
+  "ancestry": "",
+  "icon": "",
+  "tracker": "http://cloud-3.steamusercontent.com/ugc/83722391140273516/BC25E0469BCF4E7D7455FD1D8E5D983A64015CF9/",
+  "colors": { "primary": "" },
+  "figure": { "model": "", "texture": "" },
+  "characterMat": { "front": "", "back": "" },
   "abilities": {
-    "Brain Leech": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.97],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.34, -0.58],
-          "side": "T",
-          "type": "heal"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.55],
-          "side": "B",
-          "type": "attack"
-        }
-      ],
-      "level": 3
-    },
-    "Corrupting Embrace": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.84],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.48],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.36, 0.35],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 6
-    },
-    "Cranium Overload": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.41, -0.72],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.61, -0.72],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.75],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 4
-    },
-    "Dark Frenzy": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.81],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.36, 0.41],
-          "side": "B",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.64],
-          "side": "B",
-          "type": "attack"
-        }
-      ],
-      "level": 6
-    },
-    "Domination": {
-      "enhancements": [],
-      "level": 8
-    },
-    "Empathetic Assault": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.82],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.54, -0.87],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.54],
-          "side": "B",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.35, 0.81],
-          "side": "B",
-          "type": "heal"
-        }
-      ],
-      "level": 1
-    },
-    "Fearsome Blade": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.78],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": false,
-          "multi": false,
-          "position": [-0.31, -0.63],
-          "side": "T",
-          "type": "push"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.74],
-          "side": "B",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.61, 0.74],
-          "side": "B",
-          "type": "attack"
-        }
-      ],
-      "level": 1
-    },
-    "Feedback Loop": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.53],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.38],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 1
-    },
-    "Frigid Apparition": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.68],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.36, 0.41],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": "X"
-    },
-    "Frozen Mind": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.51],
-          "side": "T",
-          "type": "attack"
-        }
-      ],
-      "level": 5
-    },
-    "Gnawing Horde": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [0.2, -0.73],
-          "side": "T",
-          "type": "summHp"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.23, -0.73],
-          "side": "T",
-          "type": "summMove"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [0.2, -0.53],
-          "side": "T",
-          "type": "summAttack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.77],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 1
-    },
-    "Hostile Takeover": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.87],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.31, -0.71],
-          "side": "T",
-          "type": "range"
-        }
-      ],
-      "level": 2
-    },
-    "Into the Night": {
-      "enhancements": [],
-      "level": 1
-    },
-    "Many as One": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [0.21, -0.74],
-          "side": "T",
-          "type": "summHp"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.23, -0.74],
-          "side": "T",
-          "type": "summMove"
-        }
-      ],
-      "level": 9
-    },
-    "Mass Hysteria": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.31, -0.64],
-          "side": "T",
-          "type": "target"
-        }
-      ],
-      "level": 5
-    },
-    "Parasitic Influence": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.52],
-          "side": "T",
-          "type": "attack"
-        }
-      ],
-      "level": 1
-    },
-    "Perverse Edge": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.75],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.49],
-          "side": "B",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.31, 0.67],
-          "side": "B",
-          "type": "range"
-        }
-      ],
-      "level": 1
-    },
-    "Phantasmal Killer": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.52],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.36, 0.33],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 9
-    },
-    "Pilfer": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.39],
-          "side": "B",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.36, 0.63],
-          "side": "B",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.87],
-          "side": "B",
-          "type": "attack"
-        }
-      ],
-      "level": 4
-    },
-    "Possession": {
-      "enhancements": [],
-      "level": "X"
-    },
-    "Psychic Projection": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.33, -0.98],
-          "side": "T",
-          "type": "heal"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.36, -0.66],
-          "side": "T",
-          "type": "shield"
-        }
-      ],
-      "level": 7
-    },
-    "Scurry": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, -0.71],
-          "side": "T",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.46],
-          "side": "T",
-          "type": "attack"
-        }
-      ],
-      "level": 1
-    },
-    "Shared Nightmare": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.41, -0.96],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.3, -0.66],
-          "side": "T",
-          "type": "target"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.36, 0.6],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 8
-    },
-    "Silent Scream": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.52],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.36, 0.45],
-          "side": "B",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.41, 0.71],
-          "side": "B",
-          "type": "push"
-        }
-      ],
-      "level": 3
-    },
-    "Submissive Affliction": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.86],
-          "side": "T",
-          "type": "attack"
-        }
-      ],
-      "level": 1
-    },
-    "The Mind's Weakness": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.5],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.69],
-          "side": "B",
-          "type": "attack"
-        }
-      ],
-      "level": 1
-    },
-    "Vicious Blood": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.52],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.63],
-          "side": "B",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.86],
-          "side": "B",
-          "type": "attack"
-        }
-      ],
-      "level": 7
-    },
-    "Withering Claw": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.52],
-          "side": "T",
-          "type": "attack"
-        }
-      ],
-      "level": "X"
-    },
-    "Wretched Creature": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [0.21, -0.73],
-          "side": "T",
-          "type": "summHp"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.22, -0.73],
-          "side": "T",
-          "type": "summMove"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [0.22, -0.54],
-          "side": "T",
-          "type": "summAttack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.36, 0.59],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 2
-    }
+    "front": "",
+    "back": "",
+    "style": "Gloomhaven",
+    "cards": [
+      {
+        "name": "Empathetic Assault",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.82] }] },
+          { "type": "attack", "marks": [{ "position": [-0.54, -0.87] }] }
+        ],
+        "bottom": [
+          { "type": "move", "marks": [{ "position": [-0.37, 0.54] }] },
+          { "type": "heal", "marks": [{ "position": [-0.35, 0.81] }] }
+        ]
+      },
+      {
+        "name": "Fearsome Blade",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.78] }] },
+          {
+            "type": "attack",
+            "effects": [
+              { "name": "push", "marks": [{ "position": [-0.31, -0.63] }] }
+            ]
+          }
+        ],
+        "bottom": [
+          {
+            "type": "attack",
+            "marks": [
+              { "position": [-0.41, 0.74] },
+              { "position": [-0.61, 0.74] }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Feedback Loop",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.53] }] }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.38] }] }]
+      },
+      {
+        "name": "Gnawing Horde",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "summHp",
+            "marks": [
+              { "position": [0.2, -0.73] },
+              { "position": [-0.23, -0.73] }
+            ]
+          },
+          { "type": "summAttack", "marks": [{ "position": [0.2, -0.53] }] }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.41, 0.77] }] }]
+      },
+      {
+        "name": "Into the Night",
+        "level": 1,
+        "initiative": 0,
+        "top": [],
+        "bottom": []
+      },
+      {
+        "name": "Parasitic Influence",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.52] }] }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Perverse Edge",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.75] }] }
+        ],
+        "bottom": [
+          { "type": "attack", "marks": [{ "position": [-0.41, 0.49] }] },
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.31, 0.67] }]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Scurry",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          { "type": "move", "marks": [{ "position": [-0.37, -0.71] }] },
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.46] }] }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Submissive Affliction",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.86] }] }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "The Mind's Weakness",
+        "level": 1,
+        "initiative": 0,
+        "top": [{ "type": "attack", "marks": [{ "position": [-0.41, -0.5] }] }],
+        "bottom": [
+          { "type": "attack", "marks": [{ "position": [-0.41, 0.69] }] }
+        ]
+      },
+      {
+        "name": "Frigid Apparition",
+        "level": "X",
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.68] }] }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.36, 0.41] }] }]
+      },
+      {
+        "name": "Possession",
+        "level": "X",
+        "initiative": 0,
+        "top": [],
+        "bottom": []
+      },
+      {
+        "name": "Withering Claw",
+        "level": "X",
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.52] }] }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Hostile Takeover",
+        "level": 2,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.87] }] },
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.31, -0.71] }]
+            }
+          }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Wretched Creature",
+        "level": 2,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "summHp",
+            "marks": [
+              { "position": [0.21, -0.73] },
+              { "position": [-0.22, -0.73] }
+            ]
+          },
+          { "type": "summAttack", "marks": [{ "position": [0.22, -0.54] }] }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.36, 0.59] }] }]
+      },
+      {
+        "name": "Brain Leech",
+        "level": 3,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.97] }] },
+          { "type": "heal", "marks": [{ "position": [-0.34, -0.58] }] }
+        ],
+        "bottom": [
+          { "type": "attack", "marks": [{ "position": [-0.41, 0.55] }] }
+        ]
+      },
+      {
+        "name": "Silent Scream",
+        "level": 3,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.52] }] }
+        ],
+        "bottom": [
+          { "type": "move", "marks": [{ "position": [-0.36, 0.45] }] },
+          { "type": "push", "marks": [{ "position": [-0.41, 0.71] }] }
+        ]
+      },
+      {
+        "name": "Cranium Overload",
+        "level": 4,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "attack",
+            "marks": [
+              { "position": [-0.41, -0.72] },
+              { "position": [-0.61, -0.72] }
+            ]
+          }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.75] }] }]
+      },
+      {
+        "name": "Pilfer",
+        "level": 4,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          { "type": "attack", "marks": [{ "position": [-0.41, 0.39] }] },
+          { "type": "move", "marks": [{ "position": [-0.36, 0.63] }] },
+          { "type": "attack", "marks": [{ "position": [-0.41, 0.87] }] }
+        ]
+      },
+      {
+        "name": "Frozen Mind",
+        "level": 5,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.51] }] }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Mass Hysteria",
+        "level": 5,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "attack",
+            "targets": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.31, -0.64] }]
+            }
+          }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Corrupting Embrace",
+        "level": 6,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.84] }] },
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.48] }] }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.36, 0.35] }] }]
+      },
+      {
+        "name": "Dark Frenzy",
+        "level": 6,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.81] }] }
+        ],
+        "bottom": [
+          { "type": "move", "marks": [{ "position": [-0.36, 0.41] }] },
+          { "type": "attack", "marks": [{ "position": [-0.41, 0.64] }] }
+        ]
+      },
+      {
+        "name": "Psychic Projection",
+        "level": 7,
+        "initiative": 0,
+        "top": [
+          { "type": "heal", "marks": [{ "position": [-0.33, -0.98] }] },
+          { "type": "shield", "marks": [{ "position": [-0.36, -0.66] }] }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Vicious Blood",
+        "level": 7,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.52] }] }
+        ],
+        "bottom": [
+          { "type": "move", "marks": [{ "position": [-0.37, 0.63] }] },
+          { "type": "attack", "marks": [{ "position": [-0.41, 0.86] }] }
+        ]
+      },
+      {
+        "name": "Domination",
+        "level": 8,
+        "initiative": 0,
+        "top": [],
+        "bottom": []
+      },
+      {
+        "name": "Shared Nightmare",
+        "level": 8,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.96] }] },
+          {
+            "type": "attack",
+            "targets": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.3, -0.66] }]
+            }
+          }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.36, 0.6] }] }]
+      },
+      {
+        "name": "Many as One",
+        "level": 9,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "summHp",
+            "marks": [
+              { "position": [0.21, -0.74] },
+              { "position": [-0.23, -0.74] }
+            ]
+          }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Phantasmal Killer",
+        "level": 9,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.52] }] }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.36, 0.33] }] }]
+      }
+    ]
   },
-  "boxGuid": "8c1ca4",
-  "hp": [6, 7, 8, 9, 10, 11, 12, 13, 14],
-  "isSpecialClass": false,
-  "isStartingClass": true,
+  "characterSheet": { "image": "", "style": "Gloomhaven" },
   "perks": [
+    { "amount": 1, "remove": ["(-1)", "(-1)"] },
+    { "amount": 1, "remove": ["(-1)", "(-1)"] },
+    { "amount": 1, "remove": ["(+0)", "(+0)", "(+0)", "(+0)"] },
+    { "amount": 1, "add": ["(+2)", "(+2)"], "remove": ["(+1)", "(+1)"] },
+    { "amount": 1, "add": ["(+0)"], "remove": ["(-2)"] },
+    { "amount": 1, "add": ["(+2) (Ice)"] },
+    { "amount": 1, "add": ["(+2) (Ice)"] },
+    { "amount": 1, "add": ["(+1) (Rolling)", "(+1) (Rolling)"] },
+    { "amount": 1, "add": ["(+1) (Rolling)", "(+1) (Rolling)"] },
     {
-      "remove": ["(-1)", "(-1)"]
-    },
-    {
-      "remove": ["(-1)", "(-1)"]
-    },
-    {
-      "remove": ["(+0)", "(+0)", "(+0)", "(+0)"]
-    },
-    {
-      "add": ["(+2)", "(+2)"],
-      "remove": ["(+1)", "(+1)"]
-    },
-    {
-      "add": ["(+0)"],
-      "remove": ["(-2)"]
-    },
-    {
-      "add": ["(+2) (Ice)"]
-    },
-    {
-      "add": ["(+2) (Ice)"]
-    },
-    {
-      "add": ["(+1) (Rolling)", "(+1) (Rolling)"]
-    },
-    {
-      "add": ["(+1) (Rolling)", "(+1) (Rolling)"]
-    },
-    {
+      "amount": 1,
       "add": ["(Pull 1) (Rolling)", "(Pull 1) (Rolling)", "(Pull 1) (Rolling)"]
     },
     {
+      "amount": 1,
       "add": ["(Muddle) (Rolling)", "(Muddle) (Rolling)", "(Muddle) (Rolling)"]
     },
     {
+      "amount": 1,
       "add": ["(Immobilize) (Rolling)", "(Immobilize) (Rolling)"]
     },
-    {
-      "add": ["(Stun) (Rolling)"]
-    },
-    {
-      "add": ["(Disarm) (Rolling)", "(Muddle) (Rolling)"]
-    },
-    {
-      "ignore": "S"
-    }
+    { "amount": 1, "add": ["(Stun) (Rolling)"] },
+    { "amount": 1, "add": ["(Disarm) (Rolling)", "(Muddle) (Rolling)"] },
+    { "amount": 1, "ignore": ["Scenario"] }
   ],
-  "tracker": {
-    "image": "http://cloud-3.steamusercontent.com/ugc/83722391140273516/BC25E0469BCF4E7D7455FD1D8E5D983A64015CF9/"
-  }
+  "attackModifiers": { "front": "", "back": "", "cards": [] }
 }

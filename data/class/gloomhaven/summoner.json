@@ -1,668 +1,416 @@
 {
   "name": "Summoner",
+  "version": 1,
+  "spoilerName": "",
+  "hpProgression": [8, 9, 11, 12, 14, 15, 17, 18, 20],
+  "ancestry": "",
+  "icon": "",
+  "tracker": "http://cloud-3.steamusercontent.com/ugc/930432409048775148/48101BC74B8653EFB2C5BF3C5C814121FA3D5735/",
+  "colors": { "primary": "" },
+  "figure": { "model": "", "texture": "" },
+  "characterMat": { "front": "", "back": "" },
   "abilities": {
-    "Biting Wind": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.78],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.31, -0.61],
-          "side": "T",
-          "type": "range"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.33, 0.69],
-          "side": "B",
-          "type": "heal"
-        }
-      ],
-      "level": 1
-    },
-    "Black Fire": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.41, -0.84],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.31, -0.55],
-          "side": "T",
-          "type": "target"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.53],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 1
-    },
-    "Bonded Might": {
-      "enhancements": [],
-      "level": 1
-    },
-    "Conjured Aid": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [0.21, -0.74],
-          "side": "T",
-          "type": "summHp"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.24, -0.74],
-          "side": "T",
-          "type": "summMove"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.23, -0.53],
-          "side": "T",
-          "type": "summRange"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.76],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 5
-    },
-    "Divided Mind": {
-      "enhancements": [],
-      "level": 4
-    },
-    "Earthen Steed": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.69],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 2
-    },
-    "Endless Spikes": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [0.21, -0.74],
-          "side": "T",
-          "type": "summHp"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.23, -0.74],
-          "side": "T",
-          "type": "summMove"
-        }
-      ],
-      "level": 6
-    },
-    "Ethereal Vines": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.09, -0.74],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.56],
-          "side": "B",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.33, 0.83],
-          "side": "B",
-          "type": "heal"
-        }
-      ],
-      "level": "X"
-    },
-    "Forged Ferocity": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [0.2, -0.75],
-          "side": "T",
-          "type": "summHp"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.24, -0.75],
-          "side": "T",
-          "type": "summMove"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [0.21, -0.54],
-          "side": "T",
-          "type": "summAttack"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.36, 0.57],
-          "side": "B",
-          "type": "shield"
-        }
-      ],
-      "level": 1
-    },
-    "Grasping the Void": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.84],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.5],
-          "side": "B",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.35, 0.89],
-          "side": "B",
-          "type": "heal"
-        }
-      ],
-      "level": 2
-    },
-    "Horned Majesty": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [0.2, -0.73],
-          "side": "T",
-          "type": "summHp"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.23, -0.73],
-          "side": "T",
-          "type": "summMove"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [0.21, -0.54],
-          "side": "T",
-          "type": "summAttack"
-        }
-      ],
-      "level": 9
-    },
-    "Inexorable Momentum": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.84],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.33, -0.53],
-          "side": "T",
-          "type": "pierce"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.54],
-          "side": "B",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.98],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 6
-    },
-    "Interplanar Mastery": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.67],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 9
-    },
-    "Intervening Apparitions": {
-      "enhancements": [],
-      "level": 8
-    },
-    "Leathery Wings": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [0.21, -0.74],
-          "side": "T",
-          "type": "summHp"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.24, -0.74],
-          "side": "T",
-          "type": "summMove"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.61, 0.68],
-          "side": "B",
-          "type": "allyCondition"
-        }
-      ],
-      "level": "X"
-    },
-    "Living Mountain": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [0.21, -0.73],
-          "side": "T",
-          "type": "summHp"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.23, -0.73],
-          "side": "T",
-          "type": "summMove"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.63],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 4
-    },
-    "Living Night": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [0.21, -0.74],
-          "side": "T",
-          "type": "summHp"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [0.21, -0.53],
-          "side": "T",
-          "type": "summAttack"
-        }
-      ],
-      "level": 1
-    },
-    "Mighty Bond": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.69],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 1
-    },
-    "Negative Energy": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [0.21, -0.74],
-          "side": "T",
-          "type": "summHp"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.23, -0.74],
-          "side": "T",
-          "type": "summMove"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [0.21, -0.54],
-          "side": "T",
-          "type": "summAttack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.22, -0.54],
-          "side": "T",
-          "type": "summRange"
-        }
-      ],
-      "level": 7
-    },
-    "Oozing Manifestation": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [0.21, -0.74],
-          "side": "T",
-          "type": "summHp"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.24, -0.74],
-          "side": "T",
-          "type": "summMove"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [0.21, -0.54],
-          "side": "T",
-          "type": "summAttack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.51],
-          "side": "B",
-          "type": "attack"
-        }
-      ],
-      "level": 3
-    },
-    "Otherworldly Rage": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.36, 0.89],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 8
-    },
-    "Staff of Visions": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.73],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.61, -0.73],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.36, 0.58],
-          "side": "B",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.61, 0.8],
-          "side": "B",
-          "type": "allyCondition"
-        }
-      ],
-      "level": 7
-    },
-    "Strength in Numbers": {
-      "enhancements": [],
-      "level": 5
-    },
-    "Tear the Fabric": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.34, 0.6],
-          "side": "B",
-          "type": "heal"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.54, 0.6],
-          "side": "B",
-          "type": "heal"
-        }
-      ],
-      "level": 3
-    },
-    "Unending Dominance": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [0.21, -0.73],
-          "side": "T",
-          "type": "summHp"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.23, -0.73],
-          "side": "T",
-          "type": "summMove"
-        }
-      ],
-      "level": 1
-    },
-    "Unwavering Hand": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.34, -0.8],
-          "side": "T",
-          "type": "heal"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.54, -0.8],
-          "side": "T",
-          "type": "heal"
-        }
-      ],
-      "level": 1
-    },
-    "Volatile Flame": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.23, -0.74],
-          "side": "T",
-          "type": "summMove"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [0.21, -0.54],
-          "side": "T",
-          "type": "summAttack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.55],
-          "side": "B",
-          "type": "attack"
-        }
-      ],
-      "level": "X"
-    },
-    "Wild Animation": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [0.2, -0.74],
-          "side": "T",
-          "type": "summHp"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.23, -0.74],
-          "side": "T",
-          "type": "summMove"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [0.21, -0.54],
-          "side": "T",
-          "type": "summAttack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.23, -0.54],
-          "side": "T",
-          "type": "summRange"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.63],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 1
-    }
+    "front": "",
+    "back": "",
+    "style": "Gloomhaven",
+    "cards": [
+      {
+        "name": "Biting Wind",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.78] }] },
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.31, -0.61] }]
+            }
+          }
+        ],
+        "bottom": [{ "type": "heal", "marks": [{ "position": [-0.33, 0.69] }] }]
+      },
+      {
+        "name": "Black Fire",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.84] }] },
+          {
+            "type": "attack",
+            "targets": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.31, -0.55] }]
+            }
+          }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.53] }] }]
+      },
+      {
+        "name": "Bonded Might",
+        "level": 1,
+        "initiative": 0,
+        "top": [],
+        "bottom": []
+      },
+      {
+        "name": "Forged Ferocity",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "summHp",
+            "marks": [
+              { "position": [0.2, -0.75] },
+              { "position": [-0.24, -0.75] }
+            ]
+          },
+          { "type": "summAttack", "marks": [{ "position": [0.21, -0.54] }] }
+        ],
+        "bottom": [
+          { "type": "shield", "marks": [{ "position": [-0.36, 0.57] }] }
+        ]
+      },
+      {
+        "name": "Living Night",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          { "type": "summHp", "marks": [{ "position": [0.21, -0.74] }] },
+          { "type": "summAttack", "marks": [{ "position": [0.21, -0.53] }] }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Mighty Bond",
+        "level": 1,
+        "initiative": 0,
+        "top": [],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.41, 0.69] }] }]
+      },
+      {
+        "name": "Unending Dominance",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "summHp",
+            "marks": [
+              { "position": [0.21, -0.73] },
+              { "position": [-0.23, -0.73] }
+            ]
+          }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Unwavering Hand",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "heal",
+            "marks": [
+              { "position": [-0.34, -0.8] },
+              { "position": [-0.54, -0.8] }
+            ]
+          }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Wild Animation",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "summHp",
+            "marks": [
+              { "position": [0.2, -0.74] },
+              { "position": [-0.23, -0.74] }
+            ]
+          },
+          {
+            "type": "summAttack",
+            "marks": [
+              { "position": [0.21, -0.54] },
+              { "position": [-0.23, -0.54] }
+            ]
+          }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.41, 0.63] }] }]
+      },
+      {
+        "name": "Ethereal Vines",
+        "level": "X",
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.09, -0.74] }] }
+        ],
+        "bottom": [
+          { "type": "move", "marks": [{ "position": [-0.37, 0.56] }] },
+          { "type": "heal", "marks": [{ "position": [-0.33, 0.83] }] }
+        ]
+      },
+      {
+        "name": "Leathery Wings",
+        "level": "X",
+        "initiative": 0,
+        "top": [
+          {
+            "type": "summHp",
+            "marks": [
+              { "position": [0.21, -0.74] },
+              { "position": [-0.24, -0.74] }
+            ]
+          }
+        ],
+        "bottom": [
+          { "type": "allyCondition", "marks": [{ "position": [-0.61, 0.68] }] }
+        ]
+      },
+      {
+        "name": "Volatile Flame",
+        "level": "X",
+        "initiative": 0,
+        "top": [
+          { "type": "summMove", "marks": [{ "position": [-0.23, -0.74] }] },
+          { "type": "summAttack", "marks": [{ "position": [0.21, -0.54] }] }
+        ],
+        "bottom": [
+          { "type": "attack", "marks": [{ "position": [-0.41, 0.55] }] }
+        ]
+      },
+      {
+        "name": "Earthen Steed",
+        "level": 2,
+        "initiative": 0,
+        "top": [],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.69] }] }]
+      },
+      {
+        "name": "Grasping the Void",
+        "level": 2,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.84] }] }
+        ],
+        "bottom": [
+          { "type": "attack", "marks": [{ "position": [-0.41, 0.5] }] },
+          { "type": "heal", "marks": [{ "position": [-0.35, 0.89] }] }
+        ]
+      },
+      {
+        "name": "Oozing Manifestation",
+        "level": 3,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "summHp",
+            "marks": [
+              { "position": [0.21, -0.74] },
+              { "position": [-0.24, -0.74] }
+            ]
+          },
+          { "type": "summAttack", "marks": [{ "position": [0.21, -0.54] }] }
+        ],
+        "bottom": [
+          { "type": "attack", "marks": [{ "position": [-0.41, 0.51] }] }
+        ]
+      },
+      {
+        "name": "Tear the Fabric",
+        "level": 3,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          {
+            "type": "heal",
+            "marks": [
+              { "position": [-0.34, 0.6] },
+              { "position": [-0.54, 0.6] }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Divided Mind",
+        "level": 4,
+        "initiative": 0,
+        "top": [],
+        "bottom": []
+      },
+      {
+        "name": "Living Mountain",
+        "level": 4,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "summHp",
+            "marks": [
+              { "position": [0.21, -0.73] },
+              { "position": [-0.23, -0.73] }
+            ]
+          }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.63] }] }]
+      },
+      {
+        "name": "Conjured Aid",
+        "level": 5,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "summHp",
+            "marks": [
+              { "position": [0.21, -0.74] },
+              { "position": [-0.24, -0.74] }
+            ]
+          },
+          { "type": "summRange", "marks": [{ "position": [-0.23, -0.53] }] }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.76] }] }]
+      },
+      {
+        "name": "Strength in Numbers",
+        "level": 5,
+        "initiative": 0,
+        "top": [],
+        "bottom": []
+      },
+      {
+        "name": "Endless Spikes",
+        "level": 6,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "summHp",
+            "marks": [
+              { "position": [0.21, -0.74] },
+              { "position": [-0.23, -0.74] }
+            ]
+          }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Inexorable Momentum",
+        "level": 6,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.84] }] },
+          { "type": "pierce", "marks": [{ "position": [-0.33, -0.53] }] }
+        ],
+        "bottom": [
+          { "type": "move", "marks": [{ "position": [-0.37, 0.54] }] },
+          { "type": "move", "marks": [{ "position": [-0.37, 0.98] }] }
+        ]
+      },
+      {
+        "name": "Negative Energy",
+        "level": 7,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "summHp",
+            "marks": [
+              { "position": [0.21, -0.74] },
+              { "position": [-0.23, -0.74] }
+            ]
+          },
+          {
+            "type": "summAttack",
+            "marks": [
+              { "position": [0.21, -0.54] },
+              { "position": [-0.22, -0.54] }
+            ]
+          }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Staff of Visions",
+        "level": 7,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "attack",
+            "marks": [
+              { "position": [-0.41, -0.73] },
+              { "position": [-0.61, -0.73] }
+            ]
+          }
+        ],
+        "bottom": [
+          { "type": "move", "marks": [{ "position": [-0.36, 0.58] }] },
+          { "type": "allyCondition", "marks": [{ "position": [-0.61, 0.8] }] }
+        ]
+      },
+      {
+        "name": "Intervening Apparitions",
+        "level": 8,
+        "initiative": 0,
+        "top": [],
+        "bottom": []
+      },
+      {
+        "name": "Otherworldly Rage",
+        "level": 8,
+        "initiative": 0,
+        "top": [],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.36, 0.89] }] }]
+      },
+      {
+        "name": "Horned Majesty",
+        "level": 9,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "summHp",
+            "marks": [
+              { "position": [0.2, -0.73] },
+              { "position": [-0.23, -0.73] }
+            ]
+          },
+          { "type": "summAttack", "marks": [{ "position": [0.21, -0.54] }] }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Interplanar Mastery",
+        "level": 9,
+        "initiative": 0,
+        "top": [],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.67] }] }]
+      }
+    ]
   },
-  "boxGuid": "0f9847",
-  "hp": [8, 9, 11, 12, 14, 15, 17, 18, 20],
-  "isSpecialClass": false,
+  "characterSheet": { "image": "", "style": "Gloomhaven" },
   "perks": [
+    { "amount": 1, "remove": ["(-1)", "(-1)"] },
+    { "amount": 1, "add": ["(+0)"], "remove": ["(-2)"] },
+    { "amount": 1, "add": ["(+1)"], "remove": ["(-1)"] },
+    { "amount": 1, "add": ["(+1)"], "remove": ["(-1)"] },
+    { "amount": 1, "add": ["(+1)"], "remove": ["(-1)"] },
+    { "amount": 1, "add": ["(+2)"] },
+    { "amount": 1, "add": ["(+2)"] },
+    { "amount": 1, "add": ["(Wound) (Rolling)", "(Wound) (Rolling)"] },
+    { "amount": 1, "add": ["(Poison) (Rolling)", "(Poison) (Rolling)"] },
     {
-      "remove": ["(-1)", "(-1)"]
-    },
-    {
-      "add": ["(+0)"],
-      "remove": ["(-2)"]
-    },
-    {
-      "add": ["(+1)"],
-      "remove": ["(-1)"]
-    },
-    {
-      "add": ["(+1)"],
-      "remove": ["(-1)"]
-    },
-    {
-      "add": ["(+1)"],
-      "remove": ["(-1)"]
-    },
-    {
-      "add": ["(+2)"]
-    },
-    {
-      "add": ["(+2)"]
-    },
-    {
-      "add": ["(Wound) (Rolling)", "(Wound) (Rolling)"]
-    },
-    {
-      "add": ["(Poison) (Rolling)", "(Poison) (Rolling)"]
-    },
-    {
+      "amount": 1,
       "add": ["(Heal 1 Self) (Rolling)", "(Heal 1 Self) (Rolling)"]
     },
     {
+      "amount": 1,
       "add": ["(Heal 1 Self) (Rolling)", "(Heal 1 Self) (Rolling)"]
     },
     {
+      "amount": 1,
       "add": ["(Heal 1 Self) (Rolling)", "(Heal 1 Self) (Rolling)"]
     },
-    {
-      "add": ["(Fire) (Rolling)", "(Air) (Rolling)"]
-    },
-    {
-      "add": ["(Dark) (Rolling)", "(Earth) (Rolling)"]
-    },
-    {
-      "add": ["(+1)", "(+1)"],
-      "ignore": "S"
-    }
+    { "amount": 1, "add": ["(Fire) (Rolling)", "(Air) (Rolling)"] },
+    { "amount": 1, "add": ["(Dark) (Rolling)", "(Earth) (Rolling)"] },
+    { "amount": 1, "add": ["(+1)", "(+1)"], "ignore": ["Scenario"] }
   ],
-  "tracker": {
-    "image": "http://cloud-3.steamusercontent.com/ugc/930432409048775148/48101BC74B8653EFB2C5BF3C5C814121FA3D5735/"
-  }
+  "attackModifiers": { "front": "", "back": "", "cards": [] }
 }

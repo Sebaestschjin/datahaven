@@ -1,682 +1,451 @@
 {
   "name": "Doomstalker",
+  "version": 1,
+  "spoilerName": "",
+  "hpProgression": [8, 9, 11, 12, 14, 15, 17, 18, 20],
+  "ancestry": "",
+  "icon": "",
+  "tracker": "http://cloud-3.steamusercontent.com/ugc/2439138553939035626/893D92412263CE1A9C4E257D03A298E4586F6F6B/",
+  "colors": { "primary": "" },
+  "figure": { "model": "", "texture": "" },
+  "characterMat": { "front": "", "back": "" },
   "abilities": {
-    "A Moment's Peace": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.57],
-          "side": "B",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.34, 0.83],
-          "side": "B",
-          "type": "heal"
-        }
-      ],
-      "level": 1
-    },
-    "Camouflage": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.88],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.56],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 6
-    },
-    "Crashing Wave": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, -0.87],
-          "side": "T",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.41, -0.62],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.61, -0.62],
-          "side": "T",
-          "type": "attack"
-        }
-      ],
-      "level": 7
-    },
-    "Crippling Noose": {
-      "enhancements": [],
-      "level": 1,
-      "spawn": [
-        {
-          "element": {
-            "conditions": ["Stun"],
-            "damage": 4,
-            "name": "Spike Trap",
-            "type": 7
+    "front": "",
+    "back": "",
+    "style": "Gloomhaven",
+    "cards": [
+      {
+        "name": "A Moment's Peace",
+        "level": 1,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          { "type": "move", "marks": [{ "position": [-0.37, 0.57] }] },
+          { "type": "heal", "marks": [{ "position": [-0.34, 0.83] }] }
+        ]
+      },
+      {
+        "name": "Crippling Noose",
+        "level": 1,
+        "initiative": 0,
+        "top": [],
+        "bottom": []
+      },
+      {
+        "name": "Detonation",
+        "level": 1,
+        "initiative": 0,
+        "top": [],
+        "bottom": []
+      },
+      {
+        "name": "Felling Swoop",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "summHp",
+            "marks": [
+              { "position": [0.2, -0.73] },
+              { "position": [-0.23, -0.73] }
+            ]
+          },
+          { "type": "summAttack", "marks": [{ "position": [0.21, -0.53] }] }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Foot Snare",
+        "level": 1,
+        "initiative": 0,
+        "top": [],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.95] }] }]
+      },
+      {
+        "name": "Frightening Curse",
+        "level": 1,
+        "initiative": 0,
+        "top": [],
+        "bottom": []
+      },
+      {
+        "name": "Multi-Pronged Assault",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.86] }] },
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.3, -0.69] }]
+            }
+          },
+          {
+            "type": "attack",
+            "targets": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.3, -0.55] }]
+            }
           }
-        }
-      ]
-    },
-    "Darkened Skies": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.41, -0.79],
-          "side": "T",
-          "type": "attack"
-        }
-      ],
-      "level": 3
-    },
-    "Detonation": {
-      "enhancements": [],
-      "level": 1,
-      "spawn": [
-        {
-          "element": {
-            "damage": 3,
-            "name": "Spike Trap",
-            "type": 7
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Race to the Grave",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "attack",
+            "marks": [
+              { "position": [-0.41, -0.79] },
+              { "position": [-0.56, -0.79] }
+            ]
+          },
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.3, -0.64] }]
+            }
           }
-        }
-      ]
-    },
-    "Expose": {
-      "enhancements": [],
-      "level": 2
-    },
-    "Felling Swoop": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [0.2, -0.73],
-          "side": "T",
-          "type": "summHp"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.23, -0.73],
-          "side": "T",
-          "type": "summMove"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [0.21, -0.53],
-          "side": "T",
-          "type": "summAttack"
-        }
-      ],
-      "level": 1
-    },
-    "Feral Instincts": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, -0.85],
-          "side": "T",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.6],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.36, 0.56],
-          "side": "B",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.33, 0.82],
-          "side": "B",
-          "type": "heal"
-        }
-      ],
-      "level": 8
-    },
-    "Flight of Flame": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.69],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 4,
-      "spawn": [
-        {
-          "element": {
-            "conditions": ["Wound"],
-            "damage": 2,
-            "name": "Spike Trap",
-            "type": 7
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Rain of Arrows",
+        "level": 1,
+        "initiative": 0,
+        "top": [],
+        "bottom": []
+      },
+      {
+        "name": "Solid Bow",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.65] }] },
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.31, -0.5] }]
+            }
           }
-        }
-      ]
-    },
-    "Foot Snare": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.95],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 1,
-      "spawn": [
-        {
-          "element": {
-            "conditions": ["Immobilize"],
-            "damage": 2,
-            "name": "Bear Trap",
-            "type": 7
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.75] }] }]
+      },
+      {
+        "name": "Swift Trickery",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.79] }] },
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.31, -0.62] }]
+            }
           }
-        }
-      ]
-    },
-    "Fresh Kill": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.79],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.31, -0.63],
-          "side": "T",
-          "type": "range"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.69],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": "X"
-    },
-    "Frightening Curse": {
-      "enhancements": [],
-      "level": 1
-    },
-    "Impending End": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.86],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.3, -0.71],
-          "side": "T",
-          "type": "range"
-        }
-      ],
-      "level": 7
-    },
-    "Inescapable Fate": {
-      "enhancements": [],
-      "level": 5
-    },
-    "Lead to Slaughter": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.87],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.31, -0.72],
-          "side": "T",
-          "type": "range"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.53],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 9
-    },
-    "Multi-Pronged Assault": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.41, -0.86],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.3, -0.69],
-          "side": "T",
-          "type": "range"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.3, -0.55],
-          "side": "T",
-          "type": "target"
-        }
-      ],
-      "level": 1
-    },
-    "Nature's Hunger": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [0.21, -0.73],
-          "side": "T",
-          "type": "summHp"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.23, -0.73],
-          "side": "T",
-          "type": "summMove"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [0.21, -0.54],
-          "side": "T",
-          "type": "summAttack"
-        }
-      ],
-      "level": 6
-    },
-    "Predator and Prey": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [0.21, -0.73],
-          "side": "T",
-          "type": "summHp"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.23, -0.73],
-          "side": "T",
-          "type": "summMove"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [0.2, -0.53],
-          "side": "T",
-          "type": "summAttack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.24, -0.53],
-          "side": "T",
-          "type": "summRange"
-        }
-      ],
-      "level": 9
-    },
-    "Press the Attack": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.81],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.3, -0.64],
-          "side": "T",
-          "type": "range"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.46, 0.56],
-          "side": "B",
-          "type": "retaliate"
-        }
-      ],
-      "level": 3
-    },
-    "Race to the Grave": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.79],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.56, -0.79],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.3, -0.64],
-          "side": "T",
-          "type": "range"
-        }
-      ],
-      "level": 1
-    },
-    "Rain of Arrows": {
-      "enhancements": [],
-      "level": 1
-    },
-    "Relentless Offensive": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.41, -0.73],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.3, -0.43],
-          "side": "T",
-          "type": "target"
-        }
-      ],
-      "level": 2
-    },
-    "Rising Momentum": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.88],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.29, -0.72],
-          "side": "T",
-          "type": "range"
-        },
-        {
-          "main": false,
-          "multi": false,
-          "position": [-0.32, -0.57],
-          "side": "T",
-          "type": "push"
-        }
-      ],
-      "level": 8
-    },
-    "Sap Life": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.46, -0.78],
-          "side": "T",
-          "type": "retaliate"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.3, -0.62],
-          "side": "T",
-          "type": "range"
-        }
-      ],
-      "level": "X"
-    },
-    "Singular Focus": {
-      "enhancements": [],
-      "level": 4
-    },
-    "Solid Bow": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.65],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.31, -0.5],
-          "side": "T",
-          "type": "range"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.75],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 1
-    },
-    "Swift Trickery": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.79],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.31, -0.62],
-          "side": "T",
-          "type": "range"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.74],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 1
-    },
-    "The Hunt Begins": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [0.21, -0.73],
-          "side": "T",
-          "type": "summHp"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.22, -0.73],
-          "side": "T",
-          "type": "summMove"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [0.21, -0.53],
-          "side": "T",
-          "type": "summAttack"
-        }
-      ],
-      "level": "X"
-    },
-    "Vital Charge": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [0.21, -0.74],
-          "side": "T",
-          "type": "summHp"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.23, -0.74],
-          "side": "T",
-          "type": "summMove"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [0.21, -0.53],
-          "side": "T",
-          "type": "summAttack"
-        }
-      ],
-      "level": 1
-    },
-    "Wild Command": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.36, 0.5],
-          "side": "B",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.75],
-          "side": "B",
-          "type": "attack"
-        }
-      ],
-      "level": 5
-    }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.74] }] }]
+      },
+      {
+        "name": "Vital Charge",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "summHp",
+            "marks": [
+              { "position": [0.21, -0.74] },
+              { "position": [-0.23, -0.74] }
+            ]
+          },
+          { "type": "summAttack", "marks": [{ "position": [0.21, -0.53] }] }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Fresh Kill",
+        "level": "X",
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.79] }] },
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.31, -0.63] }]
+            }
+          }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.41, 0.69] }] }]
+      },
+      {
+        "name": "Sap Life",
+        "level": "X",
+        "initiative": 0,
+        "top": [
+          { "type": "retaliate", "marks": [{ "position": [-0.46, -0.78] }] },
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.3, -0.62] }]
+            }
+          }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "The Hunt Begins",
+        "level": "X",
+        "initiative": 0,
+        "top": [
+          {
+            "type": "summHp",
+            "marks": [
+              { "position": [0.21, -0.73] },
+              { "position": [-0.22, -0.73] }
+            ]
+          },
+          { "type": "summAttack", "marks": [{ "position": [0.21, -0.53] }] }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Expose",
+        "level": 2,
+        "initiative": 0,
+        "top": [],
+        "bottom": []
+      },
+      {
+        "name": "Relentless Offensive",
+        "level": 2,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.73] }] },
+          {
+            "type": "attack",
+            "targets": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.3, -0.43] }]
+            }
+          }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Darkened Skies",
+        "level": 3,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.79] }] }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Press the Attack",
+        "level": 3,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.81] }] },
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.3, -0.64] }]
+            }
+          }
+        ],
+        "bottom": [
+          { "type": "retaliate", "marks": [{ "position": [-0.46, 0.56] }] }
+        ]
+      },
+      {
+        "name": "Flight of Flame",
+        "level": 4,
+        "initiative": 0,
+        "top": [],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.69] }] }]
+      },
+      {
+        "name": "Singular Focus",
+        "level": 4,
+        "initiative": 0,
+        "top": [],
+        "bottom": []
+      },
+      {
+        "name": "Inescapable Fate",
+        "level": 5,
+        "initiative": 0,
+        "top": [],
+        "bottom": []
+      },
+      {
+        "name": "Wild Command",
+        "level": 5,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          { "type": "move", "marks": [{ "position": [-0.36, 0.5] }] },
+          { "type": "attack", "marks": [{ "position": [-0.41, 0.75] }] }
+        ]
+      },
+      {
+        "name": "Camouflage",
+        "level": 6,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.88] }] }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.56] }] }]
+      },
+      {
+        "name": "Nature's Hunger",
+        "level": 6,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "summHp",
+            "marks": [
+              { "position": [0.21, -0.73] },
+              { "position": [-0.23, -0.73] }
+            ]
+          },
+          { "type": "summAttack", "marks": [{ "position": [0.21, -0.54] }] }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Crashing Wave",
+        "level": 7,
+        "initiative": 0,
+        "top": [
+          { "type": "move", "marks": [{ "position": [-0.37, -0.87] }] },
+          {
+            "type": "attack",
+            "marks": [
+              { "position": [-0.41, -0.62] },
+              { "position": [-0.61, -0.62] }
+            ]
+          }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Impending End",
+        "level": 7,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.86] }] },
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.3, -0.71] }]
+            }
+          }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Feral Instincts",
+        "level": 8,
+        "initiative": 0,
+        "top": [
+          { "type": "move", "marks": [{ "position": [-0.37, -0.85] }] },
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.6] }] }
+        ],
+        "bottom": [
+          { "type": "move", "marks": [{ "position": [-0.36, 0.56] }] },
+          { "type": "heal", "marks": [{ "position": [-0.33, 0.82] }] }
+        ]
+      },
+      {
+        "name": "Rising Momentum",
+        "level": 8,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.88] }] },
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.29, -0.72] }]
+            }
+          },
+          {
+            "type": "attack",
+            "effects": [
+              { "name": "push", "marks": [{ "position": [-0.32, -0.57] }] }
+            ]
+          }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Lead to Slaughter",
+        "level": 9,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.87] }] },
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.31, -0.72] }]
+            }
+          }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.53] }] }]
+      },
+      {
+        "name": "Predator and Prey",
+        "level": 9,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "summHp",
+            "marks": [
+              { "position": [0.21, -0.73] },
+              { "position": [-0.23, -0.73] }
+            ]
+          },
+          {
+            "type": "summAttack",
+            "marks": [
+              { "position": [0.2, -0.53] },
+              { "position": [-0.24, -0.53] }
+            ]
+          }
+        ],
+        "bottom": []
+      }
+    ]
   },
-  "boxGuid": "b7fe6d",
-  "hp": [8, 9, 11, 12, 14, 15, 17, 18, 20],
-  "isSpecialClass": false,
+  "characterSheet": { "image": "", "style": "Gloomhaven" },
   "perks": [
-    {
-      "remove": ["(-1)", "(-1)"]
-    },
-    {
-      "remove": ["(-1)", "(-1)"]
-    },
-    {
-      "add": ["(+1)", "(+1)"],
-      "remove": ["(+0)", "(+0)"]
-    },
-    {
-      "add": ["(+1)", "(+1)"],
-      "remove": ["(+0)", "(+0)"]
-    },
-    {
-      "add": ["(+1)", "(+1)"],
-      "remove": ["(+0)", "(+0)"]
-    },
-    {
-      "add": ["(+1) (Rolling)", "(+1) (Rolling)"]
-    },
-    {
-      "add": ["(+1) (Rolling)", "(+1) (Rolling)"]
-    },
-    {
-      "add": ["(+2) (Muddle)"]
-    },
-    {
-      "add": ["(+1) (Poison)"]
-    },
-    {
-      "add": ["(+1) (Wound)"]
-    },
-    {
-      "add": ["(+1) (Immobilize)"]
-    },
-    {
-      "add": ["(Stun)"]
-    },
-    {
-      "add": ["(Add Target) (Rolling)"]
-    },
-    {
-      "add": ["(Add Target) (Rolling)"]
-    },
-    {
-      "ignore": "S"
-    }
+    { "amount": 1, "remove": ["(-1)", "(-1)"] },
+    { "amount": 1, "remove": ["(-1)", "(-1)"] },
+    { "amount": 1, "add": ["(+1)", "(+1)"], "remove": ["(+0)", "(+0)"] },
+    { "amount": 1, "add": ["(+1)", "(+1)"], "remove": ["(+0)", "(+0)"] },
+    { "amount": 1, "add": ["(+1)", "(+1)"], "remove": ["(+0)", "(+0)"] },
+    { "amount": 1, "add": ["(+1) (Rolling)", "(+1) (Rolling)"] },
+    { "amount": 1, "add": ["(+1) (Rolling)", "(+1) (Rolling)"] },
+    { "amount": 1, "add": ["(+2) (Muddle)"] },
+    { "amount": 1, "add": ["(+1) (Poison)"] },
+    { "amount": 1, "add": ["(+1) (Wound)"] },
+    { "amount": 1, "add": ["(+1) (Immobilize)"] },
+    { "amount": 1, "add": ["(Stun)"] },
+    { "amount": 1, "add": ["(Add Target) (Rolling)"] },
+    { "amount": 1, "add": ["(Add Target) (Rolling)"] },
+    { "amount": 1, "ignore": ["Scenario"] }
   ],
-  "tracker": {
-    "image": "http://cloud-3.steamusercontent.com/ugc/2439138553939035626/893D92412263CE1A9C4E257D03A298E4586F6F6B/"
-  }
+  "attackModifiers": { "front": "", "back": "", "cards": [] }
 }

@@ -1,704 +1,468 @@
 {
   "name": "Beast Tyrant",
+  "version": 1,
+  "spoilerName": "",
+  "hpProgression": [6, 7, 8, 9, 10, 11, 12, 13, 14],
+  "ancestry": "",
+  "icon": "",
+  "tracker": "http://cloud-3.steamusercontent.com/ugc/2439138553938610861/F8B7EF453D80232795BDE36FA070AE3F32D115EE/",
+  "colors": { "primary": "" },
+  "figure": { "model": "", "texture": "" },
+  "characterMat": { "front": "", "back": "" },
   "abilities": {
-    "Ancient Ward": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.41, -0.93],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.31, -0.62],
-          "side": "T",
-          "type": "target"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.33, 0.68],
-          "side": "B",
-          "type": "heal"
-        }
-      ],
-      "level": 4
-    },
-    "Blood Hunger": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.52],
-          "side": "B",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.33, 0.76],
-          "side": "B",
-          "type": "heal"
-        }
-      ],
-      "level": 6
-    },
-    "Borrowed Essence": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -1],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.34, -0.46],
-          "side": "T",
-          "type": "heal"
-        }
-      ],
-      "level": "X"
-    },
-    "Concentrated Rage": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.7],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.31, -0.56],
-          "side": "T",
-          "type": "range"
-        }
-      ],
-      "level": 1
-    },
-    "Disappearing Wounds": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.35, -0.64],
-          "side": "T",
-          "type": "heal"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.63],
-          "side": "B",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.54, 0.63],
-          "side": "B",
-          "type": "attack"
-        }
-      ],
-      "level": 1
-    },
-    "Disorienting Roar": {
-      "enhancements": [],
-      "level": 1
-    },
-    "Earthen Spikes": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.3, -0.7],
-          "side": "T",
-          "type": "range"
-        }
-      ],
-      "level": 2
-    },
-    "Energizing Strike": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.91],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.61, -0.91],
-          "side": "T",
-          "type": "attack"
-        }
-      ],
-      "level": 2
-    },
-    "Focused Aggression": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.31, -0.51],
-          "side": "T",
-          "type": "range"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.63],
-          "side": "B",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.55, 0.63],
-          "side": "B",
-          "type": "attack"
-        }
-      ],
-      "level": "X"
-    },
-    "Forceful Swipe": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.02, -0.67],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "baseHex": 3,
-          "main": true,
-          "multi": true,
-          "otherHex": [],
-          "position": [-0.25, -0.77],
-          "side": "T",
-          "type": "hex"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.36, 0.48],
-          "side": "B",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.68],
-          "side": "B",
-          "type": "push"
-        }
-      ],
-      "level": 1
-    },
-    "Howling Bolts": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.3, -0.44],
-          "side": "T",
-          "type": "target"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.62],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 1
-    },
-    "Jaws of Death": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.48],
-          "side": "B",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 1.08],
-          "side": "B",
-          "type": "attack"
-        }
-      ],
-      "level": 9
-    },
-    "Lash Out": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.41, -0.78],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.48],
-          "side": "B",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.41, 0.69],
-          "side": "B",
-          "type": "push"
-        }
-      ],
-      "level": 8
-    },
-    "Maul": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.58],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.55, -0.58],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.44],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 1
-    },
-    "Natural Remedy": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.34, -0.74],
-          "side": "T",
-          "type": "heal"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.56],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 8
-    },
-    "Patch Fur": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.36, 0.55],
-          "side": "B",
-          "type": "heal"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.5, 0.55],
-          "side": "B",
-          "type": "heal"
-        }
-      ],
-      "level": 1
-    },
-    "Primal Blessing": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.31, -0.57],
-          "side": "T",
-          "type": "target"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.48],
-          "side": "B",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 1],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 6
-    },
-    "Punch Through": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.77],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.33, -0.62],
-          "side": "T",
-          "type": "pierce"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.46],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 4
-    },
-    "Rampage": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, -0.76],
-          "side": "T",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, -0.39],
-          "side": "T",
-          "type": "move"
-        }
-      ],
-      "level": 5
-    },
-    "Relentless Ally": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [0.21, -0.73],
-          "side": "T",
-          "type": "summHp"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.23, -0.73],
-          "side": "T",
-          "type": "summAttack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [0.21, -0.55],
-          "side": "T",
-          "type": "summMove"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.36, 0.75],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 1
-    },
-    "Soaring Ally": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [0.2, -0.72],
-          "side": "T",
-          "type": "summHp"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.23, -0.72],
-          "side": "T",
-          "type": "summMove"
-        }
-      ],
-      "level": "X"
-    },
-    "Spirit Swap": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.72],
-          "side": "T",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.55, -0.72],
-          "side": "T",
-          "type": "move"
-        }
-      ],
-      "level": 1
-    },
-    "Stone Sigil": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.71],
-          "side": "B",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.57, 0.71],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 5
-    },
-    "Storm Sigil": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.76],
-          "side": "B",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.55, 0.76],
-          "side": "B",
-          "type": "attack"
-        }
-      ],
-      "level": 7
-    },
-    "Tribal Sigil": {
-      "enhancements": [],
-      "level": 9
-    },
-    "Tyrannical Force": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.31, -0.71],
-          "side": "T",
-          "type": "range"
-        }
-      ],
-      "level": 7
-    },
-    "Unstoppable Beast": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.14, -0.69],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "baseHex": 3,
-          "main": true,
-          "multi": true,
-          "otherHex": [],
-          "position": [-0.33, -0.78],
-          "side": "T",
-          "type": "hex"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.72],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 3
-    },
-    "Venomous Ally": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [0.21, -0.72],
-          "side": "T",
-          "type": "summHp"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.23, -0.72],
-          "side": "T",
-          "type": "summMove"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [0.21, -0.53],
-          "side": "T",
-          "type": "summAttack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.3, 0.76],
-          "side": "B",
-          "type": "range"
-        }
-      ],
-      "level": 1
-    },
-    "Vicious Ally": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [0.21, -0.74],
-          "side": "T",
-          "type": "summHp"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.22, -0.74],
-          "side": "T",
-          "type": "summMove"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [0.21, -0.54],
-          "side": "T",
-          "type": "summAttack"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.41, 0.56],
-          "side": "B",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.31, 0.72],
-          "side": "B",
-          "type": "target"
-        }
-      ],
-      "level": 3
-    }
+    "front": "",
+    "back": "",
+    "style": "Gloomhaven",
+    "cards": [
+      {
+        "name": "Concentrated Rage",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.7] }] },
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.31, -0.56] }]
+            }
+          }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Disappearing Wounds",
+        "level": 1,
+        "initiative": 0,
+        "top": [{ "type": "heal", "marks": [{ "position": [-0.35, -0.64] }] }],
+        "bottom": [
+          {
+            "type": "attack",
+            "marks": [
+              { "position": [-0.41, 0.63] },
+              { "position": [-0.54, 0.63] }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Disorienting Roar",
+        "level": 1,
+        "initiative": 0,
+        "top": [],
+        "bottom": []
+      },
+      {
+        "name": "Forceful Swipe",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.02, -0.67] }] },
+          {
+            "type": "attack",
+            "area": {
+              "size": 3,
+              "marks": [{ "shape": "hex", "position": [-0.25, -0.77] }]
+            }
+          }
+        ],
+        "bottom": [
+          { "type": "move", "marks": [{ "position": [-0.36, 0.48] }] },
+          { "type": "push", "marks": [{ "position": [-0.41, 0.68] }] }
+        ]
+      },
+      {
+        "name": "Howling Bolts",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "attack",
+            "targets": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.3, -0.44] }]
+            }
+          }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.62] }] }]
+      },
+      {
+        "name": "Maul",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "attack",
+            "marks": [
+              { "position": [-0.41, -0.58] },
+              { "position": [-0.55, -0.58] }
+            ]
+          }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.44] }] }]
+      },
+      {
+        "name": "Patch Fur",
+        "level": 1,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          {
+            "type": "heal",
+            "marks": [
+              { "position": [-0.36, 0.55] },
+              { "position": [-0.5, 0.55] }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Relentless Ally",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "summHp",
+            "marks": [
+              { "position": [0.21, -0.73] },
+              { "position": [-0.23, -0.73] }
+            ]
+          },
+          { "type": "summMove", "marks": [{ "position": [0.21, -0.55] }] }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.36, 0.75] }] }]
+      },
+      {
+        "name": "Spirit Swap",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "move",
+            "marks": [
+              { "position": [-0.41, -0.72] },
+              { "position": [-0.55, -0.72] }
+            ]
+          }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Venomous Ally",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "summHp",
+            "marks": [
+              { "position": [0.21, -0.72] },
+              { "position": [-0.23, -0.72] }
+            ]
+          },
+          { "type": "summAttack", "marks": [{ "position": [0.21, -0.53] }] }
+        ],
+        "bottom": [
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.3, 0.76] }]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Borrowed Essence",
+        "level": "X",
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -1] }] },
+          { "type": "heal", "marks": [{ "position": [-0.34, -0.46] }] }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Focused Aggression",
+        "level": "X",
+        "initiative": 0,
+        "top": [
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.31, -0.51] }]
+            }
+          }
+        ],
+        "bottom": [
+          {
+            "type": "attack",
+            "marks": [
+              { "position": [-0.41, 0.63] },
+              { "position": [-0.55, 0.63] }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Soaring Ally",
+        "level": "X",
+        "initiative": 0,
+        "top": [
+          {
+            "type": "summHp",
+            "marks": [
+              { "position": [0.2, -0.72] },
+              { "position": [-0.23, -0.72] }
+            ]
+          }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Earthen Spikes",
+        "level": 2,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.3, -0.7] }]
+            }
+          }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Energizing Strike",
+        "level": 2,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "attack",
+            "marks": [
+              { "position": [-0.41, -0.91] },
+              { "position": [-0.61, -0.91] }
+            ]
+          }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Unstoppable Beast",
+        "level": 3,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.14, -0.69] }] },
+          {
+            "type": "attack",
+            "area": {
+              "size": 3,
+              "marks": [{ "shape": "hex", "position": [-0.33, -0.78] }]
+            }
+          }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.72] }] }]
+      },
+      {
+        "name": "Vicious Ally",
+        "level": 3,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "summHp",
+            "marks": [
+              { "position": [0.21, -0.74] },
+              { "position": [-0.22, -0.74] }
+            ]
+          },
+          { "type": "summAttack", "marks": [{ "position": [0.21, -0.54] }] }
+        ],
+        "bottom": [
+          { "type": "attack", "marks": [{ "position": [-0.41, 0.56] }] },
+          {
+            "type": "attack",
+            "targets": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.31, 0.72] }]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Ancient Ward",
+        "level": 4,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.93] }] },
+          {
+            "type": "attack",
+            "targets": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.31, -0.62] }]
+            }
+          }
+        ],
+        "bottom": [{ "type": "heal", "marks": [{ "position": [-0.33, 0.68] }] }]
+      },
+      {
+        "name": "Punch Through",
+        "level": 4,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.77] }] },
+          { "type": "pierce", "marks": [{ "position": [-0.33, -0.62] }] }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.41, 0.46] }] }]
+      },
+      {
+        "name": "Rampage",
+        "level": 5,
+        "initiative": 0,
+        "top": [
+          { "type": "move", "marks": [{ "position": [-0.37, -0.76] }] },
+          { "type": "move", "marks": [{ "position": [-0.37, -0.39] }] }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Stone Sigil",
+        "level": 5,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          {
+            "type": "move",
+            "marks": [
+              { "position": [-0.37, 0.71] },
+              { "position": [-0.57, 0.71] }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Blood Hunger",
+        "level": 6,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          { "type": "attack", "marks": [{ "position": [-0.41, 0.52] }] },
+          { "type": "heal", "marks": [{ "position": [-0.33, 0.76] }] }
+        ]
+      },
+      {
+        "name": "Primal Blessing",
+        "level": 6,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "attack",
+            "targets": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.31, -0.57] }]
+            }
+          }
+        ],
+        "bottom": [
+          { "type": "move", "marks": [{ "position": [-0.37, 0.48] }] },
+          { "type": "move", "marks": [{ "position": [-0.37, 1] }] }
+        ]
+      },
+      {
+        "name": "Storm Sigil",
+        "level": 7,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          {
+            "type": "attack",
+            "marks": [
+              { "position": [-0.41, 0.76] },
+              { "position": [-0.55, 0.76] }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tyrannical Force",
+        "level": 7,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.31, -0.71] }]
+            }
+          }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Lash Out",
+        "level": 8,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.78] }] }
+        ],
+        "bottom": [
+          { "type": "move", "marks": [{ "position": [-0.37, 0.48] }] },
+          { "type": "push", "marks": [{ "position": [-0.41, 0.69] }] }
+        ]
+      },
+      {
+        "name": "Natural Remedy",
+        "level": 8,
+        "initiative": 0,
+        "top": [{ "type": "heal", "marks": [{ "position": [-0.34, -0.74] }] }],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.41, 0.56] }] }]
+      },
+      {
+        "name": "Jaws of Death",
+        "level": 9,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          { "type": "attack", "marks": [{ "position": [-0.41, 0.48] }] },
+          { "type": "attack", "marks": [{ "position": [-0.41, 1.08] }] }
+        ]
+      },
+      {
+        "name": "Tribal Sigil",
+        "level": 9,
+        "initiative": 0,
+        "top": [],
+        "bottom": []
+      }
+    ]
   },
-  "boxGuid": "89bec7",
-  "extra": [
-    {
-      "hp": [10, 12, 14, 16, 18, 20, 22, 24, 26],
-      "name": "Bear Companion",
-      "target": "PlayerMat"
-    },
-    {
-      "name": "Beast Tyrant Special Rules",
-      "target": "Hand"
-    }
-  ],
-  "hp": [6, 7, 8, 9, 10, 11, 12, 13, 14],
-  "isSpecialClass": false,
+  "characterSheet": { "image": "", "style": "Gloomhaven" },
   "perks": [
+    { "amount": 1, "remove": ["(-1)", "(-1)"] },
+    { "amount": 1, "add": ["(+1)"], "remove": ["(-1)"] },
+    { "amount": 1, "add": ["(+1)"], "remove": ["(-1)"] },
+    { "amount": 1, "add": ["(+1)"], "remove": ["(-1)"] },
+    { "amount": 1, "add": ["(+2)"], "remove": ["(+0)"] },
+    { "amount": 1, "add": ["(+2)"], "remove": ["(+0)"] },
+    { "amount": 1, "add": ["(+1) (Wound)"] },
+    { "amount": 1, "add": ["(+1) (Wound)"] },
+    { "amount": 1, "add": ["(+1) (Immobilize)"] },
+    { "amount": 1, "add": ["(+1) (Immobilize)"] },
     {
-      "remove": ["(-1)", "(-1)"]
-    },
-    {
-      "add": ["(+1)"],
-      "remove": ["(-1)"]
-    },
-    {
-      "add": ["(+1)"],
-      "remove": ["(-1)"]
-    },
-    {
-      "add": ["(+1)"],
-      "remove": ["(-1)"]
-    },
-    {
-      "add": ["(+2)"],
-      "remove": ["(+0)"]
-    },
-    {
-      "add": ["(+2)"],
-      "remove": ["(+0)"]
-    },
-    {
-      "add": ["(+1) (Wound)"]
-    },
-    {
-      "add": ["(+1) (Wound)"]
-    },
-    {
-      "add": ["(+1) (Immobilize)"]
-    },
-    {
-      "add": ["(+1) (Immobilize)"]
-    },
-    {
+      "amount": 1,
       "add": ["(Heal +1 Self) (Rolling)", "(Heal +1 Self) (Rolling)"]
     },
     {
+      "amount": 1,
       "add": ["(Heal +1 Self) (Rolling)", "(Heal +1 Self) (Rolling)"]
     },
     {
+      "amount": 1,
       "add": ["(Heal +1 Self) (Rolling)", "(Heal +1 Self) (Rolling)"]
     },
-    {
-      "add": ["(Earth) (Rolling)", "(Earth) (Rolling)"]
-    },
-    {
-      "ignore": "S"
-    }
+    { "amount": 1, "add": ["(Earth) (Rolling)", "(Earth) (Rolling)"] },
+    { "amount": 1, "ignore": ["Scenario"] }
   ],
-  "tracker": {
-    "image": "http://cloud-3.steamusercontent.com/ugc/2439138553938610861/F8B7EF453D80232795BDE36FA070AE3F32D115EE/"
-  }
+  "attackModifiers": { "front": "", "back": "", "cards": [] }
 }

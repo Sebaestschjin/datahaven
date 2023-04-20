@@ -1,534 +1,342 @@
 {
   "name": "Sawbones",
+  "version": 1,
+  "spoilerName": "",
+  "hpProgression": [8, 9, 11, 12, 14, 15, 17, 18, 20],
+  "ancestry": "",
+  "icon": "",
+  "tracker": "http://cloud-3.steamusercontent.com/ugc/930432409048870630/E31FDC507E4C89D0868185DE4011D8ABEABBDCD5/",
+  "colors": { "primary": "" },
+  "figure": { "model": "", "texture": "" },
+  "characterMat": { "front": "", "back": "" },
   "abilities": {
-    "Amputate": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.85],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.34, 0.61],
-          "side": "B",
-          "type": "heal"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.54, 0.61],
-          "side": "B",
-          "type": "heal"
-        }
-      ],
-      "level": 5
-    },
-    "Battlefield Medicine": {
-      "enhancements": [],
-      "level": 1
-    },
-    "Bedside Manner": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.32, -1.01],
-          "side": "T",
-          "type": "heal"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.52, -1.01],
-          "side": "T",
-          "type": "heal"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.58],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 8
-    },
-    "Blood Transfusion": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.33, -0.91],
-          "side": "T",
-          "type": "heal"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.54],
-          "side": "B",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.34, 0.83],
-          "side": "B",
-          "type": "heal"
-        }
-      ],
-      "level": 4
-    },
-    "Bloody Saw": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.79],
-          "side": "T",
-          "type": "attack"
-        }
-      ],
-      "level": 1
-    },
-    "Booster Shot": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.34, -0.65],
-          "side": "T",
-          "type": "heal"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.54, -0.65],
-          "side": "T",
-          "type": "heal"
-        }
-      ],
-      "level": 1
-    },
-    "Curative Mixture": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.33, -0.92],
-          "side": "T",
-          "type": "heal"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.53, -0.92],
-          "side": "T",
-          "type": "heal"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.6],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 1
-    },
-    "Do No Harm": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.35, 0.81],
-          "side": "B",
-          "type": "heal"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.55, 0.81],
-          "side": "B",
-          "type": "heal"
-        }
-      ],
-      "level": 4
-    },
-    "Euthanize": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.54],
-          "side": "B",
-          "type": "attack"
-        }
-      ],
-      "level": 6
-    },
-    "First Aid": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.75],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 1
-    },
-    "Gentleman's Anger": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.79],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.56],
-          "side": "B",
-          "type": "attack"
-        }
-      ],
-      "level": 8
-    },
-    "Grisly Trauma": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.48],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 9
-    },
-    "Hamstring": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.78],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.56],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 2
-    },
-    "Hand of the Surgeon": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.71],
-          "side": "T",
-          "type": "attack"
-        }
-      ],
-      "level": 1
-    },
-    "Hold Back the Pain": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.33, -0.78],
-          "side": "T",
-          "type": "heal"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.53, -0.78],
-          "side": "T",
-          "type": "heal"
-        }
-      ],
-      "level": 1
-    },
-    "Master Physician": {
-      "enhancements": [],
-      "level": 7
-    },
-    "Mobile Response": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.4],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 1
-    },
-    "Precaution": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.36, -0.78],
-          "side": "T",
-          "type": "shield"
-        }
-      ],
-      "level": 2
-    },
-    "Prep for Surgery": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.57],
-          "side": "B",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.35, 0.85],
-          "side": "B",
-          "type": "enemyCondition"
-        }
-      ],
-      "level": 9
-    },
-    "Prescription": {
-      "enhancements": [],
-      "level": 6
-    },
-    "Prevention Is Key": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.41, -0.63],
-          "side": "T",
-          "type": "enemyCondition"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.35, 0.56],
-          "side": "B",
-          "type": "shield"
-        }
-      ],
-      "level": "X"
-    },
-    "Regenerative Tissue": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.34, -0.77],
-          "side": "T",
-          "type": "heal"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.54, -0.77],
-          "side": "T",
-          "type": "heal"
-        }
-      ],
-      "level": 3
-    },
-    "Research the Cure": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.41, -0.76],
-          "side": "T",
-          "type": "attack"
-        }
-      ],
-      "level": 5
-    },
-    "Surgeon's Satchel": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.33, -0.55],
-          "side": "T",
-          "type": "heal"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.47],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 7
-    },
-    "Syringe": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.36, -0.56],
-          "side": "T",
-          "type": "shield"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.61],
-          "side": "B",
-          "type": "attack"
-        }
-      ],
-      "level": 1
-    },
-    "Teamwork": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.36, 0.92],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": "X"
-    },
-    "Triage": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.75],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 1
-    },
-    "Vaccine": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.05, -0.86],
-          "side": "T",
-          "type": "attack"
-        }
-      ],
-      "level": "X"
-    },
-    "Vital Strike": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.73],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.61, -0.73],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.71],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 3
-    }
+    "front": "",
+    "back": "",
+    "style": "Gloomhaven",
+    "cards": [
+      {
+        "name": "Battlefield Medicine",
+        "level": 1,
+        "initiative": 0,
+        "top": [],
+        "bottom": []
+      },
+      {
+        "name": "Bloody Saw",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.79] }] }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Booster Shot",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "heal",
+            "marks": [
+              { "position": [-0.34, -0.65] },
+              { "position": [-0.54, -0.65] }
+            ]
+          }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Curative Mixture",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "heal",
+            "marks": [
+              { "position": [-0.33, -0.92] },
+              { "position": [-0.53, -0.92] }
+            ]
+          }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.6] }] }]
+      },
+      {
+        "name": "First Aid",
+        "level": 1,
+        "initiative": 0,
+        "top": [],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.75] }] }]
+      },
+      {
+        "name": "Hand of the Surgeon",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.71] }] }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Hold Back the Pain",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "heal",
+            "marks": [
+              { "position": [-0.33, -0.78] },
+              { "position": [-0.53, -0.78] }
+            ]
+          }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Mobile Response",
+        "level": 1,
+        "initiative": 0,
+        "top": [],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.41, 0.4] }] }]
+      },
+      {
+        "name": "Syringe",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          { "type": "shield", "marks": [{ "position": [-0.36, -0.56] }] }
+        ],
+        "bottom": [
+          { "type": "attack", "marks": [{ "position": [-0.41, 0.61] }] }
+        ]
+      },
+      {
+        "name": "Triage",
+        "level": 1,
+        "initiative": 0,
+        "top": [],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.75] }] }]
+      },
+      {
+        "name": "Prevention Is Key",
+        "level": "X",
+        "initiative": 0,
+        "top": [
+          {
+            "type": "enemyCondition",
+            "marks": [{ "position": [-0.41, -0.63] }]
+          }
+        ],
+        "bottom": [
+          { "type": "shield", "marks": [{ "position": [-0.35, 0.56] }] }
+        ]
+      },
+      {
+        "name": "Teamwork",
+        "level": "X",
+        "initiative": 0,
+        "top": [],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.36, 0.92] }] }]
+      },
+      {
+        "name": "Vaccine",
+        "level": "X",
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.05, -0.86] }] }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Hamstring",
+        "level": 2,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.78] }] }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.56] }] }]
+      },
+      {
+        "name": "Precaution",
+        "level": 2,
+        "initiative": 0,
+        "top": [
+          { "type": "shield", "marks": [{ "position": [-0.36, -0.78] }] }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Regenerative Tissue",
+        "level": 3,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "heal",
+            "marks": [
+              { "position": [-0.34, -0.77] },
+              { "position": [-0.54, -0.77] }
+            ]
+          }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Vital Strike",
+        "level": 3,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "attack",
+            "marks": [
+              { "position": [-0.41, -0.73] },
+              { "position": [-0.61, -0.73] }
+            ]
+          }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.41, 0.71] }] }]
+      },
+      {
+        "name": "Blood Transfusion",
+        "level": 4,
+        "initiative": 0,
+        "top": [{ "type": "heal", "marks": [{ "position": [-0.33, -0.91] }] }],
+        "bottom": [
+          { "type": "attack", "marks": [{ "position": [-0.41, 0.54] }] },
+          { "type": "heal", "marks": [{ "position": [-0.34, 0.83] }] }
+        ]
+      },
+      {
+        "name": "Do No Harm",
+        "level": 4,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          {
+            "type": "heal",
+            "marks": [
+              { "position": [-0.35, 0.81] },
+              { "position": [-0.55, 0.81] }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Amputate",
+        "level": 5,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.85] }] }
+        ],
+        "bottom": [
+          {
+            "type": "heal",
+            "marks": [
+              { "position": [-0.34, 0.61] },
+              { "position": [-0.54, 0.61] }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Research the Cure",
+        "level": 5,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.76] }] }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Euthanize",
+        "level": 6,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          { "type": "attack", "marks": [{ "position": [-0.41, 0.54] }] }
+        ]
+      },
+      {
+        "name": "Prescription",
+        "level": 6,
+        "initiative": 0,
+        "top": [],
+        "bottom": []
+      },
+      {
+        "name": "Master Physician",
+        "level": 7,
+        "initiative": 0,
+        "top": [],
+        "bottom": []
+      },
+      {
+        "name": "Surgeon's Satchel",
+        "level": 7,
+        "initiative": 0,
+        "top": [{ "type": "heal", "marks": [{ "position": [-0.33, -0.55] }] }],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.41, 0.47] }] }]
+      },
+      {
+        "name": "Bedside Manner",
+        "level": 8,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "heal",
+            "marks": [
+              { "position": [-0.32, -1.01] },
+              { "position": [-0.52, -1.01] }
+            ]
+          }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.58] }] }]
+      },
+      {
+        "name": "Gentleman's Anger",
+        "level": 8,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.79] }] }
+        ],
+        "bottom": [
+          { "type": "attack", "marks": [{ "position": [-0.41, 0.56] }] }
+        ]
+      },
+      {
+        "name": "Grisly Trauma",
+        "level": 9,
+        "initiative": 0,
+        "top": [],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.48] }] }]
+      },
+      {
+        "name": "Prep for Surgery",
+        "level": 9,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          { "type": "move", "marks": [{ "position": [-0.41, 0.57] }] },
+          { "type": "enemyCondition", "marks": [{ "position": [-0.35, 0.85] }] }
+        ]
+      }
+    ]
   },
-  "boxGuid": "e5148c",
-  "extra": [
-    {
-      "name": "Medical Pack",
-      "target": "CharacterSheet"
-    },
-    {
-      "name": "Large Medical Pack",
-      "target": "CharacterSheet"
-    }
-  ],
-  "hp": [8, 9, 11, 12, 14, 15, 17, 18, 20],
-  "isSpecialClass": false,
+  "characterSheet": { "image": "", "style": "Gloomhaven" },
   "perks": [
-    {
-      "remove": ["(-1)", "(-1)"]
-    },
-    {
-      "remove": ["(-1)", "(-1)"]
-    },
-    {
-      "remove": ["(+0)", "(+0)", "(+0)", "(+0)"]
-    },
-    {
-      "add": ["(+2)"],
-      "remove": ["(+0)"]
-    },
-    {
-      "add": ["(+2)"],
-      "remove": ["(+0)"]
-    },
-    {
-      "add": ["(+2) (Rolling)"]
-    },
-    {
-      "add": ["(+2) (Rolling)"]
-    },
-    {
-      "add": ["(+1) (Immobilize)"]
-    },
-    {
-      "add": ["(+1) (Immobilize)"]
-    },
-    {
-      "add": ["(Wound) (Rolling)", "(Wound) (Rolling)"]
-    },
-    {
-      "add": ["(Wound) (Rolling)", "(Wound) (Rolling)"]
-    },
-    {
-      "add": ["(Stun) (Rolling)"]
-    },
-    {
-      "add": ["(Heal 3 Self) (Rolling)"]
-    },
-    {
-      "add": ["(Heal 3 Self) (Rolling)"]
-    },
-    {
-      "add": ["(Refresh)"]
-    }
+    { "amount": 1, "remove": ["(-1)", "(-1)"] },
+    { "amount": 1, "remove": ["(-1)", "(-1)"] },
+    { "amount": 1, "remove": ["(+0)", "(+0)", "(+0)", "(+0)"] },
+    { "amount": 1, "add": ["(+2)"], "remove": ["(+0)"] },
+    { "amount": 1, "add": ["(+2)"], "remove": ["(+0)"] },
+    { "amount": 1, "add": ["(+2) (Rolling)"] },
+    { "amount": 1, "add": ["(+2) (Rolling)"] },
+    { "amount": 1, "add": ["(+1) (Immobilize)"] },
+    { "amount": 1, "add": ["(+1) (Immobilize)"] },
+    { "amount": 1, "add": ["(Wound) (Rolling)", "(Wound) (Rolling)"] },
+    { "amount": 1, "add": ["(Wound) (Rolling)", "(Wound) (Rolling)"] },
+    { "amount": 1, "add": ["(Stun) (Rolling)"] },
+    { "amount": 1, "add": ["(Heal 3 Self) (Rolling)"] },
+    { "amount": 1, "add": ["(Heal 3 Self) (Rolling)"] },
+    { "amount": 1, "add": ["(Refresh)"] }
   ],
-  "tracker": {
-    "image": "http://cloud-3.steamusercontent.com/ugc/930432409048870630/E31FDC507E4C89D0868185DE4011D8ABEABBDCD5/"
-  }
+  "attackModifiers": { "front": "", "back": "", "cards": [] }
 }

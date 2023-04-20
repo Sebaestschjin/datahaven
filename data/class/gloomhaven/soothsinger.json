@@ -1,535 +1,368 @@
 {
   "name": "Soothsinger",
+  "version": 1,
+  "spoilerName": "",
+  "hpProgression": [6, 7, 8, 9, 10, 11, 12, 13, 14],
+  "ancestry": "",
+  "icon": "",
+  "tracker": "http://cloud-3.steamusercontent.com/ugc/2439138762291715667/2D2D8638E8721C86EF0A38C230C8CD73CF6A61CC/",
+  "colors": { "primary": "" },
+  "figure": { "model": "", "texture": "" },
+  "characterMat": { "front": "", "back": "" },
   "abilities": {
-    "Booming Proclamation": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.41, -0.71],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": false,
-          "multi": true,
-          "position": [-0.3, -0.41],
-          "side": "T",
-          "type": "push"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.41, 0.7],
-          "side": "B",
-          "type": "attack"
-        }
-      ],
-      "level": 7
-    },
-    "Call to Action": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.82],
-          "side": "B",
-          "type": "attack"
-        }
-      ],
-      "level": 1
-    },
-    "Captivating Performance": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.33, 0.48],
-          "side": "B",
-          "type": "enemyCondition"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.3, 0.79],
-          "side": "B",
-          "type": "target"
-        }
-      ],
-      "level": 9
-    },
-    "Change Tempo": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.72],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 2
-    },
-    "Commanding Presence": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.41, -0.59],
-          "side": "T",
-          "type": "attack"
-        }
-      ],
-      "level": 8
-    },
-    "Crippling Chorus": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.36, -0.78],
-          "side": "T",
-          "type": "enemyCondition"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.56],
-          "side": "B",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.8],
-          "side": "B",
-          "type": "enemyCondition"
-        }
-      ],
-      "level": 3
-    },
-    "Defensive Ditty": {
-      "enhancements": [],
-      "level": 1
-    },
-    "Disorienting Dirge": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.41, 0.37],
-          "side": "B",
-          "type": "enemyCondition"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.36, 0.76],
-          "side": "B",
-          "type": "allyCondition"
-        }
-      ],
-      "level": 4
-    },
-    "Echoing Aria": {
-      "enhancements": [],
-      "level": 3
-    },
-    "Inspiring Anthem": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, -0.51],
-          "side": "T",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.82],
-          "side": "B",
-          "type": "attack"
-        }
-      ],
-      "level": 4
-    },
-    "Marching Beat": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.51],
-          "side": "T",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.75],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 1
-    },
-    "Melody and Harmony": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.53],
-          "side": "B",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.81],
-          "side": "B",
-          "type": "attack"
-        }
-      ],
-      "level": 5
-    },
-    "Mobilizing Measure": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.63],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 5
-    },
-    "Nightmare Serenade": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.03, 0.49],
-          "side": "B",
-          "type": "attack"
-        },
-        {
-          "baseHex": 3,
-          "main": true,
-          "multi": true,
-          "otherHex": [],
-          "position": [-0.27, 0.61],
-          "side": "B",
-          "type": "hex"
-        }
-      ],
-      "level": 7
-    },
-    "Nimble Knife": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.85],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.36, -0.44],
-          "side": "T",
-          "type": "allyCondition"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.72],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": "X"
-    },
-    "Power Ballad": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.43],
-          "side": "B",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.58, 0.68],
-          "side": "B",
-          "type": "allyCondition"
-        }
-      ],
-      "level": 1
-    },
-    "Provoke Terror": {
-      "enhancements": [
-        {
-          "baseHex": 3,
-          "main": true,
-          "multi": true,
-          "otherHex": [],
-          "position": [-0.26, -0.68],
-          "side": "T",
-          "type": "hex"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.6],
-          "side": "B",
-          "type": "attack"
-        },
-        {
-          "main": false,
-          "multi": false,
-          "position": [-0.31, 0.9],
-          "side": "B",
-          "type": "push"
-        }
-      ],
-      "level": 6
-    },
-    "Pull the Strings": {
-      "enhancements": [],
-      "level": 6
-    },
-    "Shadow Puppets": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.96],
-          "side": "T",
-          "type": "move"
-        }
-      ],
-      "level": 9
-    },
-    "Singing Arrow": {
-      "enhancements": [
-        {
-          "baseHex": 3,
-          "main": true,
-          "multi": true,
-          "otherHex": [],
-          "position": [-0.25, -0.69],
-          "side": "T",
-          "type": "hex"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.61],
-          "side": "B",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.29, 0.77],
-          "side": "B",
-          "type": "range"
-        }
-      ],
-      "level": 1
-    },
-    "Song of Speed": {
-      "enhancements": [],
-      "level": 1
-    },
-    "Soothing Lullaby": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.34, 0.55],
-          "side": "B",
-          "type": "heal"
-        }
-      ],
-      "level": 2
-    },
-    "Throw Voice": {
-      "enhancements": [
-        {
-          "baseHex": 3,
-          "main": true,
-          "multi": true,
-          "otherHex": [],
-          "position": [-0.25, -0.71],
-          "side": "T",
-          "type": "hex"
-        },
-        {
-          "baseHex": 3,
-          "main": true,
-          "multi": true,
-          "otherHex": [],
-          "position": [-0.41, 0.6],
-          "side": "B",
-          "type": "hex"
-        }
-      ],
-      "level": 1
-    },
-    "Tranquil Trill": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.41, 0.56],
-          "side": "B",
-          "type": "enemyCondition"
-        }
-      ],
-      "level": 8
-    },
-    "Tuning the Outcome": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.36, -0.65],
-          "side": "T",
-          "type": "allyCondition"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.55],
-          "side": "B",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.81],
-          "side": "B",
-          "type": "enemyCondition"
-        }
-      ],
-      "level": 1
-    },
-    "Unending Chant": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.36, 0.67],
-          "side": "B",
-          "type": "shield"
-        }
-      ],
-      "level": "X"
-    },
-    "Warding Dagger": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.66],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.42],
-          "side": "B",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.36, 0.66],
-          "side": "B",
-          "type": "shield"
-        }
-      ],
-      "level": 1
-    },
-    "Wistful Wounding": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.31, 0.56],
-          "side": "B",
-          "type": "range"
-        }
-      ],
-      "level": "X"
-    }
+    "front": "",
+    "back": "",
+    "style": "Gloomhaven",
+    "cards": [
+      {
+        "name": "Call to Action",
+        "level": 1,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          { "type": "attack", "marks": [{ "position": [-0.41, 0.82] }] }
+        ]
+      },
+      {
+        "name": "Defensive Ditty",
+        "level": 1,
+        "initiative": 0,
+        "top": [],
+        "bottom": []
+      },
+      {
+        "name": "Marching Beat",
+        "level": 1,
+        "initiative": 0,
+        "top": [{ "type": "move", "marks": [{ "position": [-0.41, -0.51] }] }],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.75] }] }]
+      },
+      {
+        "name": "Power Ballad",
+        "level": 1,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          { "type": "move", "marks": [{ "position": [-0.37, 0.43] }] },
+          { "type": "allyCondition", "marks": [{ "position": [-0.58, 0.68] }] }
+        ]
+      },
+      {
+        "name": "Singing Arrow",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "attack",
+            "area": {
+              "size": 3,
+              "marks": [{ "shape": "hex", "position": [-0.25, -0.69] }]
+            }
+          }
+        ],
+        "bottom": [
+          { "type": "attack", "marks": [{ "position": [-0.41, 0.61] }] },
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.29, 0.77] }]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Song of Speed",
+        "level": 1,
+        "initiative": 0,
+        "top": [],
+        "bottom": []
+      },
+      {
+        "name": "Throw Voice",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "attack",
+            "area": {
+              "size": 3,
+              "marks": [{ "shape": "hex", "position": [-0.25, -0.71] }]
+            }
+          }
+        ],
+        "bottom": [
+          {
+            "type": "attack",
+            "area": {
+              "size": 3,
+              "marks": [{ "shape": "hex", "position": [-0.41, 0.6] }]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Tuning the Outcome",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          { "type": "allyCondition", "marks": [{ "position": [-0.36, -0.65] }] }
+        ],
+        "bottom": [
+          { "type": "move", "marks": [{ "position": [-0.37, 0.55] }] },
+          { "type": "enemyCondition", "marks": [{ "position": [-0.41, 0.81] }] }
+        ]
+      },
+      {
+        "name": "Warding Dagger",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.66] }] }
+        ],
+        "bottom": [
+          { "type": "move", "marks": [{ "position": [-0.37, 0.42] }] },
+          { "type": "shield", "marks": [{ "position": [-0.36, 0.66] }] }
+        ]
+      },
+      {
+        "name": "Nimble Knife",
+        "level": "X",
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.85] }] },
+          { "type": "allyCondition", "marks": [{ "position": [-0.36, -0.44] }] }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.41, 0.72] }] }]
+      },
+      {
+        "name": "Unending Chant",
+        "level": "X",
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          { "type": "shield", "marks": [{ "position": [-0.36, 0.67] }] }
+        ]
+      },
+      {
+        "name": "Wistful Wounding",
+        "level": "X",
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.31, 0.56] }]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Change Tempo",
+        "level": 2,
+        "initiative": 0,
+        "top": [],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.72] }] }]
+      },
+      {
+        "name": "Soothing Lullaby",
+        "level": 2,
+        "initiative": 0,
+        "top": [],
+        "bottom": [{ "type": "heal", "marks": [{ "position": [-0.34, 0.55] }] }]
+      },
+      {
+        "name": "Crippling Chorus",
+        "level": 3,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "enemyCondition",
+            "marks": [{ "position": [-0.36, -0.78] }]
+          }
+        ],
+        "bottom": [
+          { "type": "move", "marks": [{ "position": [-0.37, 0.56] }] },
+          { "type": "enemyCondition", "marks": [{ "position": [-0.41, 0.8] }] }
+        ]
+      },
+      {
+        "name": "Echoing Aria",
+        "level": 3,
+        "initiative": 0,
+        "top": [],
+        "bottom": []
+      },
+      {
+        "name": "Disorienting Dirge",
+        "level": 4,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          {
+            "type": "enemyCondition",
+            "marks": [{ "position": [-0.41, 0.37] }]
+          },
+          { "type": "allyCondition", "marks": [{ "position": [-0.36, 0.76] }] }
+        ]
+      },
+      {
+        "name": "Inspiring Anthem",
+        "level": 4,
+        "initiative": 0,
+        "top": [{ "type": "move", "marks": [{ "position": [-0.37, -0.51] }] }],
+        "bottom": [
+          { "type": "attack", "marks": [{ "position": [-0.41, 0.82] }] }
+        ]
+      },
+      {
+        "name": "Melody and Harmony",
+        "level": 5,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          { "type": "move", "marks": [{ "position": [-0.37, 0.53] }] },
+          { "type": "attack", "marks": [{ "position": [-0.41, 0.81] }] }
+        ]
+      },
+      {
+        "name": "Mobilizing Measure",
+        "level": 5,
+        "initiative": 0,
+        "top": [],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.41, 0.63] }] }]
+      },
+      {
+        "name": "Provoke Terror",
+        "level": 6,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "attack",
+            "area": {
+              "size": 3,
+              "marks": [{ "shape": "hex", "position": [-0.26, -0.68] }]
+            }
+          }
+        ],
+        "bottom": [
+          { "type": "attack", "marks": [{ "position": [-0.41, 0.6] }] },
+          {
+            "type": "attack",
+            "effects": [
+              { "name": "push", "marks": [{ "position": [-0.31, 0.9] }] }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Pull the Strings",
+        "level": 6,
+        "initiative": 0,
+        "top": [],
+        "bottom": []
+      },
+      {
+        "name": "Booming Proclamation",
+        "level": 7,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.71] }] },
+          {
+            "type": "attack",
+            "effects": [
+              { "name": "push", "marks": [{ "position": [-0.3, -0.41] }] }
+            ]
+          }
+        ],
+        "bottom": [
+          { "type": "attack", "marks": [{ "position": [-0.41, 0.7] }] }
+        ]
+      },
+      {
+        "name": "Nightmare Serenade",
+        "level": 7,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          { "type": "attack", "marks": [{ "position": [-0.03, 0.49] }] },
+          {
+            "type": "attack",
+            "area": {
+              "size": 3,
+              "marks": [{ "shape": "hex", "position": [-0.27, 0.61] }]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Commanding Presence",
+        "level": 8,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.59] }] }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Tranquil Trill",
+        "level": 8,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          { "type": "enemyCondition", "marks": [{ "position": [-0.41, 0.56] }] }
+        ]
+      },
+      {
+        "name": "Captivating Performance",
+        "level": 9,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          {
+            "type": "enemyCondition",
+            "marks": [{ "position": [-0.33, 0.48] }]
+          },
+          {
+            "type": "attack",
+            "targets": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.3, 0.79] }]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Shadow Puppets",
+        "level": 9,
+        "initiative": 0,
+        "top": [{ "type": "move", "marks": [{ "position": [-0.41, -0.96] }] }],
+        "bottom": []
+      }
+    ]
   },
-  "boxGuid": "732351",
-  "hp": [6, 7, 8, 9, 10, 11, 12, 13, 14],
-  "isSpecialClass": false,
+  "characterSheet": { "image": "", "style": "Gloomhaven" },
   "perks": [
+    { "amount": 1, "remove": ["(-1)", "(-1)"] },
+    { "amount": 1, "remove": ["(-1)", "(-1)"] },
+    { "amount": 1, "remove": ["(-2)"] },
+    { "amount": 1, "add": ["(+4)"], "remove": ["(+1)", "(+1)"] },
+    { "amount": 1, "add": ["(+4)"], "remove": ["(+1)", "(+1)"] },
+    { "amount": 1, "add": ["(+1) (Immobilize)"], "remove": ["(+0)"] },
+    { "amount": 1, "add": ["(+1) (Disarm)"], "remove": ["(+0)"] },
+    { "amount": 1, "add": ["(+2) (Wound)"], "remove": ["(+0)"] },
+    { "amount": 1, "add": ["(+2) (Poison)"], "remove": ["(+0)"] },
+    { "amount": 1, "add": ["(+2) (Curse)"], "remove": ["(+0)"] },
+    { "amount": 1, "add": ["(+3) (Muddle)"], "remove": ["(+0)"] },
+    { "amount": 1, "add": ["(Stun)"], "remove": ["(-1)"] },
     {
-      "remove": ["(-1)", "(-1)"]
-    },
-    {
-      "remove": ["(-1)", "(-1)"]
-    },
-    {
-      "remove": ["(-2)"]
-    },
-    {
-      "add": ["(+4)"],
-      "remove": ["(+1)", "(+1)"]
-    },
-    {
-      "add": ["(+4)"],
-      "remove": ["(+1)", "(+1)"]
-    },
-    {
-      "add": ["(+1) (Immobilize)"],
-      "remove": ["(+0)"]
-    },
-    {
-      "add": ["(+1) (Disarm)"],
-      "remove": ["(+0)"]
-    },
-    {
-      "add": ["(+2) (Wound)"],
-      "remove": ["(+0)"]
-    },
-    {
-      "add": ["(+2) (Poison)"],
-      "remove": ["(+0)"]
-    },
-    {
-      "add": ["(+2) (Curse)"],
-      "remove": ["(+0)"]
-    },
-    {
-      "add": ["(+3) (Muddle)"],
-      "remove": ["(+0)"]
-    },
-    {
-      "add": ["(Stun)"],
-      "remove": ["(-1)"]
-    },
-    {
+      "amount": 1,
       "add": ["(+1) (Rolling)", "(+1) (Rolling)", "(+1) (Rolling)"]
     },
-    {
-      "add": ["(Curse) (Rolling)", "(Curse) (Rolling)"]
-    },
-    {
-      "add": ["(Curse) (Rolling)", "(Curse) (Rolling)"]
-    }
+    { "amount": 1, "add": ["(Curse) (Rolling)", "(Curse) (Rolling)"] },
+    { "amount": 1, "add": ["(Curse) (Rolling)", "(Curse) (Rolling)"] }
   ],
-  "tracker": {
-    "image": "http://cloud-3.steamusercontent.com/ugc/2439138762291715667/2D2D8638E8721C86EF0A38C230C8CD73CF6A61CC/"
-  }
+  "attackModifiers": { "front": "", "back": "", "cards": [] }
 }

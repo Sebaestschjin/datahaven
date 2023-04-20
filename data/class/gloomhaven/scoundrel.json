@@ -1,587 +1,392 @@
 {
   "name": "Scoundrel",
+  "version": 1,
+  "spoilerName": "",
+  "hpProgression": [8, 9, 11, 12, 14, 15, 17, 18, 20],
+  "ancestry": "",
+  "icon": "",
+  "tracker": "http://cloud-3.steamusercontent.com/ugc/83722391140274314/EBC76552C60E3E1281BBFAA96EF535709E0DDD71/",
+  "colors": { "primary": "" },
+  "figure": { "model": "", "texture": "" },
+  "characterMat": { "front": "", "back": "" },
   "abilities": {
-    "Backstab": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.93],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.55, -0.93],
-          "side": "T",
-          "type": "attack"
-        }
-      ],
-      "level": 1
-    },
-    "Burning Oil": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.85],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.31, -0.7],
-          "side": "T",
-          "type": "range"
-        }
-      ],
-      "level": 6
-    },
-    "Crippling Poison": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.5],
-          "side": "B",
-          "type": "attack"
-        }
-      ],
-      "level": 6
-    },
-    "Cull the Weak": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.77],
-          "side": "T",
-          "type": "attack"
-        }
-      ],
-      "level": 5
-    },
-    "Duelist's Advance": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, -0.7],
-          "side": "T",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.45],
-          "side": "T",
-          "type": "attack"
-        }
-      ],
-      "level": 3
-    },
-    "Flanking Strike": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.74],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.75],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 1
-    },
-    "Flintlock": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.55],
-          "side": "B",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.55, 0.55],
-          "side": "B",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.31, 0.71],
-          "side": "B",
-          "type": "range"
-        }
-      ],
-      "level": 2
-    },
-    "Flurry of Blades": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.31, -0.71],
-          "side": "T",
-          "type": "range"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.47],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 4
-    },
-    "Gruesome Advantage": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.39, -0.93],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.54, -0.93],
-          "side": "T",
-          "type": "attack"
-        }
-      ],
-      "level": 4
-    },
-    "Hidden Daggers": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.41, -0.87],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.31, -0.7],
-          "side": "T",
-          "type": "range"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.3, -0.56],
-          "side": "T",
-          "type": "target"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.49, 0.7],
-          "side": "B",
-          "type": "allyCondition"
-        }
-      ],
-      "level": 3
-    },
-    "Long Con": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.41, -0.73],
-          "side": "T",
-          "type": "attack"
-        }
-      ],
-      "level": 9
-    },
-    "Open Wound": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.74],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.75],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 2
-    },
-    "Pain's End": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.35, -0.78],
-          "side": "T",
-          "type": "heal"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.52, -0.78],
-          "side": "T",
-          "type": "heal"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.61],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 8
-    },
-    "Quick Hands": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.36, -0.7],
-          "side": "T",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.47],
-          "side": "T",
-          "type": "attack"
-        }
-      ],
-      "level": 1
-    },
-    "Single Out": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.74],
-          "side": "T",
-          "type": "attack"
-        }
-      ],
-      "level": 1
-    },
-    "Sinister Opportunity": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.85],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.41],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": "X"
-    },
-    "Smoke Bomb": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.48, -0.99],
-          "side": "T",
-          "type": "allyCondition"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.68],
-          "side": "B",
-          "type": "pull"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.3, 0.83],
-          "side": "B",
-          "type": "range"
-        }
-      ],
-      "level": 1
-    },
-    "Special Mixture": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.34, -0.65],
-          "side": "T",
-          "type": "heal"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.58],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 1
-    },
-    "Spring the Trap": {
-      "enhancements": [],
-      "level": 7
-    },
-    "Stick to the Shadows": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.74],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.56, -0.74],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.48, 0.79],
-          "side": "B",
-          "type": "allyCondition"
-        }
-      ],
-      "level": 7
-    },
-    "Stiletto Storm": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.31, -0.71],
-          "side": "T",
-          "type": "range"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.46],
-          "side": "B",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.46, 0.68],
-          "side": "B",
-          "type": "retaliate"
-        }
-      ],
-      "level": 8
-    },
-    "Swift Bow": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.66],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.31, -0.5],
-          "side": "T",
-          "type": "range"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.63],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": "X"
-    },
-    "Thief's Knack": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.62],
-          "side": "B",
-          "type": "attack"
-        }
-      ],
-      "level": 1
-    },
-    "Throwing Knives": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.3, -0.68],
-          "side": "T",
-          "type": "range"
-        }
-      ],
-      "level": 1
-    },
-    "Trickster's Reversal": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.85],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.55, -0.85],
-          "side": "T",
-          "type": "attack"
-        }
-      ],
-      "level": "X"
-    },
-    "Venom Shiv": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.79],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.74],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 1
-    },
-    "Visage of the Inevitable": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.36, 0.57],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 5
-    },
-    "Watch It Burn": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.58],
-          "side": "B",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.46, 0.8],
-          "side": "B",
-          "type": "enemyCondition"
-        }
-      ],
-      "level": 9
-    }
+    "front": "",
+    "back": "",
+    "style": "Gloomhaven",
+    "cards": [
+      {
+        "name": "Backstab",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "attack",
+            "marks": [
+              { "position": [-0.41, -0.93] },
+              { "position": [-0.55, -0.93] }
+            ]
+          }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Flanking Strike",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.74] }] }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.75] }] }]
+      },
+      {
+        "name": "Quick Hands",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          { "type": "move", "marks": [{ "position": [-0.36, -0.7] }] },
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.47] }] }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Single Out",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.74] }] }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Smoke Bomb",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          { "type": "allyCondition", "marks": [{ "position": [-0.48, -0.99] }] }
+        ],
+        "bottom": [
+          { "type": "pull", "marks": [{ "position": [-0.37, 0.68] }] },
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.3, 0.83] }]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Special Mixture",
+        "level": 1,
+        "initiative": 0,
+        "top": [{ "type": "heal", "marks": [{ "position": [-0.34, -0.65] }] }],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.58] }] }]
+      },
+      {
+        "name": "Thief's Knack",
+        "level": 1,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          { "type": "attack", "marks": [{ "position": [-0.41, 0.62] }] }
+        ]
+      },
+      {
+        "name": "Throwing Knives",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.3, -0.68] }]
+            }
+          }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Venom Shiv",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.79] }] }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.41, 0.74] }] }]
+      },
+      {
+        "name": "Sinister Opportunity",
+        "level": "X",
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.85] }] }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.41] }] }]
+      },
+      {
+        "name": "Swift Bow",
+        "level": "X",
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.66] }] },
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.31, -0.5] }]
+            }
+          }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.41, 0.63] }] }]
+      },
+      {
+        "name": "Trickster's Reversal",
+        "level": "X",
+        "initiative": 0,
+        "top": [
+          {
+            "type": "attack",
+            "marks": [
+              { "position": [-0.41, -0.85] },
+              { "position": [-0.55, -0.85] }
+            ]
+          }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Flintlock",
+        "level": 2,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          {
+            "type": "attack",
+            "marks": [
+              { "position": [-0.41, 0.55] },
+              { "position": [-0.55, 0.55] }
+            ]
+          },
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.31, 0.71] }]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Open Wound",
+        "level": 2,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.74] }] }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.75] }] }]
+      },
+      {
+        "name": "Duelist's Advance",
+        "level": 3,
+        "initiative": 0,
+        "top": [
+          { "type": "move", "marks": [{ "position": [-0.37, -0.7] }] },
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.45] }] }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Hidden Daggers",
+        "level": 3,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.87] }] },
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.31, -0.7] }]
+            }
+          },
+          {
+            "type": "attack",
+            "targets": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.3, -0.56] }]
+            }
+          }
+        ],
+        "bottom": [
+          { "type": "allyCondition", "marks": [{ "position": [-0.49, 0.7] }] }
+        ]
+      },
+      {
+        "name": "Flurry of Blades",
+        "level": 4,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.31, -0.71] }]
+            }
+          }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.41, 0.47] }] }]
+      },
+      {
+        "name": "Gruesome Advantage",
+        "level": 4,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "attack",
+            "marks": [
+              { "position": [-0.39, -0.93] },
+              { "position": [-0.54, -0.93] }
+            ]
+          }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Cull the Weak",
+        "level": 5,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.77] }] }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Visage of the Inevitable",
+        "level": 5,
+        "initiative": 0,
+        "top": [],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.36, 0.57] }] }]
+      },
+      {
+        "name": "Burning Oil",
+        "level": 6,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.85] }] },
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.31, -0.7] }]
+            }
+          }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Crippling Poison",
+        "level": 6,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          { "type": "attack", "marks": [{ "position": [-0.41, 0.5] }] }
+        ]
+      },
+      {
+        "name": "Spring the Trap",
+        "level": 7,
+        "initiative": 0,
+        "top": [],
+        "bottom": []
+      },
+      {
+        "name": "Stick to the Shadows",
+        "level": 7,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "attack",
+            "marks": [
+              { "position": [-0.41, -0.74] },
+              { "position": [-0.56, -0.74] }
+            ]
+          }
+        ],
+        "bottom": [
+          { "type": "allyCondition", "marks": [{ "position": [-0.48, 0.79] }] }
+        ]
+      },
+      {
+        "name": "Pain's End",
+        "level": 8,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "heal",
+            "marks": [
+              { "position": [-0.35, -0.78] },
+              { "position": [-0.52, -0.78] }
+            ]
+          }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.41, 0.61] }] }]
+      },
+      {
+        "name": "Stiletto Storm",
+        "level": 8,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.31, -0.71] }]
+            }
+          }
+        ],
+        "bottom": [
+          { "type": "move", "marks": [{ "position": [-0.41, 0.46] }] },
+          { "type": "retaliate", "marks": [{ "position": [-0.46, 0.68] }] }
+        ]
+      },
+      {
+        "name": "Long Con",
+        "level": 9,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.73] }] }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Watch It Burn",
+        "level": 9,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          { "type": "move", "marks": [{ "position": [-0.37, 0.58] }] },
+          { "type": "enemyCondition", "marks": [{ "position": [-0.46, 0.8] }] }
+        ]
+      }
+    ]
   },
-  "boxGuid": "66309d",
-  "hp": [8, 9, 11, 12, 14, 15, 17, 18, 20],
-  "isSpecialClass": false,
-  "isStartingClass": true,
+  "characterSheet": { "image": "", "style": "Gloomhaven" },
   "perks": [
-    {
-      "remove": ["(-1)", "(-1)"]
-    },
-    {
-      "remove": ["(-1)", "(-1)"]
-    },
-    {
-      "remove": ["(+0)", "(+0)", "(+0)", "(+0)"]
-    },
-    {
-      "add": ["(+0)"],
-      "remove": ["(-2)"]
-    },
-    {
-      "add": ["(+1)"],
-      "remove": ["(-1)"]
-    },
-    {
-      "add": ["(+2)"],
-      "remove": ["(+0)"]
-    },
-    {
-      "add": ["(+2)"],
-      "remove": ["(+0)"]
-    },
-    {
-      "add": ["(+1) (Rolling)", "(+1) (Rolling)"]
-    },
-    {
-      "add": ["(+1) (Rolling)", "(+1) (Rolling)"]
-    },
-    {
-      "add": ["(Pierce 3) (Rolling)", "(Pierce 3) (Rolling)"]
-    },
-    {
-      "add": ["(Poison) (Rolling)", "(Poison) (Rolling)"]
-    },
-    {
-      "add": ["(Poison) (Rolling)", "(Poison) (Rolling)"]
-    },
-    {
-      "add": ["(Muddle) (Rolling)", "(Muddle) (Rolling)"]
-    },
-    {
-      "add": ["(Invisible) (Rolling)"]
-    },
-    {
-      "ignore": "S"
-    }
+    { "amount": 1, "remove": ["(-1)", "(-1)"] },
+    { "amount": 1, "remove": ["(-1)", "(-1)"] },
+    { "amount": 1, "remove": ["(+0)", "(+0)", "(+0)", "(+0)"] },
+    { "amount": 1, "add": ["(+0)"], "remove": ["(-2)"] },
+    { "amount": 1, "add": ["(+1)"], "remove": ["(-1)"] },
+    { "amount": 1, "add": ["(+2)"], "remove": ["(+0)"] },
+    { "amount": 1, "add": ["(+2)"], "remove": ["(+0)"] },
+    { "amount": 1, "add": ["(+1) (Rolling)", "(+1) (Rolling)"] },
+    { "amount": 1, "add": ["(+1) (Rolling)", "(+1) (Rolling)"] },
+    { "amount": 1, "add": ["(Pierce 3) (Rolling)", "(Pierce 3) (Rolling)"] },
+    { "amount": 1, "add": ["(Poison) (Rolling)", "(Poison) (Rolling)"] },
+    { "amount": 1, "add": ["(Poison) (Rolling)", "(Poison) (Rolling)"] },
+    { "amount": 1, "add": ["(Muddle) (Rolling)", "(Muddle) (Rolling)"] },
+    { "amount": 1, "add": ["(Invisible) (Rolling)"] },
+    { "amount": 1, "ignore": ["Scenario"] }
   ],
-  "tracker": {
-    "image": "http://cloud-3.steamusercontent.com/ugc/83722391140274314/EBC76552C60E3E1281BBFAA96EF535709E0DDD71/"
-  }
+  "attackModifiers": { "front": "", "back": "", "cards": [] }
 }

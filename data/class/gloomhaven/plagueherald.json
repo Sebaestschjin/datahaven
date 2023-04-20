@@ -1,591 +1,437 @@
 {
   "name": "Plagueherald",
+  "version": 1,
+  "spoilerName": "",
+  "hpProgression": [6, 7, 8, 9, 10, 11, 12, 13, 14],
+  "ancestry": "",
+  "icon": "",
+  "tracker": "http://cloud-3.steamusercontent.com/ugc/2439138762291876706/8A821E683D786FFA0F04A9AA2A947F85778ADBC2/",
+  "colors": { "primary": "" },
+  "figure": { "model": "", "texture": "" },
+  "characterMat": { "front": "", "back": "" },
   "abilities": {
-    "Accelerated End": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.3, 0.91],
-          "side": "B",
-          "type": "target"
-        }
-      ],
-      "level": 5
-    },
-    "Airborne Toxin": {
-      "enhancements": [],
-      "level": 7
-    },
-    "Baneful Hex": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.41, 0.81],
-          "side": "B",
-          "type": "enemyCondition"
-        }
-      ],
-      "level": 7
-    },
-    "Biting Gnats": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.41, -0.87],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.29, -0.57],
-          "side": "T",
-          "type": "target"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.74],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 1
-    },
-    "Black Tides": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.81],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.61, -0.81],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.3, -0.64],
-          "side": "T",
-          "type": "range"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.63],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 6
-    },
-    "Blistering Vortex": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.05, -0.82],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "baseHex": 3,
-          "main": true,
-          "multi": true,
-          "otherHex": [],
-          "position": [-0.26, -0.69],
-          "side": "T",
-          "type": "hex"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.45],
-          "side": "B",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.36, 0.71],
-          "side": "B",
-          "type": "shield"
-        }
-      ],
-      "level": "X"
-    },
-    "Convert the Flock": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.41, -0.95],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.29, -0.79],
-          "side": "T",
-          "type": "range"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.3, -0.65],
-          "side": "T",
-          "type": "target"
-        }
-      ],
-      "level": 9
-    },
-    "Creeping Curse": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.74],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.36, 0.57],
-          "side": "B",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.83],
-          "side": "B",
-          "type": "enemyCondition"
-        }
-      ],
-      "level": 1
-    },
-    "Epidemic": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.87],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.3, -0.56],
-          "side": "T",
-          "type": "attack"
-        }
-      ],
-      "level": "X"
-    },
-    "Fetid Flurry": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.74],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.36, 0.63],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 3
-    },
-    "Foul Wind": {
-      "enhancements": [],
-      "level": 1
-    },
-    "Gathering Doom": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.75],
-          "side": "T",
-          "type": "attack"
-        }
-      ],
-      "level": 1
-    },
-    "Grasping Vermin": {
-      "enhancements": [],
-      "level": 1
-    },
-    "Grim Bargain": {
-      "enhancements": [],
-      "level": 8
-    },
-    "Mass Extinction": {
-      "enhancements": [],
-      "level": 9
-    },
-    "Nightmarish Affliction": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.41, -1],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.3, -0.7],
-          "side": "T",
-          "type": "target"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.3, 0.93],
-          "side": "B",
-          "type": "target"
-        }
-      ],
-      "level": 4
-    },
-    "Paralyzing Bite": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, -0.85],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.55],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 1
-    },
-    "Rot Maggots": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.95],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.3, 0.76],
-          "side": "B",
-          "type": "range"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.3, 0.91],
-          "side": "B",
-          "type": "target"
-        }
-      ],
-      "level": 2
-    },
-    "Scattered Terror": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.41, -0.95],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.3, -0.79],
-          "side": "T",
-          "type": "range"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.29, -0.64],
-          "side": "T",
-          "type": "target"
-        },
-        {
-          "main": false,
-          "multi": true,
-          "position": [-0.33, -0.5],
-          "side": "T",
-          "type": "pierce"
-        }
-      ],
-      "level": 1
-    },
-    "Spread the Plague": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.68],
-          "side": "B",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.3, 0.84],
-          "side": "B",
-          "type": "range"
-        }
-      ],
-      "level": 1
-    },
-    "Spreading Scrouge": {
-      "enhancements": [
-        {
-          "baseHex": 12,
-          "main": true,
-          "multi": false,
-          "otherHex": [2],
-          "position": [-0.22, -0.97],
-          "side": "T",
-          "type": "hex"
-        },
-        {
-          "baseHex": 12,
-          "main": true,
-          "multi": false,
-          "otherHex": [1],
-          "position": [-0.42, -0.97],
-          "side": "T",
-          "type": "hex"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.3, 0.76],
-          "side": "B",
-          "type": "range"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.31, 0.91],
-          "side": "B",
-          "type": "target"
-        }
-      ],
-      "level": 8
-    },
-    "Stinging Cloud": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.44],
-          "side": "B",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.69],
-          "side": "B",
-          "type": "shield"
-        }
-      ],
-      "level": 6
-    },
-    "Storm of Wings": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.74],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 4
-    },
-    "Succumb to the Gift": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.36, 0.72],
-          "side": "B",
-          "type": "allyCondition"
-        }
-      ],
-      "level": 3
-    },
-    "Under the Skin": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.85],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.61, -0.85],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.73],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 2
-    },
-    "Vile Pestilence": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.74],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 1
-    },
-    "Virulent Strain": {
-      "enhancements": [],
-      "level": "X"
-    },
-    "Willing Sacrifice": {
-      "enhancements": [],
-      "level": 5
-    },
-    "Winged Congregation": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.57],
-          "side": "B",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.33, 0.81],
-          "side": "B",
-          "type": "heal"
-        }
-      ],
-      "level": 1
-    },
-    "Wretched Swarm": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [0.05, -0.89],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.75],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 1
-    }
+    "front": "",
+    "back": "",
+    "style": "Gloomhaven",
+    "cards": [
+      {
+        "name": "Biting Gnats",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.87] }] },
+          {
+            "type": "attack",
+            "targets": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.29, -0.57] }]
+            }
+          }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.74] }] }]
+      },
+      {
+        "name": "Creeping Curse",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.74] }] }
+        ],
+        "bottom": [
+          { "type": "move", "marks": [{ "position": [-0.36, 0.57] }] },
+          { "type": "enemyCondition", "marks": [{ "position": [-0.41, 0.83] }] }
+        ]
+      },
+      {
+        "name": "Foul Wind",
+        "level": 1,
+        "initiative": 0,
+        "top": [],
+        "bottom": []
+      },
+      {
+        "name": "Gathering Doom",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.75] }] }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Grasping Vermin",
+        "level": 1,
+        "initiative": 0,
+        "top": [],
+        "bottom": []
+      },
+      {
+        "name": "Paralyzing Bite",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.37, -0.85] }] }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.55] }] }]
+      },
+      {
+        "name": "Scattered Terror",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.95] }] },
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.3, -0.79] }]
+            }
+          },
+          {
+            "type": "attack",
+            "targets": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.29, -0.64] }]
+            }
+          },
+          {
+            "type": "attack",
+            "effects": [
+              { "name": "pierce", "marks": [{ "position": [-0.33, -0.5] }] }
+            ]
+          }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Spread the Plague",
+        "level": 1,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          { "type": "attack", "marks": [{ "position": [-0.41, 0.68] }] },
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.3, 0.84] }]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Vile Pestilence",
+        "level": 1,
+        "initiative": 0,
+        "top": [],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.74] }] }]
+      },
+      {
+        "name": "Winged Congregation",
+        "level": 1,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          { "type": "move", "marks": [{ "position": [-0.37, 0.57] }] },
+          { "type": "heal", "marks": [{ "position": [-0.33, 0.81] }] }
+        ]
+      },
+      {
+        "name": "Wretched Swarm",
+        "level": 1,
+        "initiative": 0,
+        "top": [{ "type": "attack", "marks": [{ "position": [0.05, -0.89] }] }],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.41, 0.75] }] }]
+      },
+      {
+        "name": "Blistering Vortex",
+        "level": "X",
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.05, -0.82] }] },
+          {
+            "type": "attack",
+            "area": {
+              "size": 3,
+              "marks": [{ "shape": "hex", "position": [-0.26, -0.69] }]
+            }
+          }
+        ],
+        "bottom": [
+          { "type": "move", "marks": [{ "position": [-0.37, 0.45] }] },
+          { "type": "shield", "marks": [{ "position": [-0.36, 0.71] }] }
+        ]
+      },
+      {
+        "name": "Epidemic",
+        "level": "X",
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.87] }] },
+          { "type": "attack", "marks": [{ "position": [-0.3, -0.56] }] }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Virulent Strain",
+        "level": "X",
+        "initiative": 0,
+        "top": [],
+        "bottom": []
+      },
+      {
+        "name": "Rot Maggots",
+        "level": 2,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.95] }] }
+        ],
+        "bottom": [
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.3, 0.76] }]
+            }
+          },
+          {
+            "type": "attack",
+            "targets": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.3, 0.91] }]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Under the Skin",
+        "level": 2,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "attack",
+            "marks": [
+              { "position": [-0.41, -0.85] },
+              { "position": [-0.61, -0.85] }
+            ]
+          }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.41, 0.73] }] }]
+      },
+      {
+        "name": "Fetid Flurry",
+        "level": 3,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.74] }] }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.36, 0.63] }] }]
+      },
+      {
+        "name": "Succumb to the Gift",
+        "level": 3,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          { "type": "allyCondition", "marks": [{ "position": [-0.36, 0.72] }] }
+        ]
+      },
+      {
+        "name": "Nightmarish Affliction",
+        "level": 4,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -1] }] },
+          {
+            "type": "attack",
+            "targets": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.3, -0.7] }]
+            }
+          }
+        ],
+        "bottom": [
+          {
+            "type": "attack",
+            "targets": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.3, 0.93] }]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Storm of Wings",
+        "level": 4,
+        "initiative": 0,
+        "top": [],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.74] }] }]
+      },
+      {
+        "name": "Accelerated End",
+        "level": 5,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          {
+            "type": "attack",
+            "targets": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.3, 0.91] }]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Willing Sacrifice",
+        "level": 5,
+        "initiative": 0,
+        "top": [],
+        "bottom": []
+      },
+      {
+        "name": "Black Tides",
+        "level": 6,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "attack",
+            "marks": [
+              { "position": [-0.41, -0.81] },
+              { "position": [-0.61, -0.81] }
+            ]
+          },
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.3, -0.64] }]
+            }
+          }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.63] }] }]
+      },
+      {
+        "name": "Stinging Cloud",
+        "level": 6,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          { "type": "move", "marks": [{ "position": [-0.37, 0.44] }] },
+          { "type": "shield", "marks": [{ "position": [-0.37, 0.69] }] }
+        ]
+      },
+      {
+        "name": "Airborne Toxin",
+        "level": 7,
+        "initiative": 0,
+        "top": [],
+        "bottom": []
+      },
+      {
+        "name": "Baneful Hex",
+        "level": 7,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          { "type": "enemyCondition", "marks": [{ "position": [-0.41, 0.81] }] }
+        ]
+      },
+      {
+        "name": "Grim Bargain",
+        "level": 8,
+        "initiative": 0,
+        "top": [],
+        "bottom": []
+      },
+      {
+        "name": "Spreading Scrouge",
+        "level": 8,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "attack",
+            "area": {
+              "size": 12,
+              "marks": [
+                { "shape": "hex", "position": [-0.22, -0.97] },
+                { "shape": "hex", "position": [-0.42, -0.97] }
+              ]
+            }
+          }
+        ],
+        "bottom": [
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.3, 0.76] }]
+            }
+          },
+          {
+            "type": "attack",
+            "targets": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.31, 0.91] }]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Convert the Flock",
+        "level": 9,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.95] }] },
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.29, -0.79] }]
+            }
+          },
+          {
+            "type": "attack",
+            "targets": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.3, -0.65] }]
+            }
+          }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Mass Extinction",
+        "level": 9,
+        "initiative": 0,
+        "top": [],
+        "bottom": []
+      }
+    ]
   },
-  "boxGuid": "10b86a",
-  "hp": [6, 7, 8, 9, 10, 11, 12, 13, 14],
-  "isSpecialClass": false,
+  "characterSheet": { "image": "", "style": "Gloomhaven" },
   "perks": [
+    { "amount": 1, "add": ["(+0)"], "remove": ["(-2)"] },
+    { "amount": 1, "add": ["(+1)"], "remove": ["(-1)"] },
+    { "amount": 1, "add": ["(+1)"], "remove": ["(-1)"] },
+    { "amount": 1, "add": ["(+2)"], "remove": ["(+0)"] },
+    { "amount": 1, "add": ["(+2)"], "remove": ["(+0)"] },
+    { "amount": 1, "add": ["(+1)", "(+1)"] },
+    { "amount": 1, "add": ["(+1) (Air)"] },
+    { "amount": 1, "add": ["(+1) (Air)"] },
+    { "amount": 1, "add": ["(+1) (Air)"] },
     {
-      "add": ["(+0)"],
-      "remove": ["(-2)"]
-    },
-    {
-      "add": ["(+1)"],
-      "remove": ["(-1)"]
-    },
-    {
-      "add": ["(+1)"],
-      "remove": ["(-1)"]
-    },
-    {
-      "add": ["(+2)"],
-      "remove": ["(+0)"]
-    },
-    {
-      "add": ["(+2)"],
-      "remove": ["(+0)"]
-    },
-    {
-      "add": ["(+1)", "(+1)"]
-    },
-    {
-      "add": ["(+1) (Air)"]
-    },
-    {
-      "add": ["(+1) (Air)"]
-    },
-    {
-      "add": ["(+1) (Air)"]
-    },
-    {
+      "amount": 1,
       "add": ["(Poison) (Rolling)", "(Poison) (Rolling)", "(Poison) (Rolling)"]
     },
+    { "amount": 1, "add": ["(Curse) (Rolling)", "(Curse) (Rolling)"] },
     {
-      "add": ["(Curse) (Rolling)", "(Curse) (Rolling)"]
-    },
-    {
+      "amount": 1,
       "add": ["(Immobilize) (Rolling)", "(Immobilize) (Rolling)"]
     },
-    {
-      "add": ["(Stun) (Rolling)"]
-    },
-    {
-      "add": ["(Stun) (Rolling)"]
-    },
-    {
-      "add": ["(+1)"],
-      "ignore": "S"
-    }
+    { "amount": 1, "add": ["(Stun) (Rolling)"] },
+    { "amount": 1, "add": ["(Stun) (Rolling)"] },
+    { "amount": 1, "add": ["(+1)"], "ignore": ["Scenario"] }
   ],
-  "tracker": {
-    "image": "http://cloud-3.steamusercontent.com/ugc/2439138762291876706/8A821E683D786FFA0F04A9AA2A947F85778ADBC2/"
-  }
+  "attackModifiers": { "front": "", "back": "", "cards": [] }
 }

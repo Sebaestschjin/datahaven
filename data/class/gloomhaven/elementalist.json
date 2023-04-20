@@ -1,714 +1,417 @@
 {
   "name": "Elementalist",
+  "version": 1,
+  "spoilerName": "",
+  "hpProgression": [6, 7, 8, 9, 10, 11, 12, 13, 14],
+  "ancestry": "",
+  "icon": "",
+  "tracker": "http://cloud-3.steamusercontent.com/ugc/2439138762291579437/6A1873B7FB1DB0F7D379A6628F6166B529180B1D/",
+  "colors": { "primary": "" },
+  "figure": { "model": "", "texture": "" },
+  "characterMat": { "front": "", "back": "" },
   "abilities": {
-    "Boiling Arc": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [0.01, -0.7],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.57],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 2
-    },
-    "Brilliant Flash": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.36, -0.79],
-          "side": "T",
-          "type": "heal"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.5, -0.79],
-          "side": "T",
-          "type": "heal"
-        }
-      ],
-      "level": "X"
-    },
-    "Burial": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.15, -0.98],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.55],
-          "side": "B",
-          "type": "attack"
-        }
-      ],
-      "level": 3
-    },
-    "Chain Lightning": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.46, -1.01],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.34, 0.55],
-          "side": "B",
-          "type": "heal"
-        }
-      ],
-      "level": 3
-    },
-    "Crystallizing Blast": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.02, -0.8],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [0.09, -0.64],
-          "side": "T",
-          "type": "range"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.58],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 2
-    },
-    "Elemental Aegis": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, -0.9],
-          "side": "T",
-          "type": "shield"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.33, 0.58],
-          "side": "B",
-          "type": "heal"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.53, 0.58],
-          "side": "B",
-          "type": "heal"
-        }
-      ],
-      "level": 8
-    },
-    "Encompassing Shadow": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.44],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": "X"
-    },
-    "Eternal Equilibrium": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.41, -0.89],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.34, 0.47],
-          "side": "B",
-          "type": "heal"
-        }
-      ],
-      "level": 9
-    },
-    "Ethereal Manifestation": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [0.21, -0.74],
-          "side": "T",
-          "type": "summHp"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.23, -0.74],
-          "side": "T",
-          "type": "summMove"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.23, -0.53],
-          "side": "T",
-          "type": "summRange"
-        }
-      ],
-      "level": 9
-    },
-    "Eye of the Hurricane": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.34, -0.99],
-          "side": "T",
-          "type": "heal"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.41, -0.65],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.53],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 6
-    },
-    "Formless Power": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.92],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.3, -0.75],
-          "side": "T",
-          "type": "range"
-        }
-      ],
-      "level": 1
-    },
-    "Frigid Torrent": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.41, -0.69],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.09, 0.49],
-          "side": "B",
-          "type": "attack"
-        },
-        {
-          "main": false,
-          "multi": true,
-          "position": [0, 0.79],
-          "side": "B",
-          "type": "pull"
-        },
-        {
-          "baseHex": 3,
-          "main": true,
-          "multi": true,
-          "otherHex": [],
-          "position": [-0.33, 0.65],
-          "side": "B",
-          "type": "hex"
-        }
-      ],
-      "level": 1
-    },
-    "Gravel Vortex": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.41, -0.79],
-          "side": "T",
-          "type": "attack"
-        }
-      ],
-      "level": 4
-    },
-    "Ice Spikes": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.14, -0.83],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "baseHex": 3,
-          "main": true,
-          "multi": true,
-          "otherHex": [],
-          "position": [-0.37, -0.66],
-          "side": "T",
-          "type": "hex"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.5],
-          "side": "B",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.31, 0.65],
-          "side": "B",
-          "type": "range"
-        }
-      ],
-      "level": 1
-    },
-    "Infernal Vortex": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.41, -0.78],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.56, -0.78],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.36, 0.63],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 1
-    },
-    "Lava Eruption": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.41, -0.79],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.63],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 1
-    },
-    "Malleable Evocation": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.98],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.3, -0.82],
-          "side": "T",
-          "type": "range"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.46],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": "X"
-    },
-    "Obsidian Shards": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.41, -0.85],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.36, 0.42],
-          "side": "B",
-          "type": "shield"
-        }
-      ],
-      "level": 5
-    },
-    "Pragmatic Reinforcement": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.32, -0.95],
-          "side": "T",
-          "type": "heal"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.43],
-          "side": "B",
-          "type": "attack"
-        }
-      ],
-      "level": 7
-    },
-    "Primal Duality": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.41, -0.87],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.56, -0.87],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.3, -0.56],
-          "side": "T",
-          "type": "target"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.63],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 4
-    },
-    "Pure Augmentation": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.9],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.5],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 1
-    },
-    "Raw Enhancement": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.91],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.5],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 1
-    },
-    "Shaping the Ether": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.96],
-          "side": "T",
-          "type": "attack"
-        }
-      ],
-      "level": 1
-    },
-    "Simulacrum": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.41, -1],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [0.21, 0.64],
-          "side": "B",
-          "type": "summHp"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.22, 0.64],
-          "side": "B",
-          "type": "summMove"
-        }
-      ],
-      "level": 6
-    },
-    "Stoking Hail": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.77],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.3, -0.61],
-          "side": "T",
-          "type": "range"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.63],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 1
-    },
-    "Tremulant Cyclone": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.09, -0.82],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.36, 0.63],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 1
-    },
-    "Vengeance": {
-      "enhancements": [
-        {
-          "baseHex": 3,
-          "main": true,
-          "multi": true,
-          "otherHex": [],
-          "position": [-0.46, -0.68],
-          "side": "T",
-          "type": "hex"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.36, 0.35],
-          "side": "B",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.46, 0.57],
-          "side": "B",
-          "type": "retaliate"
-        }
-      ],
-      "level": 7
-    },
-    "Volatile Consumption": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.36],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 8,
-      "spawn": [
-        {
-          "element": {
-            "conditions": ["Poison"],
-            "damage": 2,
-            "name": "Spike Trap",
-            "type": 7
+    "front": "",
+    "back": "",
+    "style": "Gloomhaven",
+    "cards": [
+      {
+        "name": "Formless Power",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.92] }] },
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.3, -0.75] }]
+            }
           }
-        }
-      ]
-    },
-    "Winter's Edge": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.79],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.33, 0.54],
-          "side": "B",
-          "type": "heal"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.3, 0.7],
-          "side": "B",
-          "type": "range"
-        }
-      ],
-      "level": 5
-    }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Frigid Torrent",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.69] }] }
+        ],
+        "bottom": [
+          { "type": "attack", "marks": [{ "position": [-0.09, 0.49] }] },
+          {
+            "type": "attack",
+            "effects": [
+              { "name": "pull", "marks": [{ "position": [0, 0.79] }] }
+            ]
+          },
+          {
+            "type": "attack",
+            "area": {
+              "size": 3,
+              "marks": [{ "shape": "hex", "position": [-0.33, 0.65] }]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Ice Spikes",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.14, -0.83] }] },
+          {
+            "type": "attack",
+            "area": {
+              "size": 3,
+              "marks": [{ "shape": "hex", "position": [-0.37, -0.66] }]
+            }
+          }
+        ],
+        "bottom": [
+          { "type": "attack", "marks": [{ "position": [-0.41, 0.5] }] },
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.31, 0.65] }]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Infernal Vortex",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "attack",
+            "marks": [
+              { "position": [-0.41, -0.78] },
+              { "position": [-0.56, -0.78] }
+            ]
+          }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.36, 0.63] }] }]
+      },
+      {
+        "name": "Lava Eruption",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.79] }] }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.63] }] }]
+      },
+      {
+        "name": "Pure Augmentation",
+        "level": 1,
+        "initiative": 0,
+        "top": [{ "type": "attack", "marks": [{ "position": [-0.41, -0.9] }] }],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.41, 0.5] }] }]
+      },
+      {
+        "name": "Raw Enhancement",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.91] }] }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.41, 0.5] }] }]
+      },
+      {
+        "name": "Shaping the Ether",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.96] }] }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Stoking Hail",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.77] }] },
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.3, -0.61] }]
+            }
+          }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.41, 0.63] }] }]
+      },
+      {
+        "name": "Tremulant Cyclone",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.09, -0.82] }] }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.36, 0.63] }] }]
+      },
+      {
+        "name": "Brilliant Flash",
+        "level": "X",
+        "initiative": 0,
+        "top": [
+          {
+            "type": "heal",
+            "marks": [
+              { "position": [-0.36, -0.79] },
+              { "position": [-0.5, -0.79] }
+            ]
+          }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Encompassing Shadow",
+        "level": "X",
+        "initiative": 0,
+        "top": [],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.41, 0.44] }] }]
+      },
+      {
+        "name": "Malleable Evocation",
+        "level": "X",
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.98] }] },
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.3, -0.82] }]
+            }
+          }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.46] }] }]
+      },
+      {
+        "name": "Boiling Arc",
+        "level": 2,
+        "initiative": 0,
+        "top": [{ "type": "attack", "marks": [{ "position": [0.01, -0.7] }] }],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.57] }] }]
+      },
+      {
+        "name": "Crystallizing Blast",
+        "level": 2,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.02, -0.8] }] },
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [0.09, -0.64] }]
+            }
+          }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.58] }] }]
+      },
+      {
+        "name": "Burial",
+        "level": 3,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.15, -0.98] }] }
+        ],
+        "bottom": [
+          { "type": "attack", "marks": [{ "position": [-0.41, 0.55] }] }
+        ]
+      },
+      {
+        "name": "Chain Lightning",
+        "level": 3,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.46, -1.01] }] }
+        ],
+        "bottom": [{ "type": "heal", "marks": [{ "position": [-0.34, 0.55] }] }]
+      },
+      {
+        "name": "Gravel Vortex",
+        "level": 4,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.79] }] }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Primal Duality",
+        "level": 4,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "attack",
+            "marks": [
+              { "position": [-0.41, -0.87] },
+              { "position": [-0.56, -0.87] }
+            ]
+          },
+          {
+            "type": "attack",
+            "targets": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.3, -0.56] }]
+            }
+          }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.63] }] }]
+      },
+      {
+        "name": "Obsidian Shards",
+        "level": 5,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.85] }] }
+        ],
+        "bottom": [
+          { "type": "shield", "marks": [{ "position": [-0.36, 0.42] }] }
+        ]
+      },
+      {
+        "name": "Winter's Edge",
+        "level": 5,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.79] }] }
+        ],
+        "bottom": [
+          { "type": "heal", "marks": [{ "position": [-0.33, 0.54] }] },
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.3, 0.7] }]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Eye of the Hurricane",
+        "level": 6,
+        "initiative": 0,
+        "top": [
+          { "type": "heal", "marks": [{ "position": [-0.34, -0.99] }] },
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.65] }] }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.53] }] }]
+      },
+      {
+        "name": "Simulacrum",
+        "level": 6,
+        "initiative": 0,
+        "top": [{ "type": "attack", "marks": [{ "position": [-0.41, -1] }] }],
+        "bottom": [
+          {
+            "type": "summHp",
+            "marks": [
+              { "position": [0.21, 0.64] },
+              { "position": [-0.22, 0.64] }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Pragmatic Reinforcement",
+        "level": 7,
+        "initiative": 0,
+        "top": [{ "type": "heal", "marks": [{ "position": [-0.32, -0.95] }] }],
+        "bottom": [
+          { "type": "attack", "marks": [{ "position": [-0.41, 0.43] }] }
+        ]
+      },
+      {
+        "name": "Vengeance",
+        "level": 7,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "attack",
+            "area": {
+              "size": 3,
+              "marks": [{ "shape": "hex", "position": [-0.46, -0.68] }]
+            }
+          }
+        ],
+        "bottom": [
+          { "type": "move", "marks": [{ "position": [-0.36, 0.35] }] },
+          { "type": "retaliate", "marks": [{ "position": [-0.46, 0.57] }] }
+        ]
+      },
+      {
+        "name": "Elemental Aegis",
+        "level": 8,
+        "initiative": 0,
+        "top": [{ "type": "shield", "marks": [{ "position": [-0.37, -0.9] }] }],
+        "bottom": [
+          {
+            "type": "heal",
+            "marks": [
+              { "position": [-0.33, 0.58] },
+              { "position": [-0.53, 0.58] }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Volatile Consumption",
+        "level": 8,
+        "initiative": 0,
+        "top": [],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.36] }] }]
+      },
+      {
+        "name": "Eternal Equilibrium",
+        "level": 9,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.89] }] }
+        ],
+        "bottom": [{ "type": "heal", "marks": [{ "position": [-0.34, 0.47] }] }]
+      },
+      {
+        "name": "Ethereal Manifestation",
+        "level": 9,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "summHp",
+            "marks": [
+              { "position": [0.21, -0.74] },
+              { "position": [-0.23, -0.74] }
+            ]
+          },
+          { "type": "summRange", "marks": [{ "position": [-0.23, -0.53] }] }
+        ],
+        "bottom": []
+      }
+    ]
   },
-  "boxGuid": "21d7e7",
-  "hp": [6, 7, 8, 9, 10, 11, 12, 13, 14],
-  "isSpecialClass": false,
+  "characterSheet": { "image": "", "style": "Gloomhaven" },
   "perks": [
-    {
-      "remove": ["(-1)", "(-1)"]
-    },
-    {
-      "remove": ["(-1)", "(-1)"]
-    },
-    {
-      "add": ["(+1)"],
-      "remove": ["(-1)"]
-    },
-    {
-      "add": ["(+2)"],
-      "remove": ["(+0)"]
-    },
-    {
-      "add": ["(+2)"],
-      "remove": ["(+0)"]
-    },
-    {
-      "add": ["(Fire)", "(Fire)", "(Fire)"]
-    },
-    {
-      "add": ["(Ice)", "(Ice)", "(Ice)"]
-    },
-    {
-      "add": ["(Air)", "(Air)", "(Air)"]
-    },
-    {
-      "add": ["(Earth)", "(Earth)", "(Earth)"]
-    },
-    {
-      "add": ["(Fire)", "(Earth)"],
-      "remove": ["(+0)", "(+0)"]
-    },
-    {
-      "add": ["(Ice)", "(Air)"],
-      "remove": ["(+0)", "(+0)"]
-    },
-    {
-      "add": ["(+1) (Push 1)", "(+1) (Push 1)"]
-    },
-    {
-      "add": ["(+1) (Wound)"]
-    },
-    {
-      "add": ["(Stun)"]
-    },
-    {
-      "add": ["(Add Target)"]
-    }
+    { "amount": 1, "remove": ["(-1)", "(-1)"] },
+    { "amount": 1, "remove": ["(-1)", "(-1)"] },
+    { "amount": 1, "add": ["(+1)"], "remove": ["(-1)"] },
+    { "amount": 1, "add": ["(+2)"], "remove": ["(+0)"] },
+    { "amount": 1, "add": ["(+2)"], "remove": ["(+0)"] },
+    { "amount": 1, "add": ["(Fire)", "(Fire)", "(Fire)"] },
+    { "amount": 1, "add": ["(Ice)", "(Ice)", "(Ice)"] },
+    { "amount": 1, "add": ["(Air)", "(Air)", "(Air)"] },
+    { "amount": 1, "add": ["(Earth)", "(Earth)", "(Earth)"] },
+    { "amount": 1, "add": ["(Fire)", "(Earth)"], "remove": ["(+0)", "(+0)"] },
+    { "amount": 1, "add": ["(Ice)", "(Air)"], "remove": ["(+0)", "(+0)"] },
+    { "amount": 1, "add": ["(+1) (Push 1)", "(+1) (Push 1)"] },
+    { "amount": 1, "add": ["(+1) (Wound)"] },
+    { "amount": 1, "add": ["(Stun)"] },
+    { "amount": 1, "add": ["(Add Target)"] }
   ],
-  "tracker": {
-    "image": "http://cloud-3.steamusercontent.com/ugc/2439138762291579437/6A1873B7FB1DB0F7D379A6628F6166B529180B1D/"
-  }
+  "attackModifiers": { "front": "", "back": "", "cards": [] }
 }

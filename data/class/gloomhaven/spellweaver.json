@@ -1,635 +1,428 @@
 {
   "name": "Spellweaver",
+  "version": 1,
+  "spoilerName": "",
+  "hpProgression": [6, 7, 8, 9, 10, 11, 12, 13, 14],
+  "ancestry": "",
+  "icon": "",
+  "tracker": "http://cloud-3.steamusercontent.com/ugc/83722391140274964/143D5F8B9F7C47FB83BBAF900BE9FDFA368CE513/",
+  "colors": { "primary": "" },
+  "figure": { "model": "", "texture": "" },
+  "characterMat": { "front": "", "back": "" },
   "abilities": {
-    "Aid from the Ether": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.34, -0.67],
-          "side": "T",
-          "type": "heal"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.3, -0.5],
-          "side": "T",
-          "type": "range"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [0.21, 0.64],
-          "side": "B",
-          "type": "summHp"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.25, 0.64],
-          "side": "B",
-          "type": "summMove"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.25, 0.84],
-          "side": "B",
-          "type": "summRange"
-        }
-      ],
-      "level": "X"
-    },
-    "Black Hole": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.37, 0.67],
-          "side": "B",
-          "type": "pull"
-        }
-      ],
-      "level": 9
-    },
-    "Chromatic Explosion": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.1, -0.98],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.36, 0.64],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 5
-    },
-    "Cold Fire": {
-      "enhancements": [
-        {
-          "baseHex": 3,
-          "main": true,
-          "multi": true,
-          "otherHex": [],
-          "position": [-0.33, -0.69],
-          "side": "T",
-          "type": "hex"
-        }
-      ],
-      "level": 3
-    },
-    "Cold Front": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.04, -0.79],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [0.06, -0.63],
-          "side": "T",
-          "type": "range"
-        }
-      ],
-      "level": 8
-    },
-    "Crackling Air": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.58],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": "X"
-    },
-    "Elemental Aid": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.34, -0.76],
-          "side": "T",
-          "type": "heal"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.29, -0.61],
-          "side": "T",
-          "type": "range"
-        }
-      ],
-      "level": 3
-    },
-    "Engulfed in Flames": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.78],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.31, -0.62],
-          "side": "T",
-          "type": "range"
-        }
-      ],
-      "level": 5
-    },
-    "Fire Orbs": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.41, -0.95],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.31, -0.79],
-          "side": "T",
-          "type": "range"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.3, -0.64],
-          "side": "T",
-          "type": "target"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.73],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 1
-    },
-    "Flame Strike": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.3, -0.61],
-          "side": "T",
-          "type": "range"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.68],
-          "side": "B",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.3, 0.84],
-          "side": "B",
-          "type": "range"
-        }
-      ],
-      "level": 1
-    },
-    "Flashing Burst": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.78],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.31, -0.63],
-          "side": "T",
-          "type": "range"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.72],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 2
-    },
-    "Forked Beam": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.41, -0.86],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.31, -0.56],
-          "side": "T",
-          "type": "target"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.73],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 4
-    },
-    "Freezing Nova": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.41, -0.85],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.36, 0.56],
-          "side": "B",
-          "type": "heal"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.5, 0.56],
-          "side": "B",
-          "type": "heal"
-        }
-      ],
-      "level": 1
-    },
-    "Frost Armor": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.76],
-          "side": "T",
-          "type": "attack"
-        }
-      ],
-      "level": 1
-    },
-    "Frozen Night": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [0.02, -0.86],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "baseHex": 5,
-          "main": true,
-          "multi": false,
-          "otherHex": [3],
-          "position": [-0.65, -0.8],
-          "side": "T",
-          "type": "hex"
-        },
-        {
-          "baseHex": 5,
-          "main": true,
-          "multi": false,
-          "otherHex": [2],
-          "position": [-0.76, -0.61],
-          "side": "T",
-          "type": "hex"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.56],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 6
-    },
-    "Hardened Spikes": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.46, -0.91],
-          "side": "T",
-          "type": "retaliate"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.59],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": "X"
-    },
-    "Icy Blast": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.05, -0.86],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.35, 0.69],
-          "side": "B",
-          "type": "heal"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.31, 0.85],
-          "side": "B",
-          "type": "range"
-        }
-      ],
-      "level": 2
-    },
-    "Impaling Eruption": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.41, -0.99],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.3, -0.84],
-          "side": "T",
-          "type": "range"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.73],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 1
-    },
-    "Inferno": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.46, 0.49],
-          "side": "B",
-          "type": "retaliate"
-        }
-      ],
-      "level": 9
-    },
-    "Living Torch": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.88],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [0.2, 0.64],
-          "side": "B",
-          "type": "summHp"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.23, 0.65],
-          "side": "B",
-          "type": "summMove"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.23, 0.85],
-          "side": "B",
-          "type": "summRange"
-        }
-      ],
-      "level": 6
-    },
-    "Mana Bolt": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.76],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.35, 0.7],
-          "side": "B",
-          "type": "heal"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.3, 0.86],
-          "side": "B",
-          "type": "range"
-        }
-      ],
-      "level": 1
-    },
-    "Reviving Ether": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.63],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 1
-    },
-    "Ride the Wind": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.57],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 1
-    },
-    "Spirit of Doom": {
-      "enhancements": [],
-      "level": 4
-    },
-    "Stone Fists": {
-      "enhancements": [
-        {
-          "main": false,
-          "multi": false,
-          "position": [-0.31, -0.8],
-          "side": "T",
-          "type": "push"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.36, 0.36],
-          "side": "B",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.36, 0.58],
-          "side": "B",
-          "type": "shield"
-        }
-      ],
-      "level": 7
-    },
-    "Twin Restoration": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.36, 0.61],
-          "side": "B",
-          "type": "heal"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.31, 0.91],
-          "side": "B",
-          "type": "target"
-        }
-      ],
-      "level": 7
-    },
-    "Zephyr Wings": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.44],
-          "side": "B",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.55, 0.44],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 8
-    }
+    "front": "",
+    "back": "",
+    "style": "Gloomhaven",
+    "cards": [
+      {
+        "name": "Fire Orbs",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.95] }] },
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.31, -0.79] }]
+            }
+          },
+          {
+            "type": "attack",
+            "targets": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.3, -0.64] }]
+            }
+          }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.41, 0.73] }] }]
+      },
+      {
+        "name": "Flame Strike",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.3, -0.61] }]
+            }
+          }
+        ],
+        "bottom": [
+          { "type": "attack", "marks": [{ "position": [-0.41, 0.68] }] },
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.3, 0.84] }]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Freezing Nova",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.85] }] }
+        ],
+        "bottom": [
+          {
+            "type": "heal",
+            "marks": [
+              { "position": [-0.36, 0.56] },
+              { "position": [-0.5, 0.56] }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Frost Armor",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.76] }] }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Impaling Eruption",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.99] }] },
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.3, -0.84] }]
+            }
+          }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.73] }] }]
+      },
+      {
+        "name": "Mana Bolt",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.76] }] }
+        ],
+        "bottom": [
+          { "type": "heal", "marks": [{ "position": [-0.35, 0.7] }] },
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.3, 0.86] }]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Reviving Ether",
+        "level": 1,
+        "initiative": 0,
+        "top": [],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.63] }] }]
+      },
+      {
+        "name": "Ride the Wind",
+        "level": 1,
+        "initiative": 0,
+        "top": [],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.57] }] }]
+      },
+      {
+        "name": "Aid from the Ether",
+        "level": "X",
+        "initiative": 0,
+        "top": [
+          { "type": "heal", "marks": [{ "position": [-0.34, -0.67] }] },
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.3, -0.5] }]
+            }
+          }
+        ],
+        "bottom": [
+          {
+            "type": "summHp",
+            "marks": [
+              { "position": [0.21, 0.64] },
+              { "position": [-0.25, 0.64] }
+            ]
+          },
+          { "type": "summRange", "marks": [{ "position": [-0.25, 0.84] }] }
+        ]
+      },
+      {
+        "name": "Crackling Air",
+        "level": "X",
+        "initiative": 0,
+        "top": [],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.58] }] }]
+      },
+      {
+        "name": "Hardened Spikes",
+        "level": "X",
+        "initiative": 0,
+        "top": [
+          { "type": "retaliate", "marks": [{ "position": [-0.46, -0.91] }] }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.41, 0.59] }] }]
+      },
+      {
+        "name": "Flashing Burst",
+        "level": 2,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.78] }] },
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.31, -0.63] }]
+            }
+          }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.41, 0.72] }] }]
+      },
+      {
+        "name": "Icy Blast",
+        "level": 2,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.05, -0.86] }] }
+        ],
+        "bottom": [
+          { "type": "heal", "marks": [{ "position": [-0.35, 0.69] }] },
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.31, 0.85] }]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Cold Fire",
+        "level": 3,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "attack",
+            "area": {
+              "size": 3,
+              "marks": [{ "shape": "hex", "position": [-0.33, -0.69] }]
+            }
+          }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Elemental Aid",
+        "level": 3,
+        "initiative": 0,
+        "top": [
+          { "type": "heal", "marks": [{ "position": [-0.34, -0.76] }] },
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.29, -0.61] }]
+            }
+          }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Forked Beam",
+        "level": 4,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.86] }] },
+          {
+            "type": "attack",
+            "targets": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.31, -0.56] }]
+            }
+          }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.41, 0.73] }] }]
+      },
+      {
+        "name": "Spirit of Doom",
+        "level": 4,
+        "initiative": 0,
+        "top": [],
+        "bottom": []
+      },
+      {
+        "name": "Chromatic Explosion",
+        "level": 5,
+        "initiative": 0,
+        "top": [{ "type": "attack", "marks": [{ "position": [-0.1, -0.98] }] }],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.36, 0.64] }] }]
+      },
+      {
+        "name": "Engulfed in Flames",
+        "level": 5,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.78] }] },
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.31, -0.62] }]
+            }
+          }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Frozen Night",
+        "level": 6,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [0.02, -0.86] }] },
+          {
+            "type": "attack",
+            "area": {
+              "size": 5,
+              "marks": [
+                { "shape": "hex", "position": [-0.65, -0.8] },
+                { "shape": "hex", "position": [-0.76, -0.61] }
+              ]
+            }
+          }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.56] }] }]
+      },
+      {
+        "name": "Living Torch",
+        "level": 6,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.88] }] }
+        ],
+        "bottom": [
+          {
+            "type": "summHp",
+            "marks": [
+              { "position": [0.2, 0.64] },
+              { "position": [-0.23, 0.65] }
+            ]
+          },
+          { "type": "summRange", "marks": [{ "position": [-0.23, 0.85] }] }
+        ]
+      },
+      {
+        "name": "Stone Fists",
+        "level": 7,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "attack",
+            "effects": [
+              { "name": "push", "marks": [{ "position": [-0.31, -0.8] }] }
+            ]
+          }
+        ],
+        "bottom": [
+          { "type": "move", "marks": [{ "position": [-0.36, 0.36] }] },
+          { "type": "shield", "marks": [{ "position": [-0.36, 0.58] }] }
+        ]
+      },
+      {
+        "name": "Twin Restoration",
+        "level": 7,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          { "type": "heal", "marks": [{ "position": [-0.36, 0.61] }] },
+          {
+            "type": "attack",
+            "targets": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.31, 0.91] }]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Cold Front",
+        "level": 8,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.04, -0.79] }] },
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [0.06, -0.63] }]
+            }
+          }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Zephyr Wings",
+        "level": 8,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          {
+            "type": "move",
+            "marks": [
+              { "position": [-0.41, 0.44] },
+              { "position": [-0.55, 0.44] }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Black Hole",
+        "level": 9,
+        "initiative": 0,
+        "top": [],
+        "bottom": [{ "type": "pull", "marks": [{ "position": [-0.37, 0.67] }] }]
+      },
+      {
+        "name": "Inferno",
+        "level": 9,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          { "type": "retaliate", "marks": [{ "position": [-0.46, 0.49] }] }
+        ]
+      }
+    ]
   },
-  "boxGuid": "0507cf",
-  "hp": [6, 7, 8, 9, 10, 11, 12, 13, 14],
-  "isSpecialClass": false,
-  "isStartingClass": true,
+  "characterSheet": { "image": "", "style": "Gloomhaven" },
   "perks": [
-    {
-      "remove": ["(+0)", "(+0)", "(+0)", "(+0)"]
-    },
-    {
-      "add": ["(+1)"],
-      "remove": ["(-1)"]
-    },
-    {
-      "add": ["(+1)"],
-      "remove": ["(-1)"]
-    },
-    {
-      "add": ["(+1)", "(+1)"]
-    },
-    {
-      "add": ["(+1)", "(+1)"]
-    },
-    {
-      "add": ["(+0) (Stun)"]
-    },
-    {
-      "add": ["(+1) (Wound)"]
-    },
-    {
-      "add": ["(+1) (Immobilize)"]
-    },
-    {
-      "add": ["(+1) (Curse)"]
-    },
-    {
-      "add": ["(+2) (Fire)"]
-    },
-    {
-      "add": ["(+2) (Fire)"]
-    },
-    {
-      "add": ["(+2) (Ice)"]
-    },
-    {
-      "add": ["(+2) (Ice)"]
-    },
-    {
-      "add": ["(Earth) (Rolling)", "(Air) (Rolling)"]
-    },
-    {
-      "add": ["(Dark) (Rolling)", "(Light) (Rolling)"]
-    }
+    { "amount": 1, "remove": ["(+0)", "(+0)", "(+0)", "(+0)"] },
+    { "amount": 1, "add": ["(+1)"], "remove": ["(-1)"] },
+    { "amount": 1, "add": ["(+1)"], "remove": ["(-1)"] },
+    { "amount": 1, "add": ["(+1)", "(+1)"] },
+    { "amount": 1, "add": ["(+1)", "(+1)"] },
+    { "amount": 1, "add": ["(+0) (Stun)"] },
+    { "amount": 1, "add": ["(+1) (Wound)"] },
+    { "amount": 1, "add": ["(+1) (Immobilize)"] },
+    { "amount": 1, "add": ["(+1) (Curse)"] },
+    { "amount": 1, "add": ["(+2) (Fire)"] },
+    { "amount": 1, "add": ["(+2) (Fire)"] },
+    { "amount": 1, "add": ["(+2) (Ice)"] },
+    { "amount": 1, "add": ["(+2) (Ice)"] },
+    { "amount": 1, "add": ["(Earth) (Rolling)", "(Air) (Rolling)"] },
+    { "amount": 1, "add": ["(Dark) (Rolling)", "(Light) (Rolling)"] }
   ],
-  "tracker": {
-    "image": "http://cloud-3.steamusercontent.com/ugc/83722391140274964/143D5F8B9F7C47FB83BBAF900BE9FDFA368CE513/"
-  }
+  "attackModifiers": { "front": "", "back": "", "cards": [] }
 }

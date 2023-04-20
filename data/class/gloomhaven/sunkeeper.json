@@ -1,569 +1,365 @@
 {
   "name": "Sunkeeper",
+  "version": 1,
+  "spoilerName": "",
+  "hpProgression": [10, 12, 14, 16, 18, 20, 22, 24, 26],
+  "ancestry": "",
+  "icon": "",
+  "tracker": "http://cloud-3.steamusercontent.com/ugc/2439138553938828796/730FE7530468D1BBA8D74FFC1316FB47C52301E5/",
+  "colors": { "primary": "" },
+  "figure": { "model": "", "texture": "" },
+  "characterMat": { "front": "", "back": "" },
   "abilities": {
-    "Angelic Ascension": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.69],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 9
-    },
-    "Beacon of Light": {
-      "enhancements": [],
-      "level": "X"
-    },
-    "Bright Aegis": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.95],
-          "side": "T",
-          "type": "shield"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.46, -0.6],
-          "side": "T",
-          "type": "retaliate"
-        }
-      ],
-      "level": 7
-    },
-    "Brilliant Prayer": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.57],
-          "side": "B",
-          "type": "heal"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.57, 0.57],
-          "side": "B",
-          "type": "heal"
-        }
-      ],
-      "level": 1
-    },
-    "Burning Flash": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.46, -0.86],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.36, 0.56],
-          "side": "B",
-          "type": "heal"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.34, 0.72],
-          "side": "B",
-          "type": "range"
-        }
-      ],
-      "level": 3
-    },
-    "Cautious Advance": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.8],
-          "side": "T",
-          "type": "shield"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.74],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 1
-    },
-    "Cleansing Force": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.44, -0.85],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.58, -0.85],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.62],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 8
-    },
-    "Daybreak": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.79],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.55],
-          "side": "B",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.83],
-          "side": "B",
-          "type": "allyCondition"
-        }
-      ],
-      "level": "X"
-    },
-    "Dazzling Charge": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.77],
-          "side": "T",
-          "type": "heal"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.44],
-          "side": "B",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.68],
-          "side": "B",
-          "type": "enemyCondition"
-        }
-      ],
-      "level": 1
-    },
-    "Defensive Stance": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.69],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.45],
-          "side": "B",
-          "type": "shield"
-        }
-      ],
-      "level": 1
-    },
-    "Divine Intervention": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.41, 0.56],
-          "side": "B",
-          "type": "shield"
-        }
-      ],
-      "level": 9
-    },
-    "Empowering Command": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.82],
-          "side": "B",
-          "type": "attack"
-        }
-      ],
-      "level": 1
-    },
-    "Engulfing Radiance": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.37, -0.78],
-          "side": "T",
-          "type": "heal"
-        }
-      ],
-      "level": 4
-    },
-    "Glorious Bolt": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.37, -0.89],
-          "side": "T",
-          "type": "heal"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.57, -0.89],
-          "side": "T",
-          "type": "heal"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.61],
-          "side": "B",
-          "type": "attack"
-        }
-      ],
-      "level": "X"
-    },
-    "Hammer Blow": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.69],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.75],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 1
-    },
-    "Holy Strike": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.64],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.53],
-          "side": "B",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.32, 0.71],
-          "side": "B",
-          "type": "range"
-        }
-      ],
-      "level": 1
-    },
-    "Illuminate the Target": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.91],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.61, -0.67],
-          "side": "T",
-          "type": "allyCondition"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.82],
-          "side": "B",
-          "type": "attack"
-        }
-      ],
-      "level": 6
-    },
-    "Inspiring Sanctity": {
-      "enhancements": [],
-      "level": 8
-    },
-    "Lay on Hands": {
-      "enhancements": [],
-      "level": 1
-    },
-    "Mobilizing Axiom": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.71],
-          "side": "T",
-          "type": "attack"
-        }
-      ],
-      "level": 3
-    },
-    "Path of Glory": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.7],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.61, -0.7],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.43],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 5
-    },
-    "Practical Plans": {
-      "enhancements": [],
-      "level": 2
-    },
-    "Protective Blessing": {
-      "enhancements": [],
-      "level": 1
-    },
-    "Purifying Aura": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.61, 0.57],
-          "side": "B",
-          "type": "allyCondition"
-        }
-      ],
-      "level": 1
-    },
-    "Righteous Strength": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.41, -0.78],
-          "side": "T",
-          "type": "allyCondition"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.45],
-          "side": "B",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.67],
-          "side": "B",
-          "type": "shield"
-        }
-      ],
-      "level": 4
-    },
-    "Scales of Justice": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.48, -0.91],
-          "side": "T",
-          "type": "retaliate"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.43],
-          "side": "B",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.92],
-          "side": "B",
-          "type": "enemyCondition"
-        }
-      ],
-      "level": 5
-    },
-    "Supportive Chant": {
-      "enhancements": [],
-      "level": 6
-    },
-    "Tactical Order": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.5],
-          "side": "T",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.76],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 1
-    },
-    "Unwavering Mandate": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.37, 0.57],
-          "side": "B",
-          "type": "heal"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.33, 0.73],
-          "side": "B",
-          "type": "range"
-        }
-      ],
-      "level": 2
-    },
-    "Weapon of Purity": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.64],
-          "side": "B",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.88],
-          "side": "B",
-          "type": "attack"
-        }
-      ],
-      "level": 7
-    }
+    "front": "",
+    "back": "",
+    "style": "Gloomhaven",
+    "cards": [
+      {
+        "name": "Brilliant Prayer",
+        "level": 1,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          {
+            "type": "heal",
+            "marks": [
+              { "position": [-0.37, 0.57] },
+              { "position": [-0.57, 0.57] }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Cautious Advance",
+        "level": 1,
+        "initiative": 0,
+        "top": [{ "type": "shield", "marks": [{ "position": [-0.41, -0.8] }] }],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.41, 0.74] }] }]
+      },
+      {
+        "name": "Dazzling Charge",
+        "level": 1,
+        "initiative": 0,
+        "top": [{ "type": "heal", "marks": [{ "position": [-0.41, -0.77] }] }],
+        "bottom": [
+          { "type": "move", "marks": [{ "position": [-0.41, 0.44] }] },
+          { "type": "enemyCondition", "marks": [{ "position": [-0.41, 0.68] }] }
+        ]
+      },
+      {
+        "name": "Defensive Stance",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.69] }] }
+        ],
+        "bottom": [
+          { "type": "shield", "marks": [{ "position": [-0.41, 0.45] }] }
+        ]
+      },
+      {
+        "name": "Empowering Command",
+        "level": 1,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          { "type": "attack", "marks": [{ "position": [-0.41, 0.82] }] }
+        ]
+      },
+      {
+        "name": "Hammer Blow",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.69] }] }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.41, 0.75] }] }]
+      },
+      {
+        "name": "Holy Strike",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.64] }] }
+        ],
+        "bottom": [
+          { "type": "attack", "marks": [{ "position": [-0.41, 0.53] }] },
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.32, 0.71] }]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Lay on Hands",
+        "level": 1,
+        "initiative": 0,
+        "top": [],
+        "bottom": []
+      },
+      {
+        "name": "Protective Blessing",
+        "level": 1,
+        "initiative": 0,
+        "top": [],
+        "bottom": []
+      },
+      {
+        "name": "Purifying Aura",
+        "level": 1,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          { "type": "allyCondition", "marks": [{ "position": [-0.61, 0.57] }] }
+        ]
+      },
+      {
+        "name": "Tactical Order",
+        "level": 1,
+        "initiative": 0,
+        "top": [{ "type": "move", "marks": [{ "position": [-0.41, -0.5] }] }],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.41, 0.76] }] }]
+      },
+      {
+        "name": "Beacon of Light",
+        "level": "X",
+        "initiative": 0,
+        "top": [],
+        "bottom": []
+      },
+      {
+        "name": "Daybreak",
+        "level": "X",
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.79] }] }
+        ],
+        "bottom": [
+          { "type": "move", "marks": [{ "position": [-0.41, 0.55] }] },
+          { "type": "allyCondition", "marks": [{ "position": [-0.41, 0.83] }] }
+        ]
+      },
+      {
+        "name": "Glorious Bolt",
+        "level": "X",
+        "initiative": 0,
+        "top": [
+          {
+            "type": "heal",
+            "marks": [
+              { "position": [-0.37, -0.89] },
+              { "position": [-0.57, -0.89] }
+            ]
+          }
+        ],
+        "bottom": [
+          { "type": "attack", "marks": [{ "position": [-0.41, 0.61] }] }
+        ]
+      },
+      {
+        "name": "Practical Plans",
+        "level": 2,
+        "initiative": 0,
+        "top": [],
+        "bottom": []
+      },
+      {
+        "name": "Unwavering Mandate",
+        "level": 2,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          { "type": "heal", "marks": [{ "position": [-0.37, 0.57] }] },
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.33, 0.73] }]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Burning Flash",
+        "level": 3,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.46, -0.86] }] }
+        ],
+        "bottom": [
+          { "type": "heal", "marks": [{ "position": [-0.36, 0.56] }] },
+          {
+            "type": "attack",
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.34, 0.72] }]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Mobilizing Axiom",
+        "level": 3,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.71] }] }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Engulfing Radiance",
+        "level": 4,
+        "initiative": 0,
+        "top": [{ "type": "heal", "marks": [{ "position": [-0.37, -0.78] }] }],
+        "bottom": []
+      },
+      {
+        "name": "Righteous Strength",
+        "level": 4,
+        "initiative": 0,
+        "top": [
+          { "type": "allyCondition", "marks": [{ "position": [-0.41, -0.78] }] }
+        ],
+        "bottom": [
+          { "type": "move", "marks": [{ "position": [-0.41, 0.45] }] },
+          { "type": "shield", "marks": [{ "position": [-0.41, 0.67] }] }
+        ]
+      },
+      {
+        "name": "Path of Glory",
+        "level": 5,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "attack",
+            "marks": [
+              { "position": [-0.41, -0.7] },
+              { "position": [-0.61, -0.7] }
+            ]
+          }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.41, 0.43] }] }]
+      },
+      {
+        "name": "Scales of Justice",
+        "level": 5,
+        "initiative": 0,
+        "top": [
+          { "type": "retaliate", "marks": [{ "position": [-0.48, -0.91] }] }
+        ],
+        "bottom": [
+          { "type": "move", "marks": [{ "position": [-0.41, 0.43] }] },
+          { "type": "enemyCondition", "marks": [{ "position": [-0.41, 0.92] }] }
+        ]
+      },
+      {
+        "name": "Illuminate the Target",
+        "level": 6,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [-0.41, -0.91] }] },
+          { "type": "allyCondition", "marks": [{ "position": [-0.61, -0.67] }] }
+        ],
+        "bottom": [
+          { "type": "attack", "marks": [{ "position": [-0.41, 0.82] }] }
+        ]
+      },
+      {
+        "name": "Supportive Chant",
+        "level": 6,
+        "initiative": 0,
+        "top": [],
+        "bottom": []
+      },
+      {
+        "name": "Bright Aegis",
+        "level": 7,
+        "initiative": 0,
+        "top": [
+          { "type": "shield", "marks": [{ "position": [-0.41, -0.95] }] },
+          { "type": "retaliate", "marks": [{ "position": [-0.46, -0.6] }] }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Weapon of Purity",
+        "level": 7,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          { "type": "move", "marks": [{ "position": [-0.41, 0.64] }] },
+          { "type": "attack", "marks": [{ "position": [-0.41, 0.88] }] }
+        ]
+      },
+      {
+        "name": "Cleansing Force",
+        "level": 8,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "attack",
+            "marks": [
+              { "position": [-0.44, -0.85] },
+              { "position": [-0.58, -0.85] }
+            ]
+          }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.41, 0.62] }] }]
+      },
+      {
+        "name": "Inspiring Sanctity",
+        "level": 8,
+        "initiative": 0,
+        "top": [],
+        "bottom": []
+      },
+      {
+        "name": "Angelic Ascension",
+        "level": 9,
+        "initiative": 0,
+        "top": [],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.41, 0.69] }] }]
+      },
+      {
+        "name": "Divine Intervention",
+        "level": 9,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          { "type": "shield", "marks": [{ "position": [-0.41, 0.56] }] }
+        ]
+      }
+    ]
   },
-  "boxGuid": "bfe08d",
-  "hp": [10, 12, 14, 16, 18, 20, 22, 24, 26],
-  "isSpecialClass": false,
+  "characterSheet": { "image": "", "style": "Gloomhaven" },
   "perks": [
+    { "amount": 1, "remove": ["(-1)", "(-1)"] },
+    { "amount": 1, "remove": ["(-1)", "(-1)"] },
+    { "amount": 1, "remove": ["(+0)", "(+0)", "(+0)", "(+0)"] },
+    { "amount": 1, "add": ["(+0)"], "remove": ["(-2)"] },
+    { "amount": 1, "add": ["(+2)"], "remove": ["(+0)"] },
+    { "amount": 1, "add": ["(+1) (Rolling)", "(+1) (Rolling)"] },
+    { "amount": 1, "add": ["(+1) (Rolling)", "(+1) (Rolling)"] },
     {
-      "remove": ["(-1)", "(-1)"]
-    },
-    {
-      "remove": ["(-1)", "(-1)"]
-    },
-    {
-      "remove": ["(+0)", "(+0)", "(+0)", "(+0)"]
-    },
-    {
-      "add": ["(+0)"],
-      "remove": ["(-2)"]
-    },
-    {
-      "add": ["(+2)"],
-      "remove": ["(+0)"]
-    },
-    {
-      "add": ["(+1) (Rolling)", "(+1) (Rolling)"]
-    },
-    {
-      "add": ["(+1) (Rolling)", "(+1) (Rolling)"]
-    },
-    {
+      "amount": 1,
       "add": ["(Heal 1 Self) (Rolling)", "(Heal 1 Self) (Rolling)"]
     },
     {
+      "amount": 1,
       "add": ["(Heal 1 Self) (Rolling)", "(Heal 1 Self) (Rolling)"]
     },
+    { "amount": 1, "add": ["(Stun) (Rolling)"] },
+    { "amount": 1, "add": ["(Light) (Rolling)", "(Light) (Rolling)"] },
+    { "amount": 1, "add": ["(Light) (Rolling)", "(Light) (Rolling)"] },
     {
-      "add": ["(Stun) (Rolling)"]
-    },
-    {
-      "add": ["(Light) (Rolling)", "(Light) (Rolling)"]
-    },
-    {
-      "add": ["(Light) (Rolling)", "(Light) (Rolling)"]
-    },
-    {
+      "amount": 1,
       "add": ["(Shield 1 Self) (Rolling)", "(Shield 1 Self) (Rolling)"]
     },
-    {
-      "add": ["(+1)", "(+1)"],
-      "ignore": "I"
-    },
-    {
-      "ignore": "S"
-    }
+    { "amount": 1, "add": ["(+1)", "(+1)"], "ignore": ["Item"] },
+    { "amount": 1, "ignore": ["Scenario"] }
   ],
-  "tracker": {
-    "image": "http://cloud-3.steamusercontent.com/ugc/2439138553938828796/730FE7530468D1BBA8D74FFC1316FB47C52301E5/"
-  }
+  "attackModifiers": { "front": "", "back": "", "cards": [] }
 }

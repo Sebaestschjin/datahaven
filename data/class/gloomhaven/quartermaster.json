@@ -1,492 +1,337 @@
 {
   "name": "Quartermaster",
+  "version": 1,
+  "spoilerName": "",
+  "hpProgression": [10, 12, 14, 16, 18, 20, 22, 24, 26],
+  "ancestry": "",
+  "icon": "",
+  "tracker": "http://cloud-3.steamusercontent.com/ugc/2439138762291809141/D48BD51510E9C15C05E726BF750EEA0B5A6BA3D0/",
+  "colors": { "primary": "" },
+  "figure": { "model": "", "texture": "" },
+  "characterMat": { "front": "", "back": "" },
   "abilities": {
-    "Bag of Holding": {
-      "enhancements": [],
-      "level": 9
-    },
-    "Bladed Boomerang": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.78],
-          "side": "B",
-          "type": "attack"
-        }
-      ],
-      "level": 2
-    },
-    "Catastrophic Bomb": {
-      "enhancements": [
-        {
-          "baseHex": 12,
-          "main": true,
-          "multi": true,
-          "otherHex": [2],
-          "position": [-0.23, -0.98],
-          "side": "T",
-          "type": "hex"
-        },
-        {
-          "baseHex": 12,
-          "main": true,
-          "multi": true,
-          "otherHex": [1],
-          "position": [-0.46, -0.98],
-          "side": "T",
-          "type": "hex"
-        }
-      ],
-      "level": 6
-    },
-    "Cleaving Axe": {
-      "enhancements": [
-        {
-          "baseHex": 3,
-          "main": true,
-          "multi": true,
-          "otherHex": [],
-          "position": [-0.23, -0.77],
-          "side": "T",
-          "type": "hex"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.74],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 1
-    },
-    "Continual Supply": {
-      "enhancements": [],
-      "level": 3
-    },
-    "Crippling Bow": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.62],
-          "side": "B",
-          "type": "attack"
-        }
-      ],
-      "level": 1
-    },
-    "Crushing Hammer": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.78],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.61, -0.78],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.36, 0.7],
-          "side": "B",
-          "type": "shield"
-        }
-      ],
-      "level": "X"
-    },
-    "Fortified Position": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.45],
-          "side": "B",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.67],
-          "side": "B",
-          "type": "shield"
-        }
-      ],
-      "level": 8
-    },
-    "Giant Club": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.72],
-          "side": "B",
-          "type": "attack"
-        }
-      ],
-      "level": 4
-    },
-    "Hastened Step": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, -0.57],
-          "side": "T",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.73],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 1
-    },
-    "Impaling Spear": {
-      "enhancements": [
-        {
-          "baseHex": 2,
-          "main": true,
-          "multi": true,
-          "otherHex": [],
-          "position": [-0.64, -0.96],
-          "side": "T",
-          "type": "hex"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.73],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 1
-    },
-    "Iron Bulwark": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.37, 0.55],
-          "side": "B",
-          "type": "shield"
-        }
-      ],
-      "level": 1
-    },
-    "Oversized Pack": {
-      "enhancements": [],
-      "level": 1
-    },
-    "Portable Ballista": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [0.04, -0.68],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "baseHex": 5,
-          "main": true,
-          "multi": true,
-          "otherHex": [3],
-          "position": [-0.14, -0.81],
-          "side": "T",
-          "type": "hex"
-        },
-        {
-          "baseHex": 5,
-          "main": true,
-          "multi": true,
-          "otherHex": [2],
-          "position": [-0.46, -0.98],
-          "side": "T",
-          "type": "hex"
-        }
-      ],
-      "level": 8
-    },
-    "Proficiency": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.75],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 1
-    },
-    "Quiver of Arrows": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.74],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 6
-    },
-    "Reforge": {
-      "enhancements": [],
-      "level": 2
-    },
-    "Refreshment": {
-      "enhancements": [],
-      "level": 7
-    },
-    "Reinforced Steel": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.37, 0.56],
-          "side": "B",
-          "type": "shield"
-        }
-      ],
-      "level": 5
-    },
-    "Reserved Energy": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.75],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": "X"
-    },
-    "Restock": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.72],
-          "side": "B",
-          "type": "attack"
-        }
-      ],
-      "level": 1
-    },
-    "Scroll of Annihilation": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.56],
-          "side": "B",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.46, 0.78],
-          "side": "B",
-          "type": "enemyCondition"
-        }
-      ],
-      "level": 9
-    },
-    "Scroll of Blizzards": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [0.07, -0.81],
-          "side": "T",
-          "type": "attack"
-        },
-        {
-          "baseHex": 8,
-          "main": true,
-          "multi": true,
-          "otherHex": [3],
-          "position": [-0.2, -0.16],
-          "side": "T",
-          "type": "hex"
-        },
-        {
-          "baseHex": 8,
-          "main": true,
-          "multi": true,
-          "otherHex": [2],
-          "position": [-0.53, -1.07],
-          "side": "T",
-          "type": "hex"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.56, 0.43],
-          "side": "B",
-          "type": "enemyCondition"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.41, 0.81],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 7
-    },
-    "Scroll of Judgment": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.58],
-          "side": "B",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.36, 0.81],
-          "side": "B",
-          "type": "enemyCondition"
-        }
-      ],
-      "level": 5
-    },
-    "Scroll of Lightning": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.36, 0.45],
-          "side": "B",
-          "type": "move"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.41, 0.68],
-          "side": "B",
-          "type": "push"
-        }
-      ],
-      "level": 3
-    },
-    "Scroll of Recall": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.36, 0.64],
-          "side": "B",
-          "type": "pull"
-        },
-        {
-          "main": true,
-          "multi": true,
-          "position": [-0.31, 0.93],
-          "side": "B",
-          "type": "target"
-        }
-      ],
-      "level": "X"
-    },
-    "Sharpening Kit": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.34, -0.8],
-          "side": "T",
-          "type": "heal"
-        }
-      ],
-      "level": 1
-    },
-    "Side Pouch": {
-      "enhancements": [
-        {
-          "main": true,
-          "multi": false,
-          "position": [-0.37, 0.64],
-          "side": "B",
-          "type": "move"
-        }
-      ],
-      "level": 4
-    }
+    "front": "",
+    "back": "",
+    "style": "Gloomhaven",
+    "cards": [
+      {
+        "name": "Cleaving Axe",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "attack",
+            "area": {
+              "size": 3,
+              "marks": [{ "shape": "hex", "position": [-0.23, -0.77] }]
+            }
+          }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.41, 0.74] }] }]
+      },
+      {
+        "name": "Crippling Bow",
+        "level": 1,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          { "type": "attack", "marks": [{ "position": [-0.41, 0.62] }] }
+        ]
+      },
+      {
+        "name": "Hastened Step",
+        "level": 1,
+        "initiative": 0,
+        "top": [{ "type": "move", "marks": [{ "position": [-0.41, -0.57] }] }],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.41, 0.73] }] }]
+      },
+      {
+        "name": "Impaling Spear",
+        "level": 1,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "attack",
+            "area": {
+              "size": 2,
+              "marks": [{ "shape": "hex", "position": [-0.64, -0.96] }]
+            }
+          }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.41, 0.73] }] }]
+      },
+      {
+        "name": "Iron Bulwark",
+        "level": 1,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          { "type": "shield", "marks": [{ "position": [-0.37, 0.55] }] }
+        ]
+      },
+      {
+        "name": "Oversized Pack",
+        "level": 1,
+        "initiative": 0,
+        "top": [],
+        "bottom": []
+      },
+      {
+        "name": "Proficiency",
+        "level": 1,
+        "initiative": 0,
+        "top": [],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.41, 0.75] }] }]
+      },
+      {
+        "name": "Restock",
+        "level": 1,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          { "type": "attack", "marks": [{ "position": [-0.41, 0.72] }] }
+        ]
+      },
+      {
+        "name": "Sharpening Kit",
+        "level": 1,
+        "initiative": 0,
+        "top": [{ "type": "heal", "marks": [{ "position": [-0.34, -0.8] }] }],
+        "bottom": []
+      },
+      {
+        "name": "Crushing Hammer",
+        "level": "X",
+        "initiative": 0,
+        "top": [
+          {
+            "type": "attack",
+            "marks": [
+              { "position": [-0.41, -0.78] },
+              { "position": [-0.61, -0.78] }
+            ]
+          }
+        ],
+        "bottom": [
+          { "type": "shield", "marks": [{ "position": [-0.36, 0.7] }] }
+        ]
+      },
+      {
+        "name": "Reserved Energy",
+        "level": "X",
+        "initiative": 0,
+        "top": [],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.41, 0.75] }] }]
+      },
+      {
+        "name": "Scroll of Recall",
+        "level": "X",
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          { "type": "pull", "marks": [{ "position": [-0.36, 0.64] }] },
+          {
+            "type": "attack",
+            "targets": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.31, 0.93] }]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Bladed Boomerang",
+        "level": 2,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          { "type": "attack", "marks": [{ "position": [-0.41, 0.78] }] }
+        ]
+      },
+      {
+        "name": "Reforge",
+        "level": 2,
+        "initiative": 0,
+        "top": [],
+        "bottom": []
+      },
+      {
+        "name": "Continual Supply",
+        "level": 3,
+        "initiative": 0,
+        "top": [],
+        "bottom": []
+      },
+      {
+        "name": "Scroll of Lightning",
+        "level": 3,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          { "type": "move", "marks": [{ "position": [-0.36, 0.45] }] },
+          { "type": "push", "marks": [{ "position": [-0.41, 0.68] }] }
+        ]
+      },
+      {
+        "name": "Giant Club",
+        "level": 4,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          { "type": "attack", "marks": [{ "position": [-0.41, 0.72] }] }
+        ]
+      },
+      {
+        "name": "Side Pouch",
+        "level": 4,
+        "initiative": 0,
+        "top": [],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.64] }] }]
+      },
+      {
+        "name": "Reinforced Steel",
+        "level": 5,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          { "type": "shield", "marks": [{ "position": [-0.37, 0.56] }] }
+        ]
+      },
+      {
+        "name": "Scroll of Judgment",
+        "level": 5,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          { "type": "move", "marks": [{ "position": [-0.37, 0.58] }] },
+          { "type": "enemyCondition", "marks": [{ "position": [-0.36, 0.81] }] }
+        ]
+      },
+      {
+        "name": "Catastrophic Bomb",
+        "level": 6,
+        "initiative": 0,
+        "top": [
+          {
+            "type": "attack",
+            "area": {
+              "size": 12,
+              "marks": [
+                { "shape": "hex", "position": [-0.23, -0.98] },
+                { "shape": "hex", "position": [-0.46, -0.98] }
+              ]
+            }
+          }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Quiver of Arrows",
+        "level": 6,
+        "initiative": 0,
+        "top": [],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.41, 0.74] }] }]
+      },
+      {
+        "name": "Refreshment",
+        "level": 7,
+        "initiative": 0,
+        "top": [],
+        "bottom": []
+      },
+      {
+        "name": "Scroll of Blizzards",
+        "level": 7,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [0.07, -0.81] }] },
+          {
+            "type": "attack",
+            "area": {
+              "size": 8,
+              "marks": [
+                { "shape": "hex", "position": [-0.2, -0.16] },
+                { "shape": "hex", "position": [-0.53, -1.07] }
+              ]
+            }
+          }
+        ],
+        "bottom": [
+          {
+            "type": "enemyCondition",
+            "marks": [{ "position": [-0.56, 0.43] }]
+          },
+          { "type": "move", "marks": [{ "position": [-0.41, 0.81] }] }
+        ]
+      },
+      {
+        "name": "Fortified Position",
+        "level": 8,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          { "type": "move", "marks": [{ "position": [-0.37, 0.45] }] },
+          { "type": "shield", "marks": [{ "position": [-0.37, 0.67] }] }
+        ]
+      },
+      {
+        "name": "Portable Ballista",
+        "level": 8,
+        "initiative": 0,
+        "top": [
+          { "type": "attack", "marks": [{ "position": [0.04, -0.68] }] },
+          {
+            "type": "attack",
+            "area": {
+              "size": 5,
+              "marks": [
+                { "shape": "hex", "position": [-0.14, -0.81] },
+                { "shape": "hex", "position": [-0.46, -0.98] }
+              ]
+            }
+          }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Bag of Holding",
+        "level": 9,
+        "initiative": 0,
+        "top": [],
+        "bottom": []
+      },
+      {
+        "name": "Scroll of Annihilation",
+        "level": 9,
+        "initiative": 0,
+        "top": [],
+        "bottom": [
+          { "type": "move", "marks": [{ "position": [-0.37, 0.56] }] },
+          { "type": "enemyCondition", "marks": [{ "position": [-0.46, 0.78] }] }
+        ]
+      }
+    ]
   },
-  "boxGuid": "d221fc",
-  "hp": [10, 12, 14, 16, 18, 20, 22, 24, 26],
-  "isSpecialClass": false,
+  "characterSheet": { "image": "", "style": "Gloomhaven" },
   "perks": [
+    { "amount": 1, "remove": ["(-1)", "(-1)"] },
+    { "amount": 1, "remove": ["(-1)", "(-1)"] },
+    { "amount": 1, "remove": ["(+0)", "(+0)", "(+0)", "(+0)"] },
+    { "amount": 1, "add": ["(+2)"], "remove": ["(+0)"] },
+    { "amount": 1, "add": ["(+2)"], "remove": ["(+0)"] },
+    { "amount": 1, "add": ["(+1) (Rolling)", "(+1) (Rolling)"] },
+    { "amount": 1, "add": ["(+1) (Rolling)", "(+1) (Rolling)"] },
     {
-      "remove": ["(-1)", "(-1)"]
-    },
-    {
-      "remove": ["(-1)", "(-1)"]
-    },
-    {
-      "remove": ["(+0)", "(+0)", "(+0)", "(+0)"]
-    },
-    {
-      "add": ["(+2)"],
-      "remove": ["(+0)"]
-    },
-    {
-      "add": ["(+2)"],
-      "remove": ["(+0)"]
-    },
-    {
-      "add": ["(+1) (Rolling)", "(+1) (Rolling)"]
-    },
-    {
-      "add": ["(+1) (Rolling)", "(+1) (Rolling)"]
-    },
-    {
+      "amount": 1,
       "add": ["(Muddle) (Rolling)", "(Muddle) (Rolling)", "(Muddle) (Rolling)"]
     },
-    {
-      "add": ["(Pierce 3) (Rolling)", "(Pierce 3) (Rolling)"]
-    },
-    {
-      "add": ["(Stun) (Rolling)"]
-    },
-    {
-      "add": ["(Add Target) (Rolling)"]
-    },
-    {
-      "add": ["(Refresh)"]
-    },
-    {
-      "add": ["(Refresh)"]
-    },
-    {
-      "add": ["(Refresh)"]
-    },
-    {
-      "add": ["(+1)", "(+1)"],
-      "ignore": "I"
-    }
+    { "amount": 1, "add": ["(Pierce 3) (Rolling)", "(Pierce 3) (Rolling)"] },
+    { "amount": 1, "add": ["(Stun) (Rolling)"] },
+    { "amount": 1, "add": ["(Add Target) (Rolling)"] },
+    { "amount": 1, "add": ["(Refresh)"] },
+    { "amount": 1, "add": ["(Refresh)"] },
+    { "amount": 1, "add": ["(Refresh)"] },
+    { "amount": 1, "add": ["(+1)", "(+1)"], "ignore": ["Item"] }
   ],
-  "tracker": {
-    "image": "http://cloud-3.steamusercontent.com/ugc/2439138762291809141/D48BD51510E9C15C05E726BF750EEA0B5A6BA3D0/"
-  }
+  "attackModifiers": { "front": "", "back": "", "cards": [] }
 }
