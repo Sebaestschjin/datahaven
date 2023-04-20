@@ -1,0 +1,749 @@
+{
+  "name": "Tinkerer",
+  "abilities": {
+    "Auto Turret": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.35, 0.67],
+          "side": "B",
+          "type": "heal"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.31, 0.83],
+          "side": "B",
+          "type": "range"
+        }
+      ],
+      "level": 6
+    },
+    "Chimeric Formula": {
+      "enhancements": [],
+      "level": 9
+    },
+    "Crank Bow": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, -0.8],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.55, -0.8],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.37, 0.74],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 3
+    },
+    "Curative Aerosol": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.34, -0.83],
+          "side": "T",
+          "type": "heal"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.34, -0.32],
+          "side": "T",
+          "type": "heal"
+        },
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.33, 0.5],
+          "side": "B",
+          "type": "heal"
+        },
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.31, 0.79],
+          "side": "B",
+          "type": "target"
+        }
+      ],
+      "level": 7
+    },
+    "Dangerous Contraption": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [0.2, -0.74],
+          "side": "T",
+          "type": "summHp"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.23, -0.74],
+          "side": "T",
+          "type": "summMove"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [0.21, -0.53],
+          "side": "T",
+          "type": "summAttack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.37, 0.72],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 4
+    },
+    "Disintegration Beam": {
+      "enhancements": [
+        {
+          "baseHex": 3,
+          "main": true,
+          "multi": true,
+          "otherHex": [],
+          "position": [-0.75, -1.02],
+          "side": "T",
+          "type": "hex"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.37, 0.56],
+          "side": "B",
+          "type": "move"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.46, 0.82],
+          "side": "B",
+          "type": "enemyCondition"
+        }
+      ],
+      "level": 5
+    },
+    "Disorienting Flash": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.32, -0.7],
+          "side": "T",
+          "type": "range"
+        },
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.31, -0.56],
+          "side": "T",
+          "type": "target"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.36, 0.96],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 2
+    },
+    "Energizing Tonic": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.35, -0.79],
+          "side": "T",
+          "type": "heal"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.49, -0.79],
+          "side": "T",
+          "type": "heal"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, 0.63],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 1
+    },
+    "Enhancement Field": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, -0.65],
+          "side": "T",
+          "type": "attack"
+        }
+      ],
+      "level": 1
+    },
+    "Flamethrower": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.04, -0.78],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "baseHex": 3,
+          "main": true,
+          "multi": true,
+          "otherHex": [2],
+          "position": [-0.49, -0.85],
+          "side": "T",
+          "type": "hex"
+        },
+        {
+          "baseHex": 3,
+          "main": true,
+          "multi": true,
+          "otherHex": [3],
+          "position": [-0.7, -0.49],
+          "side": "T",
+          "type": "hex"
+        },
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.37, 0.56],
+          "side": "B",
+          "type": "shield"
+        }
+      ],
+      "level": 1
+    },
+    "Gas Canister": {
+      "enhancements": [],
+      "level": 6,
+      "spawn": [
+        {
+          "element": {
+            "conditions": ["Muddle"],
+            "damage": 4,
+            "name": "Spike Trap",
+            "type": 7
+          }
+        }
+      ]
+    },
+    "Harmless Contraption": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [0.2, -0.73],
+          "side": "T",
+          "type": "summHp"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.23, -0.73],
+          "side": "T",
+          "type": "summMove"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.35, 0.67],
+          "side": "B",
+          "type": "heal"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.3, 0.82],
+          "side": "B",
+          "type": "range"
+        }
+      ],
+      "level": 1
+    },
+    "Harsh Stimulants": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, -0.8],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.55, -0.8],
+          "side": "T",
+          "type": "attack"
+        }
+      ],
+      "level": 8
+    },
+    "Hook Gun": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.31, -0.58],
+          "side": "T",
+          "type": "range"
+        },
+        {
+          "main": false,
+          "multi": false,
+          "position": [-0.3, -0.43],
+          "side": "T",
+          "type": "pull"
+        }
+      ],
+      "level": 1
+    },
+    "Ink Bomb": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.09, -0.92],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, 0.74],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 1
+    },
+    "Jet Propulsion": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, 0.56],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 8
+    },
+    "Lethal Injection": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.37, 0.56],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 9
+    },
+    "Micro Bots": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.35, -0.77],
+          "side": "T",
+          "type": "heal"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.52, -0.77],
+          "side": "T",
+          "type": "heal"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.36, 0.65],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 4
+    },
+    "Murderous Contraption": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [0.21, -0.72],
+          "side": "T",
+          "type": "summHp"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.24, -0.73],
+          "side": "T",
+          "type": "summMove"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [0.22, -0.54],
+          "side": "T",
+          "type": "summAttack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, 0.68],
+          "side": "B",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.3, 0.83],
+          "side": "B",
+          "type": "range"
+        }
+      ],
+      "level": 7
+    },
+    "Net Shooter": {
+      "enhancements": [
+        {
+          "baseHex": 3,
+          "main": true,
+          "multi": false,
+          "otherHex": [],
+          "position": [-0.26, -0.69],
+          "side": "T",
+          "type": "hex"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.56, 0.57],
+          "side": "B",
+          "type": "enemyCondition"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, 0.96],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 1
+    },
+    "Noxious Vials": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.15, 0.49],
+          "side": "B",
+          "type": "attack"
+        },
+        {
+          "baseHex": 3,
+          "main": true,
+          "multi": true,
+          "otherHex": [],
+          "position": [-0.24, 0.66],
+          "side": "B",
+          "type": "hex"
+        }
+      ],
+      "level": 5
+    },
+    "Potent Potables": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.37, 0.73],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": "X"
+    },
+    "Proximity Mine": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.37, 0.74],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 1,
+      "spawn": [
+        {
+          "element": {
+            "damage": 6,
+            "name": "Spike Trap",
+            "type": 7
+          }
+        }
+      ]
+    },
+    "Reinvigorating Elixir": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.33, -0.66],
+          "side": "T",
+          "type": "heal"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.3, -0.5],
+          "side": "T",
+          "type": "range"
+        }
+      ],
+      "level": 1
+    },
+    "Restorative Mist": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.34, -0.66],
+          "side": "T",
+          "type": "heal"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.3, -0.5],
+          "side": "T",
+          "type": "range"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, 0.57],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 1
+    },
+    "Reviving Shock": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.41, -0.75],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.31, -0.45],
+          "side": "T",
+          "type": "target"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.35, 0.56],
+          "side": "B",
+          "type": "heal"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.5, 0.56],
+          "side": "B",
+          "type": "heal"
+        }
+      ],
+      "level": "X"
+    },
+    "Stamina Booster": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.35, -0.66],
+          "side": "T",
+          "type": "heal"
+        }
+      ],
+      "level": 2
+    },
+    "Stun Shot": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, -0.73],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.3, -0.57],
+          "side": "T",
+          "type": "range"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, 0.73],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 1
+    },
+    "Tinkerer's Tools": {
+      "enhancements": [],
+      "level": 3,
+      "spawn": [
+        {
+          "element": {
+            "conditions": ["Stun"],
+            "name": "Spike Trap",
+            "type": 7
+          }
+        }
+      ]
+    },
+    "Toxic Bolt": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.3, -0.71],
+          "side": "T",
+          "type": "range"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, 0.58],
+          "side": "B",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.3, 0.75],
+          "side": "B",
+          "type": "range"
+        }
+      ],
+      "level": 1
+    },
+    "Volatile Concoction": {
+      "enhancements": [],
+      "level": "X",
+      "spawn": [
+        {
+          "element": {
+            "conditions": ["Poison"],
+            "damage": 2,
+            "name": "Spike Trap",
+            "type": 7
+          }
+        }
+      ]
+    }
+  },
+  "boxGuid": "fdef02",
+  "hp": [8, 9, 11, 12, 14, 15, 17, 18, 20],
+  "isSpecialClass": false,
+  "isStartingClass": true,
+  "perks": [
+    {
+      "remove": ["(-1)", "(-1)"]
+    },
+    {
+      "remove": ["(-1)", "(-1)"]
+    },
+    {
+      "add": ["(+0)"],
+      "remove": ["(-2)"]
+    },
+    {
+      "add": ["(+1)", "(+1)"]
+    },
+    {
+      "add": ["(+3)"]
+    },
+    {
+      "add": ["(Fire) (Rolling)", "(Fire) (Rolling)"]
+    },
+    {
+      "add": ["(Muddle) (Rolling)", "(Muddle) (Rolling)", "(Muddle) (Rolling)"]
+    },
+    {
+      "add": ["(+1) (Wound)"]
+    },
+    {
+      "add": ["(+1) (Wound)"]
+    },
+    {
+      "add": ["(+1) (Immobilize)"]
+    },
+    {
+      "add": ["(+1) (Immobilize)"]
+    },
+    {
+      "add": ["(+1) (Heal 2 Self)"]
+    },
+    {
+      "add": ["(+1) (Heal 2 Self)"]
+    },
+    {
+      "add": ["(+0) (Add Target)"]
+    },
+    {
+      "ignore": "S"
+    }
+  ],
+  "tracker": {
+    "image": "http://cloud-3.steamusercontent.com/ugc/83722391140275444/E0B72DC69A07699D5DB852D63155F502989283E0/"
+  }
+}

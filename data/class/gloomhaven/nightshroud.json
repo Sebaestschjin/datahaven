@@ -1,0 +1,436 @@
+{
+  "name": "Nightshroud",
+  "abilities": {
+    "Angel of Death": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.41, -0.89],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.37, 0.55],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 9
+    },
+    "Armor of the Night": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.46, 0.57],
+          "side": "B",
+          "type": "shield"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.51, 0.57],
+          "side": "B",
+          "type": "shield"
+        }
+      ],
+      "level": 3
+    },
+    "Black Arrow": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.3, -0.77],
+          "side": "T",
+          "type": "range"
+        }
+      ],
+      "level": 5
+    },
+    "Black Knives": {
+      "enhancements": [],
+      "level": 1
+    },
+    "Claws of the Night": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.14, -0.76],
+          "side": "T",
+          "type": "attack"
+        }
+      ],
+      "level": 5
+    },
+    "Cloak of Shade": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, -0.71],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.61, -0.71],
+          "side": "T",
+          "type": "attack"
+        }
+      ],
+      "level": 1
+    },
+    "Concealed Dominance": {
+      "enhancements": [],
+      "level": "X"
+    },
+    "Dancing Shadows": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.37, -0.7],
+          "side": "T",
+          "type": "move"
+        }
+      ],
+      "level": 1
+    },
+    "Dark Cloud": {
+      "enhancements": [],
+      "level": "X"
+    },
+    "Doomed Breeze": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, -0.85],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.3, -0.69],
+          "side": "T",
+          "type": "range"
+        }
+      ],
+      "level": 1
+    },
+    "Empowering Void": {
+      "enhancements": [],
+      "level": 1
+    },
+    "Enervating Wound": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, -0.95],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.37, -0.6],
+          "side": "T",
+          "type": "heal"
+        }
+      ],
+      "level": 1
+    },
+    "Eyes of the Night": {
+      "enhancements": [],
+      "level": 7
+    },
+    "Gloom Darts": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.31, -0.76],
+          "side": "T",
+          "type": "range"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.36, 0.62],
+          "side": "B",
+          "type": "move"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.56, 0.62],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 8
+    },
+    "Grim Sustenance": {
+      "enhancements": [],
+      "level": 4
+    },
+    "Lurking Ruin": {
+      "enhancements": [],
+      "level": 8
+    },
+    "Nightfall": {
+      "enhancements": [],
+      "level": 4
+    },
+    "Prepare for the Kill": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, -0.71],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.54, -0.71],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.36, 0.63],
+          "side": "B",
+          "type": "move"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.56, 0.63],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 2
+    },
+    "Quiet Frenzy": {
+      "enhancements": [],
+      "level": 7
+    },
+    "Silent Force": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, 0.64],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 1
+    },
+    "Smoke Step": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, 0.63],
+          "side": "B",
+          "type": "move"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.61, 0.63],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 1
+    },
+    "Soulfire": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.3, -0.73],
+          "side": "T",
+          "type": "range"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, 0.69],
+          "side": "B",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.61, 0.69],
+          "side": "B",
+          "type": "attack"
+        }
+      ],
+      "level": 2
+    },
+    "Spirit of the Night": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.37, 0.63],
+          "side": "B",
+          "type": "move"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.57, 0.63],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 1
+    },
+    "Swallowed by Fear": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, -0.73],
+          "side": "T",
+          "type": "attack"
+        }
+      ],
+      "level": 6
+    },
+    "Terror Blade": {
+      "enhancements": [
+        {
+          "main": false,
+          "multi": false,
+          "position": [-0.3, -0.51],
+          "side": "T",
+          "type": "push"
+        }
+      ],
+      "level": 3
+    },
+    "Unseen Dread": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, -0.72],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.55, -0.72],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.37, 0.67],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 6
+    },
+    "Voice of the Night": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.36, 0.54],
+          "side": "B",
+          "type": "move"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, 0.77],
+          "side": "B",
+          "type": "attack"
+        }
+      ],
+      "level": 9
+    },
+    "Wings of the Night": {
+      "enhancements": [],
+      "level": "X"
+    }
+  },
+  "boxGuid": "8f7455",
+  "hp": [8, 9, 11, 12, 14, 15, 17, 18, 20],
+  "isSpecialClass": false,
+  "perks": [
+    {
+      "remove": ["(-1)", "(-1)"]
+    },
+    {
+      "remove": ["(-1)", "(-1)"]
+    },
+    {
+      "remove": ["(+0)", "(+0)", "(+0)", "(+0)"]
+    },
+    {
+      "add": ["(-1) (Dark)"]
+    },
+    {
+      "add": ["(-1) (Dark)"]
+    },
+    {
+      "add": ["(+1) (Dark)"],
+      "remove": ["(-1) (Dark)"]
+    },
+    {
+      "add": ["(+1) (Dark)"],
+      "remove": ["(-1) (Dark)"]
+    },
+    {
+      "add": ["(+1) (Invisibility)"]
+    },
+    {
+      "add": ["(+1) (Invisibility)"]
+    },
+    {
+      "add": ["(Muddle) (Rolling)", "(Muddle) (Rolling)", "(Muddle) (Rolling)"]
+    },
+    {
+      "add": ["(Muddle) (Rolling)", "(Muddle) (Rolling)", "(Muddle) (Rolling)"]
+    },
+    {
+      "add": ["(Heal 1 Self) (Rolling)", "(Heal 1 Self) (Rolling)"]
+    },
+    {
+      "add": ["(Curse) (Rolling)", "(Curse) (Rolling)"]
+    },
+    {
+      "add": ["(Add Target) (Rolling)"]
+    },
+    {
+      "add": ["(+1)", "(+1)"],
+      "ignore": "S"
+    }
+  ],
+  "tracker": {
+    "image": "http://cloud-3.steamusercontent.com/ugc/2439138762281738085/65B88B611F776E7FD2334409D404E4C750A33934/"
+  }
+}

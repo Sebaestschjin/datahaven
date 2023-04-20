@@ -1,0 +1,597 @@
+{
+  "name": "Diviner",
+  "abilities": {
+    "Anguish and Salvation": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.5, -0.87],
+          "side": "T",
+          "type": "retaliate"
+        },
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.34, -0.72],
+          "side": "T",
+          "type": "range"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.36, 0.43],
+          "side": "B",
+          "type": "heal"
+        }
+      ],
+      "level": 8
+    },
+    "Anticipate Intricacies": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.34, 0.66],
+          "side": "B",
+          "type": "range"
+        },
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.33, 0.8],
+          "side": "B",
+          "type": "target"
+        }
+      ],
+      "level": 1
+    },
+    "Bad Omen": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [0.01, 1.03],
+          "side": "T",
+          "type": "teleport"
+        }
+      ],
+      "level": "X"
+    },
+    "Call of the Nether": {
+      "enhancements": [],
+      "level": 3
+    },
+    "Careful Attunement": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, 0.36],
+          "side": "B",
+          "type": "move"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.72, 0.58],
+          "side": "B",
+          "type": "range"
+        }
+      ],
+      "level": 6
+    },
+    "Clairvoyance": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.72, -0.95],
+          "side": "T",
+          "type": "range"
+        }
+      ],
+      "level": 1
+    },
+    "Cleansing Rite": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.37, -0.94],
+          "side": "T",
+          "type": "heal"
+        }
+      ],
+      "level": 4
+    },
+    "Curative Flux": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.37, -0.83],
+          "side": "T",
+          "type": "heal"
+        },
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.41, 0.41],
+          "side": "B",
+          "type": "enemyCondition"
+        }
+      ],
+      "level": 7
+    },
+    "Cursed Ground": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.32, 0.91],
+          "side": "B",
+          "type": "range"
+        },
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.31, 1.05],
+          "side": "B",
+          "type": "target"
+        }
+      ],
+      "level": 1
+    },
+    "Deep Contemplation": {
+      "enhancements": [
+        {
+          "baseHex": 4,
+          "main": true,
+          "multi": true,
+          "otherHex": [2, 3],
+          "position": [-0.27, -0.61],
+          "side": "T",
+          "type": "hex"
+        },
+        {
+          "baseHex": 4,
+          "main": true,
+          "multi": true,
+          "otherHex": [1, 3],
+          "position": [-0.61, -0.78],
+          "side": "T",
+          "type": "hex"
+        },
+        {
+          "baseHex": 4,
+          "main": true,
+          "multi": true,
+          "otherHex": [1, 2],
+          "position": [-0.61, -0.41],
+          "side": "T",
+          "type": "hex"
+        }
+      ],
+      "level": 8
+    },
+    "Dimensional Divide": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.11, 0.5],
+          "side": "B",
+          "type": "teleport"
+        }
+      ],
+      "level": 5
+    },
+    "Dimensional Transfer": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.61, -0.51],
+          "side": "T",
+          "type": "range"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [0.01, 0.97],
+          "side": "B",
+          "type": "teleport"
+        }
+      ],
+      "level": 1
+    },
+    "Duality Shards": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.32, -0.73],
+          "side": "T",
+          "type": "range"
+        },
+        {
+          "main": false,
+          "multi": false,
+          "position": [-0.34, -0.58],
+          "side": "T",
+          "type": "push"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, 0.47],
+          "side": "B",
+          "type": "attack"
+        },
+        {
+          "main": false,
+          "multi": false,
+          "position": [-0.3, 0.78],
+          "side": "B",
+          "type": "pull"
+        }
+      ],
+      "level": "X"
+    },
+    "Enfeebling Hex": {
+      "enhancements": [],
+      "level": 6
+    },
+    "Envision the Course": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [0.21, 0.64],
+          "side": "B",
+          "type": "summHp"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.23, 0.64],
+          "side": "B",
+          "type": "summMove"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [0.21, 0.83],
+          "side": "B",
+          "type": "summAttack"
+        }
+      ],
+      "level": 3
+    },
+    "Ethereal Vortex": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.41, -0.74],
+          "side": "T",
+          "type": "attack"
+        }
+      ],
+      "level": 7
+    },
+    "Gift of the Void": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, -0.59],
+          "side": "T",
+          "type": "allyCondition"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, 0.75],
+          "side": "B",
+          "type": "move"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.61, 0.75],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 2
+    },
+    "Hand of Destiny": {
+      "enhancements": [],
+      "level": 9
+    },
+    "Inspiration from Beyond": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, 0.48],
+          "side": "B",
+          "type": "move"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.36, 0.75],
+          "side": "B",
+          "type": "heal"
+        }
+      ],
+      "level": "X"
+    },
+    "Otherworldly Journey": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.78, -0.87],
+          "side": "T",
+          "type": "range"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [0.01, -0.63],
+          "side": "T",
+          "type": "teleport"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [0.02, 0.97],
+          "side": "B",
+          "type": "teleport"
+        }
+      ],
+      "level": 1
+    },
+    "Peer into Battle": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.41, 0.48],
+          "side": "B",
+          "type": "heal"
+        }
+      ],
+      "level": 1
+    },
+    "Planar Fissure": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.46, -0.6],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [0.21, 0.62],
+          "side": "B",
+          "type": "summHp"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.24, 0.62],
+          "side": "B",
+          "type": "summMove"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [0.21, 0.82],
+          "side": "B",
+          "type": "summAttack"
+        }
+      ],
+      "level": 9
+    },
+    "Preordain the Path": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.41, -0.66],
+          "side": "T",
+          "type": "move"
+        },
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.61, -0.66],
+          "side": "T",
+          "type": "move"
+        }
+      ],
+      "level": 4
+    },
+    "Protective Aura": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.74, -0.64],
+          "side": "T",
+          "type": "range"
+        }
+      ],
+      "level": 1
+    },
+    "Ray of Light": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, -0.78],
+          "side": "T",
+          "type": "heal"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.55, -0.77],
+          "side": "T",
+          "type": "heal"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, 0.82],
+          "side": "B",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.33, 0.97],
+          "side": "B",
+          "type": "range"
+        }
+      ],
+      "level": 1
+    },
+    "Revitalizing Fount": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.36, -0.75],
+          "side": "T",
+          "type": "heal"
+        },
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.41, -0.39],
+          "side": "T",
+          "type": "shield"
+        }
+      ],
+      "level": 2
+    },
+    "Seal Their Fate": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, 0.51],
+          "side": "B",
+          "type": "move"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, 0.74],
+          "side": "B",
+          "type": "attack"
+        }
+      ],
+      "level": 5
+    },
+    "Void Snare": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.41, 0.42],
+          "side": "B",
+          "type": "attack"
+        }
+      ],
+      "level": 1
+    }
+  },
+  "boxGuid": "ae2ea4",
+  "extra": [
+    {
+      "name": "Rifts",
+      "target": "CharacterSheet"
+    }
+  ],
+  "hp": [6, 7, 8, 9, 10, 11, 12, 13, 14],
+  "isSpecialClass": false,
+  "isStartingClass": true,
+  "perks": [
+    {
+      "remove": ["(-1)", "(-1)"]
+    },
+    {
+      "remove": ["(-1)", "(-1)"]
+    },
+    {
+      "remove": ["(-2)"]
+    },
+    {
+      "add": ["(+3) (Shield 1 Self)"],
+      "remove": ["(+1)", "(+1)"]
+    },
+    {
+      "add": ["(+3) (Shield 1 Self)"],
+      "remove": ["(+1)", "(+1)"]
+    },
+    {
+      "add": ["(+1) (Shield 1 Ally)"],
+      "remove": ["(+0)"]
+    },
+    {
+      "add": ["(+2) (Create Dark)"],
+      "remove": ["(+0)"]
+    },
+    {
+      "add": ["(+2) (Create Light)"],
+      "remove": ["(+0)"]
+    },
+    {
+      "add": ["(+3) (Muddle)"],
+      "remove": ["(+0)"]
+    },
+    {
+      "add": ["(+2) (Curse)"],
+      "remove": ["(+0)"]
+    },
+    {
+      "add": ["(+2) (Regenerate Self)"],
+      "remove": ["(+0)"]
+    },
+    {
+      "add": ["(+1) (Heal 2 Ally)"],
+      "remove": ["(-1)"]
+    },
+    {
+      "add": ["(Heal 1 Self) (Rolling)", "(Heal 1 Self) (Rolling)"]
+    },
+    {
+      "add": ["(Curse) (Rolling)", "(Curse) (Rolling)"]
+    },
+    {
+      "add": ["(+1)", "(+1)"],
+      "ignore": "S"
+    }
+  ],
+  "spawn": [
+    {
+      "element": {
+        "name": "Rift",
+        "type": 1
+      }
+    }
+  ],
+  "tracker": {
+    "image": "http://cloud-3.steamusercontent.com/ugc/958605698971032961/FC87136CA9193E423627CF26F69CA9E9C166FACB/"
+  }
+}

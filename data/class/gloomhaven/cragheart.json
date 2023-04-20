@@ -1,0 +1,716 @@
+{
+  "name": "Cragheart",
+  "abilities": {
+    "Avalanche": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.06, -0.82],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "baseHex": 2,
+          "main": true,
+          "multi": true,
+          "otherHex": [],
+          "position": [-0.36, -0.76],
+          "side": "T",
+          "type": "hex"
+        }
+      ],
+      "level": 1,
+      "spawn": [
+        {
+          "element": {
+            "name": "Boulder",
+            "type": 5
+          }
+        }
+      ]
+    },
+    "Backup Ammunition": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.36, 0.74],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 1
+    },
+    "Blind Destruction": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.3, -0.71],
+          "side": "T",
+          "type": "range"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.37, 0.41],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 9
+    },
+    "Blunt Force": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, -0.86],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.54, -0.86],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.36, 0.42],
+          "side": "B",
+          "type": "move"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.46, 0.7],
+          "side": "B",
+          "type": "retaliate"
+        }
+      ],
+      "level": 3
+    },
+    "Brutal Momentum": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, -0.9],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": false,
+          "multi": false,
+          "position": [-0.29, -0.74],
+          "side": "T",
+          "type": "push"
+        }
+      ],
+      "level": 7
+    },
+    "Cataclysm": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.04, -0.88],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.37, 0.66],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 6
+    },
+    "Clear the Way": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.41, -0.63],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.36, 0.38],
+          "side": "B",
+          "type": "move"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.56, 0.38],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 3
+    },
+    "Crater": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, -0.79],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.3, -0.64],
+          "side": "T",
+          "type": "range"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, 0.62],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 1
+    },
+    "Crushing Grasp": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, -0.77],
+          "side": "T",
+          "type": "attack"
+        }
+      ],
+      "level": 1
+    },
+    "Dig Pit": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.37, 0.56],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 6,
+      "spawn": [
+        {
+          "element": {
+            "conditions": ["Stun"],
+            "damage": 2,
+            "name": "Spike Trap",
+            "type": 7
+          }
+        }
+      ]
+    },
+    "Dirt Tornado": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.03, -0.92],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, 0.74],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 1
+    },
+    "Earthen Clod": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, -0.76],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.36, 0.7],
+          "side": "B",
+          "type": "heal"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.31, 0.85],
+          "side": "B",
+          "type": "range"
+        }
+      ],
+      "level": 1
+    },
+    "Explosive Punch": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.41, -0.74],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.37, 0.74],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 2
+    },
+    "Forceful Storm": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.04, -0.98],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "baseHex": 3,
+          "main": true,
+          "multi": false,
+          "otherHex": [],
+          "position": [-0.26, -0.78],
+          "side": "T",
+          "type": "hex"
+        }
+      ],
+      "level": "X"
+    },
+    "Heaving Swing": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, -0.97],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": false,
+          "multi": false,
+          "position": [-0.29, -0.81],
+          "side": "T",
+          "type": "push"
+        }
+      ],
+      "level": "X"
+    },
+    "Kinetic Assault": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.35, -0.7],
+          "side": "T",
+          "type": "move"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, -0.46],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.46, 0.53],
+          "side": "B",
+          "type": "retaliate"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.3, 0.7],
+          "side": "B",
+          "type": "range"
+        }
+      ],
+      "level": 4
+    },
+    "Lumbering Bash": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.36, -0.82],
+          "side": "T",
+          "type": "move"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, -0.6],
+          "side": "T",
+          "type": "attack"
+        }
+      ],
+      "level": 8
+    },
+    "Massive Boulder": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, -0.93],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.3, -0.77],
+          "side": "T",
+          "type": "range"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, 0.74],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 1
+    },
+    "Meteor": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.41, -0.69],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.37, 0.67],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 7,
+      "spawn": [
+        {
+          "element": {
+            "name": "Boulder 3",
+            "type": 5
+          }
+        }
+      ]
+    },
+    "Nature's Lift": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.34, -0.74],
+          "side": "T",
+          "type": "heal"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.29, -0.59],
+          "side": "T",
+          "type": "range"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.3, -0.45],
+          "side": "T",
+          "type": "target"
+        }
+      ],
+      "level": "X"
+    },
+    "Opposing Strike": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [0.01, -0.68],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.19, -0.68],
+          "side": "T",
+          "type": "attack"
+        }
+      ],
+      "level": 1
+    },
+    "Petrify": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.37, 0.55],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 5,
+      "spawn": [
+        {
+          "element": {
+            "name": "Rock Column",
+            "type": 5
+          }
+        }
+      ]
+    },
+    "Pulverize": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.41, -1],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": false,
+          "multi": true,
+          "position": [-0.3, -0.85],
+          "side": "T",
+          "type": "push"
+        },
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.41, 0.37],
+          "side": "B",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.41, 0.97],
+          "side": "B",
+          "type": "attack"
+        }
+      ],
+      "level": 9
+    },
+    "Rock Slide": {
+      "enhancements": [],
+      "level": 4
+    },
+    "Rock Tunnel": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.36, 0.36],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 1
+    },
+    "Rocky End": {
+      "enhancements": [],
+      "level": 8
+    },
+    "Rumbling Advance": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.34, -0.79],
+          "side": "T",
+          "type": "heal"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.29, -0.64],
+          "side": "T",
+          "type": "range"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.36, 0.45],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 1
+    },
+    "Sentient Growth": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.08, -0.93],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "baseHex": 3,
+          "main": true,
+          "multi": true,
+          "otherHex": [],
+          "position": [-0.3, -0.68],
+          "side": "T",
+          "type": "hex"
+        },
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.02, -0.52],
+          "side": "T",
+          "type": "heal"
+        },
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.34, 0.61],
+          "side": "B",
+          "type": "heal"
+        },
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.41, 0.98],
+          "side": "B",
+          "type": "attack"
+        }
+      ],
+      "level": 2
+    },
+    "Stone Pummel": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [0, -0.79],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "baseHex": 4,
+          "main": true,
+          "multi": true,
+          "otherHex": [3],
+          "position": [-0.04, -0.38],
+          "side": "T",
+          "type": "hex"
+        },
+        {
+          "baseHex": 4,
+          "main": true,
+          "multi": true,
+          "otherHex": [2],
+          "position": [-0.69, -0.76],
+          "side": "T",
+          "type": "hex"
+        }
+      ],
+      "level": 5
+    },
+    "Unstable Upheaval": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.41, -1],
+          "side": "T",
+          "type": "attack"
+        }
+      ],
+      "level": 1
+    }
+  },
+  "boxGuid": "ec1d2a",
+  "hp": [10, 12, 14, 16, 18, 20, 22, 24, 26],
+  "isSpecialClass": false,
+  "isStartingClass": true,
+  "perks": [
+    {
+      "remove": ["(+0)", "(+0)", "(+0)", "(+0)"]
+    },
+    {
+      "add": ["(+1)"],
+      "remove": ["(-1)"]
+    },
+    {
+      "add": ["(+1)"],
+      "remove": ["(-1)"]
+    },
+    {
+      "add": ["(+1)"],
+      "remove": ["(-1)"]
+    },
+    {
+      "add": ["(-2)", "(+2)", "(+2)"]
+    },
+    {
+      "add": ["(+1) (Immobilize)"]
+    },
+    {
+      "add": ["(+1) (Immobilize)"]
+    },
+    {
+      "add": ["(+2) (Muddle)"]
+    },
+    {
+      "add": ["(+2) (Muddle)"]
+    },
+    {
+      "add": ["(Push 2) (Rolling)", "(Push 2) (Rolling)"]
+    },
+    {
+      "add": ["(Earth) (Rolling)", "(Earth) (Rolling)"]
+    },
+    {
+      "add": ["(Earth) (Rolling)", "(Earth) (Rolling)"]
+    },
+    {
+      "add": ["(Air) (Rolling)", "(Air) (Rolling)"]
+    },
+    {
+      "ignore": "S"
+    },
+    {
+      "ignore": "I"
+    }
+  ],
+  "tracker": {
+    "image": "http://cloud-3.steamusercontent.com/ugc/83722391140272850/20C525FCF70B280811A95F2631CB8597B69FA32B/"
+  }
+}

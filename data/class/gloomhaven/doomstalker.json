@@ -1,0 +1,682 @@
+{
+  "name": "Doomstalker",
+  "abilities": {
+    "A Moment's Peace": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.37, 0.57],
+          "side": "B",
+          "type": "move"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.34, 0.83],
+          "side": "B",
+          "type": "heal"
+        }
+      ],
+      "level": 1
+    },
+    "Camouflage": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, -0.88],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.37, 0.56],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 6
+    },
+    "Crashing Wave": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.37, -0.87],
+          "side": "T",
+          "type": "move"
+        },
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.41, -0.62],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.61, -0.62],
+          "side": "T",
+          "type": "attack"
+        }
+      ],
+      "level": 7
+    },
+    "Crippling Noose": {
+      "enhancements": [],
+      "level": 1,
+      "spawn": [
+        {
+          "element": {
+            "conditions": ["Stun"],
+            "damage": 4,
+            "name": "Spike Trap",
+            "type": 7
+          }
+        }
+      ]
+    },
+    "Darkened Skies": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.41, -0.79],
+          "side": "T",
+          "type": "attack"
+        }
+      ],
+      "level": 3
+    },
+    "Detonation": {
+      "enhancements": [],
+      "level": 1,
+      "spawn": [
+        {
+          "element": {
+            "damage": 3,
+            "name": "Spike Trap",
+            "type": 7
+          }
+        }
+      ]
+    },
+    "Expose": {
+      "enhancements": [],
+      "level": 2
+    },
+    "Felling Swoop": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [0.2, -0.73],
+          "side": "T",
+          "type": "summHp"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.23, -0.73],
+          "side": "T",
+          "type": "summMove"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [0.21, -0.53],
+          "side": "T",
+          "type": "summAttack"
+        }
+      ],
+      "level": 1
+    },
+    "Feral Instincts": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.37, -0.85],
+          "side": "T",
+          "type": "move"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, -0.6],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.36, 0.56],
+          "side": "B",
+          "type": "move"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.33, 0.82],
+          "side": "B",
+          "type": "heal"
+        }
+      ],
+      "level": 8
+    },
+    "Flight of Flame": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.37, 0.69],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 4,
+      "spawn": [
+        {
+          "element": {
+            "conditions": ["Wound"],
+            "damage": 2,
+            "name": "Spike Trap",
+            "type": 7
+          }
+        }
+      ]
+    },
+    "Foot Snare": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.37, 0.95],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 1,
+      "spawn": [
+        {
+          "element": {
+            "conditions": ["Immobilize"],
+            "damage": 2,
+            "name": "Bear Trap",
+            "type": 7
+          }
+        }
+      ]
+    },
+    "Fresh Kill": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, -0.79],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.31, -0.63],
+          "side": "T",
+          "type": "range"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, 0.69],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": "X"
+    },
+    "Frightening Curse": {
+      "enhancements": [],
+      "level": 1
+    },
+    "Impending End": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, -0.86],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.3, -0.71],
+          "side": "T",
+          "type": "range"
+        }
+      ],
+      "level": 7
+    },
+    "Inescapable Fate": {
+      "enhancements": [],
+      "level": 5
+    },
+    "Lead to Slaughter": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, -0.87],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.31, -0.72],
+          "side": "T",
+          "type": "range"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.37, 0.53],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 9
+    },
+    "Multi-Pronged Assault": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.41, -0.86],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.3, -0.69],
+          "side": "T",
+          "type": "range"
+        },
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.3, -0.55],
+          "side": "T",
+          "type": "target"
+        }
+      ],
+      "level": 1
+    },
+    "Nature's Hunger": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [0.21, -0.73],
+          "side": "T",
+          "type": "summHp"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.23, -0.73],
+          "side": "T",
+          "type": "summMove"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [0.21, -0.54],
+          "side": "T",
+          "type": "summAttack"
+        }
+      ],
+      "level": 6
+    },
+    "Predator and Prey": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [0.21, -0.73],
+          "side": "T",
+          "type": "summHp"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.23, -0.73],
+          "side": "T",
+          "type": "summMove"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [0.2, -0.53],
+          "side": "T",
+          "type": "summAttack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.24, -0.53],
+          "side": "T",
+          "type": "summRange"
+        }
+      ],
+      "level": 9
+    },
+    "Press the Attack": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, -0.81],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.3, -0.64],
+          "side": "T",
+          "type": "range"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.46, 0.56],
+          "side": "B",
+          "type": "retaliate"
+        }
+      ],
+      "level": 3
+    },
+    "Race to the Grave": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, -0.79],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.56, -0.79],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.3, -0.64],
+          "side": "T",
+          "type": "range"
+        }
+      ],
+      "level": 1
+    },
+    "Rain of Arrows": {
+      "enhancements": [],
+      "level": 1
+    },
+    "Relentless Offensive": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.41, -0.73],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.3, -0.43],
+          "side": "T",
+          "type": "target"
+        }
+      ],
+      "level": 2
+    },
+    "Rising Momentum": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, -0.88],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.29, -0.72],
+          "side": "T",
+          "type": "range"
+        },
+        {
+          "main": false,
+          "multi": false,
+          "position": [-0.32, -0.57],
+          "side": "T",
+          "type": "push"
+        }
+      ],
+      "level": 8
+    },
+    "Sap Life": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.46, -0.78],
+          "side": "T",
+          "type": "retaliate"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.3, -0.62],
+          "side": "T",
+          "type": "range"
+        }
+      ],
+      "level": "X"
+    },
+    "Singular Focus": {
+      "enhancements": [],
+      "level": 4
+    },
+    "Solid Bow": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, -0.65],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.31, -0.5],
+          "side": "T",
+          "type": "range"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.37, 0.75],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 1
+    },
+    "Swift Trickery": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, -0.79],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.31, -0.62],
+          "side": "T",
+          "type": "range"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.37, 0.74],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 1
+    },
+    "The Hunt Begins": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [0.21, -0.73],
+          "side": "T",
+          "type": "summHp"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.22, -0.73],
+          "side": "T",
+          "type": "summMove"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [0.21, -0.53],
+          "side": "T",
+          "type": "summAttack"
+        }
+      ],
+      "level": "X"
+    },
+    "Vital Charge": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [0.21, -0.74],
+          "side": "T",
+          "type": "summHp"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.23, -0.74],
+          "side": "T",
+          "type": "summMove"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [0.21, -0.53],
+          "side": "T",
+          "type": "summAttack"
+        }
+      ],
+      "level": 1
+    },
+    "Wild Command": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.36, 0.5],
+          "side": "B",
+          "type": "move"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, 0.75],
+          "side": "B",
+          "type": "attack"
+        }
+      ],
+      "level": 5
+    }
+  },
+  "boxGuid": "b7fe6d",
+  "hp": [8, 9, 11, 12, 14, 15, 17, 18, 20],
+  "isSpecialClass": false,
+  "perks": [
+    {
+      "remove": ["(-1)", "(-1)"]
+    },
+    {
+      "remove": ["(-1)", "(-1)"]
+    },
+    {
+      "add": ["(+1)", "(+1)"],
+      "remove": ["(+0)", "(+0)"]
+    },
+    {
+      "add": ["(+1)", "(+1)"],
+      "remove": ["(+0)", "(+0)"]
+    },
+    {
+      "add": ["(+1)", "(+1)"],
+      "remove": ["(+0)", "(+0)"]
+    },
+    {
+      "add": ["(+1) (Rolling)", "(+1) (Rolling)"]
+    },
+    {
+      "add": ["(+1) (Rolling)", "(+1) (Rolling)"]
+    },
+    {
+      "add": ["(+2) (Muddle)"]
+    },
+    {
+      "add": ["(+1) (Poison)"]
+    },
+    {
+      "add": ["(+1) (Wound)"]
+    },
+    {
+      "add": ["(+1) (Immobilize)"]
+    },
+    {
+      "add": ["(Stun)"]
+    },
+    {
+      "add": ["(Add Target) (Rolling)"]
+    },
+    {
+      "add": ["(Add Target) (Rolling)"]
+    },
+    {
+      "ignore": "S"
+    }
+  ],
+  "tracker": {
+    "image": "http://cloud-3.steamusercontent.com/ugc/2439138553939035626/893D92412263CE1A9C4E257D03A298E4586F6F6B/"
+  }
+}

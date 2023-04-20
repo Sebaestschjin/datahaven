@@ -1,0 +1,714 @@
+{
+  "name": "Elementalist",
+  "abilities": {
+    "Boiling Arc": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [0.01, -0.7],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.37, 0.57],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 2
+    },
+    "Brilliant Flash": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.36, -0.79],
+          "side": "T",
+          "type": "heal"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.5, -0.79],
+          "side": "T",
+          "type": "heal"
+        }
+      ],
+      "level": "X"
+    },
+    "Burial": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.15, -0.98],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, 0.55],
+          "side": "B",
+          "type": "attack"
+        }
+      ],
+      "level": 3
+    },
+    "Chain Lightning": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.46, -1.01],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.34, 0.55],
+          "side": "B",
+          "type": "heal"
+        }
+      ],
+      "level": 3
+    },
+    "Crystallizing Blast": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.02, -0.8],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": true,
+          "position": [0.09, -0.64],
+          "side": "T",
+          "type": "range"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.37, 0.58],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 2
+    },
+    "Elemental Aegis": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.37, -0.9],
+          "side": "T",
+          "type": "shield"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.33, 0.58],
+          "side": "B",
+          "type": "heal"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.53, 0.58],
+          "side": "B",
+          "type": "heal"
+        }
+      ],
+      "level": 8
+    },
+    "Encompassing Shadow": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, 0.44],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": "X"
+    },
+    "Eternal Equilibrium": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.41, -0.89],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.34, 0.47],
+          "side": "B",
+          "type": "heal"
+        }
+      ],
+      "level": 9
+    },
+    "Ethereal Manifestation": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [0.21, -0.74],
+          "side": "T",
+          "type": "summHp"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.23, -0.74],
+          "side": "T",
+          "type": "summMove"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.23, -0.53],
+          "side": "T",
+          "type": "summRange"
+        }
+      ],
+      "level": 9
+    },
+    "Eye of the Hurricane": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.34, -0.99],
+          "side": "T",
+          "type": "heal"
+        },
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.41, -0.65],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.37, 0.53],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 6
+    },
+    "Formless Power": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, -0.92],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.3, -0.75],
+          "side": "T",
+          "type": "range"
+        }
+      ],
+      "level": 1
+    },
+    "Frigid Torrent": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.41, -0.69],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.09, 0.49],
+          "side": "B",
+          "type": "attack"
+        },
+        {
+          "main": false,
+          "multi": true,
+          "position": [0, 0.79],
+          "side": "B",
+          "type": "pull"
+        },
+        {
+          "baseHex": 3,
+          "main": true,
+          "multi": true,
+          "otherHex": [],
+          "position": [-0.33, 0.65],
+          "side": "B",
+          "type": "hex"
+        }
+      ],
+      "level": 1
+    },
+    "Gravel Vortex": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.41, -0.79],
+          "side": "T",
+          "type": "attack"
+        }
+      ],
+      "level": 4
+    },
+    "Ice Spikes": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.14, -0.83],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "baseHex": 3,
+          "main": true,
+          "multi": true,
+          "otherHex": [],
+          "position": [-0.37, -0.66],
+          "side": "T",
+          "type": "hex"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, 0.5],
+          "side": "B",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.31, 0.65],
+          "side": "B",
+          "type": "range"
+        }
+      ],
+      "level": 1
+    },
+    "Infernal Vortex": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.41, -0.78],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.56, -0.78],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.36, 0.63],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 1
+    },
+    "Lava Eruption": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.41, -0.79],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.37, 0.63],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 1
+    },
+    "Malleable Evocation": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, -0.98],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.3, -0.82],
+          "side": "T",
+          "type": "range"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.37, 0.46],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": "X"
+    },
+    "Obsidian Shards": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.41, -0.85],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.36, 0.42],
+          "side": "B",
+          "type": "shield"
+        }
+      ],
+      "level": 5
+    },
+    "Pragmatic Reinforcement": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.32, -0.95],
+          "side": "T",
+          "type": "heal"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, 0.43],
+          "side": "B",
+          "type": "attack"
+        }
+      ],
+      "level": 7
+    },
+    "Primal Duality": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.41, -0.87],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.56, -0.87],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.3, -0.56],
+          "side": "T",
+          "type": "target"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.37, 0.63],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 4
+    },
+    "Pure Augmentation": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, -0.9],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, 0.5],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 1
+    },
+    "Raw Enhancement": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, -0.91],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, 0.5],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 1
+    },
+    "Shaping the Ether": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, -0.96],
+          "side": "T",
+          "type": "attack"
+        }
+      ],
+      "level": 1
+    },
+    "Simulacrum": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.41, -1],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [0.21, 0.64],
+          "side": "B",
+          "type": "summHp"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.22, 0.64],
+          "side": "B",
+          "type": "summMove"
+        }
+      ],
+      "level": 6
+    },
+    "Stoking Hail": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, -0.77],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.3, -0.61],
+          "side": "T",
+          "type": "range"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, 0.63],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 1
+    },
+    "Tremulant Cyclone": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": true,
+          "position": [-0.09, -0.82],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.36, 0.63],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 1
+    },
+    "Vengeance": {
+      "enhancements": [
+        {
+          "baseHex": 3,
+          "main": true,
+          "multi": true,
+          "otherHex": [],
+          "position": [-0.46, -0.68],
+          "side": "T",
+          "type": "hex"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.36, 0.35],
+          "side": "B",
+          "type": "move"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.46, 0.57],
+          "side": "B",
+          "type": "retaliate"
+        }
+      ],
+      "level": 7
+    },
+    "Volatile Consumption": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.37, 0.36],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 8,
+      "spawn": [
+        {
+          "element": {
+            "conditions": ["Poison"],
+            "damage": 2,
+            "name": "Spike Trap",
+            "type": 7
+          }
+        }
+      ]
+    },
+    "Winter's Edge": {
+      "enhancements": [
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.41, -0.79],
+          "side": "T",
+          "type": "attack"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.33, 0.54],
+          "side": "B",
+          "type": "heal"
+        },
+        {
+          "main": true,
+          "multi": false,
+          "position": [-0.3, 0.7],
+          "side": "B",
+          "type": "range"
+        }
+      ],
+      "level": 5
+    }
+  },
+  "boxGuid": "21d7e7",
+  "hp": [6, 7, 8, 9, 10, 11, 12, 13, 14],
+  "isSpecialClass": false,
+  "perks": [
+    {
+      "remove": ["(-1)", "(-1)"]
+    },
+    {
+      "remove": ["(-1)", "(-1)"]
+    },
+    {
+      "add": ["(+1)"],
+      "remove": ["(-1)"]
+    },
+    {
+      "add": ["(+2)"],
+      "remove": ["(+0)"]
+    },
+    {
+      "add": ["(+2)"],
+      "remove": ["(+0)"]
+    },
+    {
+      "add": ["(Fire)", "(Fire)", "(Fire)"]
+    },
+    {
+      "add": ["(Ice)", "(Ice)", "(Ice)"]
+    },
+    {
+      "add": ["(Air)", "(Air)", "(Air)"]
+    },
+    {
+      "add": ["(Earth)", "(Earth)", "(Earth)"]
+    },
+    {
+      "add": ["(Fire)", "(Earth)"],
+      "remove": ["(+0)", "(+0)"]
+    },
+    {
+      "add": ["(Ice)", "(Air)"],
+      "remove": ["(+0)", "(+0)"]
+    },
+    {
+      "add": ["(+1) (Push 1)", "(+1) (Push 1)"]
+    },
+    {
+      "add": ["(+1) (Wound)"]
+    },
+    {
+      "add": ["(Stun)"]
+    },
+    {
+      "add": ["(Add Target)"]
+    }
+  ],
+  "tracker": {
+    "image": "http://cloud-3.steamusercontent.com/ugc/2439138762291579437/6A1873B7FB1DB0F7D379A6628F6166B529180B1D/"
+  }
+}

@@ -1,0 +1,409 @@
+{
+  "name": "Bladeswarm",
+  "abilities": {
+    "Armed and Dangerous": {
+      "enhancements": [],
+      "level": 3
+    },
+    "Bioluminescence": {
+      "enhancements": [
+        {
+          "position": [0.2, 0.62],
+          "side": "B",
+          "type": "summHp"
+        },
+        {
+          "position": [-0.24, 0.61],
+          "side": "B",
+          "type": "summMove"
+        }
+      ],
+      "level": 5
+    },
+    "Blood Drain": {
+      "enhancements": [],
+      "level": 6
+    },
+    "Bone Daggers": {
+      "enhancements": [
+        {
+          "position": [-0.42, 0.81],
+          "side": "B",
+          "type": "attack"
+        },
+        {
+          "main": false,
+          "position": [-0.33, 0.98],
+          "side": "B",
+          "type": "target"
+        }
+      ],
+      "level": 8
+    },
+    "Call of the Grave": {
+      "enhancements": [],
+      "level": 1
+    },
+    "Corrupting Parasites": {
+      "enhancements": [
+        {
+          "position": [0.21, -0.75],
+          "side": "T",
+          "type": "summHp"
+        },
+        {
+          "position": [-0.25, -0.75],
+          "side": "T",
+          "type": "summMove"
+        }
+      ],
+      "level": 1
+    },
+    "Cyclone of Blades": {
+      "enhancements": [
+        {
+          "position": [-0.4, 0.54],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 5
+    },
+    "Death March": {
+      "enhancements": [
+        {
+          "position": [0.2, -0.75],
+          "side": "T",
+          "type": "summHp"
+        },
+        {
+          "position": [-0.25, -0.74],
+          "side": "T",
+          "type": "summMove"
+        },
+        {
+          "position": [0.19, -0.54],
+          "side": "T",
+          "type": "summAttack"
+        }
+      ],
+      "level": 1
+    },
+    "Deflecting Blades": {
+      "enhancements": [
+        {
+          "position": [-0.4, 0.41],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 1
+    },
+    "Endless Biting": {
+      "enhancements": [],
+      "level": 8
+    },
+    "Engulfing Stingers": {
+      "enhancements": [
+        {
+          "position": [0.21, -0.74],
+          "side": "T",
+          "type": "summHp"
+        },
+        {
+          "position": [-0.25, -0.74],
+          "side": "T",
+          "type": "summMove"
+        },
+        {
+          "position": [-0.39, 0.56],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 1
+    },
+    "Focused Scourge": {
+      "enhancements": [],
+      "level": 1
+    },
+    "Fury of the Horde": {
+      "enhancements": [
+        {
+          "position": [0.21, -0.74],
+          "side": "T",
+          "type": "summHp"
+        },
+        {
+          "position": [-0.24, -0.74],
+          "side": "T",
+          "type": "summMove"
+        },
+        {
+          "position": [0.21, -0.54],
+          "side": "T",
+          "type": "summAttack"
+        },
+        {
+          "position": [-0.4, 0.45],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 7
+    },
+    "Grasping Advance": {
+      "enhancements": [
+        {
+          "position": [-0.39, -0.8],
+          "side": "T",
+          "type": "move"
+        },
+        {
+          "position": [-0.43, -0.54],
+          "side": "T",
+          "type": "attack"
+        }
+      ],
+      "level": "X"
+    },
+    "Hive Mind": {
+      "enhancements": [],
+      "level": 1
+    },
+    "Incubation": {
+      "enhancements": [
+        {
+          "position": [-0.35, -1],
+          "side": "T",
+          "type": "heal"
+        },
+        {
+          "position": [-0.39, -0.32],
+          "side": "T",
+          "type": "shield"
+        }
+      ],
+      "level": 4
+    },
+    "Infest": {
+      "enhancements": [
+        {
+          "position": [-0.42, -0.81],
+          "side": "T",
+          "type": "attack"
+        }
+      ],
+      "level": 2
+    },
+    "Oasis": {
+      "enhancements": [
+        {
+          "position": [-0.39, 0.33],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 9
+    },
+    "Omniscient Assault": {
+      "enhancements": [
+        {
+          "main": false,
+          "position": [-0.35, -0.57],
+          "side": "T",
+          "type": "pierce"
+        },
+        {
+          "position": [-0.41, 0.39],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 1
+    },
+    "Overwhelming Offensive": {
+      "enhancements": [
+        {
+          "position": [-0.43, -0.89],
+          "side": "T",
+          "type": "attack"
+        }
+      ],
+      "level": 2
+    },
+    "Putrid Grubs": {
+      "enhancements": [
+        {
+          "position": [-0.39, 0.42],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 3
+    },
+    "Repulsive Host": {
+      "enhancements": [
+        {
+          "position": [-0.4, 0.54],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 7
+    },
+    "Scattered Defense": {
+      "enhancements": [
+        {
+          "position": [-0.46, -1],
+          "side": "T",
+          "type": "retaliate"
+        },
+        {
+          "position": [-0.4, 0.49],
+          "side": "B",
+          "type": "move"
+        }
+      ],
+      "level": 1
+    },
+    "Sunstroke": {
+      "enhancements": [
+        {
+          "position": [-0.42, -0.86],
+          "side": "T",
+          "type": "attack"
+        }
+      ],
+      "level": 6
+    },
+    "Swarming Minions": {
+      "enhancements": [],
+      "level": 1
+    },
+    "The Storm's Edge": {
+      "enhancements": [],
+      "level": 1
+    },
+    "Tomb of  the Immortal": {
+      "enhancements": [],
+      "level": "X"
+    },
+    "Unstoppable Army": {
+      "enhancements": [
+        {
+          "position": [0.21, 0.6],
+          "side": "B",
+          "type": "summHp"
+        },
+        {
+          "position": [-0.24, 0.59],
+          "side": "B",
+          "type": "summMove"
+        },
+        {
+          "position": [0.2, 0.8],
+          "side": "B",
+          "type": "summAttack"
+        }
+      ],
+      "level": "X"
+    },
+    "Vampiric Tempest": {
+      "enhancements": [
+        {
+          "position": [-0.4, 0.43],
+          "side": "T",
+          "type": "move"
+        }
+      ],
+      "level": 4
+    },
+    "Wasteland": {
+      "enhancements": [
+        {
+          "position": [0.19, -0.74],
+          "side": "T",
+          "type": "summHp"
+        },
+        {
+          "position": [0.19, -0.54],
+          "side": "T",
+          "type": "summAttack"
+        },
+        {
+          "main": false,
+          "position": [-0.34, 0.56],
+          "side": "B",
+          "type": "range"
+        }
+      ],
+      "level": 9
+    }
+  },
+  "boxGuid": "7c555d",
+  "hp": [8, 9, 11, 12, 14, 15, 17, 18, 20],
+  "isSpecialClass": true,
+  "isStartingClass": false,
+  "perks": [
+    {
+      "add": ["(+0)"],
+      "remove": ["(-2)"]
+    },
+    {
+      "add": ["(+0) (Wound)"],
+      "remove": ["(-1)"]
+    },
+    {
+      "add": ["(+0) (Wound)"],
+      "remove": ["(-1)"]
+    },
+    {
+      "add": ["(+0) (Poison)"],
+      "remove": ["(-1)"]
+    },
+    {
+      "add": ["(+0) (Poison)"],
+      "remove": ["(-1)"]
+    },
+    {
+      "add": ["(+1) (Wind)"],
+      "remove": ["(+0)"]
+    },
+    {
+      "add": ["(+1) (Earth)"],
+      "remove": ["(+0)"]
+    },
+    {
+      "add": ["(+1) (Light)"],
+      "remove": ["(+0)"]
+    },
+    {
+      "add": ["(+1) (Dark)"],
+      "remove": ["(+0)"]
+    },
+    {
+      "add": ["(+2) (Muddle)"]
+    },
+    {
+      "add": ["(+2) (Muddle)"]
+    },
+    {
+      "add": ["(Heal +1) (Rolling)", "(Heal +1) (Rolling)"]
+    },
+    {
+      "add": ["(Heal +1) (Rolling)", "(Heal +1) (Rolling)"]
+    },
+    {
+      "add": ["(+1)"],
+      "ignore": "I"
+    },
+    {
+      "add": ["(+1)"],
+      "ignore": "S"
+    }
+  ],
+  "tracker": {
+    "image": "http://cloud-3.steamusercontent.com/ugc/957469956542531294/89F4466B4A39A27032CA047ECFAC19131AE103BD/"
+  }
+}
