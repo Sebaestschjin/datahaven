@@ -1,10 +1,6 @@
 import { HexColor, URL } from "./base";
 import { AssetBundle, Deck, Model } from "./component";
 
-// TODO extra content
-// TODO perks/attack modifier/reminders
-// TODO reminder back
-
 export interface Class {
   /** The name of the class. */
   name: string;
@@ -47,6 +43,7 @@ export interface Class {
   perks: Perk[];
   attackModifiers: Deck<AttackModifier>;
   reminderCards?: Deck<ReminderCard>;
+  additionalContent?: any[];
 }
 
 interface AbilityDeck extends Deck<Ability> {

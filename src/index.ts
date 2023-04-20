@@ -4,13 +4,18 @@ import prettier from "prettier";
 import { transformClassData } from "./transform/classData";
 
 const main = () => {
-  const classPath = "class/forgotten-circles";
-  const rawData = `${__dirname}/../raw/${classPath}`;
-  const outPath = `${__dirname}/../data/${classPath}`;
-  for (const file of readdirSync(rawData)) {
-    const output = transformClassData(`${rawData}/${file}`);
-    const content = prettier.format(JSON.stringify(output), { parser: "json" });
-    writeFileSync(`${outPath}/${file}`, content, { encoding: "utf-8" });
+  const rawData = `${__dirname}/../raw/`;
+  const outPath = `${__dirname}/../data/`;
+  for (const edition of readdirSync(`${rawData}/class`)) {
+    const editionPath = `${rawData}/class/${edition}`;
+    for (const file of readdirSync(editionPath)) {
+      const outputFile = `${outPath}/class/${edition}/${file}`;
+      const output = transformClassData(`${editionPath}/${file}`);
+      const content = prettier.format(JSON.stringify(output), {
+        parser: "json",
+      });
+      writeFileSync(outputFile, content, { encoding: "utf-8" });
+    }
   }
 };
 

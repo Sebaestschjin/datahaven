@@ -338,5 +338,9 @@
     { "amount": 1, "add": ["(Heal 3 Self) (Rolling)"] },
     { "amount": 1, "add": ["(Refresh)"] }
   ],
-  "attackModifiers": { "front": "", "back": "", "cards": [] }
+  "attackModifiers": { "front": "", "back": "", "cards": [] },
+  "additionalContent": [
+    { "name": "Medical Pack", "target": "CharacterSheet" },
+    { "name": "Large Medical Pack", "target": "CharacterSheet" }
+  ]
 }

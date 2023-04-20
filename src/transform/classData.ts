@@ -35,6 +35,7 @@ export const transformClassData = (inputPath: string): Class => {
       back: "",
       cards: [],
     },
+    additionalContent: classData.extra,
   };
 };
 

@@ -432,5 +432,6 @@
     { "amount": 1, "add": ["(Curse) (Rolling)", "(Curse) (Rolling)"] },
     { "amount": 1, "add": ["(+1)", "(+1)"], "ignore": ["Scenario"] }
   ],
-  "attackModifiers": { "front": "", "back": "", "cards": [] }
+  "attackModifiers": { "front": "", "back": "", "cards": [] },
+  "additionalContent": [{ "name": "Rifts", "target": "CharacterSheet" }]
 }
