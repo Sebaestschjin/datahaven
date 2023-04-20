@@ -41,7 +41,7 @@ export interface Class {
     style: Style;
   };
   perks: Perk[];
-  attackModifiers: Deck<AttackModifier>;
+  attackModifiers: AttackModifierDeck;
   reminderCards?: Deck<ReminderCard>;
   additionalContent?: any[];
 }
@@ -49,6 +49,8 @@ export interface Class {
 interface AbilityDeck extends Deck<Ability> {
   style: Style;
 }
+
+type AttackModifierDeck = Omit<Deck<AttackModifier>, "back">;
 
 type HpProgression = [
   number,
@@ -72,6 +74,7 @@ interface Ability {
 
 interface AttackModifier {
   name: string;
+  amount?: number;
 }
 
 interface ReminderCard {

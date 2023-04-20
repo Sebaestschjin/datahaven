@@ -1,141 +1,36 @@
 {
   "name": "Beast Tyrant",
   "version": 1,
-  "spoilerName": "",
+  "spoilerName": "Two Minis",
   "hpProgression": [6, 7, 8, 9, 10, 11, 12, 13, 14],
-  "ancestry": "",
-  "icon": "",
+  "ancestry": "Vermling",
+  "icon": "http://cloud-3.steamusercontent.com/ugc/2022721657192500680/43092B6129EF131C18FC4ACE27CBC0EA0525B4D2/",
   "tracker": "http://cloud-3.steamusercontent.com/ugc/2439138553938610861/F8B7EF453D80232795BDE36FA070AE3F32D115EE/",
-  "colors": { "primary": "" },
-  "figure": { "model": "", "texture": "" },
-  "characterMat": { "front": "", "back": "" },
+  "colors": { "primary": "AD745D" },
+  "figure": {
+    "model": "http://cloud-3.steamusercontent.com/ugc/1684897951207093748/000F28477AE8B4AD49F47F346183473990570059/",
+    "texture": "http://cloud-3.steamusercontent.com/ugc/1684897951207109445/C8B0C5092DB0DDEF5C6D1BADD3938CE5683D4585/"
+  },
+  "characterMat": {
+    "front": "http://cloud-3.steamusercontent.com/ugc/930432409048947993/273A0D14FD76511C9D65C3698F5EEA7EE7FDB93E/",
+    "back": "http://cloud-3.steamusercontent.com/ugc/930432409048949182/A8C7BD61D7E22E74EB1716C87CD0011C339ED728/"
+  },
   "abilities": {
-    "front": "",
-    "back": "",
     "style": "Gloomhaven",
+    "front": "http://cloud-3.steamusercontent.com/ugc/1801978208007310209/7834B6E0D808215C55377D2862D6D2FED14C82D6/",
+    "back": "http://cloud-3.steamusercontent.com/ugc/1801978208007309883/FF609E1015CF99A9D3A8756A8556CB98C8A0DA0D/",
     "cards": [
-      {
-        "name": "Concentrated Rage",
-        "level": 1,
-        "initiative": 0,
-        "top": [
-          { "type": "attack", "marks": [{ "position": [-0.41, -0.7] }] },
-          {
-            "type": "attack",
-            "range": {
-              "count": 2,
-              "marks": [{ "shape": "square", "position": [-0.31, -0.56] }]
-            }
-          }
-        ],
-        "bottom": []
-      },
-      {
-        "name": "Disappearing Wounds",
-        "level": 1,
-        "initiative": 0,
-        "top": [{ "type": "heal", "marks": [{ "position": [-0.35, -0.64] }] }],
-        "bottom": [
-          {
-            "type": "attack",
-            "marks": [
-              { "position": [-0.41, 0.63] },
-              { "position": [-0.54, 0.63] }
-            ]
-          }
-        ]
-      },
       {
         "name": "Disorienting Roar",
         "level": 1,
-        "initiative": 0,
+        "initiative": 17,
         "top": [],
         "bottom": []
-      },
-      {
-        "name": "Forceful Swipe",
-        "level": 1,
-        "initiative": 0,
-        "top": [
-          { "type": "attack", "marks": [{ "position": [-0.02, -0.67] }] },
-          {
-            "type": "attack",
-            "area": {
-              "size": 3,
-              "marks": [{ "shape": "hex", "position": [-0.25, -0.77] }]
-            }
-          }
-        ],
-        "bottom": [
-          { "type": "move", "marks": [{ "position": [-0.36, 0.48] }] },
-          { "type": "push", "marks": [{ "position": [-0.41, 0.68] }] }
-        ]
-      },
-      {
-        "name": "Howling Bolts",
-        "level": 1,
-        "initiative": 0,
-        "top": [
-          {
-            "type": "attack",
-            "targets": {
-              "count": 2,
-              "marks": [{ "shape": "square", "position": [-0.3, -0.44] }]
-            }
-          }
-        ],
-        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.62] }] }]
-      },
-      {
-        "name": "Maul",
-        "level": 1,
-        "initiative": 0,
-        "top": [
-          {
-            "type": "attack",
-            "marks": [
-              { "position": [-0.41, -0.58] },
-              { "position": [-0.55, -0.58] }
-            ]
-          }
-        ],
-        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.44] }] }]
-      },
-      {
-        "name": "Patch Fur",
-        "level": 1,
-        "initiative": 0,
-        "top": [],
-        "bottom": [
-          {
-            "type": "heal",
-            "marks": [
-              { "position": [-0.36, 0.55] },
-              { "position": [-0.5, 0.55] }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Relentless Ally",
-        "level": 1,
-        "initiative": 0,
-        "top": [
-          {
-            "type": "summHp",
-            "marks": [
-              { "position": [0.21, -0.73] },
-              { "position": [-0.23, -0.73] }
-            ]
-          },
-          { "type": "summMove", "marks": [{ "position": [0.21, -0.55] }] }
-        ],
-        "bottom": [{ "type": "move", "marks": [{ "position": [-0.36, 0.75] }] }]
       },
       {
         "name": "Spirit Swap",
         "level": 1,
-        "initiative": 0,
+        "initiative": 22,
         "top": [
           {
             "type": "move",
@@ -150,46 +45,155 @@
       {
         "name": "Venomous Ally",
         "level": 1,
-        "initiative": 0,
+        "initiative": 79,
         "top": [
-          {
-            "type": "summHp",
-            "marks": [
-              { "position": [0.21, -0.72] },
-              { "position": [-0.23, -0.72] }
-            ]
-          },
+          { "type": "summHp", "marks": [{ "position": [0.21, -0.72] }] },
+          { "type": "summMove", "marks": [{ "position": [-0.23, -0.72] }] },
           { "type": "summAttack", "marks": [{ "position": [0.21, -0.53] }] }
         ],
         "bottom": [
           {
             "type": "attack",
             "range": {
-              "count": 2,
+              "count": 4,
               "marks": [{ "shape": "square", "position": [-0.3, 0.76] }]
             }
           }
         ]
       },
       {
-        "name": "Borrowed Essence",
-        "level": "X",
-        "initiative": 0,
+        "name": "Relentless Ally",
+        "level": 1,
+        "initiative": 81,
         "top": [
-          { "type": "attack", "marks": [{ "position": [-0.41, -1] }] },
-          { "type": "heal", "marks": [{ "position": [-0.34, -0.46] }] }
+          { "type": "summHp", "marks": [{ "position": [0.21, -0.73] }] },
+          {
+            "type": "summMove",
+            "marks": [{ "position": [-0.23, -0.73] }]
+          },
+          { "type": "summAttack", "marks": [{ "position": [0.21, -0.55] }] }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.36, 0.75] }] }]
+      },
+      {
+        "name": "Concentrated Rage",
+        "level": 1,
+        "initiative": 51,
+        "top": [
+          {
+            "range": {
+              "count": 4,
+              "marks": [{ "shape": "square", "position": [-0.31, -0.56] }]
+            },
+            "marks": [{ "position": [-0.41, -0.7] }]
+          }
+        ],
+        "bottom": []
+      },
+      {
+        "name": "Disappearing Wounds",
+        "level": 1,
+        "initiative": 23,
+        "top": [{ "type": "heal", "marks": [{ "position": [-0.35, -0.64] }] }],
+        "bottom": [
+          {
+            "type": "attack",
+            "marks": [
+              { "position": [-0.41, 0.63] },
+              { "position": [-0.54, 0.63] }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Patch Fur",
+        "level": 1,
+        "initiative": 20,
+        "top": [],
+        "bottom": [
+          {
+            "type": "heal",
+            "marks": [
+              { "position": [-0.36, 0.55] },
+              { "position": [-0.5, 0.55] }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Maul",
+        "level": 1,
+        "initiative": 14,
+        "top": [
+          {
+            "type": "attack",
+            "marks": [
+              { "position": [-0.41, -0.58] },
+              { "position": [-0.55, -0.58] }
+            ]
+          }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.44] }] }]
+      },
+      {
+        "name": "Forceful Swipe",
+        "level": 1,
+        "initiative": 35,
+        "top": [
+          {
+            "type": "attack",
+            "area": {
+              "size": 3,
+              "marks": [{ "shape": "hex", "position": [-0.25, -0.77] }]
+            },
+            "marks": [{ "position": [-0.02, -0.67] }]
+          }
+        ],
+        "bottom": [
+          { "type": "move", "marks": [{ "position": [-0.36, 0.48] }] },
+          { "type": "push", "marks": [{ "position": [-0.41, 0.68] }] }
+        ]
+      },
+      {
+        "name": "Howling Bolts",
+        "level": 1,
+        "initiative": 47,
+        "top": [
+          {
+            "type": "attack",
+            "targets": {
+              "count": 3,
+              "marks": [{ "shape": "square", "position": [-0.3, -0.44] }]
+            }
+          }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.62] }] }]
+      },
+      {
+        "name": "Soaring Ally",
+        "level": "X",
+        "initiative": 77,
+        "top": [
+          {
+            "type": "summHp",
+            "marks": [{ "position": [0.2, -0.72] }]
+          },
+          {
+            "type": "summMove",
+            "marks": [{ "position": [-0.23, -0.72] }]
+          }
         ],
         "bottom": []
       },
       {
         "name": "Focused Aggression",
         "level": "X",
-        "initiative": 0,
+        "initiative": 31,
         "top": [
           {
             "type": "attack",
             "range": {
-              "count": 2,
+              "count": 3,
               "marks": [{ "shape": "square", "position": [-0.31, -0.51] }]
             }
           }
@@ -205,39 +209,19 @@
         ]
       },
       {
-        "name": "Soaring Ally",
+        "name": "Borrowed Essence",
         "level": "X",
-        "initiative": 0,
+        "initiative": 56,
         "top": [
-          {
-            "type": "summHp",
-            "marks": [
-              { "position": [0.2, -0.72] },
-              { "position": [-0.23, -0.72] }
-            ]
-          }
-        ],
-        "bottom": []
-      },
-      {
-        "name": "Earthen Spikes",
-        "level": 2,
-        "initiative": 0,
-        "top": [
-          {
-            "type": "attack",
-            "range": {
-              "count": 2,
-              "marks": [{ "shape": "square", "position": [-0.3, -0.7] }]
-            }
-          }
+          { "type": "attack", "marks": [{ "position": [-0.41, -1] }] },
+          { "type": "heal", "marks": [{ "position": [-0.34, -0.46] }] }
         ],
         "bottom": []
       },
       {
         "name": "Energizing Strike",
         "level": 2,
-        "initiative": 0,
+        "initiative": 29,
         "top": [
           {
             "type": "attack",
@@ -250,32 +234,32 @@
         "bottom": []
       },
       {
-        "name": "Unstoppable Beast",
-        "level": 3,
-        "initiative": 0,
+        "name": "Earthen Spikes",
+        "level": 2,
+        "initiative": 11,
         "top": [
-          { "type": "attack", "marks": [{ "position": [-0.14, -0.69] }] },
           {
             "type": "attack",
-            "area": {
-              "size": 3,
-              "marks": [{ "shape": "hex", "position": [-0.33, -0.78] }]
+            "range": {
+              "count": 2,
+              "marks": [{ "shape": "square", "position": [-0.3, -0.7] }]
             }
           }
         ],
-        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.72] }] }]
+        "bottom": []
       },
       {
         "name": "Vicious Ally",
         "level": 3,
-        "initiative": 0,
+        "initiative": 86,
         "top": [
           {
             "type": "summHp",
-            "marks": [
-              { "position": [0.21, -0.74] },
-              { "position": [-0.22, -0.74] }
-            ]
+            "marks": [{ "position": [0.21, -0.74] }]
+          },
+          {
+            "type": "summMove",
+            "marks": [{ "position": [-0.22, -0.74] }]
           },
           { "type": "summAttack", "marks": [{ "position": [0.21, -0.54] }] }
         ],
@@ -291,17 +275,33 @@
         ]
       },
       {
+        "name": "Unstoppable Beast",
+        "level": 3,
+        "initiative": 32,
+        "top": [
+          {
+            "type": "attack",
+            "area": {
+              "size": 3,
+              "marks": [{ "shape": "hex", "position": [-0.33, -0.78] }]
+            },
+            "marks": [{ "position": [-0.14, -0.69] }]
+          }
+        ],
+        "bottom": [{ "type": "move", "marks": [{ "position": [-0.37, 0.72] }] }]
+      },
+      {
         "name": "Ancient Ward",
         "level": 4,
-        "initiative": 0,
+        "initiative": 19,
         "top": [
-          { "type": "attack", "marks": [{ "position": [-0.41, -0.93] }] },
           {
             "type": "attack",
             "targets": {
               "count": 2,
               "marks": [{ "shape": "square", "position": [-0.31, -0.62] }]
-            }
+            },
+            "marks": [{ "position": [-0.41, -0.93] }]
           }
         ],
         "bottom": [{ "type": "heal", "marks": [{ "position": [-0.33, 0.68] }] }]
@@ -309,17 +309,23 @@
       {
         "name": "Punch Through",
         "level": 4,
-        "initiative": 0,
+        "initiative": 44,
         "top": [
-          { "type": "attack", "marks": [{ "position": [-0.41, -0.77] }] },
-          { "type": "pierce", "marks": [{ "position": [-0.33, -0.62] }] }
+          {
+            "type": "attack",
+            "effects": {
+              "name": "pierce",
+              "marks": [{ "position": [-0.33, -0.62] }]
+            },
+            "marks": [{ "position": [-0.41, -0.77] }]
+          }
         ],
         "bottom": [{ "type": "move", "marks": [{ "position": [-0.41, 0.46] }] }]
       },
       {
         "name": "Rampage",
         "level": 5,
-        "initiative": 0,
+        "initiative": 34,
         "top": [
           { "type": "move", "marks": [{ "position": [-0.37, -0.76] }] },
           { "type": "move", "marks": [{ "position": [-0.37, -0.39] }] }
@@ -329,7 +335,7 @@
       {
         "name": "Stone Sigil",
         "level": 5,
-        "initiative": 0,
+        "initiative": 95,
         "top": [],
         "bottom": [
           {
@@ -342,24 +348,14 @@
         ]
       },
       {
-        "name": "Blood Hunger",
-        "level": 6,
-        "initiative": 0,
-        "top": [],
-        "bottom": [
-          { "type": "attack", "marks": [{ "position": [-0.41, 0.52] }] },
-          { "type": "heal", "marks": [{ "position": [-0.33, 0.76] }] }
-        ]
-      },
-      {
         "name": "Primal Blessing",
         "level": 6,
-        "initiative": 0,
+        "initiative": 28,
         "top": [
           {
-            "type": "attack",
+            "type": "heal",
             "targets": {
-              "count": 2,
+              "count": 3,
               "marks": [{ "shape": "square", "position": [-0.31, -0.57] }]
             }
           }
@@ -370,9 +366,19 @@
         ]
       },
       {
+        "name": "Blood Hunger",
+        "level": 6,
+        "initiative": 42,
+        "top": [],
+        "bottom": [
+          { "type": "attack", "marks": [{ "position": [-0.41, 0.52] }] },
+          { "type": "heal", "marks": [{ "position": [-0.33, 0.76] }] }
+        ]
+      },
+      {
         "name": "Storm Sigil",
         "level": 7,
-        "initiative": 0,
+        "initiative": 93,
         "top": [],
         "bottom": [
           {
@@ -387,12 +393,12 @@
       {
         "name": "Tyrannical Force",
         "level": 7,
-        "initiative": 0,
+        "initiative": 37,
         "top": [
           {
             "type": "attack",
             "range": {
-              "count": 2,
+              "count": 3,
               "marks": [{ "shape": "square", "position": [-0.31, -0.71] }]
             }
           }
@@ -402,7 +408,7 @@
       {
         "name": "Lash Out",
         "level": 8,
-        "initiative": 0,
+        "initiative": 18,
         "top": [
           { "type": "attack", "marks": [{ "position": [-0.41, -0.78] }] }
         ],
@@ -414,14 +420,14 @@
       {
         "name": "Natural Remedy",
         "level": 8,
-        "initiative": 0,
+        "initiative": 25,
         "top": [{ "type": "heal", "marks": [{ "position": [-0.34, -0.74] }] }],
         "bottom": [{ "type": "move", "marks": [{ "position": [-0.41, 0.56] }] }]
       },
       {
         "name": "Jaws of Death",
         "level": 9,
-        "initiative": 0,
+        "initiative": 48,
         "top": [],
         "bottom": [
           { "type": "attack", "marks": [{ "position": [-0.41, 0.48] }] },
@@ -431,46 +437,76 @@
       {
         "name": "Tribal Sigil",
         "level": 9,
-        "initiative": 0,
+        "initiative": 91,
         "top": [],
         "bottom": []
       }
     ]
   },
-  "characterSheet": { "image": "", "style": "Gloomhaven" },
+  "characterSheet": {
+    "image": "http://cloud-3.steamusercontent.com/ugc/955229293025780966/EB2BB34ED8DABEF1B111C25A83F2852FB105F88A/",
+    "style": "Gloomhaven"
+  },
   "perks": [
     { "amount": 1, "remove": ["(-1)", "(-1)"] },
-    { "amount": 1, "add": ["(+1)"], "remove": ["(-1)"] },
-    { "amount": 1, "add": ["(+1)"], "remove": ["(-1)"] },
-    { "amount": 1, "add": ["(+1)"], "remove": ["(-1)"] },
-    { "amount": 1, "add": ["(+2)"], "remove": ["(+0)"] },
-    { "amount": 1, "add": ["(+2)"], "remove": ["(+0)"] },
-    { "amount": 1, "add": ["(+1) (Wound)"] },
-    { "amount": 1, "add": ["(+1) (Wound)"] },
-    { "amount": 1, "add": ["(+1) (Immobilize)"] },
-    { "amount": 1, "add": ["(+1) (Immobilize)"] },
+    { "amount": 3, "add": ["(+1)"], "remove": ["(-1)"] },
+    { "amount": 2, "add": ["(+2)"], "remove": ["(+0)"] },
+    { "amount": 2, "add": ["(+1) (Wound)"] },
+    { "amount": 2, "add": ["(+1) (Immobilize)"] },
     {
-      "amount": 1,
-      "add": ["(Heal +1 Self) (Rolling)", "(Heal +1 Self) (Rolling)"]
+      "amount": 3,
+      "add": ["(Heal +1, self) (Rolling)", "(Heal +1, self) (Rolling)"]
     },
     {
       "amount": 1,
-      "add": ["(Heal +1 Self) (Rolling)", "(Heal +1 Self) (Rolling)"]
+      "add": ["(Generate Earth) (Rolling)", "(Generate Earth) (Rolling)"]
     },
-    {
-      "amount": 1,
-      "add": ["(Heal +1 Self) (Rolling)", "(Heal +1 Self) (Rolling)"]
-    },
-    { "amount": 1, "add": ["(Earth) (Rolling)", "(Earth) (Rolling)"] },
     { "amount": 1, "ignore": ["Scenario"] }
   ],
-  "attackModifiers": { "front": "", "back": "", "cards": [] },
+  "attackModifiers": {
+    "front": "http://cloud-3.steamusercontent.com/ugc/1717535013396101713/9043C16134A95E05D3DAE197E55267722D049EA9/",
+    "cards": [
+      {
+        "name": "(+1)",
+        "amount": 3
+      },
+      {
+        "name": "(+2)",
+        "amount": 2
+      },
+      {
+        "name": "(+1) (Wound)",
+        "amount": 2
+      },
+      {
+        "name": "(+1) (Immobilize)",
+        "amount": 2
+      },
+      {
+        "name": "(Heal +1, self) (Rolling)",
+        "amount": 6
+      },
+      {
+        "name": "(Generate Earth) (Rolling)",
+        "amount": 2
+      }
+    ]
+  },
   "additionalContent": [
     {
-      "hp": [10, 12, 14, 16, 18, 20, 22, 24, 26],
-      "name": "Bear Companion",
-      "target": "PlayerMat"
+      "type": "Card",
+      "name": "Beast Tyrant Special Rules",
+      "front": "http://cloud-3.steamusercontent.com/ugc/1801978208013993235/55740CFFFEF0C9722F5004DF0DEB80DFB3DC61E8/",
+      "back": "http://cloud-3.steamusercontent.com/ugc/1801978208013994417/248C246632C40F5DF42F40D4096702A012A93C70/",
+      "target": "Hand"
     },
-    { "name": "Beast Tyrant Special Rules", "target": "Hand" }
+    {
+      "type": "Model",
+      "name": "Bear Companion",
+      "model": "http://cloud-3.steamusercontent.com/ugc/1684897951207132555/9F5608E6E7A05D52E2B374081DF2AB1668E861C8/",
+      "texture": "http://cloud-3.steamusercontent.com/ugc/1684897951207132673/8C609559BB782B2A351F731CA80F489C8E3CFCD4/",
+      "hpProgression": [10, 12, 14, 16, 18, 20, 22, 24, 26],
+      "target": "PlayerMat"
+    }
   ]
 }

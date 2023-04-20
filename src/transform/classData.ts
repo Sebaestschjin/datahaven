@@ -32,7 +32,6 @@ export const transformClassData = (inputPath: string): Class => {
     perks: transformPerks(classData.perks),
     attackModifiers: {
       front: "",
-      back: "",
       cards: [],
     },
     additionalContent: classData.extra,
