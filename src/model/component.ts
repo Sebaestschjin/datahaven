@@ -23,3 +23,8 @@ export interface Deck<T> {
   height?: number;
   cards: T[];
 }
+
+export interface Card {
+  front: URL;
+  back: URL;
+}

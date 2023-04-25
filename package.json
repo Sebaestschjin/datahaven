@@ -1,13 +1,14 @@
 {
   "name": "@gloomhaven-enhanced/datahaven",
   "version": "0.1.0",
+  "main": "src/index",
   "scripts": {
     "build:scenario": "ts-node src/scenario.ts",
     "transform": "ts-node src/index.ts"
   },
   "dependencies": {
     "prettier": "^2.8.7"
-  },  
+  },
   "devDependencies": {
     "@types/node": "^18.11.9",
     "@types/prettier": "^2.7.2",

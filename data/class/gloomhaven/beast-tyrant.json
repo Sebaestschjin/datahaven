@@ -47,6 +47,7 @@
         "level": 1,
         "initiative": 79,
         "top": [
+          { "type": "summon", "name": "Green Adder" },
           { "type": "summHp", "marks": [{ "position": [0.21, -0.72] }] },
           { "type": "summMove", "marks": [{ "position": [-0.23, -0.72] }] },
           { "type": "summAttack", "marks": [{ "position": [0.21, -0.53] }] }
@@ -66,6 +67,7 @@
         "level": 1,
         "initiative": 81,
         "top": [
+          { "type": "summon", "name": "Tattered Wolf" },
           { "type": "summHp", "marks": [{ "position": [0.21, -0.73] }] },
           {
             "type": "summMove",
@@ -81,6 +83,7 @@
         "initiative": 51,
         "top": [
           {
+            "type": "attack",
             "range": {
               "count": 4,
               "marks": [{ "shape": "square", "position": [-0.31, -0.56] }]
@@ -175,6 +178,10 @@
         "initiative": 77,
         "top": [
           {
+            "type": "summon",
+            "name": "Red Falcon"
+          },
+          {
             "type": "summHp",
             "marks": [{ "position": [0.2, -0.72] }]
           },
@@ -253,6 +260,10 @@
         "level": 3,
         "initiative": 86,
         "top": [
+          {
+            "type": "summon",
+            "name": "Swamp Alligator"
+          },
           {
             "type": "summHp",
             "marks": [{ "position": [0.21, -0.74] }]
@@ -336,7 +347,12 @@
         "name": "Stone Sigil",
         "level": 5,
         "initiative": 95,
-        "top": [],
+        "top": [
+          {
+            "type": "summon",
+            "name": "Monolith"
+          }
+        ],
         "bottom": [
           {
             "type": "move",
@@ -379,7 +395,12 @@
         "name": "Storm Sigil",
         "level": 7,
         "initiative": 93,
-        "top": [],
+        "top": [
+          {
+            "type": "summon",
+            "name": "Wind Totem"
+          }
+        ],
         "bottom": [
           {
             "type": "attack",
@@ -438,7 +459,12 @@
         "name": "Tribal Sigil",
         "level": 9,
         "initiative": 91,
-        "top": [],
+        "top": [
+          {
+            "type": "summon",
+            "name": "Spirit Banner"
+          }
+        ],
         "bottom": []
       }
     ]
@@ -448,47 +474,102 @@
     "style": "Gloomhaven"
   },
   "perks": [
-    { "amount": 1, "remove": ["(-1)", "(-1)"] },
-    { "amount": 3, "add": ["(+1)"], "remove": ["(-1)"] },
-    { "amount": 2, "add": ["(+2)"], "remove": ["(+0)"] },
-    { "amount": 2, "add": ["(+1) (Wound)"] },
-    { "amount": 2, "add": ["(+1) (Immobilize)"] },
+    {
+      "amount": 1,
+      "position": -0.8042,
+      "remove": ["(-1)", "(-1)"]
+    },
     {
       "amount": 3,
+      "position": -0.7291,
+      "add": ["(+1)"],
+      "remove": ["(-1)"]
+    },
+    {
+      "amount": 2,
+      "position": -0.5961,
+      "add": ["(+2)"],
+      "remove": ["(+0)"]
+    },
+    {
+      "amount": 2,
+      "position": -0.4741,
+      "add": ["(+1) (Wound)"]
+    },
+    {
+      "amount": 2,
+      "position": -0.3991,
+      "add": ["(+1) (Immobilize)"]
+    },
+    {
+      "amount": 3,
+      "position": -0.2714,
       "add": ["(Heal +1, self) (Rolling)", "(Heal +1, self) (Rolling)"]
     },
     {
       "amount": 1,
+      "position": -0.1468,
       "add": ["(Generate Earth) (Rolling)", "(Generate Earth) (Rolling)"]
     },
-    { "amount": 1, "ignore": ["Scenario"] }
+    {
+      "amount": 1,
+      "position": -0.0749,
+      "ignore": ["Scenario"]
+    }
   ],
   "attackModifiers": {
     "front": "http://cloud-3.steamusercontent.com/ugc/1717535013396101713/9043C16134A95E05D3DAE197E55267722D049EA9/",
     "cards": [
       {
-        "name": "(+1)",
-        "amount": 3
+        "name": "(+1)"
       },
       {
-        "name": "(+2)",
-        "amount": 2
+        "name": "(+1)"
       },
       {
-        "name": "(+1) (Wound)",
-        "amount": 2
+        "name": "(+1)"
       },
       {
-        "name": "(+1) (Immobilize)",
-        "amount": 2
+        "name": "(+2)"
       },
       {
-        "name": "(Heal +1, self) (Rolling)",
-        "amount": 6
+        "name": "(+2)"
       },
       {
-        "name": "(Generate Earth) (Rolling)",
-        "amount": 2
+        "name": "(+1) (Wound)"
+      },
+      {
+        "name": "(+1) (Wound)"
+      },
+      {
+        "name": "(+1) (Immobilize)"
+      },
+      {
+        "name": "(+1) (Immobilize)"
+      },
+      {
+        "name": "(Heal +1, self) (Rolling)"
+      },
+      {
+        "name": "(Heal +1, self) (Rolling)"
+      },
+      {
+        "name": "(Heal +1, self) (Rolling)"
+      },
+      {
+        "name": "(Heal +1, self) (Rolling)"
+      },
+      {
+        "name": "(Heal +1, self) (Rolling)"
+      },
+      {
+        "name": "(Heal +1, self) (Rolling)"
+      },
+      {
+        "name": "(Generate Earth) (Rolling)"
+      },
+      {
+        "name": "(Generate Earth) (Rolling)"
       }
     ]
   },
@@ -501,7 +582,7 @@
       "target": "Hand"
     },
     {
-      "type": "Model",
+      "type": "Figure",
       "name": "Bear Companion",
       "model": "http://cloud-3.steamusercontent.com/ugc/1684897951207132555/9F5608E6E7A05D52E2B374081DF2AB1668E861C8/",
       "texture": "http://cloud-3.steamusercontent.com/ugc/1684897951207132673/8C609559BB782B2A351F731CA80F489C8E3CFCD4/",

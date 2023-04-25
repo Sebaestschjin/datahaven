@@ -1,5 +1,7 @@
 import { HexColor, URL } from "./base";
-import { AssetBundle, Deck, Model } from "./component";
+import { AssetBundle, Card, Deck, Model } from "./component";
+
+export type Figurine = AssetBundle | Model;
 
 export interface Class {
   /** The name of the class. */
@@ -26,7 +28,7 @@ export interface Class {
     secondary?: HexColor;
   };
   /** Describes the character figure. */
-  figure: AssetBundle | Model;
+  figure: Figurine;
   /** The information about the character mat. */
   characterMat: {
     /** A URL to the front of the character mat. */
@@ -43,7 +45,7 @@ export interface Class {
   perks: Perk[];
   attackModifiers: AttackModifierDeck;
   reminderCards?: Deck<ReminderCard>;
-  additionalContent?: any[];
+  additionalContent?: AdditionalContent[];
 }
 
 interface AbilityDeck extends Deck<Ability> {
@@ -64,7 +66,7 @@ type HpProgression = [
   number
 ];
 
-interface Ability {
+export interface Ability {
   name: string;
   initiative: number;
   level: number | "X";
@@ -72,7 +74,7 @@ interface Ability {
   bottom?: AbilityAction[];
 }
 
-interface AttackModifier {
+export interface AttackModifier {
   name: string;
   amount?: number;
 }
@@ -81,7 +83,9 @@ interface ReminderCard {
   name: string;
 }
 
-interface AbilityAction {
+export type AbilityAction = BaseAction | SummonAction;
+
+interface BaseAction {
   type: AbilityType;
   range?: {
     count: number;
@@ -102,6 +106,12 @@ interface AbilityAction {
     marks?: EnhancementMark[];
   };
   spawns?: Spawn[];
+  marks?: EnhancementMark[];
+}
+
+export interface SummonAction {
+  type: "summon";
+  name: string;
   marks?: EnhancementMark[];
 }
 
@@ -135,6 +145,22 @@ interface Perk {
 
 type IgnoreType = "Item" | "Scenario";
 
-type Style = "Gloomhaven" | "Frosthaven";
+export type Style = "Gloomhaven" | "Frosthaven";
 
 interface Spawn {}
+
+export type AdditionalContent = CardContent | FigureContent;
+
+interface CardContent extends Card {
+  type: "Card";
+  name: string;
+  target: ContentTarget;
+}
+
+interface FigureContent extends Model {
+  type: "Figure";
+  name: string;
+  target: ContentTarget;
+}
+
+type ContentTarget = "Hand" | "PlayerMat";
