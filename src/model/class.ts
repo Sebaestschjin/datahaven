@@ -1,3 +1,4 @@
+import { AttackModifierDeck } from "./attackmodifier";
 import { HexColor, URL } from "./base";
 import { AssetBundle, Card, Deck, Model } from "./component";
 
@@ -52,8 +53,6 @@ interface AbilityDeck extends Deck<Ability> {
   style: Style;
 }
 
-type AttackModifierDeck = Omit<Deck<AttackModifier>, "back">;
-
 type HpProgression = [
   number,
   number,
@@ -72,11 +71,6 @@ export interface Ability {
   level: number | "X";
   top?: AbilityAction[];
   bottom?: AbilityAction[];
-}
-
-export interface AttackModifier {
-  name: string;
-  amount?: number;
 }
 
 interface ReminderCard {

@@ -21,6 +21,7 @@ export interface Deck<T> {
   back: URL;
   width?: number;
   height?: number;
+  tags?: string[];
   cards: T[];
 }
 
