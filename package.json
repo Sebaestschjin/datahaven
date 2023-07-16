@@ -2,7 +2,11 @@
   "name": "@gloomhaven-enhanced/datahaven",
   "version": "0.1.0",
   "main": "src/index",
+  "files": [
+    "dist/"
+  ],
   "scripts": {
+    "build": "tsc",
     "build:scenario": "ts-node src/scenario.ts",
     "transform": "ts-node src/index.ts"
   },
