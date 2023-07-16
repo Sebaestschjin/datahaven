@@ -1,7 +1,8 @@
 {
   "name": "@gloomhaven-enhanced/datahaven",
   "version": "0.1.0",
-  "main": "src/index",
+  "main": "dist/index",
+  "types": "dist/index",
   "files": [
     "dist/"
   ],
