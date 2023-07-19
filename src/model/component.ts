@@ -16,14 +16,22 @@ export interface Model {
   // scale: number;
 }
 
-export interface Deck<T> {
+export interface Deck<T> extends NameObject {
+  id?: string;
   front: URL;
   back: URL;
-  width?: number;
-  height?: number;
-  tags?: string[];
+  width: number;
+  height: number;
   cards: T[];
 }
+
+export interface NameObject {
+  name: string;
+  description?: string;
+  tags?: string[];
+}
+
+export type BaseDeck = Deck<NameObject>;
 
 export interface Card {
   front: URL;

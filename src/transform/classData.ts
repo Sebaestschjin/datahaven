@@ -31,7 +31,11 @@ export const transformClassData = (inputPath: string): Class => {
     },
     perks: transformPerks(classData.perks),
     attackModifiers: {
+      name: "Attack Modifiers",
       front: "",
+      back: "",
+      width: 5,
+      height: 5,
       cards: [],
     },
     additionalContent: classData.extra,
@@ -58,8 +62,11 @@ const transformPerk = (perk: any): Class["perks"][0] => {
 
 const transformAbilities = (abilities: any): Class["abilities"] => {
   return {
+    name: "Abilities",
     front: "",
     back: "",
+    width: 5,
+    height: 5,
     style: "Gloomhaven",
     cards: sortAbilities(abilities).map(transformAbilitiy),
   };
